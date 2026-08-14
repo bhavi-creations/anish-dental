@@ -101,7 +101,7 @@
             
             <!-- 1. General Dentistry -->
             <div class="treatments_secound_section_col">
-                <a href="general-dentistry.php">
+                
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
@@ -116,7 +116,6 @@
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                </a>
             </div>
 
             <!-- 2. Dental Implants -->
@@ -131,10 +130,11 @@
                             Permanent solutions for missing teeth.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=dental-implants" class="treatments_secound_section_link">
+                    <a href="dental-implants.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
+               
             </div>
 
             <!-- 3. Orthodontic Braces -->
@@ -149,7 +149,7 @@
                             Straighten your teeth for a confident smile.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=orthodontic-braces" class="treatments_secound_section_link">
+                    <a href="orthodontic-braces.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -167,7 +167,7 @@
                             Enhance your smile with advanced care.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=cosmetic-dentistry" class="treatments_secound_section_link">
+                    <a href="cosmetic-dentistry.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -185,7 +185,7 @@
                             Relieve pain and save your natural tooth.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=root-canal" class="treatments_secound_section_link">
+                    <a href="root-canal.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -203,7 +203,7 @@
                             Special care for kids & growing smiles.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=pediatric-dentistry" class="treatments_secound_section_link">
+                    <a href="pediatric-dentistry.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -221,7 +221,7 @@
                             Gum treatment for healthy and strong gums.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=periodontal-care" class="treatments_secound_section_link">
+                    <a href="periodontal-care.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -239,7 +239,7 @@
                             Safe and comfortable surgical procedures.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=oral-surgery" class="treatments_secound_section_link">
+                    <a href="oral-surgery.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -257,7 +257,7 @@
                             Brighter, whiter smile in just one visit.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=teeth-whitening" class="treatments_secound_section_link">
+                    <a href="teeth-whitening.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -275,7 +275,7 @@
                             Natural looking solutions for missing teeth.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=dentures-prosthetics" class="treatments_secound_section_link">
+                    <a href="dentures-and-prosthetics.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>

@@ -35,10 +35,10 @@
                 <div class="col-lg-2 col-md-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                     <h5 class="footer-heading">QUICK LINKS</h5>
                     <ul class="footer-links">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="home.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="treatments.php">Treatments</a></li>
-                        <li><a href="doctors.php">Doctors</a></li>
+                        <li><a href="doctor.php">Doctors</a></li>
                         <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="blog.php">Blog</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
@@ -49,12 +49,12 @@
                 <div class="col-lg-2 col-md-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                     <h5 class="footer-heading">OUR TREATMENTS</h5>
                     <ul class="footer-links">
-                        <li><a href="#">General Dentistry</a></li>
-                        <li><a href="#">Dental Implants</a></li>
-                        <li><a href="#">Orthodontic Braces</a></li>
-                        <li><a href="#">Root Canal Treatment</a></li>
-                        <li><a href="#">Cosmetic Dentistry</a></li>
-                        <li><a href="#">Pediatric Dentistry</a></li>
+                        <li><a href="general-dentistry.php">General Dentistry</a></li>
+                        <li><a href="dental-implants.php">Dental Implants</a></li>
+                        <li><a href="orthodontic-braces.php">Orthodontic Braces</a></li>
+                        <li><a href="root-canal.php">Root Canal Treatment</a></li>
+                        <li><a href="cosmetic-dentistry.php">Cosmetic Dentistry</a></li>
+                        <li><a href="pediatric-dentistry.php">Pediatric Dentistry</a></li>
                     </ul>
                 </div>
 

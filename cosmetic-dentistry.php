@@ -74,9 +74,9 @@
                     </svg>
 
                     <!-- Tooth Illustration Image -->
-                    <!-- <img src="https://img.freepik.com/free-photo/view-3d-tooth-model-dental-care-concept_23-2151103681.jpg"  -->
+                    <!-- <img src="https://img.freepik.com/free-photo/view-3d-tooth-model-dental-care-concept_23-2151103681.jpg" 
                          alt="Cosmetic Dentistry Treatment Procedure - Tooth Illustration" 
-                         class="rootcanal_first_section_img">
+                         class="rootcanal_first_section_img"> -->
                 </div>
             </div>
 

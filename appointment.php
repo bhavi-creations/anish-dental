@@ -15,7 +15,7 @@
                 <!-- Breadcrumb Nav -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb text-uppercase mb-2">
-                        <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                        <li class="breadcrumb-item">HOME</li>
                         <li class="breadcrumb-item active" aria-current="page">BOOK APOINTMENT</li>
                     </ol>
                 </nav>
