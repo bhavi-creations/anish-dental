@@ -15,6 +15,11 @@
             padding: 0;
         }
 
+
+        a{
+            text-decoration: none;
+        }
+
         /* ==========================================
            2. TOP HEADER BAR STYLING
            ========================================== */
@@ -5611,6 +5616,226 @@
         }
     }
 
+
+
+/* ==========================================
+       CONTACT US FIRST SECTION (HERO BANNER)
+       Prefix: contactus_first_section_
+       ========================================== */
+
+    .contactus_first_section_wrapper {
+        background: linear-gradient(90deg, #ffffff 0%, #f9fbfb 50%, #ffffff 100%) !important;
+        padding: 40px 0 !important;
+        overflow: hidden !important;
+        font-family: 'Plus Jakarta Sans', sans-serif !important;
+    }
+
+    /* Content Alignment Box */
+    .contactus_first_section_content {
+        padding: 40px 20px 40px 40px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        height: 100% !important;
+    }
+
+    /* Subtag */
+    .contactus_first_section_tag {
+        color: #d98e2b !important; /* Gold Accent Color */
+        font-size: 13px !important;
+        font-weight: 800 !important;
+        letter-spacing: 1.5px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 12px !important;
+        display: inline-block !important;
+    }
+
+    /* Main Title */
+    .contactus_first_section_title {
+        color: #003B32 !important; /* Deep Dark Green */
+        font-family: 'Playfair Display', Georgia, serif !important;
+        font-size: 46px !important;
+        font-weight: 800 !important;
+        line-height: 1.2 !important;
+        margin-bottom: 16px !important;
+    }
+
+    /* Accent Line with Diamond */
+    .contactus_first_section_divider {
+        display: flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+        margin-bottom: 22px !important;
+    }
+
+    .contactus_first_section_line {
+        width: 35px !important;
+        height: 1.5px !important;
+        background-color: #e5cc9f !important;
+    }
+
+    .contactus_first_section_diamond {
+        color: #d98e2b !important;
+        font-size: 9px !important;
+    }
+
+    /* Description Text */
+    .contactus_first_section_desc {
+        color: #4a5752 !important;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        line-height: 1.6 !important;
+        margin-bottom: 30px !important;
+    }
+
+    /* Buttons Group */
+    .contactus_first_section_btn_group {
+        display: flex !important;
+        align-items: center !important;
+        gap: 16px !important;
+        flex-wrap: wrap !important;
+    }
+
+    /* Primary Dark Green Button */
+    .contactus_first_section_btn_primary {
+        background-color: #003B32 !important;
+        color: #ffffff !important;
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        padding: 14px 26px !important;
+        border-radius: 8px !important;
+        text-decoration: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        border: 1.5px solid #003B32 !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 4px 12px rgba(0, 59, 50, 0.15) !important;
+    }
+
+    .contactus_first_section_btn_primary:hover {
+        background-color: #002822 !important;
+        border-color: #002822 !important;
+        color: #ffffff !important;
+        transform: translateY(-2px) !important;
+    }
+
+    /* Secondary Outlined Button */
+    .contactus_first_section_btn_secondary {
+        background-color: transparent !important;
+        color: #003B32 !important;
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        padding: 14px 26px !important;
+        border-radius: 8px !important;
+        text-decoration: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        border: 1.5px solid #a3b8b1 !important;
+        transition: all 0.3s ease !important;
+    }
+
+    .contactus_first_section_btn_secondary:hover {
+        background-color: #003B32 !important;
+        color: #ffffff !important;
+        border-color: #003B32 !important;
+        transform: translateY(-2px) !important;
+    }
+
+    /* Image Wrapper */
+    .contactus_first_section_img_container {
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 400px !important;
+        border-radius: 16px !important;
+        overflow: hidden !important;
+    }
+
+    .contactus_first_section_img_container img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+
+    /* Soft Gradient Overlay for Blending Left Side */
+    .contactus_first_section_img_overlay {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 25% !important;
+        height: 100% !important;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) !important;
+        pointer-events: none !important;
+    }
+
+    /* ==========================================
+       RESPONSIVE BREAKPOINTS (ALL DEVICES)
+       ========================================== */
+
+    /* Desktop Adjustments (992px - 1199px) */
+    @media (max-width: 1199.98px) {
+        .contactus_first_section_title {
+            font-size: 38px !important;
+        }
+        .contactus_first_section_content {
+            padding: 20px !important;
+        }
+    }
+
+    /* Tablet Screen View (768px - 991px) */
+    @media (max-width: 991.98px) {
+        .contactus_first_section_wrapper {
+            padding: 30px 0 !important;
+        }
+        .contactus_first_section_content {
+            padding: 10px 15px 30px 15px !important;
+            text-align: left !important;
+        }
+        .contactus_first_section_title {
+            font-size: 34px !important;
+        }
+        .contactus_first_section_img_container {
+            min-height: 320px !important;
+            max-height: 400px !important;
+        }
+        .contactus_first_section_img_overlay {
+            display: none !important;
+        }
+    }
+
+    /* Mobile Screen View (Below 576px) */
+    @media (max-width: 575.98px) {
+        .contactus_first_section_wrapper {
+            padding: 20px 0 !important;
+        }
+        .contactus_first_section_title {
+            font-size: 28px !important;
+        }
+        .contactus_first_section_desc {
+            font-size: 14px !important;
+            margin-bottom: 24px !important;
+        }
+        .contactus_first_section_btn_group {
+            flex-direction: column !important;
+            align-items: stretch !important;
+            gap: 12px !important;
+        }
+        .contactus_first_section_btn_primary,
+        .contactus_first_section_btn_secondary {
+            justify-content: center !important;
+            width: 100% !important;
+            padding: 12px 20px !important;
+        }
+        .contactus_first_section_img_container {
+            min-height: 250px !important;
+            border-radius: 12px !important;
+        }
+    }
 
 
 

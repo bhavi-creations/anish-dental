@@ -47,7 +47,7 @@
             <div class="col-lg-7">
                 <div class="image-container">
                     <!-- Main Reception/Hospital Image -->
-                    <img src="your-image-path.jpg" alt="Anish Dental Reception" class="img-fluid rounded-4 w-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Anish Dental Reception" class="img-fluid rounded-4 w-100 shadow-sm">
 
                     <!-- Bottom Right Floating Badge -->
                     <div class="floating-badge d-flex align-items-center gap-3">

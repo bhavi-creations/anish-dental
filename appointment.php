@@ -1,6 +1,48 @@
 <?php include  'header.php'; ?>
 
+<section class="blog-first-section">
+    
+    <!-- Background Image Overlay with Soft Gradient -->
+    <div class="blog-banner-bg">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Dental Health Insights Banner">
+    </div>
 
+    <!-- Main Content -->
+    <div class="container content-container">
+        <div class="row">
+            <div class="col-lg-6">
+                
+                <!-- Breadcrumb Nav -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-uppercase mb-2">
+                        <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">BOOK APOINTMENT</li>
+                    </ol>
+                </nav>
+
+                <!-- Main Heading -->
+                <h1 class="blog-title">
+                    Book Your<br>
+                    Appointment
+                </h1>
+
+                <!-- Gold Divider with Diamonds -->
+                <div class="divider-container">
+                    <div class="divider-line"></div>
+                    <div class="divider-diamond"></div>
+                    <div class="divider-line"></div>
+                </div>
+
+                <!-- Exact Text Description -->
+                <p class="blog-description">
+                   We're here to make your dental experience comfortable and convenient.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
 
 <section class="contact-second-section">
     <div class="container">

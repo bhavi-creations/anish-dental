@@ -5,7 +5,7 @@
     
     <!-- Background Image Overlay with Soft Gradient -->
     <div class="blog-banner-bg">
-        <img src="tooth-mirror-plant.jpg" alt="Dental Health Insights Banner">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Dental Health Insights Banner">
     </div>
 
     <!-- Main Content -->

@@ -101,6 +101,7 @@
             
             <!-- 1. General Dentistry -->
             <div class="treatments_secound_section_col">
+                <a href="general-dentistry.php">
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
@@ -111,10 +112,11 @@
                             Complete oral care for you and your family.
                         </p>
                     </div>
-                    <a href="treatment-detail.php?id=general-dentistry" class="treatments_secound_section_link">
+                    <a href="general-dentistry.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
+                </a>
             </div>
 
             <!-- 2. Dental Implants -->
