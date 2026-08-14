@@ -1,337 +1,5 @@
 <?php include 'header.php'; ?>
 
-<style>
-    /* Custom Styles for Doctor Second Section */
-    .doctor-second-section {
-        background-color: #f8faf9;
-        padding: 60px 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    /* Header Styling */
-    .doctor-second-section .section-subtitle {
-        color: #c89547;
-        /* Gold accent */
-        font-weight: 700;
-        font-size: 0.85rem;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-    }
-
-    .doctor-second-section .section-title {
-        color: #0c3832;
-        /* Deep Teal */
-        font-weight: 700;
-        font-size: 2.2rem;
-        margin-top: 5px;
-        margin-bottom: 35px;
-    }
-
-    .doctor-second-section .title-line {
-        display: inline-block;
-        width: 30px;
-        height: 1.5px;
-        background-color: #c89547;
-        vertical-align: middle;
-        margin: 0 8px;
-    }
-
-    /* Card Styling */
-    .doctor-second-section .doctor-card {
-        background: #ffffff;
-        border: 1px solid #e2e8e5;
-        border-radius: 20px;
-        padding: 24px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-        height: 100%;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .doctor-second-section .doctor-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    }
-
-    .doctor-second-section .doctor-img-box {
-        background-color: #f0f3f2;
-        border-radius: 14px;
-        overflow: hidden;
-        height: 100%;
-        min-height: 240px;
-    }
-
-    .doctor-second-section .doctor-img-box img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /* Info Text Styling */
-    .doctor-second-section .doctor-name {
-        color: #0c3832;
-        font-weight: 700;
-        font-size: 1.5rem;
-        margin-bottom: 2px;
-    }
-
-    .doctor-second-section .doctor-degree {
-        color: #c89547;
-        font-weight: 600;
-        font-size: 0.9rem;
-        margin-bottom: 2px;
-    }
-
-    .doctor-second-section .doctor-title {
-        color: #555555;
-        font-size: 0.85rem;
-        margin-bottom: 12px;
-    }
-
-    .doctor-second-section .gold-hr {
-        width: 40px;
-        height: 2px;
-        background-color: #c89547;
-        border: none;
-        margin-bottom: 15px;
-    }
-
-    /* Feature List (Top Specs) */
-    .doctor-second-section .spec-list {
-        list-style: none;
-        padding-left: 0;
-        margin-bottom: 0;
-    }
-
-    .doctor-second-section .spec-list li {
-        font-size: 0.85rem;
-        color: #444444;
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .doctor-second-section .spec-list li i {
-        color: #0c3832;
-        font-size: 0.95rem;
-    }
-
-    /* Areas of Expertise Box */
-    .doctor-second-section .expertise-box {
-        background-color: #f5f8f7;
-        border-radius: 12px;
-        padding: 20px;
-        margin-top: 20px;
-    }
-
-    .doctor-second-section .expertise-title {
-        color: #0c3832;
-        font-weight: 700;
-        font-size: 0.95rem;
-        margin-bottom: 12px;
-    }
-
-    .doctor-second-section .expertise-list {
-        list-style: none;
-        padding-left: 0;
-        margin-bottom: 0;
-    }
-
-    .doctor-second-section .expertise-list li {
-        font-size: 0.82rem;
-        color: #444444;
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .doctor-second-section .expertise-list li i {
-        color: #0c3832;
-        font-size: 0.9rem;
-    }
-
-    /* Solid Teal View Profile Button */
-    .doctor-second-section .btn-view-profile-solid {
-        background-color: #0c3832;
-        color: #ffffff;
-        border: none;
-        padding: 10px 22px;
-        font-weight: 600;
-        font-size: 0.75rem;
-        letter-spacing: 0.5px;
-        border-radius: 6px;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-    }
-
-    .doctor-second-section .btn-view-profile-solid:hover {
-        background-color: #062b26;
-        color: #ffffff;
-    }
-
-
-    /* Custom Styles for Doctor Third Section */
-    .doctor-third-section {
-        background-color: #ffffff;
-        padding: 40px 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    /* 1. Top Commitment Banner */
-    .doctor-third-section .commitment-banner {
-        background-color: #062b26;
-        /* Deep Dark Green/Teal */
-        border-radius: 20px;
-        padding: 30px 40px;
-        color: #ffffff;
-        margin-bottom: 25px;
-    }
-
-    .doctor-third-section .tooth-icon-box {
-        font-size: 3rem;
-        color: #c89547;
-        /* Gold Icon */
-        line-height: 1;
-    }
-
-    .doctor-third-section .commitment-title {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: #ffffff;
-        margin-bottom: 0;
-        line-height: 1.2;
-    }
-
-    .doctor-third-section .commitment-desc {
-        color: #e0ece8;
-        font-size: 0.88rem;
-        line-height: 1.5;
-        margin-bottom: 0;
-    }
-
-    /* Vertical Separator */
-    .doctor-third-section .border-start-banner {
-        border-left: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    /* Virtue Icons */
-    .doctor-third-section .virtue-item {
-        text-align: center;
-    }
-
-    .doctor-third-section .virtue-icon-ring {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 1.5px solid #c89547;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #c89547;
-        font-size: 1.4rem;
-        margin: 0 auto 8px auto;
-    }
-
-    .doctor-third-section .virtue-label {
-        font-size: 0.8rem;
-        font-weight: 600;
-        color: #ffffff;
-        margin-bottom: 0;
-    }
-
-    /* 2. Bottom CTA Banner */
-    .doctor-third-section .cta-banner-light {
-        background-color: #f7faf9;
-        /* Soft Light Background */
-        border-radius: 20px;
-        padding: 25px 35px;
-        border: 1px solid #e2ebe8;
-    }
-
-    .doctor-third-section .cta-icon-square {
-        width: 60px;
-        height: 60px;
-        background-color: #062b26;
-        border-radius: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #c89547;
-        font-size: 1.75rem;
-        flex-shrink: 0;
-    }
-
-    .doctor-third-section .cta-subtitle-gold {
-        color: #c89547;
-        font-weight: 600;
-        font-size: 0.95rem;
-        margin-bottom: 2px;
-    }
-
-    .doctor-third-section .cta-main-title {
-        color: #062b26;
-        font-weight: 700;
-        font-size: 1.4rem;
-        margin-bottom: 0;
-    }
-
-    /* Dark Green Appointment Button */
-    .doctor-third-section .btn-cta-dark {
-        background-color: #062b26;
-        color: #ffffff;
-        border: none;
-        padding: 12px 26px;
-        font-weight: 700;
-        font-size: 0.8rem;
-        letter-spacing: 0.5px;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-        white-space: nowrap;
-    }
-
-    .doctor-third-section .btn-cta-dark:hover {
-        background-color: #031815;
-        color: #ffffff;
-    }
-
-    /* Phone Card Box */
-    .doctor-third-section .phone-box-card {
-        background-color: #ffffff;
-        border: 1px solid #c8d6d2;
-        border-radius: 12px;
-        padding: 10px 20px;
-    }
-
-    .doctor-third-section .phone-icon-dark {
-        font-size: 1.8rem;
-        color: #062b26;
-    }
-
-    .doctor-third-section .phone-num-dark {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: #062b26;
-        line-height: 1.1;
-    }
-
-    .doctor-third-section .phone-sub-text {
-        font-size: 0.75rem;
-        color: #666666;
-        margin-bottom: 0;
-    }
-
-    /* Responsive Handling */
-    @media (max-width: 991px) {
-        .doctor-third-section .border-start-banner {
-            border-left: none;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            padding-top: 20px;
-            margin-top: 20px;
-        }
-    }
-</style>
-
 
 
 <!-- TREATMENTS HERO BANNER SECTION -->
@@ -346,28 +14,34 @@
                 <div class="treatments_first_section_breadcrumb">
                     <a href="index.php" class="treatments_first_section_breadcrumb_link">HOME</a>
                     <i class="fa-solid fa-chevron-right treatments_first_section_breadcrumb_sep"></i>
-                    <span class="treatments_first_section_breadcrumb_active">TREATMENTS</span>
+                    <span class="treatments_first_section_breadcrumb_active">DOCTORS</span>
                 </div>
 
                 <!-- Main Heading -->
                 <h1 class="treatments_first_section_title">
-                    Our Dental<br>Treatments
+                    Our Doctors
                 </h1>
 
                 <!-- Cursive Gold Subtitle -->
                 <div class="treatments_first_section_cursive">
-                    Complete Care For Every Smile
+                    Experts Who Care for Your Smile
                 </div>
 
                 <!-- Description -->
                 <p class="treatments_first_section_desc">
-                    We offer a wide range of advanced dental treatments using the latest technology and techniques to ensure healthy, beautiful and confident smiles.
+                    Our experienced dental specialists are dedicated to providing the highest quality care with compassion,expertise and advanced technology.
                 </p>
 
+
+
+
+
+                
+
                 <!-- Book Appointment Button -->
-                <a href="appointment.php" class="treatments_first_section_btn">
+                <!-- <a href="appointment.php" class="treatments_first_section_btn">
                     <i class="fa-regular fa-calendar-check"></i> BOOK APPOINTMENT
-                </a>
+                </a> -->
 
             </div>
 
@@ -388,7 +62,7 @@
                 </svg>
 
                 <!-- Bottom Right Floating Badge -->
-                <div class="treatments_first_section_badge">
+                <!-- <div class="treatments_first_section_badge">
                     <div class="treatments_first_section_badge_icon">
                         <i class="fa-solid fa-tooth"></i>
                     </div>
@@ -397,7 +71,7 @@
                         Comfortable Experience.<br>
                         Beautiful Smiles.
                     </div>
-                </div>
+                </div> -->
 
             </div>
 

@@ -12,6 +12,11 @@
     <!-- Font Awesome 6 Icons (For Phone, Mail, Location, Clock, Social Icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <!-- Google Fonts for Hero Section -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:wght@700;800&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -82,24 +87,30 @@
             <div class="collapse navbar-collapse justify-content-end" id="anishHeaderNav">
                 <ul class="navbar-nav align-items-lg-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php">HOME</a>
+                        <a class="nav-link" href="home.php">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">ABOUT US</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="treatmentsMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="treatments.php">TREATMENTS</a>
+                    
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="treatments.php" id="treatmentsMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             TREATMENTS
-                        </a>
+                        </a> -->
                         <ul class="dropdown-menu border-0 shadow" aria-labelledby="treatmentsMenu">
                             <li><a class="dropdown-item" href="root-canal.php">Root Canal Treatment</a></li>
                             <li><a class="dropdown-item" href="dental-implants.php">Dental Implants</a></li>
                             <li><a class="dropdown-item" href="teeth-whitening.php">Teeth Whitening</a></li>
                             <li><a class="dropdown-item" href="orthodontics.php">Orthodontics & Braces</a></li>
                         </ul>
-                    </li>
+                    <!-- </li> -->
+                   </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="doctors.php">DOCTORS</a>
+                        <a class="nav-link" href="doctor.php">DOCTORS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.php">GALLERY</a>

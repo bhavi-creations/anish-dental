@@ -1,8 +1,4 @@
 <?php include 'header.php';?>
-<!-- Google Fonts for Hero Section -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:wght@700;800&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
 
 <!-- HERO SECTION CONTENT -->
 <section class="index_first_section_wrapper">

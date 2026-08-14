@@ -141,77 +141,71 @@
 
         </div>
 
-        <!-- Bottom Row: Stats Banner -->
-        <div class="stats-banner">
-            <div class="row g-4 align-items-center justify-content-between">
+        <!-- STATS / COUNTERS THIRD SECTION -->
+<section class="treatments_third_section_wrapper">
+    <div class="container">
+        <div class="treatments_third_section_container">
+            <div class="treatments_third_section_row">
 
-                <!-- Stat 1 -->
-                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="stat-icon-ring">
-                            <i class="bi bi-emoji-smile"></i>
-                        </div>
-                        <div>
-                            <div class="stat-number">5000+</div>
-                            <p class="stat-label">Happy Patients</p>
-                        </div>
+                <!-- Stat 1: Happy Patients -->
+                <div class="treatments_third_section_item">
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
+                    </div>
+                    <div class="treatments_third_section_content">
+                        <span class="treatments_third_section_number">5000+</span>
+                        <span class="treatments_third_section_label">Happy Patients</span>
                     </div>
                 </div>
 
-                <!-- Stat 2 -->
-                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="stat-icon-ring">
-                            <i class="bi bi-hospital"></i>
-                        </div>
-                        <div>
-                            <div class="stat-number">15+</div>
-                            <p class="stat-label">Dental Specialities</p>
-                        </div>
+                <!-- Stat 2: Dental Specialities -->
+                <div class="treatments_third_section_item">
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
+                    </div>
+                    <div class="treatments_third_section_content">
+                        <span class="treatments_third_section_number">15+</span>
+                        <span class="treatments_third_section_label">Dental Specialities</span>
                     </div>
                 </div>
 
-                <!-- Stat 3 -->
-                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="stat-icon-ring">
-                            <i class="bi bi-person-badge"></i>
-                        </div>
-                        <div>
-                            <div class="stat-number">10+</div>
-                            <p class="stat-label">Experienced Doctors</p>
-                        </div>
+                <!-- Stat 3: Experienced Doctors -->
+                <div class="treatments_third_section_item">
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-users treatments_third_section_icon"></i>
+                    </div>
+                    <div class="treatments_third_section_content">
+                        <span class="treatments_third_section_number">10+</span>
+                        <span class="treatments_third_section_label">Experienced Doctors</span>
                     </div>
                 </div>
 
-                <!-- Stat 4 -->
-                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="stat-icon-ring">
-                            <i class="bi bi-award"></i>
-                        </div>
-                        <div>
-                            <div class="stat-number">10+</div>
-                            <p class="stat-label">Years of Excellence</p>
-                        </div>
+                <!-- Stat 4: Years of Excellence -->
+                <div class="treatments_third_section_item">
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-award treatments_third_section_icon"></i>
+                    </div>
+                    <div class="treatments_third_section_content">
+                        <span class="treatments_third_section_number">10+</span>
+                        <span class="treatments_third_section_label">Years of Excellence</span>
                     </div>
                 </div>
 
-                <!-- Stat 5 -->
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="stat-icon-ring">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                        </div>
-                        <div>
-                            <div class="stat-number">100%</div>
-                            <p class="stat-label">Patient Satisfaction</p>
-                        </div>
+                <!-- Stat 5: Patient Satisfaction -->
+                <div class="treatments_third_section_item">
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-regular fa-thumbs-up treatments_third_section_icon"></i>
+                    </div>
+                    <div class="treatments_third_section_content">
+                        <span class="treatments_third_section_number">100%</span>
+                        <span class="treatments_third_section_label">Patient Satisfaction</span>
                     </div>
                 </div>
 
             </div>
         </div>
+    </div>
+</section>
 
     </div>
 </section>
