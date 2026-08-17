@@ -273,7 +273,7 @@
                             </ul>
 
                             <!-- View Profile Button -->
-                            <a href="doctor-detail-1.php" class="index_third_section_btn">
+                            <a href="doctor.php" class="index_third_section_btn">
                                 VIEW PROFILE <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -315,7 +315,7 @@
                             </ul>
 
                             <!-- View Profile Button -->
-                            <a href="doctor-detail-2.php" class="index_third_section_btn">
+                            <a href="doctor.php" class="index_third_section_btn">
                                 VIEW PROFILE <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -476,7 +476,7 @@
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
-                                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" alt="Ravi Kumar" class="index_fifth_section_avatar">
+                                    <!-- <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" alt="Ravi Kumar" class="index_fifth_section_avatar"> -->
                                     <span class="index_fifth_section_username">&ndash; Ravi Kumar</span>
                                 </div>
                             </div>
@@ -498,7 +498,7 @@
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
-                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" alt="Sushma Reddy" class="index_fifth_section_avatar">
+                                    <!-- <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" alt="Sushma Reddy" class="index_fifth_section_avatar"> -->
                                     <span class="index_fifth_section_username">&ndash; Sushma Reddy</span>
                                 </div>
                             </div>
@@ -520,7 +520,7 @@
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
-                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Karthik Varma" class="index_fifth_section_avatar">
+                                    <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Karthik Varma" class="index_fifth_section_avatar"> -->
                                     <span class="index_fifth_section_username">&ndash; Karthik Varma</span>
                                 </div>
                             </div>
@@ -530,14 +530,14 @@
                 </div>
 
                 <!-- Navigation Arrows on Far Right -->
-                <div class="col-lg-1 col-12 d-flex flex-lg-column flex-row justify-content-center align-items-center gap-2">
+                <!-- <div class="col-lg-1 col-12 d-flex flex-lg-column flex-row justify-content-center align-items-center gap-2">
                     <button type="button" class="index_fifth_section_nav_btn" aria-label="Previous">
                         <i class="fa-solid fa-arrow-left"></i>
                     </button>
                     <button type="button" class="index_fifth_section_nav_btn" aria-label="Next">
                         <i class="fa-solid fa-arrow-right"></i>
                     </button>
-                </div>
+                </div> -->
 
             </div>
 

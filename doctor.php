@@ -103,13 +103,13 @@
                         <div class="row g-4 align-items-center">
                             <div class="col-sm-5">
                                 <div class="doctor-img-box">
-                                    <img src="male-doctor.jpg" alt="Dr. Your Name" class="img-fluid">
+                                    <img src="./assets/img/ai-doctor-img.png" alt="Dr. Your Name" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-sm-7">
-                                <h3 class="doctor-name">Dr. Your Name</h3>
+                                <h3 class="doctor-name">Dr. Anish Kumar</h3>
                                 <div class="doctor-degree">BDS, MDS (Specialization)</div>
-                                <div class="doctor-title">Dental Specialist</div>
+                                <div class="doctor-title">Orthodontist & Smile Specialist</div>
 
                                 <div class="gold-hr"></div>
 
@@ -145,11 +145,11 @@
                     </div>
 
                     <!-- Action Button -->
-                    <div class="text-center mt-4">
+                    <!-- <div class="text-center mt-4">
                         <a href="#" class="btn btn-view-profile-solid d-inline-flex align-items-center gap-2">
                             VIEW PROFILE <i class="bi bi-arrow-right"></i>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -161,7 +161,7 @@
                         <div class="row g-4 align-items-center">
                             <div class="col-sm-5">
                                 <div class="doctor-img-box">
-                                    <img src="female-doctor.jpg" alt="Dr. Your Name" class="img-fluid">
+                                    <img src="./assets/img/ai-doctor.png" alt="Dr. Your Name" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-sm-7">
@@ -203,11 +203,11 @@
                     </div>
 
                     <!-- Action Button -->
-                    <div class="text-center mt-4">
-                        <a href="#" class="btn btn-view-profile-solid d-inline-flex align-items-center gap-2">
-                            VIEW PROFILE <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
+                        <!-- <div class="text-center mt-4">
+                            <a href="#" class="btn btn-view-profile-solid d-inline-flex align-items-center gap-2">
+                                VIEW PROFILE <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div> -->
                 </div>
             </div>
 
