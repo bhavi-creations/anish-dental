@@ -6,7 +6,7 @@
             <div class="row g-4">
 
                 <!-- 1. Brand & Description -->
-                <div class="col-lg-3 col-md-6 footer-col-spacing footer-border-right pe-lg-4">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-12 footer-col-spacing footer-border-right pe-lg-4">
                     <a href="index.php" class="d-flex align-items-center mb-3 text-decoration-none">
                         <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M50 15C35 15 25 25 25 40C25 55 35 85 45 85C50 85 50 80 50 80C50 80 50 85 55 85C65 85 75 55 75 40C75 25 65 15 50 15Z" stroke="#00C4CC" stroke-width="4" fill="none"/>
@@ -32,7 +32,7 @@
                 </div>
 
                 <!-- 2. Quick Links -->
-                <div class="col-lg-2 col-md-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
+                <div class="col-lg-2 col-xl-2 col-md-3 d-none d-md-block  footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                     <h5 class="footer-heading">QUICK LINKS</h5>
                     <ul class="footer-links">
                         <li><a href="home.php">Home</a></li>
@@ -46,7 +46,7 @@
                 </div>
 
                 <!-- 3. Our Treatments -->
-                <div class="col-lg-2 col-md-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
+                <div class="col-lg-2  col-xl-2 col-md-3 d-lg-none d-xl-block  d-none d-md-block footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                     <h5 class="footer-heading">OUR TREATMENTS</h5>
                     <ul class="footer-links">
                         <li><a href="general-dentistry.php">General Dentistry</a></li>
@@ -59,7 +59,7 @@
                 </div>
 
                 <!-- 4. Contact Us -->
-                <div class="col-lg-2 col-md-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-2">
+                <div class="col-lg-4  col-xl-2 col-md-6   footer-col-spacing footer-border-right ps-lg-4 pe-lg-2">
                     <h5 class="footer-heading">CONTACT US</h5>
                     <div class="footer-contact-item">
                         <i class="fa-solid fa-location-dot"></i>
@@ -80,7 +80,7 @@
                 </div>
 
                 <!-- 5. Google Map Location Frame -->
-                <div class="col-lg-3 col-md-12 ps-lg-4">
+                <div class="col-lg-3 d-xl-3 col-md-6 ps-lg-4 col-12">
                     <div class="footer-map-container">
                         <!-- Embedded Google Map centered on Kothapet, Guntur -->
                         <iframe 

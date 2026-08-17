@@ -123,7 +123,8 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-dharmachakra treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-dharmachakra treatments_secound_section_icon"></i> -->
+                             <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Implants</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -142,7 +143,8 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-teeth-open treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-teeth-open treatments_secound_section_icon"></i> -->
+                             <img src="./assets/img/icons/braces.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Orthodontic Braces</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -178,7 +180,8 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-kit-medical treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-kit-medical treatments_secound_section_icon"></i> -->
+                             <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Root Canal Treatment</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -250,7 +253,8 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-wand-magic-sparkles treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-wand-magic-sparkles treatments_secound_section_icon"></i> -->
+                             <img src="./assets/img/icons/teeth_whitening.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Teeth Whitening</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -268,11 +272,13 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-teeth treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-teeth treatments_secound_section_icon"></i> -->
+                             <img src="./assets/img/icons/denture.png" alt="" style="width: 50px; height: 50px;">
+
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dentures & Prosthetics</h3>
                         <p class="treatments_secound_section_card_desc">
-                            Natural looking solutions for missing teeth.
+                            natural-looking dentures designed to restore your smile.
                         </p>
                     </div>
                     <a href="dentures-and-prosthetics.php" class="treatments_secound_section_link">

@@ -19,12 +19,12 @@
 
                 <!-- Main Section Title -->
                 <h1 class="rootcanal_first_section_title">
-                    Orthodontic Braces<br>Treatment
+                    ORTHODONTIC<br>BRACES
                 </h1>
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    Straight Teeth. Healthy Smile. Confident You.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Orthodontic Braces Treatment is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    Orthodontic braces help correct misaligned teeth and jaw irregularities, improving your smile, oral health, and overall confidence.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -92,7 +92,7 @@
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Pain Relief -->
+                <!-- 1. Well-Aligned Teeth -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <h3 class="rootcanal_second_section_title">Well-Aligned Teeth</h3>
+                        <p class="rootcanal_second_section_desc">Improves appearance and bite alignment.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Better Oral Health -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Better Oral Health</h3>
+                        <p class="rootcanal_second_section_desc">Easier cleaning and lower risk of cavities.</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Boosts Confidence -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Boosts Confidence</h3>
+                        <p class="rootcanal_second_section_desc">Enhances your smile and self-esteem.</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Corrects Bite Issues -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Corrects Bite Issues</h3>
+                        <p class="rootcanal_second_section_desc">Helps fix overbite, underbite & crossbite.</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Long-Term Results -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Long-Term Results</h3>
+                        <p class="rootcanal_second_section_desc">Enjoy a lifetime of healthy, straight teeth.</p>
                     </div>
                 </div>
 
@@ -184,7 +184,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT Orthodontic Braces TREATMENT
+                    ABOUT ORTHODONTIC BRACES
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. Orthodontic Braces Treatment removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    Braces apply gentle, continuous pressure to gradually move teeth into their correct positions. They not only improve the appearance of your smile but also enhance chewing function speech, and overall oral health.
                 </p>
 
             </div>
@@ -211,7 +211,8 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely Orthodontic Braces treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        <!-- Timely Orthodontic Braces treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile. -->
+                         A straighter smile is more than just beautiful - it's a step towards a healthier, happier you.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -239,7 +240,7 @@
         <!-- Section Header -->
         <div class="rootcanal_fourth_section_header">
             <h2 class="rootcanal_fourth_section_title">
-                THE Orthodontic Braces TREATMENT PROCESS
+                THE BRACES TREATMENT PROCESS
             </h2>
             <div class="rootcanal_fourth_section_divider">
                 <div class="rootcanal_fourth_section_divider_line"></div>
@@ -264,9 +265,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Consultation</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
+                    We evaluate your teeth,bite and discuss your treatment goals.
                 </p>
             </div>
 
@@ -287,9 +288,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
+                    A customized plan is ted for your specific needs.
                 </p>
             </div>
 
@@ -310,9 +311,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Braces Placement</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the Orthodontic Bracess are cleaned and shaped.
+                   Braces are placed and wires are attached to your teeth.
                 </p>
             </div>
 
@@ -333,9 +334,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Regular Adjustments</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
+                    Periodic adjustments help teeth move gradually into the desired position.
                 </p>
             </div>
 
@@ -356,9 +357,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Progress Monitoring</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
+                    We track your progress and make changes as required.
                 </p>
             </div>
 
@@ -378,9 +379,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Beautiful Smile</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
+                    Braces are removed and you enjoy a straight, confident smile!
                 </p>
             </div>
 
@@ -446,31 +447,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Straightens teeth and improves appearence</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Corrects bite and jaw alignment</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Improves chewing and speaking</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Easier to clean and maintain oral hygiene</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Long-lasting and effective results</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +491,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Orthodontic Braces treatment painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">At what age should braces be considered?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does the treatment take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Do braces treatment hurt?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">What foods should be avoided with braces?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>

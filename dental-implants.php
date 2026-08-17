@@ -10,21 +10,21 @@
                 
                 <!-- Breadcrumb -->
                 <div class="rootcanal_first_section_breadcrumb">
-                    <a href="index.php">Home</a>
+                    <a href="home.php">Home</a>
                     <span>&gt;</span>
                     <a href="treatments.php">Treatments</a>
                     <span>&gt;</span>
-                    <span class="rootcanal_first_section_active">Dental Implants Treatment</span>
+                    <span class="rootcanal_first_section_active">Dental Implants</span>
                 </div>
 
                 <!-- Main Section Title -->
                 <h1 class="rootcanal_first_section_title">
-                    Dental Implants<br>Treatment
+                    Dental Implants
                 </h1>
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    A Permanent Solution for <br>Missing Teeth.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,8 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Dental Implants Treatment is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    Dental Implants look, feel and function like natural teeth.
+                    They are most advanced and long-lasting solution to replace missing teeth and restore your smile.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -57,8 +58,8 @@
             <div class="col-lg-7 col-md-12 rootcanal_first_section_right">
                 <div class="rootcanal_first_section_img_card">
                     
-                    <!-- SVG S-Curve Mask with Gold Border Stroke -->
-                    <svg class="rootcanal_first_section_wave_svg" viewBox="0 0 700 500" preserveAspectRatio="none">
+                     <!-- SVG S-Curve Mask with Gold Border Stroke -->
+                     <svg class="rootcanal_first_section_wave_svg" viewBox="0 0 700 500" preserveAspectRatio="none">
                         <!-- White background curve cutout -->
                         <path d="M 0,0 
                                  C 180,120 -50,380 90,500 
@@ -71,12 +72,12 @@
                               fill="none" 
                               stroke="#d98e2b" 
                               stroke-width="5" />
-                    </svg>
+                     </svg>
 
-                    <!-- Tooth Illustration Image -->
-                    <!-- <img src="https://img.freepik.com/free-photo/view-3d-tooth-model-dental-care-concept_23-2151103681.jpg"  
-                         alt="Dental Implants Treatment Procedure - Tooth Illustration" 
-                         class="rootcanal_first_section_img">-->
+                     <!-- Dental Implants Image -->
+                      <img src=".\assets\img\Dental-implants-bg.png"  
+                           alt="Dental Implants Treatment Procedure" 
+                           class="rootcanal_first_section_img">
                 </div>
             </div>
 
@@ -92,7 +93,7 @@
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Pain Relief -->
+                <!-- 1. Natural Look -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +102,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <h3 class="rootcanal_second_section_title">Natural Look</h3>
+                        <p class="rootcanal_second_section_desc">Looks & feels like your natural teeth.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Strong & Durable -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +117,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Strong & Durable</h3>
+                        <p class="rootcanal_second_section_desc">Built to last for many years</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Safe & Biocompatible -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +132,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Safe & Biocompatible</h3>
+                        <p class="rootcanal_second_section_desc">Made from high-quality,biocompatible materials</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Improved Confidence -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +147,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Improved Confidence</h3>
+                        <p class="rootcanal_second_section_desc">Eat,speak & smile with confidence</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Prevent Bone Loss -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +162,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Prevent Bone Loss</h3>
+                        <p class="rootcanal_second_section_desc">Stimulates bone growth & maintains jaw health.</p>
                     </div>
                 </div>
 
@@ -184,7 +185,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT Dental Implants TREATMENT
+                    ABOUT DENTAL IMPLANTS 
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -195,7 +196,8 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. Dental Implants Treatment removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    A dental implant is a titanium post that is surgically placed into the jawbone and acts as a replacement root for the missing tooth.
+                    It provides a strong foundation for a crown, bridge, or denture, giving you a natural-looking smile that lasts a lifetime.
                 </p>
 
             </div>
@@ -211,7 +213,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely Dental Implants treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        Dental Implants are the gold standard for replacing missing teeth with unmatched stability and aesthetics.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -252,137 +254,94 @@
         <div class="rootcanal_fourth_section_steps_flow">
 
             <!-- STEP 1 -->
-            <div class="rootcanal_fourth_section_step_item">
-                <div class="rootcanal_fourth_section_circle_wrap">
-                    <span class="rootcanal_fourth_section_badge">1</span>
-                    <div class="rootcanal_fourth_section_icon">
-                        <!-- Tooth + Magnifying Glass SVG -->
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                            <circle cx="16.5" cy="15.5" r="3.5" stroke-width="1.3"></circle>
-                            <path d="M19 18l2.5 2.5" stroke-width="1.5"></path>
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
-                <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
-                </p>
-            </div>
+<div class="rootcanal_fourth_section_step_item">
+    <div class="rootcanal_fourth_section_circle_wrap">
+        <span class="rootcanal_fourth_section_badge">1</span>
+        <div class="rootcanal_fourth_section_icon">
+            <img src="assets/img/icons/consultation.png" alt="Consultation & Evaluation" class="rootcanal_step_icon_img" style="height:40px; width:40px">
+        </div>
+    </div>
+    <h3 class="rootcanal_fourth_section_step_title">Consultation & Evaluation</h3>
+    <p class="rootcanal_fourth_section_step_desc">
+        We examine your oral health and take 3D scans to plan your treatment.
+    </p>
+</div>
 
-            <!-- Arrow 1 -->
-            <div class="rootcanal_fourth_section_arrow">
-                <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
+<!-- Arrow 1 -->
+<div class="rootcanal_fourth_section_arrow">
+    <i class="fa-solid fa-arrow-right-long"></i>
+</div>
 
-            <!-- STEP 2 -->
-            <div class="rootcanal_fourth_section_step_item">
-                <div class="rootcanal_fourth_section_circle_wrap">
-                    <span class="rootcanal_fourth_section_badge">2</span>
-                    <div class="rootcanal_fourth_section_icon">
-                        <!-- Tooth + Opening SVG -->
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                            <path d="M9.5 7.5c1.5 1 3.5 1 5 0" stroke-dasharray="2 1"></path>
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
-                <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
-                </p>
-            </div>
+<!-- STEP 2 -->
+<div class="rootcanal_fourth_section_step_item">
+    <div class="rootcanal_fourth_section_circle_wrap">
+        <span class="rootcanal_fourth_section_badge">2</span>
+        <div class="rootcanal_fourth_section_icon">
+            <img src="assets/images/icons/implant-placement.png" alt="Implant Placement" class="rootcanal_step_icon_img">
+        </div>
+    </div>
+    <h3 class="rootcanal_fourth_section_step_title">Implant Placement</h3>
+    <p class="rootcanal_fourth_section_step_desc">
+        The titanium implant is placed into the jawbone under local anesthesia.
+    </p>
+</div>
 
-            <!-- Arrow 2 -->
-            <div class="rootcanal_fourth_section_arrow">
-                <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
+<!-- Arrow 2 -->
+<div class="rootcanal_fourth_section_arrow">
+    <i class="fa-solid fa-arrow-right-long"></i>
+</div>
 
-            <!-- STEP 3 -->
-            <div class="rootcanal_fourth_section_step_item">
-                <div class="rootcanal_fourth_section_circle_wrap">
-                    <span class="rootcanal_fourth_section_badge">3</span>
-                    <div class="rootcanal_fourth_section_icon">
-                        <!-- Cleaning & Shaping Tool SVG -->
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                            <path d="M12 2v8M11 5h2M11 8h2"></path>
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
-                <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the Dental Implantss are cleaned and shaped.
-                </p>
-            </div>
+<!-- STEP 3 -->
+<div class="rootcanal_fourth_section_step_item">
+    <div class="rootcanal_fourth_section_circle_wrap">
+        <span class="rootcanal_fourth_section_badge">3</span>
+        <div class="rootcanal_fourth_section_icon">
+            <img src="assets/images/icons/healing.png" alt="Healing & Osseointegration" class="rootcanal_step_icon_img">
+        </div>
+    </div>
+    <h3 class="rootcanal_fourth_section_step_title">Healing & Osseointegration</h3>
+    <p class="rootcanal_fourth_section_step_desc">
+        The implant fuses with the bone over a few months to become strong.
+    </p>
+</div>
 
-            <!-- Arrow 3 -->
-            <div class="rootcanal_fourth_section_arrow">
-                <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
+<!-- Arrow 3 -->
+<div class="rootcanal_fourth_section_arrow">
+    <i class="fa-solid fa-arrow-right-long"></i>
+</div>
 
-            <!-- STEP 4 -->
-            <div class="rootcanal_fourth_section_step_item">
-                <div class="rootcanal_fourth_section_circle_wrap">
-                    <span class="rootcanal_fourth_section_badge">4</span>
-                    <div class="rootcanal_fourth_section_icon">
-                        <!-- Disinfection SVG -->
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                            <path d="M10 9c1 1 3 1 4 0"></path>
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
-                <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
-                </p>
-            </div>
+<!-- STEP 4 -->
+<div class="rootcanal_fourth_section_step_item">
+    <div class="rootcanal_fourth_section_circle_wrap">
+        <span class="rootcanal_fourth_section_badge">4</span>
+        <div class="rootcanal_fourth_section_icon">
+            <img src="assets/images/icons/abutment.png" alt="Abutment Placement" class="rootcanal_step_icon_img">
+        </div>
+    </div>
+    <h3 class="rootcanal_fourth_section_step_title">Abutment Placement</h3>
+    <p class="rootcanal_fourth_section_step_desc">
+        A connector is placed on the implant to hold the artificial tooth.
+    </p>
+</div>
 
-            <!-- Arrow 4 -->
-            <div class="rootcanal_fourth_section_arrow">
-                <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
+<!-- Arrow 4 -->
+<div class="rootcanal_fourth_section_arrow">
+    <i class="fa-solid fa-arrow-right-long"></i>
+</div>
 
-            <!-- STEP 5 -->
-            <div class="rootcanal_fourth_section_step_item">
-                <div class="rootcanal_fourth_section_circle_wrap">
-                    <span class="rootcanal_fourth_section_badge">5</span>
-                    <div class="rootcanal_fourth_section_icon">
-                        <!-- Filling & Sealing SVG -->
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                            <path d="M10 11l2 2 2-2"></path>
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
-                <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
-                </p>
-            </div>
-
-            <!-- Arrow 5 -->
-            <div class="rootcanal_fourth_section_arrow">
-                <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-
-            <!-- STEP 6 -->
-            <div class="rootcanal_fourth_section_step_item">
-                <div class="rootcanal_fourth_section_circle_wrap">
-                    <span class="rootcanal_fourth_section_badge">6</span>
-                    <div class="rootcanal_fourth_section_icon">
-                        <!-- Restoration / Crown SVG -->
-                        <svg viewBox="0 0 24 24">
-                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
-                <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
-                </p>
-            </div>
+<!-- STEP 5 -->
+<div class="rootcanal_fourth_section_step_item">
+    <div class="rootcanal_fourth_section_circle_wrap">
+        <span class="rootcanal_fourth_section_badge">5</span>
+        <div class="rootcanal_fourth_section_icon">
+            <img src="assets/images/icons/crown-placement.png" alt="Crown Placement" class="rootcanal_step_icon_img">
+        </div>
+    </div>
+    <h3 class="rootcanal_fourth_section_step_title">Crown Placement</h3>
+    <p class="rootcanal_fourth_section_step_desc">
+        A custom-made crown is attached, giving you a natural, beautiful smile.
+    </p>
+</div>
 
         </div>
     </div>
@@ -446,31 +405,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Permanent & long-lasting solution</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Look, feel & function like natural teeth</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Improve chewing & speech</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Prevent bone loss & facial sagging</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Boost self-confidence & quality of life</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +449,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Dental Implants treatment painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Are Dental Implants painful?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long do dental implants last?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Who is a good candidate for implants?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How much time does it take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>

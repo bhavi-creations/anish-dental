@@ -73,10 +73,10 @@
 
         .brand-title {
             color: #003B32 !important;
-            font-weight: 800 !important;
+            font-weight: 700 !important;
             font-size: 24px !important;
             letter-spacing: 0.5px !important;
-            line-height: 1 !important;
+            /* line-height: 1 !important; */
             margin: 0 !important;
         }
 
@@ -4244,7 +4244,7 @@
     .rootcanal_first_section_wrapper {
         position: relative !important;
         background-color: #ffffff !important;
-        padding: 40px 0 50px 0 !important;
+        padding: 10px 0 50px 0 !important;
         overflow: hidden !important;
         font-family: 'Plus Jakarta Sans', sans-serif !important;
     }
@@ -4412,7 +4412,7 @@
     }
 
     .rootcanal_first_section_img_card {
-        position: relative !important;
+        /* position: relative !important; */
         width: 100% !important;
         min-height: 480px !important;
         border-radius: 0 20px 20px 0 !important;
@@ -5136,7 +5136,7 @@
         background: #ffffff !important;
         border-radius: 16px !important;
         border: 1px solid #e8eeec !important;
-        padding: 32px 28px !important;
+        padding: 28px 28px !important;
         height: 100% !important;
         box-shadow: 0 8px 30px rgba(0, 59, 50, 0.03) !important;
         display: flex !important;
@@ -6588,3 +6588,83 @@
         padding: 20px;
     }
 }
+
+
+
+/* ==========================================
+   ICON BOX ONLY HOVER EFFECT
+   ========================================== */
+
+/* 1. Base Card Style (Static - No Hover Elevation/Border Change) */
+.index_second_section_card {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-color: #ffffff !important;
+    border: 1.5px solid #eef3f1 !important;
+    border-radius: 20px !important;
+    padding: 32px 18px 24px 18px !important;
+    height: 100% !important;
+    text-decoration: none !important;
+}
+
+/* 2. Icon Box Normal State (Light Mint Background) */
+.index_second_section_icon_box {
+    width: 78px !important;
+    height: 78px !important;
+    background-color: #ebf4f2 !important; /* Light Teal/Mint Circle */
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 22px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+/* FontAwesome Icon - Normal State */
+.index_second_section_icon_box i {
+    font-size: 30px !important;
+    color: #003B32 !important;
+    transition: color 0.3s ease !important;
+}
+
+/* Image Icon - Normal State */
+.index_second_section_icon_box img {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+    transition: filter 0.3s ease !important;
+}
+
+/* Arrow Normal State */
+.index_second_section_card_arrow {
+    font-size: 16px !important;
+    color: #d98e2b !important;
+}
+
+
+/* ==========================================
+   HOVER STATE (ONLY ICON CIRCLE EFFECT)
+   ========================================== */
+
+/* Hovering Card/Icon Box: Changes Background to Dark Green */
+.index_second_section_card:hover .index_second_section_icon_box,
+.index_second_section_icon_box:hover {
+    background-color: #003B32 !important; /* Deep Dark Green */
+}
+
+/* Hovering Card/Icon Box: Changes FontAwesome Icon to White */
+.index_second_section_card:hover .index_second_section_icon_box i,
+.index_second_section_icon_box:hover i {
+    color: #ffffff !important;
+}
+
+/* Hovering Card/Icon Box: Converts Black Image Icon to Pure White */
+.index_second_section_card:hover .index_second_section_icon_box img,
+.index_second_section_icon_box:hover img {
+    filter: brightness(0) invert(1) !important; /* ఇమేజ్ ని తెల్లగా మారుస్తుంది */
+}
+
+

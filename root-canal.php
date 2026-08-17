@@ -73,10 +73,11 @@
                               stroke-width="5" />
                     </svg>
 
-                    <!-- Tooth Illustration Image -->
-                    <!-- <img src="https://img.freepik.com/free-photo/view-3d-tooth-model-dental-care-concept_23-2151103681.jpg"  
-                         alt="Root Canal Treatment Procedure - Tooth Illustration" 
-                         class="rootcanal_first_section_img">-->
+                    <!-- Root Canal Treatment Image -->
+                    <img src=".\assets\img\Root-canal-bg.png"  
+                         alt="Root Canal Treatment Procedure" 
+                         class="rootcanal_first_section_img">
+
                 </div>
             </div>
 
@@ -411,13 +412,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=X-Ray+Before" alt="Before Root Canal Treatment">
+                                <img src=".\assets\img\root-canal-before.png" alt="Before Root Canal Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=X-Ray+After" alt="After Root Canal Treatment">
+                                <img src=".\assets\img\root-canal-after.png" alt="After Root Canal Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>

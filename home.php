@@ -132,7 +132,8 @@
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="dental-implants.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-teeth-open"></i>
+                        <!-- <i class="fa-solid fa-teeth-open"></i> -->
+                         <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Dental<br>Implants</h3>
@@ -148,7 +149,8 @@
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="orthodontic-braces.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-teeth"></i>
+                        <!-- <i class="fa-solid fa-teeth"></i> -->
+                         <img src="./assets/img/icons/braces.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Orthodontic<br>Braces</h3>
@@ -180,7 +182,8 @@
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="root-canal.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-file-medical"></i>
+                        <!-- <i class="fa-solid fa-file-medical"></i> -->
+                         <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Root Canal<br>Treatment</h3>
