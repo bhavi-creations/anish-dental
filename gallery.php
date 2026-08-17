@@ -85,7 +85,7 @@
             <!-- Row 1 -->
             <div class="col-md-5 col-sm-6 gallery-item" data-category="clinic">
                 <div class="gallery-card">
-                    <img src="reception-1.jpg" alt="Clinic Reception">
+                    <img src="" alt="Clinic Reception">
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
 
             <div class="col-md-4 col-sm-6 gallery-item" data-category="clinic">
                 <div class="gallery-card">
-                    <img src="waiting-lounge.jpg" alt="Waiting Area">
+                    <img src=".\assets\img\Root-canal-bg.png" alt="Waiting Area">
                 </div>
             </div>
 

@@ -21,7 +21,7 @@
 <body>
 
     <!-- 1. TOP INFORMATION BAR -->
-    <div class="top-bar-bg">
+    <div class="top-bar-bg d-none d-lg-block">
         <div class="container-fluid px-lg-5">
             <div class="d-flex flex-wrap align-items-center justify-content-between top-bar-content">
                 
@@ -58,6 +58,29 @@
         </div>
     </div>
 
+
+    <marquee behavior="" direction="" class="top-info-item d-block d-lg-none" >
+       
+
+      <div class="top-info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Kothapet, Guntur, Andhra Pradesh</span>
+                    </div>
+
+                    &nbsp; &nbsp; / &nbsp; &nbsp;
+                    <div class="top-info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a >+91 81234 56789</a>
+                        <!-- <a href="tel:+918123456789">+91 81234 56789</a> -->
+                    </div>
+                     &nbsp; &nbsp; / &nbsp; &nbsp;
+                    <div class="top-info-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a >info@anishdental.com</a>
+                        <!-- <a href="mailto:info@anishdental.com">info@anishdental.com</a> -->
+                    </div>
+    </marquee>
+    
     <!-- 2. MAIN NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg main-header-navbar sticky-top">
         <div class="container-fluid px-lg-5">
