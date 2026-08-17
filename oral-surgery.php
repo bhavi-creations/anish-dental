@@ -24,7 +24,7 @@
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    Relieve Pain. Restore Oral Health.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Oral Surgery Treatment is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    Oral Surgery Treatment provides safe and effective surgical care for conditions affecting the teeth, gums, jaw, and surrounding oral structures, helping relieve pain and restore healthy oral function.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -102,11 +102,11 @@
                     </div>
                     <div class="rootcanal_second_section_content">
                         <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <p class="rootcanal_second_section_desc">Relieves pain and discomfort caused by dental conditions.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Treat Dental Problems -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Treat Dental Problems</h3>
+                        <p class="rootcanal_second_section_desc">Addresses impacted teeth, infections, and other oral conditions.</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Safe Surgical Care -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Safe Surgical Care</h3>
+                        <p class="rootcanal_second_section_desc">Modern techniques support precise and comfortable treatment.</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Comfortable Treatment -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Comfortable Treatment</h3>
+                        <p class="rootcanal_second_section_desc">Care is planned to make your surgical experience as comfortable as possible.</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Restore Oral Health -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Restore Oral Health</h3>
+                        <p class="rootcanal_second_section_desc">Helps restore healthy function and improve overall oral health.</p>
                     </div>
                 </div>
 
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. Oral Surgery Treatment removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    Oral Surgery Treatment involves surgical procedures used to diagnose and treat conditions affecting the teeth, gums, jaw, and other structures of the mouth. It may be recommended for impacted wisdom teeth, severely damaged teeth, oral infections, cysts, or other conditions requiring surgical care. Treatment is carefully planned to relieve symptoms, protect oral health, and support proper healing.
                 </p>
 
             </div>
@@ -211,7 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely Oral Surgery treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        Timely Oral Surgery can relieve discomfort, treat complex dental problems, and help protect your long-term oral health.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -264,9 +264,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Examination & Diagnosis</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
+                    We examine your oral condition and use X-rays or scans when needed to plan the appropriate treatment.
                 </p>
             </div>
 
@@ -287,9 +287,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
+                    A personalized surgical plan is prepared based on your condition, needs, and overall oral health.
                 </p>
             </div>
 
@@ -310,9 +310,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Preparation</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the Oral Surgerys are cleaned and shaped.
+                    The treatment area is prepared carefully and appropriate anesthesia is provided for a comfortable procedure.
                 </p>
             </div>
 
@@ -333,9 +333,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Surgical Procedure</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
+                    The planned oral surgery is performed carefully using appropriate surgical techniques.
                 </p>
             </div>
 
@@ -356,9 +356,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Closure & Care</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
+                    The surgical area is managed appropriately and any necessary sutures or protective measures are provided.
                 </p>
             </div>
 
@@ -378,9 +378,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Recovery & Follow-Up</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
+                    Follow-up care helps monitor healing and supports a smooth recovery after the procedure.
                 </p>
             </div>
 
@@ -411,13 +411,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=X-Ray+Before" alt="Before Oral Surgery Treatment">
+                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=Before+Surgery" alt="Before Oral Surgery Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=X-Ray+After" alt="After Oral Surgery Treatment">
+                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=After+Surgery" alt="After Oral Surgery Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -425,7 +425,7 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Treat dental problems. Restore oral health.
                     </p>
                 </div>
             </div>
@@ -446,31 +446,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Relieves dental pain and discomfort</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Treats impacted and problematic teeth</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Helps manage oral infections</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Supports healthy oral function</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Promotes better long-term oral health</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +490,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Oral Surgery treatment painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Is Oral Surgery painful?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does Oral Surgery take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">What conditions may require Oral Surgery?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">What should I expect after surgery?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -541,10 +541,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Don't let dental problems affect your life.<br class="d-none d-md-inline"> Get expert Oral Surgery care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your consultation now and take the next step toward better oral health.
                         </p>
                     </div>
                 </div>

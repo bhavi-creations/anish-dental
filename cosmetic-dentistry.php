@@ -24,7 +24,7 @@
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    Enhance Your Smile. Boost Your Confidence.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Cosmetic Dentistry Treatment is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    Cosmetic Dentistry Treatment combines modern dental procedures to improve the appearance of your teeth, smile, and overall facial aesthetics while maintaining a natural-looking result.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -92,7 +92,7 @@
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Pain Relief -->
+                <!-- 1. Smile Enhancement -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <h3 class="rootcanal_second_section_title">Smile Enhancement</h3>
+                        <p class="rootcanal_second_section_desc">Improves the appearance of your teeth and smile.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Natural-Looking Results -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Natural-Looking Results</h3>
+                        <p class="rootcanal_second_section_desc">Enhances your smile while maintaining a natural appearance.</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Improved Confidence -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Improved Confidence</h3>
+                        <p class="rootcanal_second_section_desc">A beautiful smile can help improve confidence in everyday life.</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Comfortable Treatment -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Comfortable Treatment</h3>
+                        <p class="rootcanal_second_section_desc">Modern techniques help make cosmetic dental procedures comfortable.</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Better Smile Aesthetics -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Better Smile Aesthetics</h3>
+                        <p class="rootcanal_second_section_desc">Addresses cosmetic concerns to create a more balanced and attractive smile.</p>
                     </div>
                 </div>
 
@@ -184,7 +184,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT Cosmetic Dentistry TREATMENT
+                    ABOUT COSMETIC DENTISTRY TREATMENT
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. Cosmetic Dentistry Treatment removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    Cosmetic Dentistry Treatment focuses on improving the appearance of your teeth and smile. Depending on your individual needs, cosmetic dental procedures can help address concerns such as tooth discoloration, chipped or uneven teeth, gaps, worn teeth, and smile alignment. Treatment is planned to achieve a healthy, balanced, and natural-looking smile.
                 </p>
 
             </div>
@@ -211,7 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely Cosmetic Dentistry treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        Cosmetic Dentistry can enhance the appearance of your smile and help you feel more confident with a natural-looking result.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -239,7 +239,7 @@
         <!-- Section Header -->
         <div class="rootcanal_fourth_section_header">
             <h2 class="rootcanal_fourth_section_title">
-                THE Cosmetic Dentistry TREATMENT PROCESS
+                THE COSMETIC DENTISTRY TREATMENT PROCESS
             </h2>
             <div class="rootcanal_fourth_section_divider">
                 <div class="rootcanal_fourth_section_divider_line"></div>
@@ -264,9 +264,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Smile Assessment</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
+                    We assess your teeth, gums, bite, and smile to understand your cosmetic concerns.
                 </p>
             </div>
 
@@ -287,9 +287,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
+                    We discuss your goals and create a personalized treatment plan based on your smile needs.
                 </p>
             </div>
 
@@ -303,16 +303,16 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">3</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Cleaning & Shaping Tool SVG -->
+                        <!-- Teeth Preparation Tool SVG -->
                         <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M12 2v8M11 5h2M11 8h2"></path>
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Teeth Preparation</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the Cosmetic Dentistrys are cleaned and shaped.
+                    Your teeth are prepared carefully according to the selected cosmetic dental procedure.
                 </p>
             </div>
 
@@ -326,16 +326,16 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">4</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Disinfection SVG -->
+                        <!-- Cosmetic Procedure SVG -->
                         <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 9c1 1 3 1 4 0"></path>
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Cosmetic Procedure</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
+                    The planned cosmetic procedure is performed using appropriate dental techniques and materials.
                 </p>
             </div>
 
@@ -349,16 +349,16 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">5</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Filling & Sealing SVG -->
+                        <!-- Smile Refinement SVG -->
                         <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 11l2 2 2-2"></path>
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Smile Refinement</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
+                    The treatment is refined to achieve a balanced, comfortable, and natural-looking smile.
                 </p>
             </div>
 
@@ -372,15 +372,15 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">6</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Restoration / Crown SVG -->
+                        <!-- Final Smile Check / Crown SVG -->
                         <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Final Smile Check</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
+                    Your final result is checked and you receive guidance for maintaining your improved smile.
                 </p>
             </div>
 
@@ -425,16 +425,16 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Transform your smile. Express your confidence.
                     </p>
                 </div>
             </div>
 
-            <!-- CARD 2: BENEFITS OF Cosmetic Dentistry -->
+            <!-- CARD 2: BENEFITS OF COSMETIC DENTISTRY -->
             <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
                 <div class="rootcanal_fifth_section_card">
                     <div>
-                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF Cosmetic Dentistry</h3>
+                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF COSMETIC DENTISTRY</h3>
                         <div class="rootcanal_fifth_section_divider">
                             <div class="rootcanal_fifth_section_divider_line"></div>
                             <div class="rootcanal_fifth_section_divider_dot"></div>
@@ -446,31 +446,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Improves the appearance of your smile</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Addresses stains, discoloration, and other cosmetic concerns</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Creates a more balanced and natural-looking smile</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Can improve confidence in your smile</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Results can be maintained with good oral care</span>
                             </li>
                         </ul>
                     </div>
@@ -494,15 +494,15 @@
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does Cosmetic Dentistry treatment take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long do cosmetic dental results last?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Which Cosmetic Dentistry treatment is right for me?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -541,10 +541,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Ready to transform your smile?<br class="d-none d-md-inline"> Get expert Cosmetic Dentistry care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your consultation and take the first step toward a healthier, more confident smile.
                         </p>
                     </div>
                 </div>

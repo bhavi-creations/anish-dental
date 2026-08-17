@@ -24,7 +24,7 @@
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    Protect Your Gums. Preserve Your Smile.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Periodontal Care Treatment is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    Periodontal Care Treatment helps manage gum disease, reduce inflammation, remove harmful plaque and bacteria, and protect the gums and supporting structures of your teeth for a healthier smile.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -92,7 +92,7 @@
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Pain Relief -->
+                <!-- 1. Healthy Gums -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <h3 class="rootcanal_second_section_title">Healthy Gums</h3>
+                        <p class="rootcanal_second_section_desc">Helps reduce gum inflammation and improve gum health.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Plaque & Tartar Control -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Plaque & Tartar Control</h3>
+                        <p class="rootcanal_second_section_desc">Removes harmful plaque and tartar buildup around the gums.</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Protects Teeth -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Protects Teeth</h3>
+                        <p class="rootcanal_second_section_desc">Helps protect the teeth and supporting tissues from gum disease.</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Reduces Gum Problems -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Reduces Gum Problems</h3>
+                        <p class="rootcanal_second_section_desc">Helps manage bleeding, swelling, redness, and gum discomfort.</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Long-Term Gum Care -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Long-Term Gum Care</h3>
+                        <p class="rootcanal_second_section_desc">Supports healthy gums with regular professional care and maintenance.</p>
                     </div>
                 </div>
 
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. Periodontal Care Treatment removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    Periodontal disease affects the gums and the tissues that support your teeth. It can develop when plaque and bacteria build up along the gumline, causing inflammation, bleeding, and, when left untreated, damage to the supporting structures of the teeth. Periodontal Care Treatment helps control infection, improve gum health, and protect your natural teeth.
                 </p>
 
             </div>
@@ -211,7 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely Periodontal Care treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        Healthy gums are the foundation of a healthy smile. Timely periodontal care can help control gum disease and protect your teeth for years to come.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -264,9 +264,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Gum Examination</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
+                    We examine your gums and teeth to assess signs and severity of gum disease.
                 </p>
             </div>
 
@@ -287,9 +287,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
+                    A personalized treatment plan is prepared based on your gum condition and oral health.
                 </p>
             </div>
 
@@ -310,9 +310,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Deep Cleaning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the Periodontal Cares are cleaned and shaped.
+                    Plaque and tartar are carefully removed from around the teeth and gumline.
                 </p>
             </div>
 
@@ -333,9 +333,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Gum Treatment</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
+                    Advanced periodontal care is provided to control infection and improve gum health.
                 </p>
             </div>
 
@@ -356,9 +356,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Gum Healing</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
+                    The gums are monitored as inflammation reduces and the tissues begin to heal.
                 </p>
             </div>
 
@@ -378,9 +378,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Maintenance</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
+                    Regular follow-ups and professional cleanings help maintain healthy gums and teeth.
                 </p>
             </div>
 
@@ -411,13 +411,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=X-Ray+Before" alt="Before Periodontal Care Treatment">
+                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=Gum+Before" alt="Before Periodontal Care Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=X-Ray+After" alt="After Periodontal Care Treatment">
+                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=Gum+After" alt="After Periodontal Care Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -425,7 +425,7 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Healthy gums. Stronger smile.
                     </p>
                 </div>
             </div>
@@ -446,31 +446,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Reduces gum inflammation and bleeding</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Removes plaque and tartar buildup</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Helps prevent progression of gum disease</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Protects the tissues supporting your teeth</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Supports long-term oral health</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +490,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Periodontal Care treatment painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">What is Periodontal Care Treatment?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Is periodontal treatment painful?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does gum treatment take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How can I prevent gum disease?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -541,10 +541,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Don't ignore gum problems.<br class="d-none d-md-inline"> Get expert periodontal care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your consultation now and take the first step toward healthier gums.
                         </p>
                     </div>
                 </div>

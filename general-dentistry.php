@@ -24,7 +24,7 @@
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    Complete Care for a Healthy, Confident Smile.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    General Dentistry Treatment is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    General Dentistry provides comprehensive care to maintain healthy teeth and gums, prevent dental problems, and protect your smile through regular check-ups, cleanings, fillings, and other essential treatments.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -92,7 +92,7 @@
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Pain Relief -->
+                <!-- 1. Preventive Care -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <h3 class="rootcanal_second_section_title">Preventive Care</h3>
+                        <p class="rootcanal_second_section_desc">Helps prevent cavities, gum problems, and other dental issues.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Healthy Teeth & Gums -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Healthy Teeth & Gums</h3>
+                        <p class="rootcanal_second_section_desc">Supports long-term oral health with regular professional care.</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Early Detection -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Early Detection</h3>
+                        <p class="rootcanal_second_section_desc">Identifies dental problems early for timely and effective treatment.</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Comfortable Care -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Comfortable Care</h3>
+                        <p class="rootcanal_second_section_desc">Gentle and personalized treatment for a comfortable dental experience.</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Restore & Maintain -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Restore & Maintain</h3>
+                        <p class="rootcanal_second_section_desc">Restores damaged teeth and helps maintain a healthy smile.</p>
                     </div>
                 </div>
 
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. General Dentistry Treatment removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    General Dentistry focuses on maintaining your overall oral health through preventive, diagnostic, restorative, and routine dental care. It includes regular dental examinations, professional cleaning, fillings, gum care, and treatment of common dental problems. With timely care and regular check-ups, dental issues can be detected early and your natural teeth can be protected for years to come.
                 </p>
 
             </div>
@@ -211,7 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely General Dentistry treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        Regular general dental care helps prevent problems, protect your natural teeth, and keep your smile healthy and confident.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -264,9 +264,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Dental Examination</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
+                    We examine your teeth and gums to understand your overall oral health.
                 </p>
             </div>
 
@@ -287,9 +287,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Diagnosis</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
+                    Any cavities, gum problems, or other dental concerns are identified and assessed.
                 </p>
             </div>
 
@@ -310,9 +310,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Professional Cleaning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the General Dentistrys are cleaned and shaped.
+                    Teeth are professionally cleaned to remove plaque, tartar, and surface deposits.
                 </p>
             </div>
 
@@ -333,9 +333,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
+                    A personalized treatment plan is prepared based on your dental needs.
                 </p>
             </div>
 
@@ -356,9 +356,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Dental Treatment</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
+                    Required treatments such as fillings, gum care, or other restorative procedures are performed.
                 </p>
             </div>
 
@@ -378,9 +378,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Follow-Up & Prevention</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
+                    Follow-up care and oral hygiene guidance help maintain healthy teeth and gums.
                 </p>
             </div>
 
@@ -411,13 +411,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=X-Ray+Before" alt="Before General Dentistry Treatment">
+                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=Dental+Before" alt="Before General Dentistry Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=X-Ray+After" alt="After General Dentistry Treatment">
+                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=Dental+After" alt="After General Dentistry Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -425,7 +425,7 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Healthy teeth. Healthy smile.
                     </p>
                 </div>
             </div>
@@ -446,31 +446,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Helps prevent cavities and gum disease</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Maintains healthy teeth and gums</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Detects dental problems at an early stage</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Restores damaged teeth and oral function</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Supports a healthy and confident smile</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +490,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is General Dentistry treatment painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">What does General Dentistry include?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How often should I visit a dentist?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Is professional dental cleaning necessary?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Can General Dentistry prevent dental problems?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -541,10 +541,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Keep your smile healthy for years to come.<br class="d-none d-md-inline"> Get expert dental care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your consultation today and take the first step towards better oral health.
                         </p>
                     </div>
                 </div>

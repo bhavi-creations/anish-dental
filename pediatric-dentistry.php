@@ -24,7 +24,7 @@
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Relieve Pain. Save Your Natural Tooth.
+                    Healthy Smiles. Happy Children.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Pediatric Dentistry is a safe and effective procedure to remove infected tissue from inside the tooth, relieve pain, and protect your natural tooth from extraction.
+                    Pediatric Dentistry provides gentle and specialized dental care for children, helping prevent dental problems, treat existing concerns, and build healthy oral habits for a lifetime of confident smiles.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -75,7 +75,7 @@
 
                     <!-- Tooth Illustration Image -->
                     <!-- <img src="https://img.freepik.com/free-photo/view-3d-tooth-model-dental-care-concept_23-2151103681.jpg"  
-                         alt="Pediatric Dentistry Procedure - Tooth Illustration" 
+                         alt="Pediatric Dentistry Treatment - Child Dental Care" 
                          class="rootcanal_first_section_img">-->
                 </div>
             </div>
@@ -92,7 +92,7 @@
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Pain Relief -->
+                <!-- 1. Early Prevention -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Pain Relief</h3>
-                        <p class="rootcanal_second_section_desc">Eliminates tooth pain caused by infection.</p>
+                        <h3 class="rootcanal_second_section_title">Early Prevention</h3>
+                        <p class="rootcanal_second_section_desc">Helps identify and prevent dental problems at an early age.</p>
                     </div>
                 </div>
 
-                <!-- 2. Save Natural Tooth -->
+                <!-- 2. Healthy Teeth -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Save Natural Tooth</h3>
-                        <p class="rootcanal_second_section_desc">Preserves your natural tooth and prevents extraction.</p>
+                        <h3 class="rootcanal_second_section_title">Healthy Teeth</h3>
+                        <p class="rootcanal_second_section_desc">Supports strong, healthy teeth during childhood and growth.</p>
                     </div>
                 </div>
 
-                <!-- 3. High Success Rate -->
+                <!-- 3. Gentle Care -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">High Success Rate</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques ensure long-lasting results.</p>
+                        <h3 class="rootcanal_second_section_title">Gentle Care</h3>
+                        <p class="rootcanal_second_section_desc">Child-friendly dental care designed for comfort and confidence.</p>
                     </div>
                 </div>
 
-                <!-- 4. Safe & Painless -->
+                <!-- 4. Preventive Care -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Painless</h3>
-                        <p class="rootcanal_second_section_desc">Advanced technology makes the treatment comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Preventive Care</h3>
+                        <p class="rootcanal_second_section_desc">Regular care helps reduce the risk of cavities and dental problems.</p>
                     </div>
                 </div>
 
-                <!-- 5. Restore & Protect -->
+                <!-- 5. Confident Smile -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Restore & Protect</h3>
-                        <p class="rootcanal_second_section_desc">Strengthens the tooth with a crown for lasting protection.</p>
+                        <h3 class="rootcanal_second_section_title">Confident Smile</h3>
+                        <p class="rootcanal_second_section_desc">Builds positive dental habits and a healthy, confident smile.</p>
                     </div>
                 </div>
 
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    When the inner pulp of your tooth becomes infected due to deep decay, cracks, or injury, it can cause severe pain and sensitivity. Pediatric Dentistry removes the infected pulp, cleans and seals the tooth, and prevents further infection—all while saving your natural tooth.
+                    Children need specialized dental care as their teeth, jaws, and oral habits continue to develop. Pediatric Dentistry focuses on maintaining healthy teeth, preventing cavities, treating common childhood dental problems, and creating a positive dental experience for children.
                 </p>
 
             </div>
@@ -211,7 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Timely Pediatric Dentistry can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile.
+                        Early dental care helps children develop healthy habits, protect their growing teeth, and enjoy a lifetime of confident smiles.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -264,9 +264,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Examination & X-Ray</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Dental Examination</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We examine the tooth and take X-rays to assess the infection.
+                    We gently examine your child's teeth, gums, bite, and overall oral health.
                 </p>
             </div>
 
@@ -287,9 +287,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Access Opening</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Dental Assessment</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A small opening is made to access the infected pulp inside the tooth.
+                    We assess cavities, tooth development, bite, and any concerns that may need treatment.
                 </p>
             </div>
 
@@ -310,9 +310,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cleaning & Shaping</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Preventive Care</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The infected pulp is removed and the Pediatric Dentistrys are cleaned and shaped.
+                    Preventive treatments such as fluoride care and sealants may be recommended to protect young teeth.
                 </p>
             </div>
 
@@ -333,9 +333,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Disinfection</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Gentle Treatment</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are disinfected to eliminate bacteria and prevent reinfection.
+                    Any required dental treatment is performed gently using child-friendly techniques and care.
                 </p>
             </div>
 
@@ -356,9 +356,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Filling & Sealing</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Oral Health Guidance</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The canals are filled and sealed with a biocompatible material.
+                    Parents and children receive simple guidance on brushing, diet, and daily oral hygiene habits.
                 </p>
             </div>
 
@@ -378,9 +378,9 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Restoration</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Follow-Up Care</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A crown is placed to restore strength, function, and appearance.
+                    Regular follow-ups help monitor dental development and maintain your child's healthy smile.
                 </p>
             </div>
 
@@ -411,13 +411,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=X-Ray+Before" alt="Before Pediatric Dentistry">
+                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=Before+Treatment" alt="Before Pediatric Dentistry Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=X-Ray+After" alt="After Pediatric Dentistry">
+                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=After+Treatment" alt="After Pediatric Dentistry Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -425,7 +425,7 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Healthy teeth. Happy smiles.
                     </p>
                 </div>
             </div>
@@ -446,31 +446,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Relieves pain and discomfort</span>
+                                <span>Prevents and manages childhood cavities</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Saves your natural tooth</span>
+                                <span>Supports healthy tooth development</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevents spread of infection</span>
+                                <span>Encourages good oral hygiene habits</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and oral function</span>
+                                <span>Provides gentle and child-friendly dental care</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting results with proper care</span>
+                                <span>Helps maintain a healthy and confident smile</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +490,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Pediatric Dentistry painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">When should my child first visit a dentist?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the procedure take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How often should children have dental check-ups?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long will the treated tooth last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How can I prevent cavities in my child's teeth?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do I need a crown after RCT?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Are dental treatments safe for children?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -541,10 +541,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Give your child a healthy smile for life.<br class="d-none d-md-inline"> Start their dental care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your child's dental consultation and build healthy oral habits early.
                         </p>
                     </div>
                 </div>
