@@ -1,6 +1,4 @@
-
-
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 
 
 
@@ -8,10 +6,10 @@
 <section class="treatments_first_section_wrapper">
     <div class="container-fluid p-0">
         <div class="row g-0 align-items-center treatments_first_section_main_row">
-            
+
             <!-- Left Side Content Area -->
             <div class="col-lg-5 col-12 treatments_first_section_left_col">
-                
+
                 <!-- Breadcrumb -->
                 <div class="treatments_first_section_breadcrumb">
                     <a href="index.php" class="treatments_first_section_breadcrumb_link">HOME</a>
@@ -43,7 +41,7 @@
 
             <!-- Right Side Image Area with Curved Boundary -->
             <div class="col-lg-7 col-12 treatments_first_section_right_col">
-                
+
                 <!-- Medical Room Image -->
                 <img src="./assets/img/g1.png" alt="Dental Treatment Room" class="treatments_first_section_bg_img">
 
@@ -80,14 +78,14 @@
 <!-- SPECIALIZED DENTAL CARE SECTION -->
 <section class="treatments_secound_section_wrapper">
     <div class="container">
-        
+
         <!-- Section Header -->
         <div class="treatments_secound_section_header">
             <span class="treatments_secound_section_subtitle">OUR TREATMENTS</span>
             <h2 class="treatments_secound_section_title">
                 Specialized Dental Care Just For You
             </h2>
-            
+
             <!-- Gold Diamond Divider -->
             <div class="treatments_secound_section_divider">
                 <span class="treatments_secound_section_divider_line"></span>
@@ -98,10 +96,10 @@
 
         <!-- 10 Services Grid (2 Rows of 5 Cards) -->
         <div class="treatments_secound_section_grid">
-            
+
             <!-- 1. General Dentistry -->
             <div class="treatments_secound_section_col">
-                
+
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
@@ -124,7 +122,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-dharmachakra treatments_secound_section_icon"></i> -->
-                             <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Implants</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -135,7 +133,7 @@
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-               
+
             </div>
 
             <!-- 3. Orthodontic Braces -->
@@ -144,7 +142,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-teeth-open treatments_secound_section_icon"></i> -->
-                             <img src="./assets/img/icons/braces.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/braces.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Orthodontic Braces</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -162,7 +160,8 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-sparkles treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-sparkles treatments_secound_section_icon"></i> -->
+                            <img src="./assets/img/cosmetic-teeth.png" alt="" style="width:50px; height:auto;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Cosmetic Dentistry</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -181,7 +180,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-kit-medical treatments_secound_section_icon"></i> -->
-                             <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Root Canal Treatment</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -217,7 +216,9 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-shield-halved treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-shield-halved treatments_secound_section_icon"></i> -->
+                            <img src="./assets/img/periodontal-care.png" alt="" style="width: 50px; height: auto;">
+
                         </div>
                         <h3 class="treatments_secound_section_card_title">Periodontal Care</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -235,7 +236,8 @@
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
-                            <i class="fa-solid fa-user-doctor treatments_secound_section_icon"></i>
+                            <!-- <i class="fa-solid fa-user-doctor treatments_secound_section_icon"></i> -->
+                            <img src="./assets/img/dental-surgery.png" alt="" style="width: 50px; height: auto;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Oral Surgery</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -254,7 +256,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-wand-magic-sparkles treatments_secound_section_icon"></i> -->
-                             <img src="./assets/img/icons/teeth_whitening.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/teeth_whitening.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Teeth Whitening</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -273,7 +275,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-teeth treatments_secound_section_icon"></i> -->
-                             <img src="./assets/img/icons/denture.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/denture.png" alt="" style="width: 50px; height: 50px;">
 
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dentures & Prosthetics</h3>
@@ -373,7 +375,7 @@
             <h2 class="treatments_fourth_section_title">
                 Technology That Makes A Difference
             </h2>
-            
+
             <!-- Gold Diamond Divider -->
             <div class="treatments_fourth_section_divider">
                 <span class="treatments_fourth_section_divider_line"></span>
@@ -389,9 +391,9 @@
             <div class="treatments_fourth_section_left_col">
                 <div class="treatments_fourth_section_img_container">
                     <!-- Technology Equipment Image -->
-                    <img src="./assets/img/g6.png" 
-                         alt="Advanced Dental Scanner Technology" 
-                         class="treatments_fourth_section_img">
+                    <img src="./assets/img/g6.png"
+                        alt="Advanced Dental Scanner Technology"
+                        class="treatments_fourth_section_img">
 
                     <!-- Floating White Card Badge -->
                     <div class="treatments_fourth_section_badge">
@@ -488,7 +490,7 @@
 
                 <!-- Right: Button + Vertical Divider + Phone Call Block -->
                 <div class="treatments_fifth_section_right">
-                    
+
                     <!-- Book Appointment Button -->
                     <a href="appointment.php" class="treatments_fifth_section_btn">
                         <i class="fa-regular fa-calendar-days"></i>
@@ -514,4 +516,4 @@
     </div>
 </section>
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>

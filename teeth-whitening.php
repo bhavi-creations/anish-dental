@@ -74,9 +74,9 @@
                     </svg>
 
                     <!-- Tooth Illustration Image -->
-                    <!-- <img src="https://img.freepik.com/free-photo/view-3d-tooth-model-dental-care-concept_23-2151103681.jpg"  
+                    <img src="./assets/img/teeth-whitening-bg.png"  
                          alt="Teeth Whitening Treatment Procedure - Tooth Illustration" 
-                         class="rootcanal_first_section_img">-->
+                         class="rootcanal_first_section_img">
                 </div>
             </div>
 
@@ -553,7 +553,7 @@
                 <div class="rootcanal_sixth_section_right">
                     
                     <!-- Book Appointment Button -->
-                    <a href="#book-appointment" class="rootcanal_sixth_section_btn">
+                    <a href="appointment.php" class="rootcanal_sixth_section_btn">
                         <i class="fa-regular fa-calendar-check"></i>
                         <span>BOOK APPOINTMENT</span>
                     </a>

@@ -166,7 +166,8 @@
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="cosmetic-dentistry.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
+                         <img src="./assets/img/cosmetic-teeth.png " alt="" style="width: 50px; height: auto;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Cosmetic<br>Dentistry</h3>
@@ -199,7 +200,8 @@
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="pediatric-dentistry.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-face-smile"></i>
+                        <!-- <i class="fa-solid fa-face-smile"></i> -->
+                           <i class="fa-solid fa-child-reaching treatments_secound_section_icon"></i>
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Pediatric<br>Dentistry</h3>

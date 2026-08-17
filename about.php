@@ -9,7 +9,7 @@
                 <!-- Breadcrumb -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-2 text-uppercase">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="home.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                     </ol>
                 </nav>
@@ -34,10 +34,10 @@
 
                 <!-- Action Buttons -->
                 <div class="d-flex flex-wrap align-items-center gap-3">
-                    <a href="#" class="btn btn-book d-inline-flex align-items-center gap-2">
+                    <a href="appointment.php" class="btn btn-book d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar-event"></i> BOOK APPOINTMENT
                     </a>
-                    <a href="#" class="btn btn-contact d-inline-flex align-items-center gap-2">
+                    <a href="contact.php" class="btn btn-contact d-inline-flex align-items-center gap-2">
                         CONTACT US <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -409,7 +409,7 @@
 
                 <!-- Middle: Appointment Button -->
                 <div class="col-lg-3 text-lg-center">
-                    <a href="#" class="btn btn-cta-appointment d-inline-flex align-items-center gap-2">
+                    <a href="appointment.php" class="btn btn-cta-appointment d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar-plus"></i> BOOK APPOINTMENT NOW
                     </a>
                 </div>

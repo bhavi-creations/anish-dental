@@ -35,7 +35,7 @@
                     <!-- Buttons Group -->
                     <div class="contactus_first_section_btn_group">
                         <!-- Primary Button -->
-                        <a href="#book-appointment" class="contactus_first_section_btn_primary">
+                        <a href="appointment.php" class="contactus_first_section_btn_primary">
                             <i class="fa-regular fa-calendar-check"></i>
                             <span>BOOK APPOINTMENT</span>
                         </a>
@@ -85,7 +85,11 @@
 
                     <!-- Our Location -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-geo-alt-fill"></i> -->
+                             <!-- <i class="bi bi-geo-alt"></i> -->
+                              <img src="./assets/img/location.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>Our Location</h6>
                             <p>Kothapet, Guntur,<br>Andhra Pradesh - 522001</p>
@@ -94,7 +98,10 @@
 
                     <!-- Call Us -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-telephone-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-telephone-fill"></i> -->
+                             <img src="./assets/img//call.png" alt="" class="img-fluid" style="width: 30px;">
+                    </div>
                         <div class="info-content">
                             <h6>Call Us</h6>
                             <p>+91 81234 56789<br>+91 86391 23456</p>
@@ -103,7 +110,11 @@
 
                     <!-- Email Us -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-envelope-fill"></i> -->
+                             <img src="./assets/img/email.png" alt="" class="img-fluid" style="width: 30px;">
+                        
+                        </div>
                         <div class="info-content">
                             <h6>Email Us</h6>
                             <p>info@anishdental.com</p>
@@ -112,7 +123,11 @@
 
                     <!-- Working Hours -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-clock-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-clock-fill"></i> -->
+                             <img src="./assets/img/working-hours.png" alt="" class="img-fluid" style="width: 30px;">
+                        
+                        </div>
                         <div class="info-content">
                             <h6>Working Hours</h6>
                             <p>Mon - Sat: 9:30 AM - 8:00 PM<br>Sunday: By Appointment</p>
@@ -121,7 +136,11 @@
 
                     <!-- WhatsApp -->
                     <div class="contact-info-item mb-0">
-                        <div class="info-icon-box"><i class="bi bi-whatsapp"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-whatsapp"></i> -->
+                        
+                        <img src="./assets/img/whatsapp.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>WhatsApp</h6>
                             <p>+91 81234 56789</p>
@@ -239,19 +258,22 @@
                     <div class="facility-grid">
                         <div class="facility-item">
                             <div class="facility-icon">
-                                <i class="bi bi-p-square"></i>
+                                <!-- <i class="bi bi-p-square"></i> -->
+                                 <img src="./assets/img/parking-area.png" alt="" style="width: 25px;">
                             </div>
                             <span>Ample Parking</span>
                         </div>
                         <div class="facility-item">
                             <div class="facility-icon">
-                                <i class="bi bi-person-wheelchair"></i>
+                                <!-- <i class="bi bi-person-wheelchair"></i> -->
+                                   <img src="./assets/img/disabled.png" alt="" style="width: 30px;">
                             </div>
                             <span>Wheelchair Accessible</span>
                         </div>
                         <div class="facility-item">
                             <div class="facility-icon">
-                                <i class="bi bi-shield-check"></i>
+                                <!-- <i class="bi bi-shield-check"></i> -->
+                                   <img src="./assets/img/protection.png" alt="" style="width: 30px;">
                             </div>
                             <span>Hygienic &amp; Comfortable</span>
                         </div>
@@ -277,7 +299,8 @@
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-calendar-box">
-                            <i class="bi bi-calendar-check"></i>
+                            <!-- <i class="bi bi-calendar-check"></i> -->
+                               <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
                         </div>
                         <div>
                             <span class="cta-subheading">Ready for a Healthier Smile?</span>
@@ -291,7 +314,7 @@
                 <div class="col-lg-6">
                     <div class="d-flex flex-wrap align-items-center justify-content-lg-end gap-3">
                         
-                        <a href="#" class="btn btn-book-cta">
+                        <a href="appointment.php" class="btn btn-book-cta">
                             <i class="bi bi-calendar3"></i> BOOK APPOINTMENT
                         </a>
 

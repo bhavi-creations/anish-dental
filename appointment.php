@@ -58,7 +58,10 @@
 
                     <!-- Location -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-geo-alt-fill"></i> -->
+                        <img src="./assets/img/location.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>Our Location</h6>
                             <p>Kothapet, Guntur,<br>Andhra Pradesh - 522001</p>
@@ -67,7 +70,10 @@
 
                     <!-- Call Us -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-telephone-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-telephone-fill"></i> -->
+                        <img src="./assets/img/call.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>Call Us</h6>
                             <p>+91 81234 56789<br>+91 86391 23456</p>
@@ -76,7 +82,10 @@
 
                     <!-- WhatsApp Us -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-whatsapp"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-whatsapp"></i> -->
+                        <img src="./assets/img/whatsapp.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>WhatsApp Us</h6>
                             <p>+91 81234 56789</p>
@@ -85,7 +94,11 @@
 
                     <!-- Email Us -->
                     <div class="contact-info-item">
-                        <div class="info-icon-box"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-envelope-fill"></i> -->
+                        
+                        <img src="./assets/img/email.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>Email Us</h6>
                             <p>info@anishdental.com</p>
@@ -94,7 +107,10 @@
 
                     <!-- Working Hours -->
                     <div class="contact-info-item mb-4">
-                        <div class="info-icon-box"><i class="bi bi-clock-fill"></i></div>
+                        <div class="info-icon-box">
+                            <!-- <i class="bi bi-clock-fill"></i> -->
+                        <img src="./assets/img/working-hours.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>Working Hours</h6>
                             <p>Mon - Sat: 9:30 AM - 8:00 PM<br>Sunday: By Appointment</p>

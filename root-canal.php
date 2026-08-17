@@ -554,7 +554,7 @@
                 <div class="rootcanal_sixth_section_right">
                     
                     <!-- Book Appointment Button -->
-                    <a href="#book-appointment" class="rootcanal_sixth_section_btn">
+                    <a href="appointment.php" class="rootcanal_sixth_section_btn">
                         <i class="fa-regular fa-calendar-check"></i>
                         <span>BOOK APPOINTMENT</span>
                     </a>

@@ -5,7 +5,7 @@
 
     <!-- Background Right Image with Gradient Blend -->
     <div class="banner-bg-wrapper">
-        <img src="reception-bg.jpg" alt="Anish Dental Hospital Reception">
+        <img src="./assets/img/img-img.png" alt="Anish Dental Hospital Reception">
     </div>
 
     <!-- Tooth Watermark Icon in Center Background -->
@@ -21,7 +21,7 @@
                 <!-- Breadcrumb Nav -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb text-uppercase mb-2">
-                        <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                        <li class="breadcrumb-item"><a href="home.php">HOME</a></li>
                         <li class="breadcrumb-item active" aria-current="page">GALLERY</li>
                     </ol>
                 </nav>
@@ -108,11 +108,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
+            <!-- <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
                 <div class="gallery-card">
                     <img src="" alt="Consultation Room">
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-md-5 col-sm-6 gallery-item" data-category="equipment">
                 <div class="gallery-card">
@@ -207,7 +207,7 @@
 
                 <!-- Middle: Dark Green Button -->
                 <div class="col-lg-3 text-lg-center">
-                    <a href="#" class="btn btn-cta-dark d-inline-flex align-items-center gap-2">
+                    <a href="appointment.php" class="btn btn-cta-dark d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar-check"></i> BOOK APPOINTMENT NOW
                     </a>
                 </div>
