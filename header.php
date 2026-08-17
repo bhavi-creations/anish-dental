@@ -58,7 +58,7 @@
         </div>
     </div>
 
-
+<div class="marquee-section">
     <marquee behavior="" direction="" class="top-info-item d-block d-lg-none" >
        
 
@@ -80,25 +80,26 @@
                         <!-- <a href="mailto:info@anishdental.com">info@anishdental.com</a> -->
                     </div>
     </marquee>
-    
+    </div>
     <!-- 2. MAIN NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg main-header-navbar sticky-top">
         <div class="container-fluid px-lg-5">
             
             <!-- Brand Logo & Title -->
             <a class="brand-logo-container" href="index.php">
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center logo-section">
                     <!-- Dental Tooth Logo SVG -->
-                    <svg width="46" height="46" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- <svg width="46" height="46" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M50 15C35 15 25 25 25 40C25 55 35 85 45 85C50 85 50 80 50 80C50 80 50 85 55 85C65 85 75 55 75 40C75 25 65 15 50 15Z" stroke="#00C4CC" stroke-width="4" fill="none"/>
                         <path d="M22 62 Q 50 10 78 62" stroke="#E29B27" stroke-width="5" fill="none"/>
                         <text x="36" y="66" font-family="Arial, sans-serif" font-weight="bold" font-size="38" fill="#E29B27">A</text>
-                    </svg>
+                    </svg> -->
+                    <img src="./assets/img/logo.jpeg" alt="logo" ">
                 </div>
-                <div>
+                <!-- <div>
                     <h1 class="brand-title">ANISH DENTAL</h1>
                     <span class="brand-subtitle">MULTISPECIALITY DENTAL HOSPITAL</span>
-                </div>
+                </div> -->
             </a>
 
             <!-- Mobile Responsive Toggle Button -->

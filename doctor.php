@@ -49,7 +49,7 @@
             <div class="col-lg-7 col-12 treatments_first_section_right_col">
                 
                 <!-- Medical Room Image -->
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1400&auto=format&fit=crop" alt="Dental Treatment Room" class="treatments_first_section_bg_img">
+                <img src="./assets/img/docotr-img.png" alt="Dental Treatment Room" class="treatments_first_section_bg_img">
 
                 <!-- Smooth Wave Curve with Gold Stroke (Desktop View Overlay) -->
                 <svg class="treatments_first_section_curve_svg" viewBox="0 0 130 520" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -294,7 +294,8 @@
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-icon-square">
-                            <i class="bi bi-calendar-event"></i>
+                            <!-- <i class="bi bi-calendar-event"></i> -->
+                                <i class="fa-regular fa-calendar-check "></i>
                         </div>
                         <div>
                             <div class="cta-subtitle-gold">Ready for a Healthier Smile?</div>
@@ -305,7 +306,7 @@
 
                 <!-- Middle: Dark Green Button -->
                 <div class="col-lg-3 text-lg-center">
-                    <a href="#" class="btn btn-cta-dark d-inline-flex align-items-center gap-2">
+                    <a href="appointment.php" class="btn btn-cta-dark d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar-check"></i> BOOK APPOINTMENT NOW
                     </a>
                 </div>

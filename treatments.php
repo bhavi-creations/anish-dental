@@ -45,7 +45,7 @@
             <div class="col-lg-7 col-12 treatments_first_section_right_col">
                 
                 <!-- Medical Room Image -->
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1400&auto=format&fit=crop" alt="Dental Treatment Room" class="treatments_first_section_bg_img">
+                <img src="./assets/img/g1.png" alt="Dental Treatment Room" class="treatments_first_section_bg_img">
 
                 <!-- Smooth Wave Curve with Gold Stroke (Desktop View Overlay) -->
                 <svg class="treatments_first_section_curve_svg" viewBox="0 0 130 520" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -389,7 +389,7 @@
             <div class="treatments_fourth_section_left_col">
                 <div class="treatments_fourth_section_img_container">
                     <!-- Technology Equipment Image -->
-                    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=700&q=80" 
+                    <img src="./assets/img/g6.png" 
                          alt="Advanced Dental Scanner Technology" 
                          class="treatments_fourth_section_img">
 

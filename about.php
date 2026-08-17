@@ -47,7 +47,7 @@
             <div class="col-lg-7">
                 <div class="image-container">
                     <!-- Main Reception/Hospital Image -->
-                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Anish Dental Reception" class="img-fluid rounded-4 w-100 shadow-sm">
+                    <img src="./assets/img/g5.png" alt="Anish Dental Reception" class="img-fluid rounded-4 w-100 shadow-sm">
 
                     <!-- Bottom Right Floating Badge -->
                     <div class="floating-badge d-flex align-items-center gap-3">
@@ -239,14 +239,14 @@
                         <!-- Image Col -->
                         <div class="col-sm-5">
                             <div class="doctor-img-box">
-                                <img src="doctor-male.jpg" alt="Dr. Your Name" class="img-fluid">
+                                <img src="./assets/img/ai-doctor-img.png" alt="Dr. Your Name" class="img-fluid">
                             </div>
                         </div>
                         <!-- Info Col -->
                         <div class="col-sm-7">
-                            <h3 class="doctor-name">Dr. Your Name</h3>
-                            <div class="doctor-degree">BDS, MDS (Specialization)</div>
-                            <div class="doctor-title">Dental Specialist</div>
+                            <h3 class="doctor-name">Dr. Anish Kumar</h3>
+                            <div class="doctor-degree">BDS, MDS (Orthodontics)</div>
+                            <div class="doctor-title">Orthodontist & Smile Specialist</div>
 
                             <ul class="doctor-features">
                                 <li>
@@ -267,9 +267,9 @@
                                 </li>
                             </ul>
 
-                            <a href="#" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
+                            <!-- <a href="#" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
                                 VIEW PROFILE <i class="bi bi-arrow-right"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -282,27 +282,27 @@
                         <!-- Image Col -->
                         <div class="col-sm-5">
                             <div class="doctor-img-box">
-                                <img src="doctor-female.jpg" alt="Dr. Your Name" class="img-fluid">
+                                <img src="./assets/img/ai-doctor.png" alt="Dr. Your Name" class="img-fluid">
                             </div>
                         </div>
                         <!-- Info Col -->
                         <div class="col-sm-7">
-                            <h3 class="doctor-name">Dr. Your Name</h3>
-                            <div class="doctor-degree">BDS, MDS (Specialization)</div>
-                            <div class="doctor-title">Dental Specialist</div>
+                            <h3 class="doctor-name">Dr. Priya Sharma</h3>
+                            <div class="doctor-degree">BDS, MDS (Conservative Dentistry)</div>
+                            <div class="doctor-title">Root Canal & Restorative Specialist</div>
 
                             <ul class="doctor-features">
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>8+ Years Experience</span>
+                                    <span>9+ Years Experience</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Specialist in Braces & Aligners</span>
+                                    <span>Root Canal & Laser Dentistry</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Cosmetic & Aesthetic Dentistry</span>
+                                    <span>Painless & Advanced Treatments</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
@@ -310,9 +310,9 @@
                                 </li>
                             </ul>
 
-                            <a href="#" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
+                            <!-- <a href="#" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
                                 VIEW PROFILE <i class="bi bi-arrow-right"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -347,7 +347,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="facility-card">
                     <div class="facility-img-box">
-                        <img src="facility1.jpg" alt="Advanced Treatment Rooms">
+                        <img src="./assets/img/index-page.png" alt="Advanced Treatment Rooms" class="img-fluid">
                     </div>
                     <h4 class="facility-title">Advanced Treatment Rooms</h4>
                     <p class="facility-desc">Modern, hygienic and fully equipped operatories for your comfort.</p>
@@ -358,7 +358,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="facility-card">
                     <div class="facility-img-box">
-                        <img src="facility2.jpg" alt="Comfortable Waiting Area">
+                        <img src="./assets/img/waiting-hall.png" alt="Comfortable Waiting Area" class="img-fluid">
                     </div>
                     <h4 class="facility-title">Comfortable Waiting Area</h4>
                     <p class="facility-desc">Spacious and relaxing space for a pleasant experience.</p>
@@ -369,7 +369,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="facility-card">
                     <div class="facility-img-box">
-                        <img src="facility3.jpg" alt="Sterilization & Safety">
+                        <img src="./assets/img/g8.png" alt="Sterilization & Safety" class="img-fluid">
                     </div>
                     <h4 class="facility-title">Sterilization & Safety</h4>
                     <p class="facility-desc">Strict sterilization protocols for maximum safety and hygiene.</p>
@@ -380,7 +380,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="facility-card">
                     <div class="facility-img-box">
-                        <img src="facility4.jpg" alt="Welcoming Environment">
+                        <img src="./assets/img/g4.png" alt="Welcoming Environment" class="img-fluid">
                     </div>
                     <h4 class="facility-title">Welcoming Environment</h4>
                     <p class="facility-desc">A friendly team and soothing ambience to make you feel at home.</p>
@@ -397,7 +397,7 @@
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-icon-box">
-                            <i class="bi bi-calendar-check"></i>
+                              <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
                         </div>
                         <div>
                             <div class="cta-subtitle">READY FOR A HEALTHIER SMILE?</div>

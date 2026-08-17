@@ -6,7 +6,7 @@
         <div class="row g-0 align-items-center">
             
             <!-- Left Column (Content & Buttons) -->
-            <div class="col-lg-6 col-12 index_first_section_content_col">
+            <div class="col-md-6 col-12 index_first_section_content_col">
                 
                 <!-- Sub-tagline -->
                 <div class="index_first_section_tagline">
@@ -70,14 +70,14 @@
             </div>
 
             <!-- Right Column (Hero Image with Curved Gold Border) -->
-            <div class="col-lg-6 col-12 index_first_section_image_col">
+            <div class="col-md-6 col-12 index_first_section_image_col">
                 <div class="index_first_section_image_wrapper">
                     
                     <!-- SVG Curve Overlay with Gold Border -->
                     <svg class="index_first_section_curved_divider" viewBox="0 0 100 800" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Background Fill White Curve -->
+                        
                         <path d="M0 0 C60 200, 60 600, 0 800 L0 0 Z" fill="#ffffff"/>
-                        <!-- Gold Border Line Matching Reference Image -->
+                       
                         <path d="M0 0 C60 200, 60 600, 0 800" stroke="#e29b27" stroke-width="4" fill="none"/>
                     </svg>
 
@@ -247,7 +247,7 @@
                         
                         <!-- Doctor Image -->
                         <div class="col-sm-5 col-12 index_third_section_img_box">
-                            <img src="https://images.unsplash.com/photo-1594824813566-78a9c37269e8?q=80&w=600&auto=format&fit=crop" alt="Dr. Anish Kumar" class="index_third_section_img">
+                            <img src="./assets/img/ai-doctor-img.png" alt="Dr. Anish Kumar" class="index_third_section_img">
                         </div>
 
                         <!-- Doctor Info -->
@@ -289,7 +289,7 @@
                         
                         <!-- Doctor Image -->
                         <div class="col-sm-5 col-12 index_third_section_img_box">
-                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=600&auto=format&fit=crop" alt="Dr. Priya Sharma" class="index_third_section_img">
+                            <img src="./assets/img/ai-doctor.png" alt="Dr. Priya Sharma" class="index_third_section_img">
                         </div>
 
                         <!-- Doctor Info -->
@@ -382,20 +382,20 @@
                     <!-- Top Main Image -->
                     <div class="row mb-3 g-3">
                         <div class="col-12">
-                            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Dental Treatment Room" class="index_fourth_section_img_top">
+                            <img src="./assets/img/g3.png" alt="Dental Treatment Room" class="index_fourth_section_img_top">
                         </div>
                     </div>
 
                     <!-- Bottom 3 Grid Images -->
                     <div class="row g-3">
                         <div class="col-4">
-                            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=600&auto=format&fit=crop" alt="Waiting Area" class="index_fourth_section_img_bottom">
+                            <img src="./assets/img/root-canal (1).png" alt="Waiting Area" class="index_fourth_section_img_bottom" style="width: 700px; height: auto;">
                         </div>
                         <div class="col-4">
-                            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=600&auto=format&fit=crop" alt="Reception Desk" class="index_fourth_section_img_bottom">
+                            <img src="./assets/img/dental-implants.png" alt="Reception Desk" class="index_fourth_section_img_bottom">
                         </div>
                         <div class="col-4">
-                            <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=600&auto=format&fit=crop" alt="Consultation Room" class="index_fourth_section_img_bottom">
+                            <img src="./assets/img/orthodontic-braces.png" alt="Consultation Room" class="index_fourth_section_img_bottom">
                         </div>
                     </div>
 

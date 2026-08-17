@@ -85,57 +85,63 @@
             <!-- Row 1 -->
             <div class="col-md-5 col-sm-6 gallery-item" data-category="clinic">
                 <div class="gallery-card">
-                    <img src="" alt="Clinic Reception">
+                    <img src="./assets/img/g4.png" alt="Clinic Reception">
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
                 <div class="gallery-card">
-                    <img src="treatment-room-1.jpg" alt="Treatment Room">
+                    <img src="./assets/img/g6.png" alt="Treatment Room" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 gallery-item" data-category="clinic">
                 <div class="gallery-card">
-                    <img src=".\assets\img\Root-canal-bg.png" alt="Waiting Area">
+                    <img src="./assets/img/waiting-hall.png" alt="Waiting Area">
                 </div>
             </div>
 
             <!-- Row 2 -->
             <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
                 <div class="gallery-card">
-                    <img src="dental-chair-1.jpg" alt="Dental Chair Setup">
+                    <img src="./assets/img/g10.png" alt="Dental Chair Setup" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
                 <div class="gallery-card">
-                    <img src="consultation-room.jpg" alt="Consultation Room">
+                    <img src="" alt="Consultation Room">
                 </div>
             </div>
 
             <div class="col-md-5 col-sm-6 gallery-item" data-category="equipment">
                 <div class="gallery-card">
-                    <img src="dental-tools.jpg" alt="Advanced Equipment">
+                    <img src="./assets/img/g3.png" alt="Advanced Equipment" class="img-fluid">
                 </div>
             </div>
 
             <!-- Row 3 -->
-            <div class="col-md-4 col-sm-6 gallery-item" data-category="sterilization">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="sterilization">
                 <div class="gallery-card">
-                    <img src="autoclave-machine.jpg" alt="Sterilization Unit">
+                    <img src="./assets/img/g7.png" alt="Sterilization Unit">
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 gallery-item" data-category="equipment">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="equipment">
                 <div class="gallery-card">
-                    <img src="ct-scan-machine.jpg" alt="3D Dental CT Scanner">
+                    <img src="./assets/img/g2.png" alt="3D Dental CT Scanner">
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 gallery-item" data-category="sterilization">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="sterilization">
                 <div class="gallery-card">
-                    <img src="lab-sterilization.jpg" alt="Lab Sterilization">
+                    <img src="./assets/img/g8.png" alt="Lab Sterilization">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="sterilization">
+                <div class="gallery-card">
+                    <img src="./assets/img/g9.png" alt="Lab Sterilization">
                 </div>
             </div>
 
