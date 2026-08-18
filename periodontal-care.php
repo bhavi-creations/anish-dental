@@ -411,13 +411,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=Gum+Before" alt="Before Periodontal Care Treatment">
+                                <img src="./assets/img/Before-periodontal.png" alt="Before Periodontal Care Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=Gum+After" alt="After Periodontal Care Treatment">
+                                <img src="./assets/img/after-periodontal.png" alt="After Periodontal Care Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
