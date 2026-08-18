@@ -286,7 +286,7 @@
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M9.5 7.5c1.5 1 3.5 1 5 0" stroke-dasharray="2 1"></path>
                         </svg> -->
-                        <img src="./assets/img/icons/.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/digital-imaging.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Digital Impressions</h3>
@@ -310,7 +310,7 @@
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M12 2v8M11 5h2M11 8h2"></path>
                         </svg> -->
-                        <img src="./assets/img/icons/.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/Denture-custom-fit.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Custom Design</h3>
@@ -334,7 +334,7 @@
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 9c1 1 3 1 4 0"></path>
                         </svg> -->
-
+                        <img src="./assets/img/icons/dentures-step-4.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Trial Fitting</h3>
@@ -358,7 +358,7 @@
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 11l2 2 2-2"></path>
                         </svg> -->
-
+                        <img src="./assets/img/icons/dentures-step-5.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Final Placement</h3>
@@ -378,14 +378,15 @@
                     <span class="rootcanal_fourth_section_badge">6</span>
                     <div class="rootcanal_fourth_section_icon">
                         <!-- Fitting & Adjustment / Crown SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/cosmetic-teeth.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Fitting & Adjustment</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Smile Confidently</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    Your final dentures are fitted and adjusted to provide comfortable chewing, speaking, and everyday use.
+                  Enjoy a comfortable fit, improved function, and a natural-looking smile with confidence.  
                 </p>
             </div>
 
