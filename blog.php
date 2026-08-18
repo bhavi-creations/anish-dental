@@ -325,7 +325,8 @@
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-icon-box">
-                            <i class="bi bi-calendar-check"></i>
+                            <!-- <i class="bi bi-calendar-check"></i> -->
+                             <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
                         </div>
                         <div>
                             <div class="cta-subtitle">READY FOR A HEALTHIER SMILE?</div>

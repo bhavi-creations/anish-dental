@@ -74,9 +74,9 @@
                     </svg>
 
                     <!-- Tooth Illustration Image -->
-                    <!-- <img src="./assets/img/pediatric.png"  
+                     <img src="./assets/img/Periodontal-care-bg.png"  
                          alt="Periodontal Care Treatment Procedure - Tooth Illustration" 
-                         class="rootcanal_first_section_img"> -->
+                         class="rootcanal_first_section_img"> 
                 </div>
             </div>
 

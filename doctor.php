@@ -251,7 +251,8 @@
                         <!-- Virtue 1 -->
                         <div class="col-3 virtue-item">
                             <div class="virtue-icon-ring">
-                                <i class="bi bi-shield-check"></i>
+                                <!-- <i class="bi bi-shield-check"></i> -->
+                                 <img src="./assets/img/trust.png" alt="" style="width: 45px; height: 45px;">
                             </div>
                             <p class="virtue-label">Trust</p>
                         </div>
@@ -259,7 +260,8 @@
                         <!-- Virtue 2 -->
                         <div class="col-3 virtue-item">
                             <div class="virtue-icon-ring">
-                                <i class="bi bi-heart"></i>
+                                <!-- <i class="bi bi-heart"></i> -->
+                                 <img src="./assets/img/care.png" alt="" style="width: 40px; height: 40px;">
                             </div>
                             <p class="virtue-label">Care</p>
                         </div>
@@ -267,7 +269,8 @@
                         <!-- Virtue 3 -->
                         <div class="col-3 virtue-item">
                             <div class="virtue-icon-ring">
-                                <i class="bi bi-award"></i>
+                                <!-- <i class="bi bi-award"></i> -->
+                                 <img src="./assets/img/Excellence-1.png" alt="" style="width: 40px; height: 40px;">
                             </div>
                             <p class="virtue-label">Excellence</p>
                         </div>
@@ -275,7 +278,8 @@
                         <!-- Virtue 4 -->
                         <div class="col-3 virtue-item">
                             <div class="virtue-icon-ring">
-                                <i class="bi bi-check-lg"></i>
+                                <!-- <i class="bi bi-check-lg"></i> -->
+                                 <img src="./assets/img/Result-smile.png" alt="" style="width: 40px; height: 40px;">
                             </div>
                             <p class="virtue-label">Results</p>
                         </div>

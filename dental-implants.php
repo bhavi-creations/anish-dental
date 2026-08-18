@@ -258,7 +258,8 @@
     <div class="rootcanal_fourth_section_circle_wrap">
         <span class="rootcanal_fourth_section_badge">1</span>
         <div class="rootcanal_fourth_section_icon">
-            <img src="assets/img/icons/consultation.png" alt="Consultation & Evaluation" class="rootcanal_step_icon_img" style="height:40px; width:40px">
+            <!-- <img src="assets/img/icons/dental-examination.png" alt="Consultation & Evaluation" class="rootcanal_step_icon_img" style="height:40px; width:40px"> -->
+             <img src="./assets/img/icons/dental-examination.png" alt="" style="width: 50px; height: 50px;">
         </div>
     </div>
     <h3 class="rootcanal_fourth_section_step_title">Consultation & Evaluation</h3>
@@ -277,7 +278,7 @@
     <div class="rootcanal_fourth_section_circle_wrap">
         <span class="rootcanal_fourth_section_badge">2</span>
         <div class="rootcanal_fourth_section_icon">
-            <img src="assets/images/icons/implant-placement.png" alt="Implant Placement" class="rootcanal_step_icon_img">
+            <img src="./assets/img/icons/implant-step-3.png" alt="" style="width: 50px; height: 50px;">
         </div>
     </div>
     <h3 class="rootcanal_fourth_section_step_title">Implant Placement</h3>
@@ -296,7 +297,7 @@
     <div class="rootcanal_fourth_section_circle_wrap">
         <span class="rootcanal_fourth_section_badge">3</span>
         <div class="rootcanal_fourth_section_icon">
-            <img src="assets/images/icons/healing.png" alt="Healing & Osseointegration" class="rootcanal_step_icon_img">
+            <img src="./assets/img/icons/implant-step-4.png" alt="" style="width: 50px; height: 50px;">
         </div>
     </div>
     <h3 class="rootcanal_fourth_section_step_title">Healing & Osseointegration</h3>
@@ -315,7 +316,7 @@
     <div class="rootcanal_fourth_section_circle_wrap">
         <span class="rootcanal_fourth_section_badge">4</span>
         <div class="rootcanal_fourth_section_icon">
-            <img src="assets/images/icons/abutment.png" alt="Abutment Placement" class="rootcanal_step_icon_img">
+            <img src="./assets/img/icons/implant-step-5.png" alt="" style="width: 50px; height: 50px;">
         </div>
     </div>
     <h3 class="rootcanal_fourth_section_step_title">Abutment Placement</h3>
@@ -334,7 +335,7 @@
     <div class="rootcanal_fourth_section_circle_wrap">
         <span class="rootcanal_fourth_section_badge">5</span>
         <div class="rootcanal_fourth_section_icon">
-            <img src="assets/images/icons/crown-placement.png" alt="Crown Placement" class="rootcanal_step_icon_img">
+            <img src="./assets/img/icons/implant-step-6.png" alt="" style="width: 50px; height: 50px;">
         </div>
     </div>
     <h3 class="rootcanal_fourth_section_step_title">Crown Placement</h3>

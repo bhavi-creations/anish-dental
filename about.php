@@ -102,7 +102,8 @@
                     <!-- Value 1: Patient First -->
                     <div class="col-6 col-md-3 border-end">
                         <div class="value-icon-box">
-                            <i class="bi bi-people"></i>
+                            <!-- <i class="bi bi-people"></i> -->
+                            <img src="./assets/img/patients.png" alt="" style="width: 50px; height: 50px;"> 
                         </div>
                         <h5 class="value-title">Patient First</h5>
                         <p class="value-desc">We put your comfort and well-being above everything.</p>
@@ -111,7 +112,8 @@
                     <!-- Value 2: Excellence -->
                     <div class="col-6 col-md-3 border-end">
                         <div class="value-icon-box">
-                            <i class="bi bi-shield-check"></i>
+                            <!-- <i class="bi bi-shield-check"></i> -->
+                             <img src="./assets/img/Excellence.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h5 class="value-title">Excellence</h5>
                         <p class="value-desc">We use advanced technology and follow best practices.</p>
@@ -120,7 +122,8 @@
                     <!-- Value 3: Integrity -->
                     <div class="col-6 col-md-3 border-end">
                         <div class="value-icon-box">
-                            <i class="bi bi-hand-thumbs-up"></i>
+                            <!-- <i class="bi bi-hand-thumbs-up"></i> -->
+                             <img src="./assets/img/Integrity.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h5 class="value-title">Integrity</h5>
                         <p class="value-desc">We believe in honest communication and ethical treatment.</p>
@@ -130,7 +133,8 @@
                     <div class="col-6 col-md-3">
                         <div class="value-icon-box">
                             <!-- Custom Tooth/Heart Icon equivalent -->
-                            <i class="bi bi-heart-pulse"></i>
+                            <!-- <i class="bi bi-heart-pulse"></i> -->
+                             <img src="./assets/img/patient-care.png" alt="" style="width: 50px; height: 50px;"> 
                         </div>
                         <h5 class="value-title">Compassion</h5>
                         <p class="value-desc">We treat every patient with care, respect and empathy.</p>

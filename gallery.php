@@ -196,7 +196,8 @@
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-icon-square">
-                            <i class="bi bi-calendar-event"></i>
+                            <!-- <i class="bi bi-calendar-event"></i> -->
+                              <i class="fa-regular fa-calendar-check "></i>
                         </div>
                         <div>
                             <div class="cta-subtitle-gold">Ready for a Healthier Smile?</div>
