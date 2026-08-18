@@ -6,14 +6,15 @@
             <!-- 1. Brand & Description -->
             <div class="col-lg-3 col-xl-3 col-md-6 col-12 footer-col-spacing footer-border-right pe-lg-4">
                 <a href="index.php" class="d-flex align-items-center mb-3 text-decoration-none">
-                    <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M50 15C35 15 25 25 25 40C25 55 35 85 45 85C50 85 50 80 50 80C50 80 50 85 55 85C65 85 75 55 75 40C75 25 65 15 50 15Z" stroke="#00C4CC" stroke-width="4" fill="none" />
                         <path d="M22 62 Q 50 10 78 62" stroke="#E29B27" stroke-width="5" fill="none" />
                         <text x="36" y="66" font-family="Arial, sans-serif" font-weight="bold" font-size="38" fill="#E29B27">A</text>
-                    </svg>
-                    <div class="ms-2">
-                        <span class="d-block text-white fw-bold fs-5 lh-1">ANISH DENTAL</span>
-                        <span class="d-block text-white-50 fw-semibold" style="font-size: 8.5px; letter-spacing: 0.5px;">MULTISPECIALITY DENTAL HOSPITAL</span>
+                    </svg> -->
+                    <div class="ms-2 logo-section">
+                        <!-- <span class="d-block text-white fw-bold fs-5 lh-1">ANISH DENTAL</span>
+                        <span class="d-block text-white-50 fw-semibold" style="font-size: 8.5px; letter-spacing: 0.5px;">MULTISPECIALITY DENTAL HOSPITAL</span> -->
+                          <img src="./assets/img/logo.jpeg" alt="logo" >
                     </div>
                 </a>
                 <p style="color: #d1e0dc; font-size: 13px;">
