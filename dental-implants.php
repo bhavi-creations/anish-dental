@@ -371,13 +371,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=X-Ray+Before" alt="Before Dental Implants Treatment">
+                                <img src="./assets/img/Dental-implants-before.png" alt="Before Dental Implants Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=X-Ray+After" alt="After Dental Implants Treatment">
+                                <img src="./assets/img/After-implants.png" alt="After Dental Implants Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
