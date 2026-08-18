@@ -411,13 +411,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/e2e8f0/475569?text=Before+Surgery" alt="Before Oral Surgery Treatment">
+                                <img src="./assets/img/Before-oral-surgery.png" alt="Before Oral Surgery Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="https://placehold.co/300x300/cbd5e1/334155?text=After+Surgery" alt="After Oral Surgery Treatment">
+                                <img src="./assets/img/After-oral-surgery.png" alt="After Oral Surgery Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
