@@ -5,32 +5,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 
-if (!empty($_POST['website'])) {
-    die("Bot detected.");
-}
-
-
-
-if ((time() - $_SESSION['form_time']) < 5) {
-    die("Bot detected.");
-}
-
-
-
-$secretKey = "6Ldws0ktAAAAAD7pIKreribWZJeii1BzFMfk1sr8";
-
-$response = $_POST['g-recaptcha-response'] ?? '';
-
-$verify = file_get_contents(
-    "https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $response
-);
-
-$responseData = json_decode($verify);
-
-if (empty($response) || !$responseData->success) {
-    die("Please complete the 'I'm not a robot' verification.");
-}
-
 
 
 
