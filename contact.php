@@ -10,7 +10,7 @@
             <!-- Left Column: Text & Buttons -->
             <div class="col-lg-5 col-md-12">
                 <div class="contactus_first_section_content">
-                    
+
                     <!-- Subtag -->
                     <span class="contactus_first_section_tag">CONTACT US</span>
 
@@ -28,7 +28,7 @@
 
                     <!-- Description -->
                     <p class="contactus_first_section_desc">
-                        Have a question or need to book an appointment?<br class="d-none d-md-inline"> 
+                        Have a question or need to book an appointment?<br class="d-none d-md-inline">
                         Our team is ready to assist you.
                     </p>
 
@@ -55,7 +55,7 @@
                 <div class="contactus_first_section_img_container">
                     <!-- Image Placeholder matching Anish Dental Clinic Reception -->
                     <img src="./assets/img/contact-us.png" alt="Anish Dental Multispeciality Dental Hospital Reception">
-                    
+
                     <!-- Left Soft Blending Gradient -->
                     <div class="contactus_first_section_img_overlay"></div>
                 </div>
@@ -87,12 +87,12 @@
                     <div class="contact-info-item">
                         <div class="info-icon-box">
                             <!-- <i class="bi bi-geo-alt-fill"></i> -->
-                             <!-- <i class="bi bi-geo-alt"></i> -->
-                              <img src="./assets/img/location.png" alt="" class="img-fluid" style="width: 30px;">
+                            <!-- <i class="bi bi-geo-alt"></i> -->
+                            <img src="./assets/img/location.png" alt="" class="img-fluid" style="width: 30px;">
                         </div>
                         <div class="info-content">
                             <h6>Our Location</h6>
-                            <p>Kothapet, Guntur,<br>Andhra Pradesh - 522001</p>
+                            <p>1st floor, Kokila junction, RTC Complex Rd, above Vantillu, beside carewell hospital, G O Colony, Kakinada, Andhra Pradesh 533003</p>
                         </div>
                     </div>
 
@@ -100,11 +100,11 @@
                     <div class="contact-info-item">
                         <div class="info-icon-box">
                             <!-- <i class="bi bi-telephone-fill"></i> -->
-                             <img src="./assets/img//call.png" alt="" class="img-fluid" style="width: 30px;">
-                    </div>
+                            <img src="./assets/img//call.png" alt="" class="img-fluid" style="width: 30px;">
+                        </div>
                         <div class="info-content">
                             <h6>Call Us</h6>
-                            <p>+91 81234 56789<br>+91 86391 23456</p>
+                            <p>+91 73962 56474</p>
                         </div>
                     </div>
 
@@ -112,8 +112,8 @@
                     <div class="contact-info-item">
                         <div class="info-icon-box">
                             <!-- <i class="bi bi-envelope-fill"></i> -->
-                             <img src="./assets/img/email.png" alt="" class="img-fluid" style="width: 30px;">
-                        
+                            <img src="./assets/img/email.png" alt="" class="img-fluid" style="width: 30px;">
+
                         </div>
                         <div class="info-content">
                             <h6>Email Us</h6>
@@ -125,12 +125,12 @@
                     <div class="contact-info-item">
                         <div class="info-icon-box">
                             <!-- <i class="bi bi-clock-fill"></i> -->
-                             <img src="./assets/img/working-hours.png" alt="" class="img-fluid" style="width: 30px;">
-                        
+                            <img src="./assets/img/working-hours.png" alt="" class="img-fluid" style="width: 30px;">
+
                         </div>
                         <div class="info-content">
                             <h6>Working Hours</h6>
-                            <p>Mon - Sat: 9:30 AM - 8:00 PM<br>Sunday: By Appointment</p>
+                            <p>Mon - Sat: 9:00 AM - 9:00 PM<br>Sunday: 10:00 AM - 12:00 PM</p>
                         </div>
                     </div>
 
@@ -138,12 +138,12 @@
                     <div class="contact-info-item mb-0">
                         <div class="info-icon-box">
                             <!-- <i class="bi bi-whatsapp"></i> -->
-                        
-                        <img src="./assets/img/whatsapp.png" alt="" class="img-fluid" style="width: 30px;">
+
+                            <img src="./assets/img/whatsapp.png" alt="" class="img-fluid" style="width: 30px;">
                         </div>
                         <div class="info-content">
                             <h6>WhatsApp</h6>
-                            <p>+91 81234 56789</p>
+                            <p>+91 73962 56474</p>
                         </div>
                     </div>
 
@@ -214,24 +214,20 @@
 <section class="appointment-third-section">
     <div class="container">
         <div class="row g-4 align-items-stretch">
-            
+
             <!-- Left: Embedded Map with Floating Info Card -->
             <div class="col-lg-7">
                 <div class="map-wrapper">
                     <!-- Overlay Info Card -->
                     <div class="map-info-overlay">
                         <h6>Anish Dental Multispeciality Hospital</h6>
-                        <p>Kothapet, Guntur,<br>Andhra Pradesh - 522001</p>
+                        <p>kakinada,<br>Andhra Pradesh - 533002</p>
                         <a href="https://maps.google.com" target="_blank">
                             Directions <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <!-- Google Map Iframe -->
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.247854611295!2d80.4350!3d16.3067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTYgw4AxOCcxMi4xIk4gODDCsDI2JzA2LjAiRQ!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1787042391206!5m2!1sen!2sin!6m8!1m7!1sS1zXLNRWu2tE61zl8S-UEg!2m2!1d16.96992081050521!2d82.2399223912115!3f85.84011605840708!4f10.381744482674364!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
 
@@ -239,16 +235,16 @@
             <div class="col-lg-5">
                 <div class="reach-info-card">
                     <h3>Easy to Reach,<br>Easy to Smile!</h3>
-                    
+
                     <div class="gold-divider">
                         <div class="line"></div>
                         <div class="diamond"></div>
                         <div class="line"></div>
                     </div>
 
-                    <div class="car-icon-circle">
+                    <!-- <div class="car-icon-circle">
                         <i class="bi bi-car-front"></i>
-                    </div>
+                    </div> -->
 
                     <p class="reach-description">
                         Conveniently located in the heart of Kothapet, Guntur with ample parking and a comfortable environment.
@@ -259,21 +255,21 @@
                         <div class="facility-item">
                             <div class="facility-icon">
                                 <!-- <i class="bi bi-p-square"></i> -->
-                                 <img src="./assets/img/parking-area.png" alt="" style="width: 25px;">
+                                <img src="./assets/img/parking-area.png" alt="" style="width: 25px;">
                             </div>
                             <span>Ample Parking</span>
                         </div>
                         <div class="facility-item">
                             <div class="facility-icon">
                                 <!-- <i class="bi bi-person-wheelchair"></i> -->
-                                   <img src="./assets/img/disabled.png" alt="" style="width: 30px;">
+                                <img src="./assets/img/disabled.png" alt="" style="width: 30px;">
                             </div>
                             <span>Wheelchair Accessible</span>
                         </div>
                         <div class="facility-item">
                             <div class="facility-icon">
                                 <!-- <i class="bi bi-shield-check"></i> -->
-                                   <img src="./assets/img/protection.png" alt="" style="width: 30px;">
+                                <img src="./assets/img/protection.png" alt="" style="width: 30px;">
                             </div>
                             <span>Hygienic &amp; Comfortable</span>
                         </div>
@@ -294,13 +290,13 @@
     <div class="container">
         <div class="cta-banner-card">
             <div class="row align-items-center g-3">
-                
+
                 <!-- Left Details -->
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-calendar-box">
                             <!-- <i class="bi bi-calendar-check"></i> -->
-                               <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
+                            <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
                         </div>
                         <div>
                             <span class="cta-subheading">Ready for a Healthier Smile?</span>
@@ -313,7 +309,7 @@
                 <!-- Right Buttons & Call Info -->
                 <div class="col-lg-6">
                     <div class="d-flex flex-wrap align-items-center justify-content-lg-end gap-3">
-                        
+
                         <a href="appointment.php" class="btn btn-book-cta">
                             <i class="bi bi-calendar3"></i> BOOK APPOINTMENT
                         </a>

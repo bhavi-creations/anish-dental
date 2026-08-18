@@ -474,12 +474,12 @@
                                         <i class="fa-solid fa-star"></i>
                                     </div>
                                     <p class="index_fifth_section_text">
-                                        Excellent treatment and friendly staff. The clinic is very clean and well maintained. <strong>Highly recommended!</strong>
+                                        Doctor Anish garu explained very nicely regarding my condition and made me comfortable. Excellence dental care treatment in Kakinada. I strongly recommend my friends to this dental clinic . Tq u for support and treatment sir</strong>
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
                                     <!-- <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" alt="Ravi Kumar" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash; Ravi Kumar</span>
+                                    <span class="index_fifth_section_username">&ndash; Mr.Bijjala</span>
                                 </div>
                             </div>
                         </div>
@@ -496,12 +496,15 @@
                                         <i class="fa-solid fa-star"></i>
                                     </div>
                                     <p class="index_fifth_section_text">
-                                        I had a great experience with my root canal treatment. Completely painless and done with great care.
+                                        The best treatment I have ever seen painless and very pleasant atmosphere, great treatment
+Thank you DR Anish garu
+I highly recommend this hop ❤️
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
                                     <!-- <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" alt="Sushma Reddy" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash; Sushma Reddy</span>
+                                    <span class="index_fifth_section_username">&ndash; 
+royal rajesh</span>
                                 </div>
                             </div>
                         </div>
@@ -518,12 +521,13 @@
                                         <i class="fa-solid fa-star"></i>
                                     </div>
                                     <p class="index_fifth_section_text">
-                                        Best place for dental care in Guntur. Very professional doctors and modern facilities.
+                                        I have got cleaned my teeth with very clean and smooth way dr anish garu have taken very smooth care without any pain done treatment
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
                                     <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Karthik Varma" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash; Karthik Varma</span>
+                                    <span class="index_fifth_section_username">&ndash; 
+Anand Travels</span>
                                 </div>
                             </div>
                         </div>

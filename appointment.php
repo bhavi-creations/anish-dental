@@ -89,7 +89,7 @@
                          </div>
                          <div class="info-content">
                              <h6>Our Location</h6>
-                             <p>Kothapet, Guntur,<br>Andhra Pradesh - 522001</p>
+                             <p>1st floor, Kokila junction, RTC Complex Rd, above Vantillu, beside carewell hospital, G O Colony, Kakinada, Andhra Pradesh 533003</p>
                          </div>
                      </div>
 
@@ -101,7 +101,7 @@
                          </div>
                          <div class="info-content">
                              <h6>Call Us</h6>
-                             <p>+91 81234 56789<br>+91 86391 23456</p>
+                             <p>+91 73962 56474</p>
                          </div>
                      </div>
 
@@ -113,7 +113,7 @@
                          </div>
                          <div class="info-content">
                              <h6>WhatsApp Us</h6>
-                             <p>+91 81234 56789</p>
+                             <p>+91 73962 56474</p>
                          </div>
                      </div>
 
@@ -137,7 +137,7 @@
                          </div>
                          <div class="info-content">
                              <h6>Working Hours</h6>
-                             <p>Mon - Sat: 9:30 AM - 8:00 PM<br>Sunday: By Appointment</p>
+                             <p>Mon - Sat: 9:00 AM - 9:00 PM<br>Sunday: 10:00 AM - 12:00 PM</p>
                          </div>
                      </div>
 
