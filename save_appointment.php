@@ -22,7 +22,7 @@ $secretKey = "6Ldws0ktAAAAAD7pIKreribWZJeii1BzFMfk1sr8";
 $response = $_POST['g-recaptcha-response'] ?? '';
 
 $verify = file_get_contents(
-    "https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$response
+    "https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $response
 );
 
 $responseData = json_decode($verify);
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "05:00 PM - 06:00 PM",
             "06:00 PM - 07:00 PM",
             "07:00 PM - 08:30 PM",
-            
+
         ];
 
         if (
@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ($type == 'afternoon' && in_array($slot, $afternoonSlots))
         ) {
             echo "<script>
-                alert('".$row['reason']."');
+                alert('" . $row['reason'] . "');
                 window.location='index.php';
             </script>";
             exit;
@@ -143,21 +143,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->isSMTP();
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
-        $mailDoctor->Username   = 'appledentalclinic2025@gmail.com';
-        $mailDoctor->Password   = 'ixdpuydufjsfxaxb';
+        $mailDoctor->Username   = 'manimalladi05@gmail.com';
+        $mailDoctor->Password   = 'rcaueajfwhczcrhm';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
 
-        // $mailDoctor->Username   = 'appledentalclinic2025@gmail.com';
-        // $mailDoctor->Password   = 'ixdpuydufjsfxaxb';
+        // $mailDoctor->Username   = 'manimalladi05@gmail.com';
+        // $mailDoctor->Password   = 'rcaueajfwhczcrhm';
 
         $mailDoctor->setFrom(
-            'appledentalclinic2025@gmail.com',
+            'manimalladi05@gmail.com',
             'Clinic Appointment System'
         );
 
-        $mailDoctor->addAddress('appledentalclinic2025@gmail.com');
+        $mailDoctor->addAddress('manimalladi05@gmail.com');
 
         $mailDoctor->isHTML(true);
         $mailDoctor->Subject = 'New Appointment Booked';
@@ -173,7 +173,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ";
 
         $mailDoctor->send();
-
     } catch (Exception $e) {
         echo 'Doctor Mail Error: ' . $mailDoctor->ErrorInfo;
         exit;
@@ -188,13 +187,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->isSMTP();
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
-        $mailPatient->Username   = 'appledentalclinic2025@gmail.com';
-        $mailPatient->Password   = 'ixdpuydufjsfxaxb';
+        $mailPatient->Username   = 'manimalladi05@gmail.com';
+        $mailPatient->Password   = 'rcaueajfwhczcrhm';
         $mailPatient->SMTPSecure = 'tls';
         $mailPatient->Port       = 587;
 
         $mailPatient->setFrom(
-            'appledentalclinic2025@gmail.com',
+            'manimalladi05@gmail.com',
             'Apple Dental Specialities'
         );
 
@@ -225,9 +224,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            
             window.location='thankyou.php';
         </script>";
-
     } catch (Exception $e) {
         echo 'Patient Mail Error: ' . $mailPatient->ErrorInfo;
     }
 }
-?>
