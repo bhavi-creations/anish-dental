@@ -183,20 +183,20 @@
 
 
 
-<section class="doctor-third-section">
+<!-- <section class="doctor-third-section">
     <div class="container">
 
       
 
-        <!-- Bottom Banner: Call To Action -->
+        Bottom Banner: Call To Action
         <div class="cta-banner-light">
             <div class="row g-4 align-items-center justify-content-between">
 
-                <!-- Left: Calendar Icon + Title -->
+                Left: Calendar Icon + Title
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-icon-square">
-                            <!-- <i class="bi bi-calendar-event"></i> -->
+                            <i class="bi bi-calendar-event"></i>
                               <i class="fa-regular fa-calendar-check "></i>
                         </div>
                         <div>
@@ -206,14 +206,14 @@
                     </div>
                 </div>
 
-                <!-- Middle: Dark Green Button -->
+                Middle: Dark Green Button
                 <div class="col-lg-3 text-lg-center">
                     <a href="appointment.php" class="btn btn-cta-dark d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar-check"></i> BOOK APPOINTMENT NOW
                     </a>
                 </div>
 
-                <!-- Right: Phone Box -->
+                Right: Phone Box
                 <div class="col-lg-4 text-lg-end">
                     <div class="phone-box-card d-inline-flex align-items-center gap-3">
                         <i class="bi bi-telephone phone-icon-dark"></i>
@@ -227,6 +227,49 @@
             </div>
         </div>
 
+    </div>
+</section> -->
+
+<section class="about-fourth-section">
+    <div class="container">
+       <!-- Bottom Call To Action Banner -->
+        <div class="cta-banner">
+            <div class="row g-4 align-items-center justify-content-between">
+                
+                <!-- Left: Icon + Text -->
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="cta-icon-box">
+                              <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
+                        </div>
+                        <div>
+                            <div class="cta-subtitle">READY FOR A HEALTHIER SMILE?</div>
+                            <h3 class="cta-title">Book Your Appointment Today!</h3>
+                            <p class="cta-desc">We're here to help you smile brighter every day.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle: Appointment Button -->
+                <div class="col-lg-3 text-lg-center">
+                    <a href="appointment.php" class="btn btn-cta-appointment d-inline-flex align-items-center gap-2">
+                        <i class="bi bi-calendar-plus"></i> BOOK APPOINTMENT NOW
+                    </a>
+                </div>
+
+                <!-- Right: Phone Number -->
+                <div class="col-lg-3 text-lg-end">
+                    <div class="d-flex align-items-center justify-content-lg-end gap-3">
+                        <i class="bi bi-telephone-outbound phone-icon"></i>
+                        <div class="text-start">
+                            <div class="phone-number">+91 81234 56789</div>
+                            <div class="phone-label">Call Us Anytime</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>
 
