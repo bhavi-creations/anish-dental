@@ -416,13 +416,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-dentures.png" alt="Before Orthodontic Braces Treatment">
+                                <img src="./assets/img/Before-braces.png" alt="Before Orthodontic Braces Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/after-dentures.png" alt="After Orthodontic Braces Treatment">
+                                <img src="./assets/img/After-braces.png" alt="After Orthodontic Braces Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
