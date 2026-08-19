@@ -74,9 +74,9 @@
                     </svg>
 
                     <!-- Tooth Illustration Image -->
-                     <img src=".\assets\img\Denture-prosthetics-bg.png" 
+                     <img src=".\assets\img\dental-bridges.png" 
                          alt="Dental Bridge" 
-                         class="rootcanal_first_section_img"> 
+                         class="rootcanal_first_section_img">
                 </div>
             </div>
 

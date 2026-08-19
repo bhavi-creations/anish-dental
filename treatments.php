@@ -146,7 +146,7 @@
                         </div>
                         <h3 class="treatments_secound_section_card_title">Aligners</h3>
                         <p class="treatments_secound_section_card_desc">
-                            Straighten your teeth for a confident smile.
+                            Clear aligners gently straighten misaligned teeth.
                         </p>
                     </div>
                     <a href="aligners.php" class="treatments_secound_section_link">
@@ -165,7 +165,7 @@
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Veneers</h3>
                         <p class="treatments_secound_section_card_desc">
-                            Enhance your smile with advanced care.
+                            Dental veneers improve tooth shape and color.
                         </p>
                     </div>
                     <a href="dental-veneers.php" class="treatments_secound_section_link">
@@ -203,7 +203,7 @@
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Bridge</h3>
                         <p class="treatments_secound_section_card_desc">
-                            Enhance your smile with advanced care.
+                            Dental bridges replace missing teeth and restore your smile.
                         </p>
                     </div>
                     <a href="dental-bridge.php" class="treatments_secound_section_link">
@@ -322,6 +322,25 @@
                         </p>
                     </div>
                     <a href="general-dentistry.php" class="treatments_secound_section_link">
+                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 8. Wisdom Teeth -->
+            <div class="treatments_secound_section_col">
+                <div class="treatments_secound_section_card">
+                    <div>
+                        <div class="treatments_secound_section_icon_box">
+                            <!-- <i class="fa-solid fa-wand-magic-sparkles treatments_secound_section_icon"></i> -->
+                            <img src="./assets/img/icons/teeth_whitening.png" alt="" style="width: 50px; height: 50px;">
+                        </div>
+                        <h3 class="treatments_secound_section_card_title">Wisdom teeth</h3>
+                        <p class="treatments_secound_section_card_desc">
+                            Wisdom teeth are the final teeth to appear.
+                        </p>
+                    </div>
+                    <a href="teeth-whitening.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
