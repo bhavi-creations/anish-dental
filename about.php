@@ -248,26 +248,26 @@
                         </div>
                         <!-- Info Col -->
                         <div class="col-sm-7">
-                            <h3 class="doctor-name">Dr. Anish Kumar</h3>
-                            <div class="doctor-degree">BDS, MDS (Orthodontics)</div>
-                            <div class="doctor-title">Orthodontist & Smile Specialist</div>
+                            <h3 class="doctor-name">Dr. Anish Kumar Lagisetti</h3>
+                            <div class="doctor-degree">B.D.S, M.D.S (Conservative Dentistry & Endodontics)</div>
+                            <div class="doctor-title">Conservative Dentist & Endodontist</div>
 
                             <ul class="doctor-features">
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>8+ Years Experience</span>
+                                    <span>8+ Years Experience in Dentistry</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Specialist in Braces & Aligners</span>
+                                    <span>44th Rank in All India Masters Examination</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Cosmetic & Aesthetic Dentistry</span>
+                                    <span>Special Interest in Smile Designing & Veneers</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Patient-Centered Approach</span>
+                                    <span>Advanced Courses in Impactions & Implants</span>
                                 </li>
                             </ul>
 
@@ -291,26 +291,26 @@
                         </div>
                         <!-- Info Col -->
                         <div class="col-sm-7">
-                            <h3 class="doctor-name">Dr. Priya Sharma</h3>
-                            <div class="doctor-degree">BDS, MDS (Conservative Dentistry)</div>
-                            <div class="doctor-title">Root Canal & Restorative Specialist</div>
+                            <h3 class="doctor-name">Dr. Puja Devi Lagisetti</h3>
+                            <div class="doctor-degree">B.D.S, M.D.S (Paedodontics & Preventive Dentistry)</div>
+                            <div class="doctor-title">Paedodontist & Preventive Dentist</div>
 
                             <ul class="doctor-features">
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>9+ Years Experience</span>
+                                    <span>6 Years Experience in Dentistry</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Root Canal & Laser Dentistry</span>
+                                    <span>Specialist in Paedodontics & Preventive Dentistry</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Painless & Advanced Treatments</span>
+                                    <span>Special Interest in Conscious Sedation</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-check-circle"></i>
-                                    <span>Patient-Centered Approach</span>
+                                    <span>Special Interest in Child Management</span>
                                 </li>
                             </ul>
 

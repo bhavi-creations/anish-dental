@@ -1,13 +1,13 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 
 <!-- HERO SECTION CONTENT -->
 <section class="index_first_section_wrapper">
     <div class="container-fluid p-0">
         <div class="row g-0 align-items-center">
-            
+
             <!-- Left Column (Content & Buttons) -->
             <div class="col-md-6 col-12 index_first_section_content_col">
-                
+
                 <!-- Sub-tagline -->
                 <div class="index_first_section_tagline">
                     ADVANCED CARE &bull; GENTLE TOUCH &bull; HEALTHY SMILES
@@ -15,7 +15,7 @@
 
                 <!-- Main Title -->
                 <h1 class="index_first_section_main_heading">Confident Smiles</h1>
-                
+
                 <!-- Gold Script Subtitle -->
                 <div class="index_first_section_script_title">Start Here</div>
 
@@ -36,7 +36,7 @@
 
                 <!-- Bottom Features Grid (4 Items) -->
                 <div class="index_first_section_features_grid">
-                    
+
                     <div class="index_first_section_feature_item">
                         <div class="index_first_section_feature_icon">
                             <i class="fa-solid fa-tooth"></i>
@@ -72,13 +72,13 @@
             <!-- Right Column (Hero Image with Curved Gold Border) -->
             <div class="col-md-6 col-12 index_first_section_image_col">
                 <div class="index_first_section_image_wrapper">
-                    
+
                     <!-- SVG Curve Overlay with Gold Border -->
                     <svg class="index_first_section_curved_divider" viewBox="0 0 100 800" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        
-                        <path d="M0 0 C60 200, 60 600, 0 800 L0 0 Z" fill="#ffffff"/>
-                       
-                        <path d="M0 0 C60 200, 60 600, 0 800" stroke="#e29b27" stroke-width="4" fill="none"/>
+
+                        <path d="M0 0 C60 200, 60 600, 0 800 L0 0 Z" fill="#ffffff" />
+
+                        <path d="M0 0 C60 200, 60 600, 0 800" stroke="#e29b27" stroke-width="4" fill="none" />
                     </svg>
 
                 </div>
@@ -90,17 +90,79 @@
 
 
 
+<section class="mt-5">
+    <div class="container">
+        <!-- Main Stats Marquee Section -->
+        <div class="stats-card-wrapper py-2">
+            <div class="marquee-track">
+
+                <!-- Original 4 Items -->
+                <div class="stat-item">
+                    <i class="fa-solid fa-tooth stat-icon"></i>
+                    <span class="stat-number">10000+</span>
+                    <span class="stat-text">RCT's</span>
+                </div>
+
+                <div class="stat-item">
+                    <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-text">IMPLANTS</span>
+                </div>
+
+                <div class="stat-item">
+                    <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-text">ALIGNERS</span>
+                </div>
+
+                <div class="stat-item">
+                    <i class="fa-solid fa-users stat-icon"></i>
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-text">PTS</span>
+                </div>
+
+                <!-- Duplicated Items for Seamless Loop -->
+                <div class="stat-item">
+                    <i class="fa-solid fa-tooth stat-icon"></i>
+                    <span class="stat-number">10000+</span>
+                    <span class="stat-text">RCT's</span>
+                </div>
+
+                <div class="stat-item">
+                    <i class="fa-solid fa-screwdriver-wrench stat-icon"></i>
+                    <span class="stat-number">100+</span>
+                    <span class="stat-text">IMPLANTS</span>
+                </div>
+
+                <div class="stat-item">
+                    <i class="fa-solid fa-teeth-open stat-icon"></i>
+                    <span class="stat-number">500+</span>
+                    <span class="stat-text">ALIGNERS</span>
+                </div>
+
+                <div class="stat-item">
+                    <i class="fa-solid fa-users stat-icon"></i>
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-text">PTS</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- OUR SPECIALITIES SECTION -->
 <section class="index_second_section_wrapper">
     <div class="container">
-        
+
         <!-- Header -->
         <div class="index_second_section_header">
             <span class="index_second_section_subtitle">OUR SPECIALITIES</span>
             <h2 class="index_second_section_title">
                 Comprehensive Dental Care<br class="d-none d-md-block"> For Every Smile
             </h2>
-            
+
             <!-- Decorative Gold Diamond Divider -->
             <div class="index_second_section_divider">
                 <span class="index_second_section_divider_line"></span>
@@ -117,7 +179,7 @@
                 <a href="dental-implants.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-teeth-open"></i> -->
-                         <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Dental<br>Implants</h3>
@@ -134,7 +196,7 @@
                 <a href="aligners.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-teeth"></i> -->
-                         <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Aligners<br></h3>
@@ -151,7 +213,7 @@
                 <a href="dental-veneers.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
-                         <img src="./assets/img/icons/Veneers-step-4.png " alt="" style="width: 50px; height: auto;">
+                        <img src="./assets/img/icons/Veneers-step-4.png " alt="" style="width: 50px; height: auto;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Dental<br>Veneers</h3>
@@ -168,7 +230,7 @@
                 <a href="root-canal.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-file-medical"></i> -->
-                         <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Root Canal<br>Treatment</h3>
@@ -185,7 +247,7 @@
                 <a href="pediatric-dentistry.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-face-smile"></i> -->
-                           <i class="fa-solid fa-child-reaching treatments_secound_section_icon"></i>
+                        <i class="fa-solid fa-child-reaching treatments_secound_section_icon"></i>
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Pediatric<br>Dentistry</h3>
@@ -223,14 +285,14 @@
 <!-- MEET OUR DENTAL SPECIALISTS SECTION -->
 <section class="index_third_section_wrapper">
     <div class="container">
-        
+
         <!-- Header -->
         <div class="index_third_section_header">
             <span class="index_third_section_subtitle">OUR DOCTORS</span>
             <h2 class="index_third_section_title">
                 Meet Our Dental Specialists
             </h2>
-            
+
             <!-- Decorative Gold Diamond Divider -->
             <div class="index_third_section_divider">
                 <span class="index_third_section_divider_line"></span>
@@ -241,12 +303,12 @@
 
         <!-- Doctors Grid (2 Columns on Desktop) -->
         <div class="row g-4 justify-content-center">
-            
+
             <!-- Doctor Card 1 -->
             <div class="col-lg-6 col-12">
                 <div class="index_third_section_card">
                     <div class="row g-0 h-100 align-items-stretch">
-                        
+
                         <!-- Doctor Image -->
                         <div class="col-sm-5 col-12 index_third_section_img_box">
                             <img src="./assets/img/ai-doctor-img.png" alt="Dr. Anish Kumar" class="index_third_section_img">
@@ -254,23 +316,23 @@
 
                         <!-- Doctor Info -->
                         <div class="col-sm-7 col-12 index_third_section_info_box">
-                            <h3 class="index_third_section_doc_name">Dr. Anish Kumar</h3>
-                            <div class="index_third_section_doc_degree">BDS, MDS (Orthodontics)</div>
-                            <div class="index_third_section_doc_specialty">Orthodontist & Smile Specialist</div>
+                            <h3 class="index_third_section_doc_name">Dr. Anish Kumar Lagisetti</h3>
+                            <div class="index_third_section_doc_degree">B.D.S, M.D.S (Conservative Dentistry & Endodontics)</div>
+                            <div class="index_third_section_doc_specialty">Conservative Dentist & Endodontist</div>
 
                             <!-- Bullet Points -->
                             <ul class="index_third_section_list">
                                 <li class="index_third_section_list_item">
                                     <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
-                                    <span>8+ Years Experience</span>
+                                    <span>8+ Years Experience in Dentistry</span>
                                 </li>
                                 <li class="index_third_section_list_item">
                                     <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
-                                    <span>Specialist in Braces & Aligners</span>
+                                    <span>44th Rank in All India Masters Examination</span>
                                 </li>
                                 <li class="index_third_section_list_item">
                                     <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
-                                    <span>Cosmetic & Aesthetic Dentistry</span>
+                                    <span>Special Interest in Smile Designing & Veneers</span>
                                 </li>
                             </ul>
 
@@ -288,7 +350,7 @@
             <div class="col-lg-6 col-12">
                 <div class="index_third_section_card">
                     <div class="row g-0 h-100 align-items-stretch">
-                        
+
                         <!-- Doctor Image -->
                         <div class="col-sm-5 col-12 index_third_section_img_box">
                             <img src="./assets/img/ai-doctor.png" alt="Dr. Priya Sharma" class="index_third_section_img">
@@ -296,23 +358,23 @@
 
                         <!-- Doctor Info -->
                         <div class="col-sm-7 col-12 index_third_section_info_box">
-                            <h3 class="index_third_section_doc_name">Dr. Priya Sharma</h3>
-                            <div class="index_third_section_doc_degree">BDS, MDS (Conservative Dentistry)</div>
-                            <div class="index_third_section_doc_specialty">Root Canal & Restorative Specialist</div>
+                            <h3 class="index_third_section_doc_name">Dr. Puja Devi Lagisetti</h3>
+                            <div class="index_third_section_doc_degree">B.D.S, M.D.S (Paedodontics & Preventive Dentistry)</div>
+                            <div class="index_third_section_doc_specialty">Paedodontist & Preventive Dentist</div>
 
                             <!-- Bullet Points -->
                             <ul class="index_third_section_list">
                                 <li class="index_third_section_list_item">
                                     <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
-                                    <span>9+ Years Experience</span>
+                                    <span>6 Years Experience in Dentistry</span>
                                 </li>
                                 <li class="index_third_section_list_item">
                                     <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
-                                    <span>Root Canal & Laser Dentistry</span>
+                                    <span>Specialist in Paedodontics & Preventive Dentistry</span>
                                 </li>
                                 <li class="index_third_section_list_item">
                                     <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
-                                    <span>Painless & Advanced Treatments</span>
+                                    <span>Special Interest in Conscious Sedation</span>
                                 </li>
                             </ul>
 
@@ -337,12 +399,12 @@
 <section class="index_fourth_section_wrapper">
     <div class="container">
         <div class="row align-items-center">
-            
+
             <!-- Left Side Content Column -->
             <div class="col-lg-5 col-12 index_fourth_section_content_col">
                 <span class="index_fourth_section_subtitle">WHY CHOOSE US?</span>
                 <h2 class="index_fourth_section_title">Your Smile Is Our Priority</h2>
-                
+
                 <p class="index_fourth_section_desc">
                     At Anish Dental Multispeciality Dental Hospital, we combine expertise, technology and compassion to deliver the best dental care for you and your loved ones.
                 </p>
@@ -392,7 +454,7 @@
             <!-- Right Side Image Gallery Column -->
             <div class="col-lg-7 col-12">
                 <div class="index_fourth_section_gallery_container">
-                    
+
                     <!-- Top Main Image -->
                     <div class="row mb-3 g-3">
                         <div class="col-12">
@@ -444,14 +506,14 @@
 <!-- WHAT OUR PATIENTS SAY SECTION -->
 <section class="index_fifth_section_wrapper">
     <div class="container">
-        
+
         <!-- Header -->
         <div class="index_fifth_section_header">
             <span class="index_fifth_section_subtitle">WHAT OUR PATIENTS SAY</span>
             <h2 class="index_fifth_section_title">
                 Trusted by Thousands of Happy Smiles
             </h2>
-            
+
             <!-- Decorative Gold Diamond Divider -->
             <div class="index_fifth_section_divider">
                 <span class="index_fifth_section_divider_line"></span>
@@ -462,18 +524,18 @@
 
         <!-- Testimonials Cards Grid -->
         <div class="position-relative">
-            
+
             <!-- Decorative Huge Quote Mark -->
             <div class="index_fifth_section_quote_icon">
                 <i class="fa-solid fa-quote-left"></i>
             </div>
 
             <div class="row align-items-center g-4">
-                
+
                 <!-- 3 Cards Column -->
                 <div class="col-lg-11 col-12">
                     <div class="row g-3 g-lg-4">
-                        
+
                         <!-- Testimonial 1 -->
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="index_fifth_section_card">
@@ -509,14 +571,14 @@
                                     </div>
                                     <p class="index_fifth_section_text">
                                         The best treatment I have ever seen painless and very pleasant atmosphere, great treatment
-Thank you DR Anish garu
-I highly recommend this hop ❤️
+                                        Thank you DR Anish garu
+                                        I highly recommend this hop ❤️
                                     </p>
                                 </div>
                                 <div class="index_fifth_section_user">
                                     <!-- <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" alt="Sushma Reddy" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash; 
-royal rajesh</span>
+                                    <span class="index_fifth_section_username">&ndash;
+                                        royal rajesh</span>
                                 </div>
                             </div>
                         </div>
@@ -538,8 +600,8 @@ royal rajesh</span>
                                 </div>
                                 <div class="index_fifth_section_user">
                                     <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Karthik Varma" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash; 
-Anand Travels</span>
+                                    <span class="index_fifth_section_username">&ndash;
+                                        Anand Travels</span>
                                 </div>
                             </div>
                         </div>
@@ -564,7 +626,7 @@ Anand Travels</span>
         <!-- Bottom CTA Appointment Box -->
         <div class="index_fifth_section_cta_box">
             <div class="row align-items-center g-3">
-                
+
                 <!-- Left: Title & Subtitle -->
                 <div class="col-xl-6 col-lg-5 col-12">
                     <div class="d-flex align-items-center gap-3">
@@ -609,4 +671,4 @@ Anand Travels</span>
 
 
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>

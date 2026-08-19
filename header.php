@@ -71,13 +71,13 @@
                     &nbsp; &nbsp; / &nbsp; &nbsp;
                     <div class="top-info-item">
                         <i class="fa-solid fa-phone"></i>
-                        <a >+91 7396256474</a>
+                        <a>+91 7396256474</a>
                         <!-- <a href="tel:+918123456789">+91 73962 56474</a> -->
                     </div>
                      &nbsp; &nbsp; / &nbsp; &nbsp;
                     <div class="top-info-item">
                         <i class="fa-regular fa-envelope"></i>
-                        <a >anishdentalhospital@gmail.com</a>
+                      <a >anishdentalhospital@gmail.com</a>
                         <!-- <a href="mailto:info@anishdental.com">info@anishdental.com</a> -->
                     </div>
     </marquee>
