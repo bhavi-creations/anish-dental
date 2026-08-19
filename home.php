@@ -151,7 +151,7 @@
                 <a href="dental-veneers.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
-                         <img src="./assets/img/cosmetic-teeth.png " alt="" style="width: 50px; height: auto;">
+                         <img src="./assets/img/icons/Veneers-step-4.png " alt="" style="width: 50px; height: auto;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Dental<br>Veneers</h3>
@@ -351,23 +351,35 @@
                 <ul class="index_fourth_section_list">
                     <li class="index_fourth_section_list_item">
                         <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
-                        <span>Highly Experienced & Certified Dentists</span>
+                        <span>Advanced Dental Equipment</span>
                     </li>
                     <li class="index_fourth_section_list_item">
                         <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
-                        <span>Modern Equipment & Advanced Technology</span>
+                        <span>High Quality Dental Materials</span>
                     </li>
                     <li class="index_fourth_section_list_item">
                         <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
-                        <span>Painless & Comfortable Treatment</span>
+                        <span>Portable X-Ray Machine</span>
                     </li>
                     <li class="index_fourth_section_list_item">
                         <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
-                        <span>Sterilized & Hygienic Environment</span>
+                        <span>Digital X-Ray Technology</span>
                     </li>
                     <li class="index_fourth_section_list_item">
                         <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
-                        <span>Personalized Care for Every Patient</span>
+                        <span>UV-Light Room Disinfection</span>
+                    </li>
+                    <li class="index_fourth_section_list_item">
+                        <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
+                        <span>3 Step Sterilization of Instruments</span>
+                    </li>
+                    <li class="index_fourth_section_list_item">
+                        <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
+                        <span>Quality Treatment by Specialists</span>
+                    </li>
+                    <li class="index_fourth_section_list_item">
+                        <i class="fa-solid fa-circle-check index_fourth_section_list_icon"></i>
+                        <span>High Priority Patient Care</span>
                     </li>
                 </ul>
 

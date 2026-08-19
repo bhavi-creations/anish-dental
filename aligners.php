@@ -418,13 +418,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-braces.png" alt="Before Clear Aligners Treatment">
+                                <img src="./assets/img/aligners-before.png" alt="Before Clear Aligners Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/After-braces.png" alt="After Clear Aligners Treatment">
+                                <img src="./assets/img/aligners-after.png" alt="After Clear Aligners Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>

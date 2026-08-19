@@ -6972,3 +6972,32 @@ a {
     }
 
 }
+
+
+
+/* Doctors cards stylings with read less & more buttons */
+    .doctor-more-content {
+        display: none;
+    }
+
+    .doctor-read-more-wrap {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .doctor-read-more-btn {
+        background: transparent;
+        border: 1px solid #d98e2b;
+        color: #d98e2b;
+        padding: 8px 18px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .doctor-read-more-btn:hover {
+        background: #d98e2b;
+        color: #fff;
+    }

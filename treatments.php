@@ -12,7 +12,7 @@
 
                 <!-- Breadcrumb -->
                 <div class="treatments_first_section_breadcrumb">
-                    <a href="index.php" class="treatments_first_section_breadcrumb_link">HOME</a>
+                    <a href="home.php" class="treatments_first_section_breadcrumb_link">HOME</a>
                     <i class="fa-solid fa-chevron-right treatments_first_section_breadcrumb_sep"></i>
                     <span class="treatments_first_section_breadcrumb_active">TREATMENTS</span>
                 </div>
@@ -340,7 +340,7 @@
                             Wisdom teeth are the final teeth to appear.
                         </p>
                     </div>
-                    <a href="teeth-whitening.php" class="treatments_secound_section_link">
+                    <a href="wisdom-teeth.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>

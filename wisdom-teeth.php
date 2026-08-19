@@ -275,7 +275,7 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">2</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <img src="./assets/img/icons/cleaning-teeth-img.png" alt="Digital X-Ray / OPG" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/wisdom-teeth-step-2.png" alt="Digital X-Ray / OPG" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Digital X-Ray / OPG</h3>
@@ -294,7 +294,7 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">3</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <img src="./assets/img/icons/protects-teeth-img.png" alt="Local Anesthesia" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/widom-teeth-step-3.png" alt="Local Anesthesia" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Local Anesthesia</h3>
@@ -313,7 +313,7 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">4</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <img src="./assets/img/icons/Healthy-teeth.png" alt="Gentle Extraction" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/widom-teeth-step-4.png" alt="Gentle Extraction" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Gentle Extraction</h3>
@@ -332,7 +332,7 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">5</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <img src="./assets/img/icons/Natural-looking-smile1201.png" alt="Suturing & Gauze Placement" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/widom-teeth-step-5.png" alt="Suturing & Gauze Placement" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Suturing & Care</h3>
@@ -351,7 +351,7 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">6</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <img src="./assets/img/cosmetic-teeth.png" alt="Recovery Guidelines" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/widom-teeth-step-6.png" alt="Recovery Guidelines" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Post-Op Recovery</h3>

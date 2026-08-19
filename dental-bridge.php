@@ -417,13 +417,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-dentures.png">
+                                <img src="./assets/img/dental-bridge-before.png">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/after-dentures.png" alt="After Dental Bridge Treatment">
+                                <img src="./assets/img/dental-bridge-after.png" alt="After Dental Bridge Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>

@@ -34,11 +34,11 @@
                     </div>
                     <div class="top-info-item">
                         <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+918123456789">+91 7396256474</a>
+                        <a href="tel:+917396256474">+91 7396256474</a>
                     </div>
                     <div class="top-info-item">
                         <i class="fa-regular fa-envelope"></i>
-                        <a href="mailto:info@anishdental.com">anishdentalhospital@gmail.com</a>
+                        <a href="mailto:anishdentalhospital@gmail.com">anishdentalhospital@gmail.com</a>
                     </div>
                 </div>
 
@@ -87,7 +87,7 @@
         <div class="container-fluid px-lg-5">
             
             <!-- Brand Logo & Title -->
-            <a class="brand-logo-container" href="index.php">
+            <a class="brand-logo-container" href="#">
                 <div class="d-flex align-items-center logo-section">
                     <!-- Dental Tooth Logo SVG -->
                     <!-- <svg width="46" height="46" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">

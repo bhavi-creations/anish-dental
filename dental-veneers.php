@@ -417,13 +417,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-cosmetic.png" alt="Before Dental Veneers Treatment">
+                                <img src="./assets/img/Veneers-before.png" alt="Before Dental Veneers Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/After-cosmetic.png" alt="After Dental Veneers Treatment">
+                                <img src="./assets/img/Veneers-after.png" alt="After Dental Veneers Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
