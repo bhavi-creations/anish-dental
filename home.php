@@ -129,13 +129,13 @@
                 </div>
 
                 <div class="stat-item">
-                    <i class="fa-solid fa-screwdriver-wrench stat-icon"></i>
+                    <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
                     <span class="stat-number">100+</span>
                     <span class="stat-text">IMPLANTS</span>
                 </div>
 
                 <div class="stat-item">
-                    <i class="fa-solid fa-teeth-open stat-icon"></i>
+                    <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
                     <span class="stat-number">500+</span>
                     <span class="stat-text">ALIGNERS</span>
                 </div>
