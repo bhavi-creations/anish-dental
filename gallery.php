@@ -218,7 +218,7 @@
                     <div class="phone-box-card d-inline-flex align-items-center gap-3">
                         <i class="bi bi-telephone phone-icon-dark"></i>
                         <div class="text-start">
-                            <div class="phone-num-dark">+91 81234 56789</div>
+                            <div class="phone-num-dark">+91 73962 56474</div>
                             <p class="phone-sub-text">Call Us Anytime</p>
                         </div>
                     </div>
@@ -262,7 +262,7 @@
                     <div class="d-flex align-items-center justify-content-lg-end gap-3">
                         <i class="bi bi-telephone-outbound phone-icon"></i>
                         <div class="text-start">
-                            <div class="phone-number">+91 81234 56789</div>
+                            <div class="phone-number">+91 73962 56474</div>
                             <div class="phone-label">Call Us Anytime</div>
                         </div>
                     </div>

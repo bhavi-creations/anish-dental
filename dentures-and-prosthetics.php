@@ -381,7 +381,7 @@
                         <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                         </svg> -->
-                        <img src="./assets/img/cosmetic-teeth.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/smiling-teeth.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Smile Confidently</h3>
@@ -577,8 +577,8 @@
                             </svg>
                         </div>
                         <div class="rootcanal_sixth_section_phone_info">
-                            <a href="tel:+918123456789" class="rootcanal_sixth_section_phone_number">
-                                +91 81234 56789
+                            <a href="tel:+917396256474" class="rootcanal_sixth_section_phone_number">
+                                +91 73962 56474
                             </a>
                             <span class="rootcanal_sixth_section_phone_label">Call Us Anytime</span>
                         </div>

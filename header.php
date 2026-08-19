@@ -27,9 +27,10 @@
                 
                 <!-- Left Details (Location, Phone, Email) -->
                 <div class="d-flex flex-wrap align-items-center justify-content-center gap-3 gap-lg-4">
+                    <a href="https://share.google/fEYS5GnsmuhLRFoaB" target="_blank">
                     <div class="top-info-item">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>Kokila center, kakinada</span>
+                        <span>Kokila center, kakinada</span></a>
                     </div>
                     <div class="top-info-item">
                         <i class="fa-solid fa-phone"></i>
@@ -45,7 +46,7 @@
                 <div class="d-flex align-items-center justify-content-center gap-3 mt-1 mt-lg-0">
                     <div class="top-info-item">
                         <i class="fa-regular fa-clock"></i>
-                        <span>Mon - Sat: 9.30 AM - 8:00 PM</span>
+                        <span>Mon - Sat: 9:00 AM - 9:00 PM</span>
                     </div>
                     <div class="social-icons d-flex align-items-center">
                         <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
@@ -71,7 +72,7 @@
                     <div class="top-info-item">
                         <i class="fa-solid fa-phone"></i>
                         <a >+91 7396256474</a>
-                        <!-- <a href="tel:+918123456789">+91 81234 56789</a> -->
+                        <!-- <a href="tel:+918123456789">+91 73962 56474</a> -->
                     </div>
                      &nbsp; &nbsp; / &nbsp; &nbsp;
                     <div class="top-info-item">
@@ -128,7 +129,7 @@
                             <li><a class="dropdown-item" href="root-canal.php">Root Canal Treatment</a></li>
                             <li><a class="dropdown-item" href="dental-implants.php">Dental Implants</a></li>
                             <li><a class="dropdown-item" href="teeth-whitening.php">Teeth Whitening</a></li>
-                            <li><a class="dropdown-item" href="orthodontics.php">Orthodontics & Braces</a></li>
+                            <li><a class="dropdown-item" href="aligners.php">Aligners</a></li>
                         </ul>
                     <!-- </li> -->
                    </li>

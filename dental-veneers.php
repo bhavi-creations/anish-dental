@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<!-- Orthodontic Braces HERO FIRST SECTION -->
+<!-- Dental Veneers HERO FIRST SECTION -->
 <section class="rootcanal_first_section_wrapper">
     <div class="container-fluid p-0 ps-lg-5">
         <div class="row rootcanal_first_section_row g-0">
@@ -14,17 +14,17 @@
                     <span>&gt;</span>
                     <a href="treatments.php">Treatments</a>
                     <span>&gt;</span>
-                    <span class="rootcanal_first_section_active">Orthodontic Braces Treatment</span>
+                    <span class="rootcanal_first_section_active">Dental Veneers Treatment</span>
                 </div>
 
                 <!-- Main Section Title -->
                 <h1 class="rootcanal_first_section_title">
-                    ORTHODONTIC<br>BRACES
+                    Dental<br>Veneers
                 </h1>
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Straight Teeth. Healthy Smile. Confident You.
+                    Transform Your Smile. Boost Your Confidence.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Orthodontic braces help correct misaligned teeth and jaw irregularities, improving your smile, oral health, and overall confidence.
+                    Dental Veneers Treatment combines modern dental procedures to improve the appearance of your teeth, smile, and overall facial aesthetics while maintaining a natural-looking result.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -74,9 +74,9 @@
                     </svg>
 
                     <!-- Tooth Illustration Image -->
-                    <img src="./assets/img/orthodontic-braces-bg.png"  
-                         alt="Orthodontic Braces Treatment Procedure - Tooth Illustration" 
-                         class="rootcanal_first_section_img">
+                     <img src=".\assets\img\cosmetic-dentistry-bg-1.png" 
+                         alt="Dental Veneers" 
+                         class="rootcanal_first_section_img"> 
                 </div>
             </div>
 
@@ -86,13 +86,13 @@
 
 
 
-<!-- Orthodontic Braces SECOND SECTION (BENEFITS BAR) -->
+<!-- Dental Veneers SECOND SECTION (BENEFITS BAR) -->
 <section class="rootcanal_second_section_wrapper">
     <div class="container">
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Well-Aligned Teeth -->
+                <!-- 1. Smile Transformation -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Well-Aligned Teeth</h3>
-                        <p class="rootcanal_second_section_desc">Improves appearance and bite alignment.</p>
+                        <h3 class="rootcanal_second_section_title">Smile Transformation</h3>
+                        <p class="rootcanal_second_section_desc">Improves tooth shape, color, and overall smile appearance.</p>
                     </div>
                 </div>
 
-                <!-- 2. Better Oral Health -->
+                <!-- 2. Natural-Looking Veneers -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Better Oral Health</h3>
-                        <p class="rootcanal_second_section_desc">Easier cleaning and lower risk of cavities.</p>
+                        <h3 class="rootcanal_second_section_title">Natural-Looking Veneers</h3>
+                        <p class="rootcanal_second_section_desc">Custom-designed veneers create a balanced and natural-looking smile.</p>
                     </div>
                 </div>
 
-                <!-- 3. Boosts Confidence -->
+                <!-- 3. Improved Confidence -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Boosts Confidence</h3>
-                        <p class="rootcanal_second_section_desc">Enhances your smile and self-esteem.</p>
+                        <h3 class="rootcanal_second_section_title">Improved Confidence</h3>
+                        <p class="rootcanal_second_section_desc">A transformed smile can help you feel more confident in everyday life.</p>
                     </div>
                 </div>
 
-                <!-- 4. Corrects Bite Issues -->
+                <!-- 4. Comfortable Treatment -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Corrects Bite Issues</h3>
-                        <p class="rootcanal_second_section_desc">Helps fix overbite, underbite & crossbite.</p>
+                        <h3 class="rootcanal_second_section_title">Comfortable Treatment</h3>
+                        <p class="rootcanal_second_section_desc">Careful planning and modern techniques help make veneer treatment comfortable.</p>
                     </div>
                 </div>
 
-                <!-- 5. Long-Term Results -->
+                <!-- 5. Balanced Smile Aesthetics -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Long-Term Results</h3>
-                        <p class="rootcanal_second_section_desc">Enjoy a lifetime of healthy, straight teeth.</p>
+                        <h3 class="rootcanal_second_section_title">Balanced Smile Aesthetics</h3>
+                        <p class="rootcanal_second_section_desc">Veneers can address selected cosmetic concerns for a more balanced and attractive smile.</p>
                     </div>
                 </div>
 
@@ -174,7 +174,7 @@
 
 
 
-<!-- Orthodontic Braces THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
+<!-- Dental Veneers THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
 <section class="rootcanal_third_section_wrapper">
     <div class="container">
         <div class="row rootcanal_third_section_row">
@@ -184,7 +184,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT ORTHODONTIC BRACES
+                    ABOUT DENTAL VENEERS
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    Braces apply gentle, continuous pressure to gradually move teeth into their correct positions. They not only improve the appearance of your smile but also enhance chewing function speech, and overall oral health.
+                    Dental Veneers Treatment focuses on improving the appearance of your teeth and smile. Depending on your individual needs, cosmetic dental procedures can help address concerns such as tooth discoloration, chipped or uneven teeth, gaps, worn teeth, and smile alignment. Treatment is planned to achieve a healthy, balanced, and natural-looking smile.
                 </p>
 
             </div>
@@ -211,8 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        <!-- Timely Orthodontic Braces treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile. -->
-                         A straighter smile is more than just beautiful - it's a step towards a healthier, happier you.
+                        Dental Veneers can enhance the appearance of your smile and help you feel more confident with a natural-looking result.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -233,14 +232,14 @@
 
 
 
-<!-- Orthodontic Braces FOURTH SECTION (PROCESS STEPS FLOW) -->
+<!-- Dental Veneers FOURTH SECTION (PROCESS STEPS FLOW) -->
 <section class="rootcanal_fourth_section_wrapper">
     <div class="container">
         
         <!-- Section Header -->
         <div class="rootcanal_fourth_section_header">
             <h2 class="rootcanal_fourth_section_title">
-                THE BRACES TREATMENT PROCESS
+                THE DENTAL VENEERS TREATMENT PROCESS
             </h2>
             <div class="rootcanal_fourth_section_divider">
                 <div class="rootcanal_fourth_section_divider_line"></div>
@@ -266,9 +265,9 @@
                         <img src="./assets/img/icons/dental-examination.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Consultation</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Initial Consultation</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We evaluate your teeth,bite and discuss your treatment goals.
+                    We assess your teeth, gums, bite, and smile goals to determine whether veneers are suitable for you.
                 </p>
             </div>
 
@@ -287,12 +286,12 @@
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M9.5 7.5c1.5 1 3.5 1 5 0" stroke-dasharray="2 1"></path>
                         </svg> -->
-                        <img src="./assets/img/icons/consultation-1.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/Veneers-step-2.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Veneer Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    A customized plan is ted for your specific needs.
+                    We discuss your smile goals and plan the veneer shape, shade, size, and overall appearance.
                 </p>
             </div>
 
@@ -306,17 +305,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">3</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Cleaning & Shaping Tool SVG -->
+                        <!-- Teeth Preparation Tool SVG -->
                         <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M12 2v8M11 5h2M11 8h2"></path>
                         </svg> -->
-                        <img src="./assets/img/icons/dental-braces-01.jpg" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/Veneers-step-3.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Braces Placement</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Teeth Preparation</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                   Braces are placed and wires are attached to your teeth.
+                    The teeth are carefully prepared as needed to create space and provide a suitable surface for the veneers.
                 </p>
             </div>
 
@@ -330,17 +329,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">4</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Disinfection SVG -->
+                        <!-- Veneer Placement SVG -->
                         <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 9c1 1 3 1 4 0"></path>
                         </svg> -->
-                        <img src="./assets/img/icons/dental-braces-02.jpg" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/icons/Veneers-step-4.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Regular Adjustments</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Veneer Placement</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    Periodic adjustments help teeth move gradually into the desired position.
+                    The custom-made veneers are carefully tried in, adjusted, and bonded to the teeth using appropriate dental techniques.
                 </p>
             </div>
 
@@ -354,16 +353,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">5</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Filling & Sealing SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Smile Refinement SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 11l2 2 2-2"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/Veneers-step-5.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Progress Monitoring</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Smile Refinement</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We track your progress and make changes as required.
+                    Your veneers are refined for shape, shade, bite, comfort, and a natural-looking final appearance.
                 </p>
             </div>
 
@@ -377,15 +377,16 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">6</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Restoration / Crown SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Final Smile Check / Crown SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/smiling-teeth.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Beautiful Smile</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Final Smile Check</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    Braces are removed and you enjoy a straight, confident smile!
+                    Your final smile is checked and you receive guidance on caring for your veneers and maintaining good oral hygiene.
                 </p>
             </div>
 
@@ -397,7 +398,7 @@
 
 
 
-<!-- Orthodontic Braces FIFTH SECTION (3-CARD SECTION) -->
+<!-- Dental Veneers FIFTH SECTION (3-CARD SECTION) -->
 <section class="rootcanal_fifth_section_wrapper">
     <div class="container">
         <div class="row">
@@ -416,13 +417,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-braces.png" alt="Before Orthodontic Braces Treatment">
+                                <img src="./assets/img/Before-cosmetic.png" alt="Before Dental Veneers Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/After-braces.png" alt="After Orthodontic Braces Treatment">
+                                <img src="./assets/img/After-cosmetic.png" alt="After Dental Veneers Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -430,16 +431,16 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Transform your smile. Reveal your confidence.
                     </p>
                 </div>
             </div>
 
-            <!-- CARD 2: BENEFITS OF Orthodontic Braces -->
+            <!-- CARD 2: BENEFITS OF DENTAL VENEERS -->
             <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
                 <div class="rootcanal_fifth_section_card">
                     <div>
-                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF Orthodontic Braces</h3>
+                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF DENTAL VENEERS</h3>
                         <div class="rootcanal_fifth_section_divider">
                             <div class="rootcanal_fifth_section_divider_line"></div>
                             <div class="rootcanal_fifth_section_divider_dot"></div>
@@ -451,31 +452,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Straightens teeth and improves appearence</span>
+                                <span>Improves the shape, color, and appearance of selected teeth</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Corrects bite and jaw alignment</span>
+                                <span>Helps address suitable stains, discoloration, chips, and minor imperfections</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves chewing and speaking</span>
+                                <span>Creates a balanced and natural-looking smile</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Easier to clean and maintain oral hygiene</span>
+                                <span>Can enhance confidence in your smile</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Long-lasting and effective results</span>
+                                <span>Can provide durable cosmetic results with proper care</span>
                             </li>
                         </ul>
                     </div>
@@ -495,19 +496,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">At what age should braces be considered?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Is Dental Veneers treatment painful?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the treatment take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does Dental Veneers treatment take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do braces treatment hurt?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long do Dental Veneers last?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">What foods should be avoided with braces?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Which Dental Veneers treatment is right for me?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -530,7 +531,7 @@
 
 
 
-<!-- Orthodontic Braces SIXTH SECTION (CTA BANNER BAR) -->
+<!-- Dental Veneers SIXTH SECTION (CTA BANNER BAR) -->
 <section class="rootcanal_sixth_section_wrapper">
     <div class="container">
         <div class="rootcanal_sixth_section_banner">
@@ -546,10 +547,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Ready to transform your smile?<br class="d-none d-md-inline"> Get expert Dental Veneers care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your veneer consultation and take the first step toward a brighter, more confident smile.
                         </p>
                     </div>
                 </div>
@@ -576,10 +577,10 @@
                             </svg>
                         </div>
                         <div class="rootcanal_sixth_section_phone_info">
-                            <a href="tel:+918123456789" class="rootcanal_sixth_section_phone_number">
-                                +91 81234 56789
+                            <a href="tel:+917396256474" class="rootcanal_sixth_section_phone_number">
+                                +91 73962 56474
                             </a>
-                            <span class="rootcanal_sixth_section_phone_label">Call Us Anytime</span>
+                            <span class="rootcanal_sixth_section_phone_label">Talk to Our Team</span>
                         </div>
                     </div>
 

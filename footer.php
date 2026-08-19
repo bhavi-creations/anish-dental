@@ -50,9 +50,9 @@
                 <ul class="footer-links">
                     <li><a href="general-dentistry.php">General Dentistry</a></li>
                     <li><a href="dental-implants.php">Dental Implants</a></li>
-                    <li><a href="orthodontic-braces.php">Orthodontic Braces</a></li>
+                    <li><a href="aligners.php">Aligners</a></li>
                     <li><a href="root-canal.php">Root Canal Treatment</a></li>
-                    <li><a href="cosmetic-dentistry.php">Cosmetic Dentistry</a></li>
+                    <li><a href="dental-veneers.php">Dental Veneers</a></li>
                     <li><a href="pediatric-dentistry.php">Pediatric Dentistry</a></li>
                 </ul>
             </div>

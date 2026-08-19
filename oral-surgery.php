@@ -571,8 +571,8 @@
                             </svg>
                         </div>
                         <div class="rootcanal_sixth_section_phone_info">
-                            <a href="tel:+918123456789" class="rootcanal_sixth_section_phone_number">
-                                +91 81234 56789
+                            <a href="tel:+917396256474" class="rootcanal_sixth_section_phone_number">
+                                +91 73962 56474
                             </a>
                             <span class="rootcanal_sixth_section_phone_label">Call Us Anytime</span>
                         </div>

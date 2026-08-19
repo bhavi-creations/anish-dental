@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<!-- Dental Implants HERO FIRST SECTION -->
+<!-- Dental Bridge HERO FIRST SECTION -->
 <section class="rootcanal_first_section_wrapper">
     <div class="container-fluid p-0 ps-lg-5">
         <div class="row rootcanal_first_section_row g-0">
@@ -10,21 +10,21 @@
                 
                 <!-- Breadcrumb -->
                 <div class="rootcanal_first_section_breadcrumb">
-                    <a href="home.php">Home</a>
+                    <a href="index.php">Home</a>
                     <span>&gt;</span>
                     <a href="treatments.php">Treatments</a>
                     <span>&gt;</span>
-                    <span class="rootcanal_first_section_active">Dental Implants</span>
+                    <span class="rootcanal_first_section_active">Dental Bridge Treatment</span>
                 </div>
 
                 <!-- Main Section Title -->
                 <h1 class="rootcanal_first_section_title">
-                    Dental Implants
+                    Dental Bridge<br>Treatment
                 </h1>
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    A Permanent Solution for <br>Missing Teeth.
+                    Replaces Missing Teeth. Restore Your Smile.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,8 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Dental Implants look, feel and function like natural teeth.
-                    They are most advanced and long-lasting solution to replace missing teeth and restore your smile.
+                    Dental Bridge Treatment helps replace missing teeth, restore chewing function, improve speech, and support a natural-looking smile with comfortable, customized dental prosthetics.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -58,8 +57,8 @@
             <div class="col-lg-7 col-md-12 rootcanal_first_section_right">
                 <div class="rootcanal_first_section_img_card">
                     
-                     <!-- SVG S-Curve Mask with Gold Border Stroke -->
-                     <svg class="rootcanal_first_section_wave_svg" viewBox="0 0 700 500" preserveAspectRatio="none">
+                    <!-- SVG S-Curve Mask with Gold Border Stroke -->
+                    <svg class="rootcanal_first_section_wave_svg" viewBox="0 0 700 500" preserveAspectRatio="none">
                         <!-- White background curve cutout -->
                         <path d="M 0,0 
                                  C 180,120 -50,380 90,500 
@@ -72,12 +71,12 @@
                               fill="none" 
                               stroke="#d98e2b" 
                               stroke-width="5" />
-                     </svg>
+                    </svg>
 
-                     <!-- Dental Implants Image -->
-                      <img src=".\assets\img\Dental-implants-bg.png"  
-                           alt="Dental Implants Treatment Procedure" 
-                           class="rootcanal_first_section_img">
+                    <!-- Tooth Illustration Image -->
+                     <img src=".\assets\img\Denture-prosthetics-bg.png" 
+                         alt="Dental Bridge" 
+                         class="rootcanal_first_section_img"> 
                 </div>
             </div>
 
@@ -87,13 +86,13 @@
 
 
 
-<!-- Dental Implants SECOND SECTION (BENEFITS BAR) -->
+<!-- Dental Bridge SECOND SECTION (BENEFITS BAR) -->
 <section class="rootcanal_second_section_wrapper">
     <div class="container">
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Natural Look -->
+                <!-- 1. Restored Function -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -102,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Natural Look</h3>
-                        <p class="rootcanal_second_section_desc">Looks & feels like your natural teeth.</p>
+                        <h3 class="rootcanal_second_section_title">Restored Function</h3>
+                        <p class="rootcanal_second_section_desc">Helps restore comfortable chewing and everyday oral function.</p>
                     </div>
                 </div>
 
-                <!-- 2. Strong & Durable -->
+                <!-- 2. Replaces Missing Teeth -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -117,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Strong & Durable</h3>
-                        <p class="rootcanal_second_section_desc">Built to last for many years</p>
+                        <h3 class="rootcanal_second_section_title">Replaces Missing Teeth</h3>
+                        <p class="rootcanal_second_section_desc">Bridges fill the space created by one or more missing teeth.</p>
                     </div>
                 </div>
 
-                <!-- 3. Safe & Biocompatible -->
+                <!-- 3. Natural Appearance -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -132,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Safe & Biocompatible</h3>
-                        <p class="rootcanal_second_section_desc">Made from high-quality,biocompatible materials</p>
+                        <h3 class="rootcanal_second_section_title">Natural Appearance</h3>
+                        <p class="rootcanal_second_section_desc">A custom-designed bridge blends with your natural teeth for a balanced smile.</p>
                     </div>
                 </div>
 
-                <!-- 4. Improved Confidence -->
+                <!-- 4. Comfortable Fit -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -147,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Improved Confidence</h3>
-                        <p class="rootcanal_second_section_desc">Eat,speak & smile with confidence</p>
+                        <h3 class="rootcanal_second_section_title">Comfortable Fit</h3>
+                        <p class="rootcanal_second_section_desc">A properly fitted bridge provides comfort and stability during everyday activities.</p>
                     </div>
                 </div>
 
-                <!-- 5. Prevent Bone Loss -->
+                <!-- 5. Smile Confidence -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -162,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Prevent Bone Loss</h3>
-                        <p class="rootcanal_second_section_desc">Stimulates bone growth & maintains jaw health.</p>
+                        <h3 class="rootcanal_second_section_title">Smile Confidence</h3>
+                        <p class="rootcanal_second_section_desc">Filling tooth gaps can restore your smile and improve confidence.</p>
                     </div>
                 </div>
 
@@ -175,7 +174,7 @@
 
 
 
-<!-- Dental Implants THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
+<!-- Dental Bridge THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
 <section class="rootcanal_third_section_wrapper">
     <div class="container">
         <div class="row rootcanal_third_section_row">
@@ -185,7 +184,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT DENTAL IMPLANTS 
+                    ABOUT DENTAL BRIDGE TREATMENT
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -196,8 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    A dental implant is a titanium post that is surgically placed into the jawbone and acts as a replacement root for the missing tooth.
-                    It provides a strong foundation for a crown, bridge, or denture, giving you a natural-looking smile that lasts a lifetime.
+                    Dental Bridge Treatment focuses on replacing missing teeth and restoring the appearance and function of your smile. Depending on the number of missing teeth and your individual needs, options may include complete dentures, partial dentures, crowns, bridges, and other customized prosthetic solutions. The treatment is planned to provide a comfortable fit, natural appearance, and improved oral function.
                 </p>
 
             </div>
@@ -213,7 +211,7 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Dental Implants are the gold standard for replacing missing teeth with unmatched stability and aesthetics.
+                        A well-designed dental bridge can restore chewing function, improve your smile, support proper tooth alignment, and help you smile with greater confidence.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -234,14 +232,14 @@
 
 
 
-<!-- Dental Implants FOURTH SECTION (PROCESS STEPS FLOW) -->
+<!-- Dental Bridge FOURTH SECTION (PROCESS STEPS FLOW) -->
 <section class="rootcanal_fourth_section_wrapper">
     <div class="container">
         
         <!-- Section Header -->
         <div class="rootcanal_fourth_section_header">
             <h2 class="rootcanal_fourth_section_title">
-                THE Dental Implants TREATMENT PROCESS
+                THE DENTAL BRIDGE TREATMENT PROCESS
             </h2>
             <div class="rootcanal_fourth_section_divider">
                 <div class="rootcanal_fourth_section_divider_line"></div>
@@ -254,95 +252,143 @@
         <div class="rootcanal_fourth_section_steps_flow">
 
             <!-- STEP 1 -->
-<div class="rootcanal_fourth_section_step_item">
-    <div class="rootcanal_fourth_section_circle_wrap">
-        <span class="rootcanal_fourth_section_badge">1</span>
-        <div class="rootcanal_fourth_section_icon">
-            <!-- <img src="assets/img/icons/dental-examination.png" alt="Consultation & Evaluation" class="rootcanal_step_icon_img" style="height:40px; width:40px"> -->
-             <img src="./assets/img/icons/dental-examination.png" alt="" style="width: 50px; height: 50px;">
-        </div>
-    </div>
-    <h3 class="rootcanal_fourth_section_step_title">Consultation & Evaluation</h3>
-    <p class="rootcanal_fourth_section_step_desc">
-        We examine your oral health and take 3D scans to plan your treatment.
-    </p>
-</div>
+            <div class="rootcanal_fourth_section_step_item">
+                <div class="rootcanal_fourth_section_circle_wrap">
+                    <span class="rootcanal_fourth_section_badge">1</span>
+                    <div class="rootcanal_fourth_section_icon">
+                        <!-- Tooth + Magnifying Glass SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
+                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
+                            <circle cx="16.5" cy="15.5" r="3.5" stroke-width="1.3"></circle>
+                            <path d="M19 18l2.5 2.5" stroke-width="1.5"></path>
+                        </svg> -->
+                        <img src="./assets/img/icons/dental-examination.png" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+                <h3 class="rootcanal_fourth_section_step_title">Dental Examination</h3>
+                <p class="rootcanal_fourth_section_step_desc">
+                    We examine your teeth, gums, bite, and oral condition to understand your prosthetic needs.
+                </p>
+            </div>
 
-<!-- Arrow 1 -->
-<div class="rootcanal_fourth_section_arrow">
-    <i class="fa-solid fa-arrow-right-long"></i>
-</div>
+            <!-- Arrow 1 -->
+            <div class="rootcanal_fourth_section_arrow">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
 
-<!-- STEP 2 -->
-<div class="rootcanal_fourth_section_step_item">
-    <div class="rootcanal_fourth_section_circle_wrap">
-        <span class="rootcanal_fourth_section_badge">2</span>
-        <div class="rootcanal_fourth_section_icon">
-            <img src="./assets/img/icons/implant-step-3.png" alt="" style="width: 50px; height: 50px;">
-        </div>
-    </div>
-    <h3 class="rootcanal_fourth_section_step_title">Implant Placement</h3>
-    <p class="rootcanal_fourth_section_step_desc">
-        The titanium implant is placed into the jawbone under local anesthesia.
-    </p>
-</div>
+            <!-- STEP 2 -->
+            <div class="rootcanal_fourth_section_step_item">
+                <div class="rootcanal_fourth_section_circle_wrap">
+                    <span class="rootcanal_fourth_section_badge">2</span>
+                    <div class="rootcanal_fourth_section_icon">
+                        <!-- Tooth + Opening SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
+                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
+                            <path d="M9.5 7.5c1.5 1 3.5 1 5 0" stroke-dasharray="2 1"></path>
+                        </svg> -->
+                        <img src="./assets/img/icons/digital-imaging.png" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+                <h3 class="rootcanal_fourth_section_step_title">Digital Impressions</h3>
+                <p class="rootcanal_fourth_section_step_desc">
+                    Precise impressions and measurements are taken to design a bridge that fits accurately with your existing teeth.
+                </p>
+            </div>
 
-<!-- Arrow 2 -->
-<div class="rootcanal_fourth_section_arrow">
-    <i class="fa-solid fa-arrow-right-long"></i>
-</div>
+            <!-- Arrow 2 -->
+            <div class="rootcanal_fourth_section_arrow">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
 
-<!-- STEP 3 -->
-<div class="rootcanal_fourth_section_step_item">
-    <div class="rootcanal_fourth_section_circle_wrap">
-        <span class="rootcanal_fourth_section_badge">3</span>
-        <div class="rootcanal_fourth_section_icon">
-            <img src="./assets/img/icons/implant-step-4.png" alt="" style="width: 50px; height: 50px;">
-        </div>
-    </div>
-    <h3 class="rootcanal_fourth_section_step_title">Healing & Osseointegration</h3>
-    <p class="rootcanal_fourth_section_step_desc">
-        The implant fuses with the bone over a few months to become strong.
-    </p>
-</div>
+            <!-- STEP 3 -->
+            <div class="rootcanal_fourth_section_step_item">
+                <div class="rootcanal_fourth_section_circle_wrap">
+                    <span class="rootcanal_fourth_section_badge">3</span>
+                    <div class="rootcanal_fourth_section_icon">
+                        <!-- Preparation Tool SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
+                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
+                            <path d="M12 2v8M11 5h2M11 8h2"></path>
+                        </svg> -->
+                        <img src="./assets/img/icons/Denture-custom-fit.png" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+                <h3 class="rootcanal_fourth_section_step_title">Bridge Design</h3>
+                <p class="rootcanal_fourth_section_step_desc">
+                    Your bridge is custom-designed to match the shape, shade, and appearance of your natural teeth.
+                </p>
+            </div>
 
-<!-- Arrow 3 -->
-<div class="rootcanal_fourth_section_arrow">
-    <i class="fa-solid fa-arrow-right-long"></i>
-</div>
+            <!-- Arrow 3 -->
+            <div class="rootcanal_fourth_section_arrow">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
 
-<!-- STEP 4 -->
-<div class="rootcanal_fourth_section_step_item">
-    <div class="rootcanal_fourth_section_circle_wrap">
-        <span class="rootcanal_fourth_section_badge">4</span>
-        <div class="rootcanal_fourth_section_icon">
-            <img src="./assets/img/icons/implant-step-5.png" alt="" style="width: 50px; height: 50px;">
-        </div>
-    </div>
-    <h3 class="rootcanal_fourth_section_step_title">Abutment Placement</h3>
-    <p class="rootcanal_fourth_section_step_desc">
-        A connector is placed on the implant to hold the artificial tooth.
-    </p>
-</div>
+            <!-- STEP 4 -->
+            <div class="rootcanal_fourth_section_step_item">
+                <div class="rootcanal_fourth_section_circle_wrap">
+                    <span class="rootcanal_fourth_section_badge">4</span>
+                    <div class="rootcanal_fourth_section_icon">
+                        <!-- Impression & Design SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
+                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
+                            <path d="M10 9c1 1 3 1 4 0"></path>
+                        </svg> -->
+                        <img src="./assets/img/icons/dentures-step-4.png" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+                <h3 class="rootcanal_fourth_section_step_title">Bridge Trial Fitting</h3>
+                <p class="rootcanal_fourth_section_step_desc">
+                    The bridge is tried in to check its fit, bite, comfort, and appearance before final placement.
+                </p>
+            </div>
 
-<!-- Arrow 4 -->
-<div class="rootcanal_fourth_section_arrow">
-    <i class="fa-solid fa-arrow-right-long"></i>
-</div>
+            <!-- Arrow 4 -->
+            <div class="rootcanal_fourth_section_arrow">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
 
-<!-- STEP 5 -->
-<div class="rootcanal_fourth_section_step_item">
-    <div class="rootcanal_fourth_section_circle_wrap">
-        <span class="rootcanal_fourth_section_badge">5</span>
-        <div class="rootcanal_fourth_section_icon">
-            <img src="./assets/img/icons/implant-step-6.png" alt="" style="width: 50px; height: 50px;">
-        </div>
-    </div>
-    <h3 class="rootcanal_fourth_section_step_title">Crown Placement</h3>
-    <p class="rootcanal_fourth_section_step_desc">
-        A custom-made crown is attached, giving you a natural, beautiful smile.
-    </p>
-</div>
+            <!-- STEP 5 -->
+            <div class="rootcanal_fourth_section_step_item">
+                <div class="rootcanal_fourth_section_circle_wrap">
+                    <span class="rootcanal_fourth_section_badge">5</span>
+                    <div class="rootcanal_fourth_section_icon">
+                        <!-- Prosthetic Fabrication SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
+                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
+                            <path d="M10 11l2 2 2-2"></path>
+                        </svg> -->
+                        <img src="./assets/img/icons/dentures-step-5.png" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+                <h3 class="rootcanal_fourth_section_step_title">Final Bridge Placement</h3>
+                <p class="rootcanal_fourth_section_step_desc">
+                    The custom bridge is securely placed and adjusted to provide proper fit, function, and appearance.
+                </p>
+            </div>
+
+            <!-- Arrow 5 -->
+            <div class="rootcanal_fourth_section_arrow">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+
+            <!-- STEP 6 -->
+            <div class="rootcanal_fourth_section_step_item">
+                <div class="rootcanal_fourth_section_circle_wrap">
+                    <span class="rootcanal_fourth_section_badge">6</span>
+                    <div class="rootcanal_fourth_section_icon">
+                        <!-- Fitting & Adjustment / Crown SVG -->
+                        <!-- <svg viewBox="0 0 24 24">
+                            <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
+                        </svg> -->
+                        <img src="./assets/img/smiling-teeth.png" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+                <h3 class="rootcanal_fourth_section_step_title">Smile Confidently</h3>
+                <p class="rootcanal_fourth_section_step_desc">
+                  Enjoy restored chewing function, a natural-looking smile, and greater confidence in everyday life.  
+                </p>
+            </div>
 
         </div>
     </div>
@@ -352,7 +398,7 @@
 
 
 
-<!-- Dental Implants FIFTH SECTION (3-CARD SECTION) -->
+<!-- Dental Bridge FIFTH SECTION (3-CARD SECTION) -->
 <section class="rootcanal_fifth_section_wrapper">
     <div class="container">
         <div class="row">
@@ -371,13 +417,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Dental-implants-before.png" alt="Before Dental Implants Treatment">
+                                <img src="./assets/img/Before-dentures.png">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/After-implants.png" alt="After Dental Implants Treatment">
+                                <img src="./assets/img/after-dentures.png" alt="After Dental Bridge Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -385,16 +431,16 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Treat infection. Save your smile.
+                        Fill the gap. Restore your smile.
                     </p>
                 </div>
             </div>
 
-            <!-- CARD 2: BENEFITS OF Dental Implants -->
+            <!-- CARD 2: BENEFITS OF DENTAL BRIDGES -->
             <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
                 <div class="rootcanal_fifth_section_card">
                     <div>
-                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF Dental Implants</h3>
+                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF DENTAL BRIDGES</h3>
                         <div class="rootcanal_fifth_section_divider">
                             <div class="rootcanal_fifth_section_divider_line"></div>
                             <div class="rootcanal_fifth_section_divider_dot"></div>
@@ -406,31 +452,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Permanent & long-lasting solution</span>
+                                <span>Restores chewing and oral function</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Look, feel & function like natural teeth</span>
+                                <span>Replaces one or more missing teeth</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improve chewing & speech</span>
+                                <span>Can improve speech and smile appearance</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Prevent bone loss & facial sagging</span>
+                                <span>Provides a natural-looking smile</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Boost self-confidence & quality of life</span>
+                                <span>Can provide lasting results with proper care</span>
                             </li>
                         </ul>
                     </div>
@@ -450,19 +496,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Are Dental Implants painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Is a Dental Bridge comfortable to wear?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long do dental implants last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does Dental Bridge treatment take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Who is a good candidate for implants?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does a Dental Bridge last?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How much time does it take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How do I care for my Dental Bridge?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -485,7 +531,7 @@
 
 
 
-<!-- Dental Implants SIXTH SECTION (CTA BANNER BAR) -->
+<!-- Dental Bridge SIXTH SECTION (CTA BANNER BAR) -->
 <section class="rootcanal_sixth_section_wrapper">
     <div class="container">
         <div class="rootcanal_sixth_section_banner">
@@ -501,10 +547,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Don't let tooth pain affect your life.<br class="d-none d-md-inline"> Get relief with expert care today!
+                            Don't let missing teeth affect your smile.<br class="d-none d-md-inline"> Restore your smile with expert Dental Bridge care today!
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation now and smile with confidence.
+                            Book your consultation and take the first step toward a complete, confident smile.
                         </p>
                     </div>
                 </div>

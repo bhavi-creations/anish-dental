@@ -111,24 +111,8 @@
 
         <!-- 6 Speciality Cards Grid -->
         <div class="row index_second_section_cards_row justify-content-center">
-            
-            <!-- Card 1: General Dentistry -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="general-dentistry.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-tooth"></i>
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">General<br>Dentistry</h3>
-                        <p class="index_second_section_card_desc">Complete oral care for you and your family.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
-                </a>
-            </div>
 
-            <!-- Card 2: Dental Implants -->
+            <!-- Card 1: Dental Implants -->
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="dental-implants.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
@@ -145,15 +129,15 @@
                 </a>
             </div>
 
-            <!-- Card 3: Orthodontic Braces -->
+            <!-- Card 2: Aligners -->
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="orthodontic-braces.php" class="index_second_section_card">
+                <a href="aligners.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-teeth"></i> -->
-                         <img src="./assets/img/icons/braces.png" alt="" style="width: 50px; height: 50px;">
+                         <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
-                        <h3 class="index_second_section_card_title">Orthodontic<br>Braces</h3>
+                        <h3 class="index_second_section_card_title">Aligners<br></h3>
                         <p class="index_second_section_card_desc">Straighten your teeth for a confident smile.</p>
                     </div>
                     <div class="index_second_section_card_arrow">
@@ -162,15 +146,15 @@
                 </a>
             </div>
 
-            <!-- Card 4: Cosmetic Dentistry -->
+            <!-- Card 3: Dental Veneers -->
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="cosmetic-dentistry.php" class="index_second_section_card">
+                <a href="dental-veneers.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
                          <img src="./assets/img/cosmetic-teeth.png " alt="" style="width: 50px; height: auto;">
                     </div>
                     <div>
-                        <h3 class="index_second_section_card_title">Cosmetic<br>Dentistry</h3>
+                        <h3 class="index_second_section_card_title">Dental<br>Veneers</h3>
                         <p class="index_second_section_card_desc">Enhance your smile with advanced care.</p>
                     </div>
                     <div class="index_second_section_card_arrow">
@@ -179,7 +163,7 @@
                 </a>
             </div>
 
-            <!-- Card 5: Root Canal Treatment -->
+            <!-- Card 4: Root Canal Treatment -->
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="root-canal.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
@@ -196,7 +180,7 @@
                 </a>
             </div>
 
-            <!-- Card 6: Pediatric Dentistry -->
+            <!-- Card 5: Pediatric Dentistry -->
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
                 <a href="pediatric-dentistry.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
@@ -206,6 +190,22 @@
                     <div>
                         <h3 class="index_second_section_card_title">Pediatric<br>Dentistry</h3>
                         <p class="index_second_section_card_desc">Special care for kids & growing smiles.</p>
+                    </div>
+                    <div class="index_second_section_card_arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Card 6: General Dentistry -->
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="general-dentistry.php" class="index_second_section_card">
+                    <div class="index_second_section_icon_box">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <div>
+                        <h3 class="index_second_section_card_title">General<br>Dentistry</h3>
+                        <p class="index_second_section_card_desc">Complete oral care for you and your family.</p>
                     </div>
                     <div class="index_second_section_card_arrow">
                         <i class="fa-solid fa-arrow-right-long"></i>
@@ -581,7 +581,7 @@ Anand Travels</span>
                             <i class="fa-solid fa-phone-volume"></i>
                         </div>
                         <div>
-                            <a href="tel:+918123456789" class="index_fifth_section_cta_phone_num">+91 81234 56789</a>
+                            <a href="tel:+917396256474" class="index_fifth_section_cta_phone_num">+91 73962 56474</a>
                             <div class="index_fifth_section_cta_phone_sub">Call Us Anytime</div>
                         </div>
                     </div>

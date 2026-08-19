@@ -98,7 +98,7 @@
         <div class="treatments_secound_section_grid">
 
             <!-- 1. General Dentistry -->
-            <div class="treatments_secound_section_col">
+            <!-- <div class="treatments_secound_section_col">
 
                 <div class="treatments_secound_section_card">
                     <div>
@@ -114,9 +114,9 @@
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- 2. Dental Implants -->
+            <!-- 1. Dental Implants -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -136,45 +136,45 @@
 
             </div>
 
-            <!-- 3. Orthodontic Braces -->
+            <!-- 2. Aligners -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-teeth-open treatments_secound_section_icon"></i> -->
-                            <img src="./assets/img/icons/braces.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
                         </div>
-                        <h3 class="treatments_secound_section_card_title">Orthodontic Braces</h3>
+                        <h3 class="treatments_secound_section_card_title">Aligners</h3>
                         <p class="treatments_secound_section_card_desc">
                             Straighten your teeth for a confident smile.
                         </p>
                     </div>
-                    <a href="orthodontic-braces.php" class="treatments_secound_section_link">
+                    <a href="aligners.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- 4. Cosmetic Dentistry -->
+            <!-- 3. Dental Veneers -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-sparkles treatments_secound_section_icon"></i> -->
-                            <img src="./assets/img/cosmetic-teeth.png" alt="" style="width:50px; height:auto;">
+                            <img src="./assets/img/icons/Veneers-step-4.png" alt="" style="width:50px; height:auto;">
                         </div>
-                        <h3 class="treatments_secound_section_card_title">Cosmetic Dentistry</h3>
+                        <h3 class="treatments_secound_section_card_title">Dental Veneers</h3>
                         <p class="treatments_secound_section_card_desc">
                             Enhance your smile with advanced care.
                         </p>
                     </div>
-                    <a href="cosmetic-dentistry.php" class="treatments_secound_section_link">
+                    <a href="dental-veneers.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- 5. Root Canal Treatment -->
+            <!-- 4. Root Canal Treatment -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -193,7 +193,26 @@
                 </div>
             </div>
 
-            <!-- 6. Pediatric Dentistry -->
+            <!-- 3. Dental Bridge -->
+            <div class="treatments_secound_section_col">
+                <div class="treatments_secound_section_card">
+                    <div>
+                        <div class="treatments_secound_section_icon_box">
+                            <!-- <i class="fa-solid fa-sparkles treatments_secound_section_icon"></i> -->
+                            <img src="./assets/img/icons/Veneers-step-4.png" alt="" style="width:50px; height:auto;">
+                        </div>
+                        <h3 class="treatments_secound_section_card_title">Dental Bridge</h3>
+                        <p class="treatments_secound_section_card_desc">
+                            Enhance your smile with advanced care.
+                        </p>
+                    </div>
+                    <a href="dental-veneers.php" class="treatments_secound_section_link">
+                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 5. Pediatric Dentistry -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -211,7 +230,7 @@
                 </div>
             </div>
 
-            <!-- 7. Periodontal Care -->
+            <!-- 6. Periodontal Care -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -231,7 +250,7 @@
                 </div>
             </div>
 
-            <!-- 8. Oral Surgery -->
+            <!-- 7. Oral Surgery -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -250,7 +269,7 @@
                 </div>
             </div>
 
-            <!-- 9. Teeth Whitening -->
+            <!-- 8. Teeth Whitening -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -269,7 +288,7 @@
                 </div>
             </div>
 
-            <!-- 10. Dentures & Prosthetics -->
+            <!-- 9. Dentures & Prosthetics -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -284,6 +303,25 @@
                         </p>
                     </div>
                     <a href="dentures-and-prosthetics.php" class="treatments_secound_section_link">
+                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 10. General Dentistry -->
+            <div class="treatments_secound_section_col">
+
+                <div class="treatments_secound_section_card">
+                    <div>
+                        <div class="treatments_secound_section_icon_box">
+                            <i class="fa-solid fa-tooth treatments_secound_section_icon"></i>
+                        </div>
+                        <h3 class="treatments_secound_section_card_title">General Dentistry</h3>
+                        <p class="treatments_secound_section_card_desc">
+                            Complete oral care for you and your family.
+                        </p>
+                    </div>
+                    <a href="general-dentistry.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -501,10 +539,10 @@
                     <div class="treatments_fifth_section_divider"></div>
 
                     <!-- Phone Call Block -->
-                    <a href="tel:+918123456789" class="treatments_fifth_section_phone_box">
+                    <a href="tel:+917396256474" class="treatments_fifth_section_phone_box">
                         <i class="fa-solid fa-phone-volume treatments_fifth_section_phone_icon"></i>
                         <div class="treatments_fifth_section_phone_content">
-                            <span class="treatments_fifth_section_phone_number">+91 81234 56789</span>
+                            <span class="treatments_fifth_section_phone_number">+91 73962 56474</span>
                             <span class="treatments_fifth_section_phone_label">Call Us Anytime</span>
                         </div>
                     </a>

@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<!-- Cosmetic Dentistry HERO FIRST SECTION -->
+<!-- Aligners HERO FIRST SECTION -->
 <section class="rootcanal_first_section_wrapper">
     <div class="container-fluid p-0 ps-lg-5">
         <div class="row rootcanal_first_section_row g-0">
@@ -14,17 +14,17 @@
                     <span>&gt;</span>
                     <a href="treatments.php">Treatments</a>
                     <span>&gt;</span>
-                    <span class="rootcanal_first_section_active">Cosmetic Dentistry Treatment</span>
+                    <span class="rootcanal_first_section_active">Aligners Treatment</span>
                 </div>
 
                 <!-- Main Section Title -->
                 <h1 class="rootcanal_first_section_title">
-                    Cosmetic Dentistry<br>Treatment
+                    Aligners
                 </h1>
 
                 <!-- Subtitle -->
                 <h2 class="rootcanal_first_section_subtitle">
-                    Enhance Your Smile. Boost Your Confidence.
+                    Clear Aligners. Straighter Teeth. Confident Smile.
                 </h2>
 
                 <!-- Divider Line -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Cosmetic Dentistry Treatment combines modern dental procedures to improve the appearance of your teeth, smile, and overall facial aesthetics while maintaining a natural-looking result.
+                    Clear aligners gently move crowded, crooked, and misaligned teeth into a healthier, more balanced position while keeping your smile natural and confident.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -74,9 +74,9 @@
                     </svg>
 
                     <!-- Tooth Illustration Image -->
-                     <img src=".\assets\img\cosmetic-dentistry-bg-1.png" 
-                         alt="Cosmetic Dentistry" 
-                         class="rootcanal_first_section_img"> 
+                    <img src="./assets/img/Aligners-bg.png"  
+                         alt="Aligners Treatment Procedure - Tooth Illustration" 
+                         class="rootcanal_first_section_img">
                 </div>
             </div>
 
@@ -86,13 +86,13 @@
 
 
 
-<!-- Cosmetic Dentistry SECOND SECTION (BENEFITS BAR) -->
+<!-- Aligners SECOND SECTION (BENEFITS BAR) -->
 <section class="rootcanal_second_section_wrapper">
     <div class="container">
         <div class="rootcanal_second_section_card">
             <div class="rootcanal_second_section_grid">
 
-                <!-- 1. Smile Enhancement -->
+                <!-- 1. Straighter Teeth -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Tooth Icon -->
@@ -101,12 +101,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Smile Enhancement</h3>
-                        <p class="rootcanal_second_section_desc">Improves the appearance of your teeth and smile.</p>
+                        <h3 class="rootcanal_second_section_title">Straighter Teeth</h3>
+                        <p class="rootcanal_second_section_desc">Gradually improves tooth alignment and smile appearance.</p>
                     </div>
                 </div>
 
-                <!-- 2. Natural-Looking Results -->
+                <!-- 2. Better Oral Hygiene -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield with Tooth Icon -->
@@ -116,12 +116,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Natural-Looking Results</h3>
-                        <p class="rootcanal_second_section_desc">Enhances your smile while maintaining a natural appearance.</p>
+                        <h3 class="rootcanal_second_section_title">Better Oral Hygiene</h3>
+                        <p class="rootcanal_second_section_desc">Removable aligners make brushing and flossing easier.</p>
                     </div>
                 </div>
 
-                <!-- 3. Improved Confidence -->
+                <!-- 3. Boosts Smile Confidence -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Ribbon Award Medal Icon -->
@@ -131,12 +131,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Improved Confidence</h3>
-                        <p class="rootcanal_second_section_desc">A beautiful smile can help improve confidence in everyday life.</p>
+                        <h3 class="rootcanal_second_section_title">Boosts Smile Confidence</h3>
+                        <p class="rootcanal_second_section_desc">Enjoy a discreet treatment and feel more confident while smiling.</p>
                     </div>
                 </div>
 
-                <!-- 4. Comfortable Treatment -->
+                <!-- 4. Corrects Bite Problems -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Heart in Hand / Care Icon -->
@@ -146,12 +146,12 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Comfortable Treatment</h3>
-                        <p class="rootcanal_second_section_desc">Modern techniques help make cosmetic dental procedures comfortable.</p>
+                        <h3 class="rootcanal_second_section_title">Corrects Bite Problems</h3>
+                        <p class="rootcanal_second_section_desc">Helps improve suitable overbite, underbite and crossbite cases.</p>
                     </div>
                 </div>
 
-                <!-- 5. Better Smile Aesthetics -->
+                <!-- 5. Beautiful Results -->
                 <div class="rootcanal_second_section_item">
                     <div class="rootcanal_second_section_icon_box">
                         <!-- Shield Check Icon -->
@@ -161,8 +161,8 @@
                         </svg>
                     </div>
                     <div class="rootcanal_second_section_content">
-                        <h3 class="rootcanal_second_section_title">Better Smile Aesthetics</h3>
-                        <p class="rootcanal_second_section_desc">Addresses cosmetic concerns to create a more balanced and attractive smile.</p>
+                        <h3 class="rootcanal_second_section_title">Beautiful Results</h3>
+                        <p class="rootcanal_second_section_desc">With proper retention and care, maintain your straighter smile for years.</p>
                     </div>
                 </div>
 
@@ -174,7 +174,7 @@
 
 
 
-<!-- Cosmetic Dentistry THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
+<!-- Aligners THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
 <section class="rootcanal_third_section_wrapper">
     <div class="container">
         <div class="row rootcanal_third_section_row">
@@ -184,7 +184,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT COSMETIC DENTISTRY TREATMENT
+                    ABOUT CLEAR ALIGNERS
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    Cosmetic Dentistry Treatment focuses on improving the appearance of your teeth and smile. Depending on your individual needs, cosmetic dental procedures can help address concerns such as tooth discoloration, chipped or uneven teeth, gaps, worn teeth, and smile alignment. Treatment is planned to achieve a healthy, balanced, and natural-looking smile.
+                    Clear aligners use a series of custom-made, transparent trays to gently and gradually move teeth into their planned positions. They are removable, discreet, and can make everyday brushing and flossing easier during treatment.
                 </p>
 
             </div>
@@ -211,7 +211,8 @@
 
                     <!-- Quote Text -->
                     <p class="rootcanal_third_section_quote_text">
-                        Cosmetic Dentistry can enhance the appearance of your smile and help you feel more confident with a natural-looking result.
+                        <!-- Timely Aligners treatment can save your natural tooth, relieve pain, and help you maintain a healthy, confident smile. -->
+                         Clear aligners offer a discreet way to improve tooth alignment and create a healthier, more confident smile.
                     </p>
 
                     <!-- Tooth Outline Watermark SVG -->
@@ -232,14 +233,14 @@
 
 
 
-<!-- Cosmetic Dentistry FOURTH SECTION (PROCESS STEPS FLOW) -->
+<!-- Aligners FOURTH SECTION (PROCESS STEPS FLOW) -->
 <section class="rootcanal_fourth_section_wrapper">
     <div class="container">
         
         <!-- Section Header -->
         <div class="rootcanal_fourth_section_header">
             <h2 class="rootcanal_fourth_section_title">
-                THE COSMETIC DENTISTRY TREATMENT PROCESS
+                THE CLEAR ALIGNERS TREATMENT PROCESS
             </h2>
             <div class="rootcanal_fourth_section_divider">
                 <div class="rootcanal_fourth_section_divider_line"></div>
@@ -256,17 +257,18 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">1</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Tooth + Magnifying Glass SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Aligner consultation icon -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <circle cx="16.5" cy="15.5" r="3.5" stroke-width="1.3"></circle>
                             <path d="M19 18l2.5 2.5" stroke-width="1.5"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/dental-examination.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Smile Assessment</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Initial Consultation</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We assess your teeth, gums, bite, and smile to understand your cosmetic concerns.
+                    We examine your teeth and bite, discuss your concerns, and understand your smile goals.
                 </p>
             </div>
 
@@ -280,16 +282,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">2</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Tooth + Opening SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Digital treatment planning icon -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M9.5 7.5c1.5 1 3.5 1 5 0" stroke-dasharray="2 1"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/consultation-1.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Treatment Planning</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Digital Treatment Planning</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    We discuss your goals and create a personalized treatment plan based on your smile needs.
+                    Your treatment is digitally planned to create a customized sequence of tooth movements.
                 </p>
             </div>
 
@@ -303,16 +306,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">3</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Teeth Preparation Tool SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Custom aligner fitting icon -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M12 2v8M11 5h2M11 8h2"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/aligners-fitting.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Teeth Preparation</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Custom Aligner Fitting</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    Your teeth are prepared carefully according to the selected cosmetic dental procedure.
+                   Your custom clear aligners are fitted and instructions are given for proper wear and care.
                 </p>
             </div>
 
@@ -326,16 +330,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">4</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Cosmetic Procedure SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Aligner change icon -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 9c1 1 3 1 4 0"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Cosmetic Procedure</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Aligner Changes</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The planned cosmetic procedure is performed using appropriate dental techniques and materials.
+                    You progress through a series of aligners, each designed to move your teeth gradually.
                 </p>
             </div>
 
@@ -349,16 +354,17 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">5</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Smile Refinement SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Progress monitoring icon -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                             <path d="M10 11l2 2 2-2"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/icons/digital-imaging.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Smile Refinement</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Progress Monitoring</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    The treatment is refined to achieve a balanced, comfortable, and natural-looking smile.
+                    We review your progress regularly and make adjustments to the treatment plan when needed.
                 </p>
             </div>
 
@@ -372,15 +378,16 @@
                 <div class="rootcanal_fourth_section_circle_wrap">
                     <span class="rootcanal_fourth_section_badge">6</span>
                     <div class="rootcanal_fourth_section_icon">
-                        <!-- Final Smile Check / Crown SVG -->
-                        <svg viewBox="0 0 24 24">
+                        <!-- Final smile / retention icon -->
+                        <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
-                        </svg>
+                        </svg> -->
+                        <img src="./assets/img/smiling-teeth.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
-                <h3 class="rootcanal_fourth_section_step_title">Final Smile Check</h3>
+                <h3 class="rootcanal_fourth_section_step_title">Beautiful Smile</h3>
                 <p class="rootcanal_fourth_section_step_desc">
-                    Your final result is checked and you receive guidance for maintaining your improved smile.
+                    Complete your planned aligner series and enjoy a straighter, healthier, more confident smile.
                 </p>
             </div>
 
@@ -392,7 +399,7 @@
 
 
 
-<!-- Cosmetic Dentistry FIFTH SECTION (3-CARD SECTION) -->
+<!-- Aligners FIFTH SECTION (3-CARD SECTION) -->
 <section class="rootcanal_fifth_section_wrapper">
     <div class="container">
         <div class="row">
@@ -411,13 +418,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-cosmetic.png" alt="Before Cosmetic Dentistry Treatment">
+                                <img src="./assets/img/Before-braces.png" alt="Before Clear Aligners Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/After-cosmetic.png" alt="After Cosmetic Dentistry Treatment">
+                                <img src="./assets/img/After-braces.png" alt="After Clear Aligners Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -425,16 +432,16 @@
 
                     <!-- Bottom Tagline -->
                     <p class="rootcanal_fifth_section_ba_tagline">
-                        Transform your smile. Express your confidence.
+                        Transform your smile. Build your confidence.
                     </p>
                 </div>
             </div>
 
-            <!-- CARD 2: BENEFITS OF COSMETIC DENTISTRY -->
+            <!-- CARD 2: BENEFITS OF Aligners -->
             <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
                 <div class="rootcanal_fifth_section_card">
                     <div>
-                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF COSMETIC DENTISTRY</h3>
+                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF Aligners</h3>
                         <div class="rootcanal_fifth_section_divider">
                             <div class="rootcanal_fifth_section_divider_line"></div>
                             <div class="rootcanal_fifth_section_divider_dot"></div>
@@ -446,31 +453,31 @@
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Improves the appearance of your smile</span>
+                                <span>Straightens crowded and misaligned teeth</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Addresses stains, discoloration, and other cosmetic concerns</span>
+                                <span>Improves suitable bite alignment issues</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Creates a more balanced and natural-looking smile</span>
+                                <span>Supports better chewing and speech function</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Can improve confidence in your smile</span>
+                                <span>Removable for easier brushing and flossing</span>
                             </li>
                             <li class="rootcanal_fifth_section_benefit_item">
                                 <div class="rootcanal_fifth_section_check_icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
-                                <span>Results can be maintained with good oral care</span>
+                                <span>Discreet, comfortable and effective treatment</span>
                             </li>
                         </ul>
                     </div>
@@ -490,19 +497,19 @@
                         <!-- FAQ Boxes List -->
                         <div class="rootcanal_fifth_section_faq_list">
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Cosmetic Dentistry treatment painful?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Are clear aligners suitable for me?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does Cosmetic Dentistry treatment take?</span>
+                                <span class="rootcanal_fifth_section_faq_question">How long does clear aligner treatment take?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long do cosmetic dental results last?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Are clear aligners painful?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                             <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Which Cosmetic Dentistry treatment is right for me?</span>
+                                <span class="rootcanal_fifth_section_faq_question">Can I eat normally with clear aligners?</span>
                                 <span class="rootcanal_fifth_section_faq_plus">+</span>
                             </div>
                         </div>
@@ -525,7 +532,7 @@
 
 
 
-<!-- Cosmetic Dentistry SIXTH SECTION (CTA BANNER BAR) -->
+<!-- Aligners SIXTH SECTION (CTA BANNER BAR) -->
 <section class="rootcanal_sixth_section_wrapper">
     <div class="container">
         <div class="rootcanal_sixth_section_banner">
@@ -541,10 +548,10 @@
                     </div>
                     <div class="rootcanal_sixth_section_text_box">
                         <h3 class="rootcanal_sixth_section_title">
-                            Ready to transform your smile?<br class="d-none d-md-inline"> Get expert Cosmetic Dentistry care today!
+                            Ready for a straighter smile?<br class="d-none d-md-inline"> Start your clear aligner journey today.
                         </h3>
                         <p class="rootcanal_sixth_section_sub">
-                            Book your consultation and take the first step toward a healthier, more confident smile.
+                            Book your aligner consultation and take the first step towards a confident smile.
                         </p>
                     </div>
                 </div>
@@ -571,10 +578,10 @@
                             </svg>
                         </div>
                         <div class="rootcanal_sixth_section_phone_info">
-                            <a href="tel:+918123456789" class="rootcanal_sixth_section_phone_number">
-                                +91 81234 56789
+                            <a href="tel:+917396256474" class="rootcanal_sixth_section_phone_number">
+                                +91 73962 56474
                             </a>
-                            <span class="rootcanal_sixth_section_phone_label">Call Us Anytime</span>
+                            <span class="rootcanal_sixth_section_phone_label">Talk to Our Team</span>
                         </div>
                     </div>
 

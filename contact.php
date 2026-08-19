@@ -117,7 +117,7 @@
                         </div>
                         <div class="info-content">
                             <h6>Email Us</h6>
-                            <p>info@anishdental.com</p>
+                            <p>anishdentalhospital@gmail.com</p>
                         </div>
                     </div>
 
@@ -317,7 +317,7 @@
                         <div class="phone-contact-box">
                             <i class="bi bi-telephone"></i>
                             <div>
-                                <a href="tel:+918123456789" class="phone-number">+91 81234 56789</a>
+                                <a href="tel:+918123456789" class="phone-number">+91 73962 56474</a>
                                 <span class="phone-label">Call Us Anytime</span>
                             </div>
                         </div>
@@ -362,7 +362,7 @@
                     <div class="d-flex align-items-center justify-content-lg-end gap-3">
                         <i class="bi bi-telephone-outbound phone-icon"></i>
                         <div class="text-start">
-                            <div class="phone-number">+91 81234 56789</div>
+                            <div class="phone-number">+91 73962 56474</div>
                             <div class="phone-label">Call Us Anytime</div>
                         </div>
                     </div>
