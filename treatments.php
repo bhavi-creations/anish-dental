@@ -206,7 +206,7 @@
                             Enhance your smile with advanced care.
                         </p>
                     </div>
-                    <a href="dental-veneers.php" class="treatments_secound_section_link">
+                    <a href="dental-bridge.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
