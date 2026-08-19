@@ -70,7 +70,7 @@
                 </div>
                 <div class="footer-contact-item">
                     <i class="fa-regular fa-envelope"></i>
-                    <a href="mailto:info@anishdental.com">info@anishdental.com</a>
+                    <a href="mailto:anishdentalhospital@gmail.com">anishdentalhospital@gmail.com</a>
                 </div>
                 <div class="footer-contact-item">
                     <i class="fa-regular fa-clock"></i>

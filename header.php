@@ -29,15 +29,15 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center gap-3 gap-lg-4">
                     <div class="top-info-item">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>Kothapet, Guntur, Andhra Pradesh</span>
+                        <span>Kokila center, kakinada</span>
                     </div>
                     <div class="top-info-item">
                         <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+918123456789">+91 81234 56789</a>
+                        <a href="tel:+918123456789">+91 7396256474</a>
                     </div>
                     <div class="top-info-item">
                         <i class="fa-regular fa-envelope"></i>
-                        <a href="mailto:info@anishdental.com">info@anishdental.com</a>
+                        <a href="mailto:info@anishdental.com">anishdentalhospital@gmail.com</a>
                     </div>
                 </div>
 
@@ -64,19 +64,19 @@
 
       <div class="top-info-item">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>Kothapet, Guntur, Andhra Pradesh</span>
+                        <span>Kokila center, Kakinada</span>
                     </div>
 
                     &nbsp; &nbsp; / &nbsp; &nbsp;
                     <div class="top-info-item">
                         <i class="fa-solid fa-phone"></i>
-                        <a >+91 81234 56789</a>
+                        <a >+91 7396256474</a>
                         <!-- <a href="tel:+918123456789">+91 81234 56789</a> -->
                     </div>
                      &nbsp; &nbsp; / &nbsp; &nbsp;
                     <div class="top-info-item">
                         <i class="fa-regular fa-envelope"></i>
-                        <a >info@anishdental.com</a>
+                        <a >anishdentalhospital@gmail.com</a>
                         <!-- <a href="mailto:info@anishdental.com">info@anishdental.com</a> -->
                     </div>
     </marquee>
