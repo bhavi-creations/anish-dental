@@ -122,7 +122,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-dharmachakra treatments_secound_section_icon"></i> -->
-                            <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 40px; height: 40px;" >
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Implants</h3>
                         <p class="treatments_secound_section_card_desc">

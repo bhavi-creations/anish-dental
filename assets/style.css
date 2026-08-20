@@ -1939,6 +1939,9 @@ a {
     justify-content: center !important;
     margin-bottom: 22px !important;
     transition: all 0.3s ease !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .treatments_secound_section_card:hover .treatments_secound_section_icon_box {
@@ -7168,3 +7171,8 @@ a {
     }
 
 }
+
+
+
+
+/* Treatment page icons centre alignment */
