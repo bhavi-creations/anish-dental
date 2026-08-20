@@ -148,31 +148,31 @@
             <!-- Row 4 (Happy Smiles Category) -->
             <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
                 <div class="gallery-card">
-                    <img src="./assets/img/hc-1.png" alt="Happy Kid Patient">
+                    <img src="./assets/img/gallery-img-1.png" alt="Happy Kid Patient">
                 </div>
             </div>
 
             <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
                 <div class="gallery-card">
-                    <img src="./assets/img/hc-2.png" alt="Happy Lady Patient">
+                    <img src="./assets/img/gallery-img-2.png" alt="Happy Lady Patient">
                 </div>
             </div>
 
             <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
                 <div class="gallery-card">
-                    <img src="./assets/img/hc-3.png" alt="Happy Senior Patient">
+                    <img src="./assets/img/gallery-img-3.png" alt="Happy Senior Patient">
                 </div>
             </div>
 
             <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
                 <div class="gallery-card">
-                    <img src="./assets/img/hc-4.png" alt="Happy Young Patient">
+                    <img src="./assets/img/gallery-img-4.png" alt="Happy Young Patient">
                 </div>
             </div>
 
             <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
                 <div class="gallery-card">
-                    <img src="./assets/img/hc-5.png" alt="Happy Patient Smile">
+                    <img src="./assets/img/gallery-img-5.png" alt="Happy Patient Smile">
                 </div>
             </div>
 

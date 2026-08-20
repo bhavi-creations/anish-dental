@@ -333,7 +333,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-wand-magic-sparkles treatments_secound_section_icon"></i> -->
-                            <img src="./assets/img/icons/teeth_whitening.png" alt="" style="width: 50px; height: 50px;">
+                            <img src="./assets/img/icons/wisdom-tooth.png" alt="" style="width: 50px; height: 50px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Wisdom teeth</h3>
                         <p class="treatments_secound_section_card_desc">
