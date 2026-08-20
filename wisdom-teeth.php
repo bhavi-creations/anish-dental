@@ -387,13 +387,13 @@
                         <div class="rootcanal_fifth_section_ba_grid">
                             <!-- Before Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/Before-aligners.png" alt="Before Wisdom Teeth Removal">
+                                <img src="./assets/img/wisdom-teeth-before.png" alt="Before Wisdom Teeth Removal">
                                 <span class="rootcanal_fifth_section_ba_badge">Before</span>
                             </div>
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/After-aligners.png" alt="After Wisdom Teeth Removal">
+                                <img src="./assets/img/wisdom-teeth-after.png" alt="After Wisdom Teeth Removal">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -454,44 +454,148 @@
             </div>
 
             <!-- CARD 3: FREQUENTLY ASKED QUESTIONS -->
-            <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
-                <div class="rootcanal_fifth_section_card">
-                    <div>
-                        <h3 class="rootcanal_fifth_section_title">FREQUENTLY ASKED QUESTIONS</h3>
-                        <div class="rootcanal_fifth_section_divider">
-                            <div class="rootcanal_fifth_section_divider_line"></div>
-                            <div class="rootcanal_fifth_section_divider_dot"></div>
-                        </div>
+<div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
 
-                        <!-- FAQ Boxes List -->
-                        <div class="rootcanal_fifth_section_faq_list">
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is wisdom tooth removal painful?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does the recovery process take?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Do all wisdom teeth need to be extracted?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">What foods should I eat after surgery?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                        </div>
-                    </div>
+    <div class="rootcanal_fifth_section_card">
 
-                    <!-- Link at Bottom -->
-                    <div>
-                        <a href="#faqs" class="rootcanal_fifth_section_faq_link">
-                            View More FAQs <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+        <div>
+
+            <h3 class="rootcanal_fifth_section_title">
+                FREQUENTLY ASKED QUESTIONS
+            </h3>
+
+            <div class="rootcanal_fifth_section_divider">
+                <div class="rootcanal_fifth_section_divider_line"></div>
+                <div class="rootcanal_fifth_section_divider_dot"></div>
             </div>
+
+
+            <!-- FAQ Boxes List -->
+            <div class="rootcanal_fifth_section_faq_list">
+
+
+                <!-- FAQ 1 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Is wisdom tooth removal painful?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> anesthesia helps minimize discomfort.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How long does the recovery process take?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> recovery takes a few days to a week.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Do all wisdom teeth need to be extracted?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> removal is needed only when problems occur.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 4 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            What foods should I eat after surgery?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Choose</strong> soft, cool foods during recovery.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Link at Bottom -->
+        <!-- <div>
+
+            <a href="#faqs" class="rootcanal_fifth_section_faq_link">
+                View More FAQs
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div> -->
+
+    </div>
+
+</div>
 
         </div>
     </div>

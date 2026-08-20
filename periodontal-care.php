@@ -478,44 +478,148 @@
             </div>
 
             <!-- CARD 3: FREQUENTLY ASKED QUESTIONS -->
-            <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
-                <div class="rootcanal_fifth_section_card">
-                    <div>
-                        <h3 class="rootcanal_fifth_section_title">FREQUENTLY ASKED QUESTIONS</h3>
-                        <div class="rootcanal_fifth_section_divider">
-                            <div class="rootcanal_fifth_section_divider_line"></div>
-                            <div class="rootcanal_fifth_section_divider_dot"></div>
-                        </div>
+<div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
 
-                        <!-- FAQ Boxes List -->
-                        <div class="rootcanal_fifth_section_faq_list">
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">What is Periodontal Care Treatment?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is periodontal treatment painful?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does gum treatment take?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How can I prevent gum disease?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                        </div>
-                    </div>
+    <div class="rootcanal_fifth_section_card">
 
-                    <!-- Link at Bottom -->
-                    <div>
-                        <a href="#faqs" class="rootcanal_fifth_section_faq_link">
-                            View More FAQs <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+        <div>
+
+            <h3 class="rootcanal_fifth_section_title">
+                FREQUENTLY ASKED QUESTIONS
+            </h3>
+
+            <div class="rootcanal_fifth_section_divider">
+                <div class="rootcanal_fifth_section_divider_line"></div>
+                <div class="rootcanal_fifth_section_divider_dot"></div>
             </div>
+
+
+            <!-- FAQ Boxes List -->
+            <div class="rootcanal_fifth_section_faq_list">
+
+
+                <!-- FAQ 1 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            What is Periodontal Care Treatment?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>It treats</strong> gum disease and helps maintain healthy gums.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Is periodontal treatment painful?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> treatment is usually comfortable with proper care.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How long does gum treatment take?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> treatment takes a few visits.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 4 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How can I prevent gum disease?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Yes,</strong> brushing, flossing, and regular check-ups help prevent it.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Link at Bottom -->
+        <!-- <div>
+
+            <a href="#faqs" class="rootcanal_fifth_section_faq_link">
+                View More FAQs
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div> -->
+
+    </div>
+
+</div>
 
         </div>
     </div>

@@ -103,6 +103,64 @@
 
 <!-- Bootstrap 5 JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<!-- COMMON FAQ JAVASCRIPT -->
+<script>
+
+function toggleFAQ(button) {
+
+    /* Find the FAQ item containing this button */
+    const faqItem = button.closest(
+        '.rootcanal_fifth_section_faq_item'
+    );
+
+    /* Find the answer inside the same FAQ item */
+    const answer = faqItem.querySelector(
+        '.faq_answer'
+    );
+
+    /* Safety check */
+    if (!answer) {
+        return;
+    }
+
+    /* Toggle answer */
+    if (answer.classList.contains('faq_answer_show')) {
+
+        /* Close */
+        answer.classList.remove(
+            'faq_answer_show'
+        );
+
+        button.textContent = '+';
+
+        button.setAttribute(
+            'aria-label',
+            'Show answer'
+        );
+
+    } else {
+
+        /* Open */
+        answer.classList.add(
+            'faq_answer_show'
+        );
+
+        button.textContent = '−';
+
+        button.setAttribute(
+            'aria-label',
+            'Hide answer'
+        );
+
+    }
+
+}
+
+</script>
+
 </body>
 
 </html>

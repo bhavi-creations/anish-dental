@@ -478,44 +478,148 @@
             </div>
 
             <!-- CARD 3: FREQUENTLY ASKED QUESTIONS -->
-            <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
-                <div class="rootcanal_fifth_section_card">
-                    <div>
-                        <h3 class="rootcanal_fifth_section_title">FREQUENTLY ASKED QUESTIONS</h3>
-                        <div class="rootcanal_fifth_section_divider">
-                            <div class="rootcanal_fifth_section_divider_line"></div>
-                            <div class="rootcanal_fifth_section_divider_dot"></div>
-                        </div>
+<div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
 
-                        <!-- FAQ Boxes List -->
-                        <div class="rootcanal_fifth_section_faq_list">
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Oral Surgery painful?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does Oral Surgery take?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">What conditions may require Oral Surgery?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">What should I expect after surgery?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                        </div>
-                    </div>
+    <div class="rootcanal_fifth_section_card">
 
-                    <!-- Link at Bottom -->
-                    <div>
-                        <a href="#faqs" class="rootcanal_fifth_section_faq_link">
-                            View More FAQs <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+        <div>
+
+            <h3 class="rootcanal_fifth_section_title">
+                FREQUENTLY ASKED QUESTIONS
+            </h3>
+
+            <div class="rootcanal_fifth_section_divider">
+                <div class="rootcanal_fifth_section_divider_line"></div>
+                <div class="rootcanal_fifth_section_divider_dot"></div>
             </div>
+
+
+            <!-- FAQ Boxes List -->
+            <div class="rootcanal_fifth_section_faq_list">
+
+
+                <!-- FAQ 1 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Is Oral Surgery painful?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> local anesthesia helps minimize discomfort.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How long does Oral Surgery take?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> it depends on the type of surgery.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            What conditions may require Oral Surgery?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Commonly,</strong> impacted teeth, infections, and jaw problems may require surgery.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 4 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            What should I expect after surgery?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> mild swelling and discomfort may occur during healing.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Link at Bottom -->
+        <!-- <div>
+
+            <a href="#faqs" class="rootcanal_fifth_section_faq_link">
+                View More FAQs
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div> -->
+
+    </div>
+
+</div>
 
         </div>
     </div>

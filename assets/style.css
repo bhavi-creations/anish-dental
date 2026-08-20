@@ -7062,3 +7062,109 @@ a {
         transform: translateX(-50%);
       }
     }
+
+
+
+    
+/* =========================================
+   COMMON TREATMENT FAQ
+   ========================================= */
+
+/* FAQ ITEM */
+.rootcanal_fifth_section_faq_item {
+    display: block !important;
+    width: 100% !important;
+}
+
+
+/* QUESTION + PLUS ROW */
+.faq_question_row {
+    display: flex !important;
+    width: 100% !important;
+
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    gap: 15px;
+}
+
+
+/* QUESTION */
+.rootcanal_fifth_section_faq_question {
+    display: block !important;
+
+    flex: 1 1 auto !important;
+
+    margin: 0;
+}
+
+
+/* PLUS / MINUS BUTTON */
+.rootcanal_fifth_section_faq_plus {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex: 0 0 auto !important;
+
+    width: 24px;
+    height: 24px;
+
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 500;
+
+    color: inherit;
+}
+
+
+/* ANSWER - HIDDEN BY DEFAULT */
+.faq_answer {
+    display: none !important;
+
+    width: 100% !important;
+
+    margin-top: 8px !important;
+
+    padding: 0 !important;
+
+    font-size: 13px;
+    line-height: 1.5;
+
+    text-align: left;
+
+    clear: both;
+}
+
+
+/* ANSWER - SHOW */
+.faq_answer.faq_answer_show {
+    display: block !important;
+}
+
+
+/* MOBILE */
+@media (max-width: 576px) {
+
+    .faq_question_row {
+        gap: 10px;
+    }
+
+    .rootcanal_fifth_section_faq_question {
+        font-size: 14px;
+    }
+
+    .faq_answer {
+        font-size: 13px;
+    }
+
+}

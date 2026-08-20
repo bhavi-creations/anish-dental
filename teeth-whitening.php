@@ -381,7 +381,7 @@
                         <!-- <svg viewBox="0 0 24 24">
                             <path d="M7 3C4.5 3 3 5 3 8C3 11.5 4.5 16 6 19C6.8 20.6 8 21 8.5 21C9.2 21 9.5 20.2 9.8 18.5C10.2 16.2 11 15 12 15C13 15 13.8 16.2 14.2 18.5C14.5 20.2 14.8 21 15.5 21C16 21 17.2 20.6 18 19C19.5 16 21 11.5 21 8C21 5 19.5 3 17 3C15 3 13.5 4.5 12 4.5C10.5 4.5 9 3 7 3Z"></path>
                         </svg> -->
-                        <img src="./assets/img/cosmetic-teeth.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/smiling-teeth.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                 </div>
                 <h3 class="rootcanal_fourth_section_step_title">Aftercare Advice</h3>
@@ -484,44 +484,148 @@
             </div>
 
             <!-- CARD 3: FREQUENTLY ASKED QUESTIONS -->
-            <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
-                <div class="rootcanal_fifth_section_card">
-                    <div>
-                        <h3 class="rootcanal_fifth_section_title">FREQUENTLY ASKED QUESTIONS</h3>
-                        <div class="rootcanal_fifth_section_divider">
-                            <div class="rootcanal_fifth_section_divider_line"></div>
-                            <div class="rootcanal_fifth_section_divider_dot"></div>
-                        </div>
+<div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
 
-                        <!-- FAQ Boxes List -->
-                        <div class="rootcanal_fifth_section_faq_list">
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Is Teeth Whitening treatment painful?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long does Teeth Whitening treatment take?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long do Teeth Whitening results last?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Can everyone have Teeth Whitening treatment?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                        </div>
-                    </div>
+    <div class="rootcanal_fifth_section_card">
 
-                    <!-- Link at Bottom -->
-                    <div>
-                        <a href="#faqs" class="rootcanal_fifth_section_faq_link">
-                            View More FAQs <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+        <div>
+
+            <h3 class="rootcanal_fifth_section_title">
+                FREQUENTLY ASKED QUESTIONS
+            </h3>
+
+            <div class="rootcanal_fifth_section_divider">
+                <div class="rootcanal_fifth_section_divider_line"></div>
+                <div class="rootcanal_fifth_section_divider_dot"></div>
             </div>
+
+
+            <!-- FAQ Boxes List -->
+            <div class="rootcanal_fifth_section_faq_list">
+
+
+                <!-- FAQ 1 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Is Teeth Whitening treatment painful?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> it is usually comfortable.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How long does Teeth Whitening treatment take?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> treatment takes about an hour.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How long do Teeth Whitening results last?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> results last several months with proper care.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 4 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Can everyone have Teeth Whitening treatment?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> a dental check-up is needed first.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Link at Bottom -->
+        <!-- <div>
+
+            <a href="#faqs" class="rootcanal_fifth_section_faq_link">
+                View More FAQs
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div> -->
+
+    </div>
+
+</div>
 
         </div>
     </div>

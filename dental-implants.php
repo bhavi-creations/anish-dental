@@ -436,46 +436,158 @@
                     </div>
                 </div>
             </div>
+           <!-- CARD 3: FREQUENTLY ASKED QUESTIONS -->
+<div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
 
-            <!-- CARD 3: FREQUENTLY ASKED QUESTIONS -->
-            <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
-                <div class="rootcanal_fifth_section_card">
-                    <div>
-                        <h3 class="rootcanal_fifth_section_title">FREQUENTLY ASKED QUESTIONS</h3>
-                        <div class="rootcanal_fifth_section_divider">
-                            <div class="rootcanal_fifth_section_divider_line"></div>
-                            <div class="rootcanal_fifth_section_divider_dot"></div>
-                        </div>
+    <div class="rootcanal_fifth_section_card">
 
-                        <!-- FAQ Boxes List -->
-                        <div class="rootcanal_fifth_section_faq_list">
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Are Dental Implants painful?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How long do dental implants last?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">Who is a good candidate for implants?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                            <div class="rootcanal_fifth_section_faq_item">
-                                <span class="rootcanal_fifth_section_faq_question">How much time does it take?</span>
-                                <span class="rootcanal_fifth_section_faq_plus">+</span>
-                            </div>
-                        </div>
-                    </div>
+        <div>
 
-                    <!-- Link at Bottom -->
-                    <div>
-                        <a href="#faqs" class="rootcanal_fifth_section_faq_link">
-                            View More FAQs <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+            <!-- FAQ Title -->
+            <h3 class="rootcanal_fifth_section_title">
+                FREQUENTLY ASKED QUESTIONS
+            </h3>
+
+            <div class="rootcanal_fifth_section_divider">
+                <div class="rootcanal_fifth_section_divider_line"></div>
+                <div class="rootcanal_fifth_section_divider_dot"></div>
             </div>
+
+
+            <!-- FAQ Boxes List -->
+            <div class="rootcanal_fifth_section_faq_list">
+
+
+                <!-- FAQ 1 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <!-- Question Row -->
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Are Dental Implants painful?
+                        </span>
+
+                        <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            aria-label="Show answer"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer - DIRECTLY BELOW QUESTION -->
+                    <div class="faq_answer">
+                        <strong>No,</strong> local anesthesia minimizes discomfort.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <!-- Question Row -->
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How long do dental implants last?
+                        </span>
+
+                         <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            aria-label="Show answer"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer - DIRECTLY BELOW QUESTION -->
+                    <div class="faq_answer">
+                        <strong>Yes,</strong> they can last many years with proper care.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <!-- Question Row -->
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            Who is a good candidate for implants?
+                        </span>
+
+                         <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            aria-label="Show answer"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer - DIRECTLY BELOW QUESTION -->
+                    <div class="faq_answer">
+                        <strong>Yes,</strong> healthy gums and bone support are important.
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 4 -->
+                <div class="rootcanal_fifth_section_faq_item">
+
+                    <!-- Question Row -->
+                    <div class="faq_question_row">
+
+                        <span class="rootcanal_fifth_section_faq_question">
+                            How much time does it take?
+                        </span>
+
+                         <button
+                            type="button"
+                            class="rootcanal_fifth_section_faq_plus"
+                            aria-label="Show answer"
+                            onclick="toggleFAQ(this)">
+                            +
+                        </button>
+
+                    </div>
+
+                    <!-- Answer - DIRECTLY BELOW QUESTION -->
+                    <div class="faq_answer">
+                        <strong>Usually,</strong> treatment takes several months.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Link at Bottom -->
+        <!-- <div>
+
+            <a href="#faqs" class="rootcanal_fifth_section_faq_link">
+                View More FAQs
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div> -->
+
+    </div>
+
+</div>
 
         </div>
     </div>
@@ -544,5 +656,7 @@
         </div>
     </div>
 </section>
+
+
 
 <?php include 'footer.php';?>
