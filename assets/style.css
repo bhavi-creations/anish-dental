@@ -6934,7 +6934,7 @@ a {
 
 @media (max-width:768px) {
     .logo-section img {
-        width: 250px;
+        width: 246px;
         height: auto;
     }
 
@@ -7175,4 +7175,124 @@ a {
 
 
 
-/* Treatment page icons centre alignment */
+/* Doctors page top icons sub section  */
+/* =========================================
+   DOCTORS SUB SECTION - FEATURES
+========================================= */
+
+.doctors_sub_section_wrapper {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 35px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.doctors_sub_section_item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 125px;
+    padding: 15px 12px;
+    position: relative;
+}
+
+.doctors_sub_section_item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15px;
+    bottom: 15px;
+    width: 1px;
+    background: #d9d9d9;
+}
+
+.doctors_sub_section_icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #003b32;
+    font-size: 31px;
+    margin-bottom: 8px;
+}
+
+.doctors_sub_section_title {
+    font-size: 13px;
+    line-height: 1.45;
+    font-weight: 500;
+    color: #222;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .doctors_sub_section_wrapper {
+        margin-top: 28px;
+    }
+
+    .doctors_sub_section_item {
+        min-height: 115px;
+        padding: 12px 8px;
+    }
+
+    .doctors_sub_section_icon {
+        font-size: 28px;
+        margin-bottom: 6px;
+    }
+
+    .doctors_sub_section_title {
+        font-size: 12px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 575px) {
+
+    .doctors_sub_section_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 25px;
+    }
+
+    .doctors_sub_section_item {
+        min-height: 105px;
+        padding: 12px 5px;
+    }
+
+    .doctors_sub_section_item:nth-child(2)::after {
+        display: none;
+    }
+
+    .doctors_sub_section_item:nth-child(3),
+    .doctors_sub_section_item:nth-child(4) {
+        border-top: 1px solid #d9d9d9;
+    }
+
+    .doctors_sub_section_item:nth-child(4)::after {
+        display: none;
+    }
+
+    .doctors_sub_section_icon {
+        font-size: 26px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .doctors_sub_section_title {
+        font-size: 11px;
+    }
+}

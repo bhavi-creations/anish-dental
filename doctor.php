@@ -32,8 +32,50 @@
                     Our experienced dental specialists are dedicated to providing the highest quality care with compassion,expertise and advanced technology.
                 </p>
 
+                <!-- DOCTORS SUB SECTION - FEATURES -->
+<div class="doctors_sub_section_wrapper">
 
+    <!-- Experienced Specialists -->
+    <div class="doctors_sub_section_item">
+        <div class="doctors_sub_section_icon">
+            <i class="fa-solid fa-user-doctor"></i>
+        </div>
+        <div class="doctors_sub_section_title">
+            Experienced<br>Specialists
+        </div>
+    </div>
 
+    <!-- Years of Excellence -->
+    <div class="doctors_sub_section_item">
+        <div class="doctors_sub_section_icon">
+            <i class="fa-solid fa-award"></i>
+        </div>
+        <div class="doctors_sub_section_title">
+            Years of<br>Excellence
+        </div>
+    </div>
+
+    <!-- Patient-Centered Approach -->
+    <div class="doctors_sub_section_item">
+        <div class="doctors_sub_section_icon">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+        </div>
+        <div class="doctors_sub_section_title">
+            Patient-Centered
+        </div>
+    </div>
+
+    <!-- Advanced Technology -->
+    <div class="doctors_sub_section_item">
+        <div class="doctors_sub_section_icon">
+            <i class="fa-solid fa-microscope"></i>
+        </div>
+        <div class="doctors_sub_section_title">
+            Advanced<br>Technology
+        </div>
+    </div>
+
+</div>
 
 
                 
