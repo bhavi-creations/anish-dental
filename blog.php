@@ -2,14 +2,32 @@
 // 1. Database Connection & Dynamic Blog Query
 include './db.connection/db_connection.php';
 
-$sql = "SELECT id, slug, title, main_content, main_image, service, created_at FROM blogs ORDER BY created_at DESC";
+$sql = "SELECT id, title, main_content, main_image, service, created_at 
+        FROM blogs 
+        ORDER BY created_at DESC";
+
 $stmt = $conn->prepare($sql);
+
+if ($stmt === false) {
+    die("SQL Prepare Error: " . $conn->error);
+}
+
 $stmt->execute();
 $result = $stmt->get_result();
 
-// Popular Posts Query (Top 4 recent posts)
-$pop_sql = "SELECT id, slug, title, main_image, created_at FROM blogs ORDER BY created_at DESC LIMIT 4";
+
+// 2. Popular Posts Query - Top 4 Recent Posts
+$pop_sql = "SELECT id, title, main_image, created_at 
+            FROM blogs 
+            ORDER BY created_at DESC 
+            LIMIT 4";
+
 $pop_stmt = $conn->prepare($pop_sql);
+
+if ($pop_stmt === false) {
+    die("Popular Posts SQL Error: " . $conn->error);
+}
+
 $pop_stmt->execute();
 $pop_result = $pop_stmt->get_result();
 ?>
