@@ -21,7 +21,7 @@
                 <!-- Breadcrumb Nav -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb text-uppercase mb-2">
-                        <li class="breadcrumb-item"><a href="home.php">HOME</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">HOME</a></li>
                         <li class="breadcrumb-item active" aria-current="page">GALLERY</li>
                     </ol>
                 </nav>

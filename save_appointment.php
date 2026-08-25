@@ -196,7 +196,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         echo "<script>
            
-            window.location='home.php';
+            window.location='index.php';
         </script>";
     } catch (Exception $e) {
         echo 'Patient Mail Error: ' . $mailPatient->ErrorInfo;

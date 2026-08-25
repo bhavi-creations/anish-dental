@@ -112,7 +112,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="anishHeaderNav">
                 <ul class="navbar-nav align-items-lg-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="home.php">HOME</a>
+                        <a class="nav-link" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">ABOUT US</a>

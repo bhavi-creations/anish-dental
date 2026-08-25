@@ -12,7 +12,7 @@
 
                 <!-- Breadcrumb -->
                 <div class="treatments_first_section_breadcrumb">
-                    <a href="home.php" class="treatments_first_section_breadcrumb_link">HOME</a>
+                    <a href="index.php" class="treatments_first_section_breadcrumb_link">HOME</a>
                     <i class="fa-solid fa-chevron-right treatments_first_section_breadcrumb_sep"></i>
                     <span class="treatments_first_section_breadcrumb_active">TREATMENTS</span>
                 </div>

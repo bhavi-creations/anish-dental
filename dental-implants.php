@@ -10,7 +10,7 @@
                 
                 <!-- Breadcrumb -->
                 <div class="rootcanal_first_section_breadcrumb">
-                    <a href="home.php">Home</a>
+                    <a href="index.php">Home</a>
                     <span>&gt;</span>
                     <a href="treatments.php">Treatments</a>
                     <span>&gt;</span>

@@ -34,7 +34,7 @@
             <div class="col-lg-2 col-xl-2 col-md-3 d-none d-md-block  footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                 <h5 class="footer-heading">QUICK LINKS</h5>
                 <ul class="footer-links">
-                    <li><a href="home.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="treatments.php">Treatments</a></li>
                     <li><a href="doctor.php">Doctors</a></li>
