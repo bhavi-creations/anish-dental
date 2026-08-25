@@ -271,9 +271,9 @@
                                 </li>
                             </ul>
 
-                            <!-- <a href="#" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
+                            <a href="doctor.php" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
                                 VIEW PROFILE <i class="bi bi-arrow-right"></i>
-                            </a> -->
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -314,9 +314,10 @@
                                 </li>
                             </ul>
 
-                            <!-- <a href="#" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
+                             
+                            <a href="doctor.php" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
                                 VIEW PROFILE <i class="bi bi-arrow-right"></i>
-                            </a> -->
+                            </a>
                         </div>
                     </div>
                 </div>
