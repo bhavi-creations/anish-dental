@@ -280,6 +280,10 @@
     </div>
 </section>
 
+<div class="icons_image">
+    <img src="./assets/img/smile.png" alt="" class="img-fluid">
+
+</div>
 
 
 <!-- MEET OUR DENTAL SPECIALISTS SECTION -->
@@ -501,7 +505,10 @@
     </div>
 </section>
 
+<div class="img-icon-2">
+    <img src="./assets/img/cutie_cleaning.png" alt="" class="img-fluid">
 
+</div>
 
 <!-- WHAT OUR PATIENTS SAY SECTION -->
 <section class="index_fifth_section_wrapper">

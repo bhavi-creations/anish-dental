@@ -7305,3 +7305,41 @@ a {
         font-size: 11px;
     }
 }
+
+
+
+/* Animated icons stylings */
+.icons_image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: -250px;
+    opacity:0.7;
+}
+
+.img-icon-2 {
+
+    position: absolute;
+    right: 0;
+    bottom: 2opx;
+    transform: translateY(-50%);
+    z-index: 999999999 !important;
+    width: 15%;
+    max-height: 100vh;
+    object-fit: cover;
+    opacity:0.7;
+
+}
+
+
+.img-icon-3 {
+
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    transform: translateY(-50%);
+    z-index: 999999999 !important;
+    width: 15%;
+    max-height: 100vh;
+    object-fit: cover;
+
+}
