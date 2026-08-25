@@ -281,7 +281,7 @@
 </section>
 
 <div class="icons_image">
-    <img src="./assets/img/smile.png" alt="" class="img-fluid">
+    <img src="./assets/img/smile(1).png" alt="" class="img-fluid">
 
 </div>
 
@@ -506,7 +506,7 @@
 </section>
 
 <div class="img-icon-2">
-    <img src="./assets/img/cutie_cleaning.png" alt="" class="img-fluid">
+    <img src="./assets/img/services_page_bg.png" alt="" class="img-fluid">
 
 </div>
 
