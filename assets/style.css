@@ -25,7 +25,7 @@ a {
            2. TOP HEADER BAR STYLING
            ========================================== */
 .top-bar-bg {
-    background-color: #003B32 !important;
+    background-color: #003b32 !important;
     color: #ffffff !important;
     font-size: 13px !important;
     padding: 8px 0 !important;
@@ -115,7 +115,7 @@ a {
 
 /* Book Appointment Button */
 .btn-appointment-custom {
-    background-color: #003B32 !important;
+    background-color: #f79305 !important;
     color: #ffffff !important;
     font-weight: 700 !important;
     font-size: 12px !important;
@@ -410,7 +410,7 @@ a {
 
 /* Primary Button (Book Appointment) */
 .index_first_section_btn_primary {
-    background-color: #003B32 !important;
+    background-color: #e29b27 !important;
     color: #ffffff !important;
     font-size: 12.5px !important;
     font-weight: 700 !important;
@@ -422,7 +422,7 @@ a {
     display: inline-flex !important;
     align-items: center !important;
     gap: 10px !important;
-    border: 2px solid #003B32 !important;
+    border: 2px solid #e29b27 !important;
     transition: all 0.3s ease !important;
     box-shadow: 0 4px 12px rgba(0, 59, 50, 0.15) !important;
 }
@@ -453,9 +453,10 @@ a {
 }
 
 .index_first_section_btn_secondary:hover {
-    background-color: #003B32 !important;
+    background-color: #e29b27 !important;
     color: #ffffff !important;
     transform: translateY(-2px) !important;
+    border: 2px solid #e29b27 !important;
 }
 
 /* Features Bottom Grid */
@@ -1075,14 +1076,14 @@ a {
 }
 
 .index_fourth_section_list_icon {
-    color: #003B32 !important;
+    color: #E29B27 !important;
     font-size: 18px !important;
     min-width: 20px !important;
 }
 
 /* Action Button */
 .index_fourth_section_btn {
-    background-color: #003B32 !important;
+    background-color: #e29b27 !important;
     color: #ffffff !important;
     padding: 13px 28px !important;
     border-radius: 8px !important;
@@ -1096,7 +1097,7 @@ a {
     text-transform: uppercase !important;
     transition: all 0.3s ease !important;
     box-shadow: 0 4px 14px rgba(0, 59, 50, 0.15) !important;
-    border: 2px solid #003B32 !important;
+    border: 2px solid #e29b27 !important;
 }
 
 .index_fourth_section_btn:hover {
@@ -1229,7 +1230,7 @@ a {
        ========================================== */
 
 .index_fifth_section_wrapper {
-    background-color: #003B32 !important;
+    background-color: #a5d8cf !important;
     /* Deep Dark Green */
     padding: 80px 0 70px 0 !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -1396,7 +1397,7 @@ a {
     width: 60px !important;
     height: 60px !important;
     border-radius: 50% !important;
-    background-color: #003B32 !important;
+    background-color: #E29B27 !important;
     color: #ffffff !important;
     display: flex !important;
     align-items: center !important;
@@ -1432,7 +1433,8 @@ a {
 
 /* CTA Button */
 .index_fifth_section_cta_btn {
-    background-color: #003B32 !important;
+    /* background-color: #003B32 !important; */
+    background-color: #e29b27 !important;
     color: #ffffff !important;
     padding: 13px 22px !important;
     border-radius: 8px !important;
@@ -1446,7 +1448,7 @@ a {
     gap: 8px !important;
     transition: all 0.3s ease !important;
     text-transform: uppercase !important;
-    border: 2px solid #003B32 !important;
+    border: 2px solid #e29b27 !important;
     white-space: nowrap !important;
 }
 
@@ -1639,7 +1641,7 @@ a {
 
 /* Book Appointment Button */
 .treatments_first_section_btn {
-    background-color: #003B32 !important;
+    background-color: #f79305 !important;
     color: #ffffff !important;
     padding: 14px 28px !important;
     border-radius: 8px !important;
@@ -1654,7 +1656,7 @@ a {
     transition: all 0.3s ease !important;
     width: fit-content !important;
     box-shadow: 0 4px 15px rgba(0, 59, 50, 0.2) !important;
-    border: 2px solid #003B32 !important;
+    border: 2px solid #f79305 !important;
 }
 
 .treatments_first_section_btn:hover {
@@ -1933,7 +1935,7 @@ a {
     width: 75px !important;
     height: 75px !important;
     border-radius: 50% !important;
-    background-color: #f0f7f5 !important;
+    background-color: #a5d8cf !important ;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -2342,7 +2344,7 @@ a {
 .treatments_fourth_section_badge_icon_box {
     width: 48px !important;
     height: 48px !important;
-    background-color: #f0f7f5 !important;
+    background-color: #a5d8cf !important;
     border-radius: 50% !important;
     display: flex !important;
     align-items: center !important;
@@ -2402,7 +2404,7 @@ a {
     width: 80px !important;
     height: 80px !important;
     border-radius: 50% !important;
-    background-color: #f0f7f5 !important;
+    background-color: #a5d8cf !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -2568,7 +2570,7 @@ a {
     width: 80px !important;
     height: 80px !important;
     border-radius: 50% !important;
-    background-color: #ffffff !important;
+    background-color: #a5d8cf !important;
     border: 2px solid #e29b27 !important;
     /* Gold Border */
     display: flex !important;
@@ -2635,8 +2637,8 @@ a {
 
 /* White Appointment Button */
 .treatments_fifth_section_btn {
-    background-color: #ffffff !important;
-    color: #003B32 !important;
+    background-color: #E29B27 !important;
+    color: white !important;
     font-size: 13px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
@@ -2654,7 +2656,7 @@ a {
 
 .treatments_fifth_section_btn i {
     font-size: 16px !important;
-    color: #003B32 !important;
+    color: white !important;
 }
 
 .treatments_fifth_section_btn:hover {
@@ -2873,7 +2875,7 @@ a {
 
 /* Custom Buttons */
 .about-first-section .btn-book {
-    background-color: #0d3832;
+    background-color: #e29b27;
     color: #ffffff;
     border: none;
     padding: 12px 24px;
@@ -3300,7 +3302,7 @@ a {
 
 /* CTA Callout Banner */
 .about-fourth-section .cta-banner {
-    background-color: #062b26;
+    background-color: #003B32;
     /* Deep Dark Green */
     border-radius: 24px;
     padding: 30px 40px;
@@ -3312,7 +3314,7 @@ a {
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #a5d8cf;
     border: 2px solid #c89547;
     display: flex;
     align-items: center;
@@ -3345,8 +3347,8 @@ a {
 }
 
 .about-fourth-section .btn-cta-appointment {
-    background-color: #ffffff;
-    color: #0c3832;
+    background-color: #E29B27;
+    color: white;
     border: none;
     padding: 12px 24px;
     font-weight: 700;
@@ -3536,10 +3538,10 @@ a {
 
 .blog-second-section .blog-filter-btn.active,
 .blog-second-section .blog-filter-btn:hover {
-    background-color: #062b26;
+    background-color: #e29b27;
     /* Deep Dark Green */
     color: #ffffff;
-    border-color: #062b26;
+    border-color: #e29b27;
 }
 
 /* Blog Cards */
@@ -3784,9 +3786,9 @@ a {
 
 .blog-second-section .page-num.active,
 .blog-second-section .page-num:hover {
-    background-color: #062b26;
+    background-color: #003B32;
     color: #ffffff;
-    border-color: #062b26;
+    border-color: #003b32;
 }
 
 
@@ -3973,7 +3975,7 @@ a {
 
 /* 1. Top Commitment Banner */
 .doctor-third-section .commitment-banner {
-    background-color: #062b26;
+    background-color: #003B32;
     /* Deep Dark Green/Teal */
     border-radius: 20px;
     padding: 30px 40px;
@@ -4045,12 +4047,12 @@ a {
 .doctor-third-section .cta-icon-square {
     width: 60px;
     height: 60px;
-    background-color: #062b26;
+    background-color: #a5d8cf;
     border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #c89547;
+    /* color: #c89547; */
     font-size: 1.75rem;
     flex-shrink: 0;
 }
@@ -4071,7 +4073,7 @@ a {
 
 /* Dark Green Appointment Button */
 .doctor-third-section .btn-cta-dark {
-    background-color: #062b26;
+    background-color: #e29b27;
     color: #ffffff;
     border: none;
     padding: 12px 26px;
@@ -4316,7 +4318,7 @@ a {
 
 /* Active Filter Button */
 .gallery-second-section .filter-btn.active {
-    background-color: #062b26;
+    background-color: #e29b27;
     /* Deep Dark Green */
     color: #ffffff;
 }
@@ -4499,7 +4501,7 @@ a {
 
 /* Book Appointment Button (Solid Dark Green) */
 .rootcanal_first_section_btn_primary {
-    background-color: #003B32 !important;
+    background-color:#f79305 !important;
     color: #ffffff !important;
     font-size: 13px !important;
     font-weight: 700 !important;
@@ -4511,7 +4513,7 @@ a {
     display: inline-flex !important;
     align-items: center !important;
     gap: 10px !important;
-    border: 2px solid #003B32 !important;
+    border: 2px solid #f79305 !important;
     transition: all 0.3s ease !important;
     box-shadow: 0 4px 12px rgba(0, 59, 50, 0.15) !important;
 }
@@ -5676,8 +5678,8 @@ a {
 
 /* White Action Button */
 .rootcanal_sixth_section_btn {
-    background-color: #ffffff !important;
-    color: #003B32 !important;
+    background-color: #E29B27 !important;
+    color: white !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-size: 13.5px !important;
     font-weight: 700 !important;
@@ -5934,7 +5936,7 @@ a {
 
 /* Primary Dark Green Button */
 .contactus_first_section_btn_primary {
-    background-color: #003B32 !important;
+    background-color: #e29b27 !important;
     color: #ffffff !important;
     font-size: 13px !important;
     font-weight: 700 !important;
@@ -5945,7 +5947,7 @@ a {
     display: inline-flex !important;
     align-items: center !important;
     gap: 10px !important;
-    border: 1.5px solid #003B32 !important;
+    border: 1.5px solid #e29b27 !important;
     transition: all 0.3s ease !important;
     box-shadow: 0 4px 12px rgba(0, 59, 50, 0.15) !important;
 }
@@ -6527,7 +6529,7 @@ a {
 }
 
 .appointment-second-section .btn-send {
-    background-color: #0c3832;
+    background-color: #e29b27;
     color: #ffffff;
     border: none;
     padding: 12px 28px;
@@ -6866,7 +6868,7 @@ a {
 .index_second_section_icon_box {
     width: 78px !important;
     height: 78px !important;
-    background-color: #ebf4f2 !important;
+    background-color: #a5d8cf !important ;
     /* Light Teal/Mint Circle */
     border-radius: 50% !important;
     display: flex !important;
