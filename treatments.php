@@ -75,8 +75,15 @@
 
 
 
+
 <!-- SPECIALIZED DENTAL CARE SECTION -->
 <section class="treatments_secound_section_wrapper">
+
+
+    <div class="icons_image-service d-none d-md-block">
+        <img src="./assets/img/tooth-extraction-icons.png" alt="" class="img-fluid">
+
+    </div>
     <div class="container">
 
         <!-- Section Header -->
@@ -122,7 +129,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-dharmachakra treatments_secound_section_icon"></i> -->
-                            <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 40px; height: 40px;" >
+                            <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 40px; height: 40px;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Implants</h3>
                         <p class="treatments_secound_section_card_desc">
@@ -353,6 +360,7 @@
 
 
 
+
 <!-- STATS / COUNTERS THIRD SECTION -->
 <section class="treatments_third_section_wrapper">
     <div class="container">
@@ -420,7 +428,10 @@
 </section>
 
 
+<div class="img-icon-4 d-none d-md-block mt-3">
+    <img src="./assets/img/dental-surgery.png" alt="" class="img-fluid">
 
+</div>
 
 <!-- ADVANCED TECHNOLOGY FOURTH SECTION -->
 <section class="treatments_fourth_section_wrapper">

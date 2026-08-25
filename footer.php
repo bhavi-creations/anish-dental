@@ -1,7 +1,7 @@
 <!-- FOOTER SECTION -->
 
 <div class="img-icon-2 d-none d-md-block">
-    <img src="./assets/img/services_page_bg.png" alt="" class="img-fluid">
+    <img src="./assets/img/img-img (2).png" alt="" class="img-fluid">
 
 </div>
 <footer class="site-footer">
@@ -105,6 +105,32 @@
         </div>
     </div>
 </footer>
+
+<style>
+    .whatsapp-link {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 90px;
+        right: 20px;
+        background-color: #25d366;
+        color: #fff;
+        /* padding: 5px; */
+        border-radius: 50%;
+        text-decoration: none;
+        font-size: 35px;
+        text-align: center;
+        z-index: 99;
+    }
+</style>
+
+
+<a href="https://api.whatsapp.com/send?phone=917396256474" style="color: #fff;" class="whatsapp-link" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+<?php include 'c2.php'; ?>
 
 <!-- Bootstrap 5 JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -1935,7 +1935,7 @@ a {
     width: 75px !important;
     height: 75px !important;
     border-radius: 50% !important;
-    background-color: #a5d8cf !important ;
+    background-color: #a5d8cf !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -4501,7 +4501,7 @@ a {
 
 /* Book Appointment Button (Solid Dark Green) */
 .rootcanal_first_section_btn_primary {
-    background-color:#f79305 !important;
+    background-color: #f79305 !important;
     color: #ffffff !important;
     font-size: 13px !important;
     font-weight: 700 !important;
@@ -6154,9 +6154,9 @@ a {
 .contact-second-section .info-icon-box {
     width: 44px;
     height: 44px;
-    background-color: white ;
+    background-color: white;
     /* background-color: #0c3832; */
-    border: 2px solid #0c3832 ;
+    border: 2px solid #0c3832;
     color: #ffffff;
     border-radius: 10px;
     display: flex;
@@ -6474,7 +6474,7 @@ a {
     width: 44px;
     height: 44px;
     background-color: white;
-    border:2px solid  #0c3832;
+    border: 2px solid #0c3832;
     /* background-color: #0c3832; */
     color: #ffffff;
     border-radius: 10px;
@@ -6868,7 +6868,7 @@ a {
 .index_second_section_icon_box {
     width: 78px !important;
     height: 78px !important;
-    background-color: #a5d8cf !important ;
+    background-color: #a5d8cf !important;
     /* Light Teal/Mint Circle */
     border-radius: 50% !important;
     display: flex !important;
@@ -6934,10 +6934,10 @@ a {
 
 }
 
- .logo-section img {
+.logo-section img {
     background-color: white;
     padding: 10px;
- }
+}
 
 
 
@@ -6988,96 +6988,99 @@ a {
 
 
 /* Doctors cards stylings with read less & more buttons */
-    .doctor-more-content {
-        display: none;
-    }
+.doctor-more-content {
+    display: none;
+}
 
-    .doctor-read-more-wrap {
-        text-align: center;
-        margin-top: 15px;
-    }
+.doctor-read-more-wrap {
+    text-align: center;
+    margin-top: 15px;
+}
 
-    .doctor-read-more-btn {
-        background: transparent;
-        border: 1px solid #d98e2b;
-        color: #d98e2b;
-        padding: 8px 18px;
-        border-radius: 4px;
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
+.doctor-read-more-btn {
+    background: transparent;
+    border: 1px solid #d98e2b;
+    color: #d98e2b;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
-    .doctor-read-more-btn:hover {
-        background: #d98e2b;
-        color: #fff;
-    }
+.doctor-read-more-btn:hover {
+    background: #d98e2b;
+    color: #fff;
+}
 
 
-    /* moving slider for index page  */
-     /* Styling to match reference image */
-    .stats-card-wrapper {
-      background: #ffffff;
-      border: 1px solid #e0e0e0;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-      overflow: hidden;
-      position: relative;
-    }
+/* moving slider for index page  */
+/* Styling to match reference image */
+.stats-card-wrapper {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    position: relative;
+}
 
-    /* Continuous Marquee Track */
-    .marquee-track {
-      display: flex;
-      width: max-content;
-      animation: continuousScroll 20s linear infinite;
-    }
+/* Continuous Marquee Track */
+.marquee-track {
+    display: flex;
+    width: max-content;
+    animation: continuousScroll 20s linear infinite;
+}
 
-    /* Pause scrolling when hovered */
-    .stats-card-wrapper:hover .marquee-track {
-      animation-play-state: paused;
-    }
+/* Pause scrolling when hovered */
+.stats-card-wrapper:hover .marquee-track {
+    animation-play-state: paused;
+}
 
-    .stat-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 12px 35px;
-      white-space: nowrap;
-    }
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 35px;
+    white-space: nowrap;
+}
 
-    .stat-icon {
-      font-size: 2rem;
-      color: #003b32; /* Dark Green outline color like image */
-    }
+.stat-icon {
+    font-size: 2rem;
+    color: #003b32;
+    /* Dark Green outline color like image */
+}
 
-    .stat-number {
-      color: #e36012; /* Accent orange */
-      font-weight: 800;
-      font-size: 1.4rem;
-      letter-spacing: -0.5px;
-    }
+.stat-number {
+    color: #e36012;
+    /* Accent orange */
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+}
 
-    .stat-text {
-      color: #000000;
-      font-weight: 800;
-      font-size: 1.25rem;
-      letter-spacing: 0.5px;
-    }
+.stat-text {
+    color: #000000;
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
 
-    /* Infinite Marquee Animation */
-    @keyframes continuousScroll {
-      0% {
+/* Infinite Marquee Animation */
+@keyframes continuousScroll {
+    0% {
         transform: translateX(0);
-      }
-      100% {
-        transform: translateX(-50%);
-      }
     }
 
+    100% {
+        transform: translateX(-50%);
+    }
+}
 
 
-    
+
+
 /* =========================================
    COMMON TREATMENT FAQ
    ========================================= */
@@ -7313,10 +7316,12 @@ a {
     height: 200px;
     width: 200px;
     margin-bottom: -250px;
-    opacity:0.7;
+    opacity: 0.7;
 }
 
 .img-icon-2 {
+    width: 100px;
+    height: 100px;
 
     position: absolute;
     right: 0;
@@ -7324,11 +7329,27 @@ a {
     transform: translateY(-50%);
     z-index: 999999999 !important;
     width: 15%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     object-fit: cover;
-   
+
     margin-top: -70px;
 
+}
+
+.img-icon-4 {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    right: 0;
+    bottom: 2opx;
+    transform: translateY(-50%);
+    z-index: 99 !important;
+    width: 15%;
+    /* max-height: 100vh; */
+    object-fit: cover;
+    opacity: 0.2;
+    margin-top: -70px;
 }
 
 
@@ -7345,10 +7366,20 @@ a {
 
 }
 
-.aligner-icons{
+.aligner-icons {
     opacity: 0.2;
-     height: 200px;
+    height: 200px;
     width: 200px;
     margin-bottom: -200px;
-    z-index:100 !important; 
+    z-index: 100 !important;
 }
+
+.icons_image-service {
+    opacity: 0.2;
+    height: 150px;
+    width: 150px;
+    margin-bottom: -140px;
+    z-index: 100 !important;
+}
+
+
