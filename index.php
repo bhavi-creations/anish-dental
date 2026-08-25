@@ -281,7 +281,7 @@
     </div>
 </section>
 
-<div class="icons_image">
+<div class="icons_image d-none d-md-block">
     <img src="./assets/img/smile(1).png" alt="" class="img-fluid">
 
 </div>

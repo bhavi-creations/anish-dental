@@ -1,6 +1,6 @@
 <!-- FOOTER SECTION -->
 
-<div class="img-icon-2">
+<div class="img-icon-2 d-none d-md-block">
     <img src="./assets/img/services_page_bg.png" alt="" class="img-fluid">
 
 </div>
