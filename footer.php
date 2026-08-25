@@ -14,7 +14,7 @@
                     <div class="ms-2 logo-section">
                         <!-- <span class="d-block text-white fw-bold fs-5 lh-1">ANISH DENTAL</span>
                         <span class="d-block text-white-50 fw-semibold" style="font-size: 8.5px; letter-spacing: 0.5px;">MULTISPECIALITY DENTAL HOSPITAL</span> -->
-                          <img src="./assets/img/logo.jpeg" alt="logo" >
+                          <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="logo" >
                     </div>
                 </a>
                 <p style="color: #d1e0dc; font-size: 13px;">

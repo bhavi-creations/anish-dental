@@ -95,7 +95,7 @@
                         <path d="M22 62 Q 50 10 78 62" stroke="#E29B27" stroke-width="5" fill="none"/>
                         <text x="36" y="66" font-family="Arial, sans-serif" font-weight="bold" font-size="38" fill="#E29B27">A</text>
                     </svg> -->
-                    <img src="./assets/img/logo.jpeg" alt="logo" >
+                    <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="logo" >
                 </div>
                 <!-- <div>
                     <h1 class="brand-title">ANISH DENTAL</h1>

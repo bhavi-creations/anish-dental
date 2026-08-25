@@ -6930,7 +6930,14 @@ a {
         color: white;
         padding: 6px;
     }
+
+
 }
+
+ .logo-section img {
+    background-color: white;
+    padding: 10px;
+ }
 
 
 
