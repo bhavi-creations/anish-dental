@@ -288,107 +288,108 @@
 
 
 <!-- MEET OUR DENTAL SPECIALISTS SECTION -->
-<section class="index_third_section_wrapper">
+<section class="about-third-section">
     <div class="container">
-
-        <!-- Header -->
-        <div class="index_third_section_header">
-            <span class="index_third_section_subtitle">OUR DOCTORS</span>
-            <h2 class="index_third_section_title">
-                Meet Our Dental Specialists
-            </h2>
-
-            <!-- Decorative Gold Diamond Divider -->
-            <div class="index_third_section_divider">
-                <span class="index_third_section_divider_line"></span>
-                <i class="fa-solid fa-diamond index_third_section_divider_diamond"></i>
-                <span class="index_third_section_divider_line"></span>
+        
+        <!-- Section Header -->
+        <div class="text-center">
+            <span class="section-subtitle">OUR DOCTORS</span>
+            <h2 class="section-title">Experienced Dental Specialists</h2>
+            
+            <!-- Custom Gold Divider -->
+            <div class="divider-container">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
             </div>
         </div>
 
-        <!-- Doctors Grid (2 Columns on Desktop) -->
-        <div class="row g-4 justify-content-center">
-
-            <!-- Doctor Card 1 -->
-            <div class="col-lg-6 col-12">
-                <div class="index_third_section_card">
-                    <div class="row g-0 h-100 align-items-stretch">
-
-                        <!-- Doctor Image -->
-                        <div class="col-sm-5 col-12 index_third_section_img_box">
-                            <img src="./assets/img/ai-doctor-img.png" alt="Dr. Anish Kumar" class="index_third_section_img">
+        <!-- Doctors Row -->
+        <div class="row g-4">
+            
+            <!-- Doctor 1 (Male Doctor) -->
+            <div class="col-lg-6">
+                <div class="doctor-card">
+                    <div class="row g-4 align-items-center">
+                        <!-- Image Col -->
+                        <div class="col-sm-5">
+                            <div class="doctor-img-box">
+                                <img src="./assets/img/ai-doctor-img.png" alt="Dr. Your Name" class="img-fluid">
+                            </div>
                         </div>
+                        <!-- Info Col -->
+                        <div class="col-sm-7">
+                            <h3 class="doctor-name">Dr. Anish Kumar Lagisetti</h3>
+                            <div class="doctor-degree">B.D.S, M.D.S (Conservative Dentistry & Endodontics)</div>
+                            <div class="doctor-title">Conservative Dentist & Endodontist</div>
 
-                        <!-- Doctor Info -->
-                        <div class="col-sm-7 col-12 index_third_section_info_box">
-                            <h3 class="index_third_section_doc_name">Dr. Anish Kumar Lagisetti</h3>
-                            <div class="index_third_section_doc_degree">B.D.S, M.D.S (Conservative Dentistry & Endodontics)</div>
-                            <div class="index_third_section_doc_specialty">Conservative Dentist & Endodontist</div>
-
-                            <!-- Bullet Points -->
-                            <ul class="index_third_section_list">
-                                <li class="index_third_section_list_item">
-                                    <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
+                            <ul class="doctor-features">
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
                                     <span>8+ Years Experience in Dentistry</span>
                                 </li>
-                                <li class="index_third_section_list_item">
-                                    <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
                                     <span>44th Rank in All India Masters Examination</span>
                                 </li>
-                                <li class="index_third_section_list_item">
-                                    <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
                                     <span>Special Interest in Smile Designing & Veneers</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
+                                    <span>Advanced Courses in Impactions & Implants</span>
                                 </li>
                             </ul>
 
-                            <!-- View Profile Button -->
-                            <a href="doctor.php" class="index_third_section_btn">
-                                VIEW PROFILE <i class="fa-solid fa-arrow-right"></i>
+                            <a href="doctor.php" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
+                                VIEW PROFILE <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
 
-            <!-- Doctor Card 2 -->
-            <div class="col-lg-6 col-12">
-                <div class="index_third_section_card">
-                    <div class="row g-0 h-100 align-items-stretch">
-
-                        <!-- Doctor Image -->
-                        <div class="col-sm-5 col-12 index_third_section_img_box">
-                            <img src="./assets/img/ai-doctor.png" alt="Dr. Priya Sharma" class="index_third_section_img">
+            <!-- Doctor 2 (Female Doctor) -->
+            <div class="col-lg-6">
+                <div class="doctor-card">
+                    <div class="row g-4 align-items-center">
+                        <!-- Image Col -->
+                        <div class="col-sm-5">
+                            <div class="doctor-img-box">
+                                <img src="./assets/img/ai-doctor.png" alt="Dr. Your Name" class="img-fluid">
+                            </div>
                         </div>
+                        <!-- Info Col -->
+                        <div class="col-sm-7">
+                            <h3 class="doctor-name">Dr. Puja Devi Lagisetti</h3>
+                            <div class="doctor-degree">B.D.S, M.D.S (Paedodontics & Preventive Dentistry)</div>
+                            <div class="doctor-title">Paedodontist & Preventive Dentist</div>
 
-                        <!-- Doctor Info -->
-                        <div class="col-sm-7 col-12 index_third_section_info_box">
-                            <h3 class="index_third_section_doc_name">Dr. Puja Devi Lagisetti</h3>
-                            <div class="index_third_section_doc_degree">B.D.S, M.D.S (Paedodontics & Preventive Dentistry)</div>
-                            <div class="index_third_section_doc_specialty">Paedodontist & Preventive Dentist</div>
-
-                            <!-- Bullet Points -->
-                            <ul class="index_third_section_list">
-                                <li class="index_third_section_list_item">
-                                    <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
+                            <ul class="doctor-features">
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
                                     <span>6 Years Experience in Dentistry</span>
                                 </li>
-                                <li class="index_third_section_list_item">
-                                    <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
                                     <span>Specialist in Paedodontics & Preventive Dentistry</span>
                                 </li>
-                                <li class="index_third_section_list_item">
-                                    <i class="fa-regular fa-circle-check index_third_section_list_icon"></i>
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
                                     <span>Special Interest in Conscious Sedation</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i>
+                                    <span>Special Interest in Child Management</span>
                                 </li>
                             </ul>
 
-                            <!-- View Profile Button -->
-                            <a href="doctor.php" class="index_third_section_btn">
-                                VIEW PROFILE <i class="fa-solid fa-arrow-right"></i>
+                             
+                            <a href="doctor.php" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
+                                VIEW PROFILE <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>

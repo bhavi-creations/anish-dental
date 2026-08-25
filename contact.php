@@ -54,7 +54,7 @@
             <div class="col-lg-7 col-md-12">
                 <div class="contactus_first_section_img_container">
                     <!-- Image Placeholder matching Anish Dental Clinic Reception -->
-                    <img src="./assets/img/contact-us.png" alt="Anish Dental Multispeciality Dental Hospital Reception">
+                    <img src="./assets/img/contact-bg-img.png" alt="Anish Dental Multispeciality Dental Hospital Reception">
 
                     <!-- Left Soft Blending Gradient -->
                     <div class="contactus_first_section_img_overlay"></div>
