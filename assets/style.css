@@ -4733,7 +4733,7 @@ a {
     width: 52px !important;
     height: 52px !important;
     min-width: 52px !important;
-    background-color: #003B32 !important;
+    background-color: #d98e2b !important;
     /* Deep Dark Green */
     border-radius: 50% !important;
     display: flex !important;
@@ -4751,7 +4751,7 @@ a {
 .rootcanal_second_section_icon_box svg {
     width: 24px !important;
     height: 24px !important;
-    stroke: #d98e2b !important;
+    stroke: white !important;
     /* Golden Accent */
     fill: none !important;
     stroke-width: 2;
@@ -5152,7 +5152,7 @@ a {
     width: 95px !important;
     height: 95px !important;
     background-color: #fafdca00 !important;
-    border: 1px solid #e1ebe7 !important;
+    border: 1px solid #d98e2b !important;
     border-radius: 50% !important;
     display: flex !important;
     align-items: center !important;
@@ -5175,7 +5175,7 @@ a {
     transform: translateX(-50%) !important;
     width: 24px !important;
     height: 24px !important;
-    background-color: #003B32 !important;
+    background-color: #d98e2b !important;
     color: #ffffff !important;
     border-radius: 50% !important;
     font-size: 12px !important;
@@ -5423,7 +5423,7 @@ a {
     bottom: 12px !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    background-color: #003B32 !important;
+    background-color: #d98e2b !important;
     color: #ffffff !important;
     font-size: 12px !important;
     font-weight: 600 !important;
@@ -5464,8 +5464,8 @@ a {
     height: 22px !important;
     min-width: 22px !important;
     border-radius: 50% !important;
-    border: 1.5px solid #003B32 !important;
-    color: #003B32 !important;
+    border: 1.5px solid #d98e2b !important;
+    color: #d98e2b !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -5504,7 +5504,7 @@ a {
 }
 
 .rootcanal_fifth_section_faq_plus {
-    color: #003B32 !important;
+    color: #d98e2b !important;
     font-size: 16px !important;
     font-weight: 600 !important;
 }
