@@ -152,6 +152,7 @@
 </section>
 
 
+
 <!-- OUR SPECIALITIES SECTION -->
 <section class="index_second_section_wrapper">
     <div class="container">
@@ -505,10 +506,7 @@
     </div>
 </section>
 
-<div class="img-icon-2">
-    <img src="./assets/img/services_page_bg.png" alt="" class="img-fluid">
 
-</div>
 
 <!-- WHAT OUR PATIENTS SAY SECTION -->
 <section class="index_fifth_section_wrapper">

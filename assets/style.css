@@ -7326,7 +7326,8 @@ a {
     width: 15%;
     max-height: 100vh;
     object-fit: cover;
-    opacity:0.7;
+   
+    margin-top: -70px;
 
 }
 
@@ -7342,4 +7343,12 @@ a {
     max-height: 100vh;
     object-fit: cover;
 
+}
+
+.aligner-icons{
+    opacity: 0.2;
+     height: 200px;
+    width: 200px;
+    margin-bottom: -200px;
+    z-index:100 !important; 
 }

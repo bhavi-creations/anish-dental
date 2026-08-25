@@ -1,4 +1,9 @@
 <!-- FOOTER SECTION -->
+
+<div class="img-icon-2">
+    <img src="./assets/img/services_page_bg.png" alt="" class="img-fluid">
+
+</div>
 <footer class="site-footer">
     <div class="container-fluid px-lg-5">
         <div class="row g-4">
@@ -14,7 +19,7 @@
                     <div class="ms-2 logo-section">
                         <!-- <span class="d-block text-white fw-bold fs-5 lh-1">ANISH DENTAL</span>
                         <span class="d-block text-white-50 fw-semibold" style="font-size: 8.5px; letter-spacing: 0.5px;">MULTISPECIALITY DENTAL HOSPITAL</span> -->
-                          <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="logo" >
+                        <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="logo">
                     </div>
                 </a>
                 <p style="color: #d1e0dc; font-size: 13px;">
@@ -108,57 +113,55 @@
 
 <!-- COMMON FAQ JAVASCRIPT -->
 <script>
+    function toggleFAQ(button) {
 
-function toggleFAQ(button) {
+        /* Find the FAQ item containing this button */
+        const faqItem = button.closest(
+            '.rootcanal_fifth_section_faq_item'
+        );
 
-    /* Find the FAQ item containing this button */
-    const faqItem = button.closest(
-        '.rootcanal_fifth_section_faq_item'
-    );
+        /* Find the answer inside the same FAQ item */
+        const answer = faqItem.querySelector(
+            '.faq_answer'
+        );
 
-    /* Find the answer inside the same FAQ item */
-    const answer = faqItem.querySelector(
-        '.faq_answer'
-    );
+        /* Safety check */
+        if (!answer) {
+            return;
+        }
 
-    /* Safety check */
-    if (!answer) {
-        return;
+        /* Toggle answer */
+        if (answer.classList.contains('faq_answer_show')) {
+
+            /* Close */
+            answer.classList.remove(
+                'faq_answer_show'
+            );
+
+            button.textContent = '+';
+
+            button.setAttribute(
+                'aria-label',
+                'Show answer'
+            );
+
+        } else {
+
+            /* Open */
+            answer.classList.add(
+                'faq_answer_show'
+            );
+
+            button.textContent = '−';
+
+            button.setAttribute(
+                'aria-label',
+                'Hide answer'
+            );
+
+        }
+
     }
-
-    /* Toggle answer */
-    if (answer.classList.contains('faq_answer_show')) {
-
-        /* Close */
-        answer.classList.remove(
-            'faq_answer_show'
-        );
-
-        button.textContent = '+';
-
-        button.setAttribute(
-            'aria-label',
-            'Show answer'
-        );
-
-    } else {
-
-        /* Open */
-        answer.classList.add(
-            'faq_answer_show'
-        );
-
-        button.textContent = '−';
-
-        button.setAttribute(
-            'aria-label',
-            'Hide answer'
-        );
-
-    }
-
-}
-
 </script>
 
 </body>
