@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<!-- Dentures & Prosthetics HERO FIRST SECTION -->
+<!-- Dentures HERO FIRST SECTION -->
 <section class="rootcanal_first_section_wrapper">
     <div class="container-fluid p-0 ps-lg-5">
         <div class="row rootcanal_first_section_row g-0">
@@ -14,12 +14,12 @@
                     <span>&gt;</span>
                     <a href="treatments.php">Treatments</a>
                     <span>&gt;</span>
-                    <span class="rootcanal_first_section_active">Dentures & Prosthetics Treatment</span>
+                    <span class="rootcanal_first_section_active">Dentures Treatment</span>
                 </div>
 
                 <!-- Main Section Title -->
                 <h1 class="rootcanal_first_section_title">
-                    Dentures & Prosthetics<br>Treatment
+                    Dentures<br>Treatment
                 </h1>
 
                 <!-- Subtitle -->
@@ -35,7 +35,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_first_section_desc">
-                    Dentures & Prosthetics Treatment helps replace missing teeth, restore chewing function, improve speech, and support a natural-looking smile with comfortable, customized dental prosthetics.
+                    Dentures Treatment helps replace missing teeth, restore chewing function, improve speech, and support a natural-looking smile with comfortable, customized dental prosthetics.
                 </p>
 
                 <!-- Action Buttons Group -->
@@ -75,7 +75,7 @@
 
                     <!-- Tooth Illustration Image -->
                      <img src=".\assets\img\Denture-prosthetics-bg.png" 
-                         alt="Dentures & Prosthetics" 
+                         alt="Dentures" 
                          class="rootcanal_first_section_img"> 
                 </div>
             </div>
@@ -86,7 +86,7 @@
 
 
 
-<!-- Dentures & Prosthetics SECOND SECTION (BENEFITS BAR) -->
+<!-- Dentures SECOND SECTION (BENEFITS BAR) -->
 <section class="rootcanal_second_section_wrapper">
     <div class="container">
         <div class="rootcanal_second_section_card">
@@ -174,7 +174,7 @@
 
 
 
-<!-- Dentures & Prosthetics THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
+<!-- Dentures THIRD SECTION (ABOUT & HIGHLIGHT QUOTE) -->
 <section class="rootcanal_third_section_wrapper">
     <div class="container">
         <div class="row rootcanal_third_section_row">
@@ -184,7 +184,7 @@
                 
                 <!-- Section Heading -->
                 <h2 class="rootcanal_third_section_heading">
-                    ABOUT Dentures & Prosthetics TREATMENT
+                    ABOUT Dentures TREATMENT
                 </h2>
 
                 <!-- Golden Divider Line -->
@@ -195,7 +195,7 @@
 
                 <!-- Description Paragraph -->
                 <p class="rootcanal_third_section_desc">
-                    Dentures & Prosthetics Treatment focuses on replacing missing teeth and restoring the appearance and function of your smile. Depending on the number of missing teeth and your individual needs, options may include complete dentures, partial dentures, crowns, bridges, and other customized prosthetic solutions. The treatment is planned to provide a comfortable fit, natural appearance, and improved oral function.
+                    Dentures Treatment focuses on replacing missing teeth and restoring the appearance and function of your smile. Depending on the number of missing teeth and your individual needs, options may include complete dentures, partial dentures, crowns, bridges, and other customized prosthetic solutions. The treatment is planned to provide a comfortable fit, natural appearance, and improved oral function.
                 </p>
 
             </div>
@@ -235,14 +235,14 @@
     </div>
 
 
-<!-- Dentures & Prosthetics FOURTH SECTION (PROCESS STEPS FLOW) -->
+<!-- Dentures FOURTH SECTION (PROCESS STEPS FLOW) -->
 <section class="rootcanal_fourth_section_wrapper">
     <div class="container">
         
         <!-- Section Header -->
         <div class="rootcanal_fourth_section_header">
             <h2 class="rootcanal_fourth_section_title">
-                THE DENTURES & PROSTHETICS TREATMENT PROCESS
+                THE Dentures TREATMENT PROCESS
             </h2>
             <div class="rootcanal_fourth_section_divider">
                 <div class="rootcanal_fourth_section_divider_line"></div>
@@ -401,7 +401,7 @@
 
 
 
-<!-- Dentures & Prosthetics FIFTH SECTION (3-CARD SECTION) -->
+<!-- Dentures FIFTH SECTION (3-CARD SECTION) -->
 <section class="rootcanal_fifth_section_wrapper">
     <div class="container">
         <div class="row">
@@ -426,7 +426,7 @@
 
                             <!-- After Image -->
                             <div class="rootcanal_fifth_section_ba_box">
-                                <img src="./assets/img/after-dentures.png" alt="After Dentures & Prosthetics Treatment">
+                                <img src="./assets/img/after-dentures.png" alt="After Dentures Treatment">
                                 <span class="rootcanal_fifth_section_ba_badge">After</span>
                             </div>
                         </div>
@@ -439,11 +439,11 @@
                 </div>
             </div>
 
-            <!-- CARD 2: BENEFITS OF DENTURES & PROSTHETICS -->
+            <!-- CARD 2: BENEFITS OF Dentures -->
             <div class="col-lg-4 col-md-12 rootcanal_fifth_section_col">
                 <div class="rootcanal_fifth_section_card">
                     <div>
-                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF DENTURES & PROSTHETICS</h3>
+                        <h3 class="rootcanal_fifth_section_title">BENEFITS OF Dentures</h3>
                         <div class="rootcanal_fifth_section_divider">
                             <div class="rootcanal_fifth_section_divider_line"></div>
                             <div class="rootcanal_fifth_section_divider_dot"></div>
@@ -513,7 +513,7 @@
                     <div class="faq_question_row">
 
                         <span class="rootcanal_fifth_section_faq_question">
-                            Are Dentures & Prosthetics comfortable to wear?
+                            Are Dentures comfortable to wear?
                         </span>
 
                         <button
@@ -539,7 +539,7 @@
                     <div class="faq_question_row">
 
                         <span class="rootcanal_fifth_section_faq_question">
-                            How long does Dentures & Prosthetics treatment take?
+                            How long does Dentures treatment take?
                         </span>
 
                         <button
@@ -638,7 +638,7 @@
 
 
 
-<!-- Dentures & Prosthetics SIXTH SECTION (CTA BANNER BAR) -->
+<!-- Dentures SIXTH SECTION (CTA BANNER BAR) -->
 <section class="rootcanal_sixth_section_wrapper">
     <div class="container">
         <div class="rootcanal_sixth_section_banner">

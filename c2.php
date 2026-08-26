@@ -199,8 +199,8 @@
                 name: 'Teeth Whitening',
                 content: 'Professional Teeth Whitening safely brightens discolored or stained teeth, giving you a fresh, radiant, and brilliant smile in just one visit.',
             },
-            'DenturesProsthetics': {
-                name: 'Dentures & Prosthetics',
+            'Dentures': {
+                name: 'Dentures',
                 content: 'Custom full or partial dentures and advanced prosthetics restore functional chewing and natural appearance for patients missing multiple teeth.',
             },
             'GeneralDentistry': {

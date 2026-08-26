@@ -295,7 +295,7 @@
                 </div>
             </div>
 
-            <!-- 9. Dentures & Prosthetics -->
+            <!-- 9. Dentures -->
             <div class="treatments_secound_section_col">
                 <div class="treatments_secound_section_card">
                     <div>
@@ -304,12 +304,12 @@
                             <img src="./assets/img/icons/denture.png" alt="" style="width: 50px; height: 50px;">
 
                         </div>
-                        <h3 class="treatments_secound_section_card_title">Dentures & Prosthetics</h3>
+                        <h3 class="treatments_secound_section_card_title">Dentures</h3>
                         <p class="treatments_secound_section_card_desc">
                             natural-looking dentures designed to restore your smile.
                         </p>
                     </div>
-                    <a href="dentures-and-prosthetics.php" class="treatments_secound_section_link">
+                    <a href="dentures.php" class="treatments_secound_section_link">
                         Learn More <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
