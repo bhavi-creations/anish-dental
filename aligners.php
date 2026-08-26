@@ -229,7 +229,10 @@
     </div>
 </section>
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/icons/aligners-icon.png" alt="" class="img-fluid">
 
+    </div>
 
 
 

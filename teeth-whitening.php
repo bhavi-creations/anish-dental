@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/smiling-teeth.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Teeth Whitening FOURTH SECTION (PROCESS STEPS FLOW) -->

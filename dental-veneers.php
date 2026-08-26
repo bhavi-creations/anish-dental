@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/icons/dental-veneer.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Dental Veneers FOURTH SECTION (PROCESS STEPS FLOW) -->

@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/baby.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Pediatric Dentistry FOURTH SECTION (PROCESS STEPS FLOW) -->

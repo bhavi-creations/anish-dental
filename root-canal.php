@@ -230,7 +230,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/icons/root-canal.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- ROOT CANAL FOURTH SECTION (PROCESS STEPS FLOW) -->

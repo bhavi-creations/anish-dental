@@ -122,7 +122,7 @@
 </section>
 
 <div class="img-icon-5 d-none d-md-block mt-3">
-    <img src="./assets/img/stethoscope.png " alt="" class="img-fluid">
+    <img src="./assets/img/health-checkup.gif " alt="" class="img-fluid">
 
 </div>
 

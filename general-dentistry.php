@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="img-icon-5 d-none d-md-block mt-3">
+    <img src="./assets/img/smile(1).png" alt="" style="width: 200px;">
 
+</div>
 
 
 <!-- General Dentistry FOURTH SECTION (PROCESS STEPS FLOW) -->

@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/periodontal-care.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Periodontal Care FOURTH SECTION (PROCESS STEPS FLOW) -->

@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/icons/dental-bridge-step-4.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Dental Bridge FOURTH SECTION (PROCESS STEPS FLOW) -->

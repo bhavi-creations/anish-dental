@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/icons/wisdom-tooth.png" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Wisdom Teeth FOURTH SECTION (PROCESS STEPS FLOW) -->

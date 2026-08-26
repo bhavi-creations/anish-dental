@@ -229,7 +229,10 @@
 </section>
 
 
+<div class="icons_image-service d-none d-md-block ">
+        <img src="./assets/img/denture.gif" alt="" class="img-fluid">
 
+    </div>
 
 
 <!-- Dentures & Prosthetics FOURTH SECTION (PROCESS STEPS FLOW) -->
