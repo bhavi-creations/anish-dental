@@ -96,7 +96,7 @@ a {
     font-weight: 700 !important;
     font-size: 12px !important;
     letter-spacing: 0.5px !important;
-    padding: 8px 12px !important;
+    padding: 8px 8px !important;
     text-transform: uppercase !important;
     transition: color 0.2s ease-in-out !important;
 }
@@ -3350,7 +3350,7 @@ a {
     background-color: #E29B27;
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 12px 18px;
     font-weight: 700;
     font-size: 0.8rem;
     letter-spacing: 0.5px;
@@ -7519,4 +7519,37 @@ a {
     object-fit: contain;
     object-position: center;
     border-radius: 12px;
+}
+
+/* Navbar stylings for 992-1200px response */
+/* =========================================
+   NAVBAR RESPONSIVE - 992px TO 1200px
+   ========================================= */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-header-navbar .nav-link {
+        color: #003B32 !important;
+        font-weight: 700 !important;
+        font-size: 10px !important;
+        letter-spacing: 0.3px !important;
+        padding: 6px 5px !important;
+        text-transform: uppercase !important;
+        transition: color 0.2s ease-in-out !important;
+        white-space: nowrap !important;
+    }
+
+    /* Reduce spacing between navbar items */
+    .main-header-navbar .navbar-nav {
+        gap: 2px !important;
+        align-items: center !important;
+    }
+
+    /* Appointment button */
+    .main-header-navbar .btn,
+    .main-header-navbar .book-appointment-btn {
+        font-size: 10px !important;
+        padding: 10px 12px !important;
+        white-space: nowrap !important;
+    }
 }
