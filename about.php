@@ -214,7 +214,10 @@
     </div>
 </section>
 
+<div class="icons_image d-none d-md-block">
+    <img src="./assets/img/dental-care.gif" alt="" class="img-fluid">
 
+</div>
 
 
 <section class="about-third-section">

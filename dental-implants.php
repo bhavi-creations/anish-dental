@@ -231,7 +231,10 @@
 </section>
 
 
+<div class="icons_image d-none d-md-block">
+    <img src="./assets/img/dental-implant.gif" alt="" class="img-fluid">
 
+</div>
 
 
 <!-- Dental Implants FOURTH SECTION (PROCESS STEPS FLOW) -->

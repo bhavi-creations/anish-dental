@@ -282,7 +282,7 @@
 </section>
 
 <div class="icons_image d-none d-md-block">
-    <img src="./assets/img/smile(1).png" alt="" class="img-fluid">
+    <img src="./assets/img/tooth-treatment.gif" alt="" class="img-fluid">
 
 </div>
 

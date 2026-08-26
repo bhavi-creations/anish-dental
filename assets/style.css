@@ -6007,7 +6007,7 @@ a {
     left: 0 !important;
     width: 25% !important;
     height: 100% !important;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) !important;
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) !important; */
     pointer-events: none !important;
 }
 
@@ -7315,8 +7315,9 @@ a {
 .icons_image {
     height: 200px;
     width: 200px;
-    margin-bottom: -250px;
-    opacity: 0.7;
+    margin-bottom: -220px;
+    opacity: 0.5;
+    /* min-height: 100vh;  */
 }
 
 .img-icon-2 {

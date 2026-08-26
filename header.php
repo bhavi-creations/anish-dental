@@ -12,6 +12,7 @@
     <!-- Font Awesome 6 Icons (For Phone, Mail, Location, Clock, Social Icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <link rel="icon" href="./assets/img/Anish Logo.png" type="image/x-icon">
     <!-- Google Fonts for Hero Section -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
