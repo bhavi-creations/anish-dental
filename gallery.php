@@ -73,9 +73,9 @@
                 <!-- <button class="filter-btn" data-filter="team">
                     <i class="bi bi-people"></i> Our Team
                 </button> -->
-                <button class="filter-btn" data-filter="smiles">
+                <!-- <button class="filter-btn" data-filter="smiles">
                     <i class="bi bi-emoji-smile"></i> Happy Smiles
-                </button>
+                </button> -->
             </div>
         </div>
 
@@ -146,7 +146,7 @@
             </div>
 
             <!-- Row 4 (Happy Smiles Category) -->
-            <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+            <!-- <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
                 <div class="gallery-card">
                     <img src="./assets/img/gallery-img-1.png" alt="Happy Kid Patient">
                 </div>
@@ -174,7 +174,7 @@
                 <div class="gallery-card">
                     <img src="./assets/img/gallery-img-5.png" alt="Happy Patient Smile">
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
