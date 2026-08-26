@@ -102,11 +102,11 @@
             </div>
 
             <!-- Row 2 -->
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
+            <!-- <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
                 <div class="gallery-card">
                     <img src="./assets/img/g10.png" alt="Dental Chair Setup" class="img-fluid">
                 </div>
-            </div>
+            </div> -->
 
             <!-- <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
                 <div class="gallery-card">

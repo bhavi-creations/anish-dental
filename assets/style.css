@@ -7553,3 +7553,57 @@ a {
         white-space: nowrap !important;
     }
 }
+
+/* about page third section cards alignment */
+/* =========================================================
+   TABLET ONLY: 768px - 992px
+   Center bottom statistics items
+   ========================================================= */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .treatments_third_section_row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+    }
+
+    /* All 5 statistics */
+    .treatments_third_section_item {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-sizing: border-box !important;
+    }
+
+    /* -------------------------
+       Bottom Row - Item 4
+       Years of Excellence
+       ------------------------- */
+    .treatments_third_section_item:nth-child(4) {
+        margin-left: 16.666666% !important;
+    }
+
+    /* -------------------------
+       Bottom Row - Item 5
+       Patient Satisfaction
+       ------------------------- */
+    .treatments_third_section_item:nth-child(5) {
+        margin-left: 0 !important;
+    }
+
+    /* Keep icon + text perfectly aligned */
+    .treatments_third_section_item .icon,
+    .treatments_third_section_item .treatment-icon,
+    .treatments_third_section_item i {
+        flex-shrink: 0 !important;
+    }
+
+    /* Prevent vertical misalignment between bottom items */
+    .treatments_third_section_item:nth-child(4),
+    .treatments_third_section_item:nth-child(5) {
+        align-items: center !important;
+    }
+}
