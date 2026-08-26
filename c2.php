@@ -93,7 +93,7 @@
         }
 
         .user-msg .message-bubble {
-            background-color: #000000;
+            background-color: #003b32;
             color: white;
         }
 
@@ -102,7 +102,7 @@
             width: 100%;
             margin-bottom: 8px;
             background-color: #003b32 !important;
-            border: 1px solid #000000;
+            border: 2px solid #003b32;
             color: white;
             font-size: 0.9rem;
             white-space: normal;

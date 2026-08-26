@@ -214,7 +214,7 @@
                 <a href="dental-veneers.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
-                        <img src="./assets/img/icons/Veneers-step-4.png " alt="" style="width: 50px; height: auto;">
+                        <img src="./assets/img/icons/dental-veneer.png " alt="" style="width: 50px; height: auto;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Dental<br>Veneers</h3>

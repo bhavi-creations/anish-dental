@@ -168,7 +168,7 @@
                     <div>
                         <div class="treatments_secound_section_icon_box">
                             <!-- <i class="fa-solid fa-sparkles treatments_secound_section_icon"></i> -->
-                            <img src="./assets/img/icons/Veneers-step-4.png" alt="" style="width:50px; height:auto;">
+                            <img src="./assets/img/icons/dental-veneer.png" alt="" style="width:50px; height:auto;">
                         </div>
                         <h3 class="treatments_secound_section_card_title">Dental Veneers</h3>
                         <p class="treatments_secound_section_card_desc">
