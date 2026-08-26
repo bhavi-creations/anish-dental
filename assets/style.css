@@ -7354,6 +7354,22 @@ a {
 }
 
 
+.img-icon-5 {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    left: 0;
+    bottom: 2opx;
+    transform: translateY(-50%);
+    z-index: 99 !important;
+    width: 15%;
+    /* max-height: 100vh; */
+    object-fit: cover;
+    opacity: 0.2;
+    margin-top: -70px;
+}
+
 .img-icon-3 {
 
     position: absolute;

@@ -121,8 +121,8 @@
     </div>
 </section>
 
-<div class="img-icon-4 d-none d-md-block mt-3">
-    <img src="./assets/img/dental-surgery.png" alt="" class="img-fluid">
+<div class="img-icon-5 d-none d-md-block mt-3">
+    <img src="./assets/img/stethoscope.png " alt="" class="img-fluid">
 
 </div>
 
@@ -634,6 +634,7 @@
 
 <section class="doctor-third-section">
     <div class="container">
+       
 
         <!-- Top Banner: Our Commitment to You -->
         <div class="commitment-banner">
