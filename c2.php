@@ -18,7 +18,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #000000;
+            background-color: #efa543;
             color: white;
             display: flex;
             align-items: center;
@@ -45,12 +45,12 @@
             display: none;
             flex-direction: column;
             overflow: hidden;
-            border: 1px solid #000;
+            border: 1px solid #efa543;
         }
 
         /* Chat Header */
         #chat-header {
-            background-color: #333333;
+            background-color: #efa543;
             color: white;
             padding: 10px;
             font-weight: bold;
@@ -101,7 +101,7 @@
         .service-btn {
             width: 100%;
             margin-bottom: 8px;
-            background-color: #000000;
+            background-color: #003b32 !important;
             border: 1px solid #000000;
             color: white;
             font-size: 0.9rem;
@@ -114,12 +114,12 @@
         }
 
         .service-btn:hover {
-            background-color: #333333;
-            border-color: #333333;
+            background-color: #efa543;
+            border-color: #efa543;
         }
 
         .restart-btn {
-            background-color: #333333;
+            background-color: #efa543;
             color: white;
             border: none;
             padding: 8px 12px;
@@ -147,7 +147,7 @@
 
     <div id="chatbot-window">
         <div id="chat-header">
-            <span>Anish Dental Multispeciality</span>
+            <span>Anish Dental Multispeciality Dental</span>
             <button type="button" style="background:none; border:none; color:white; font-size:1.2rem; cursor:pointer;" onclick="toggleChatbot()">✕</button>
         </div>
         <div id="chat-body"></div>
