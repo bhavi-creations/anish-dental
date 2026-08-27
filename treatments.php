@@ -111,7 +111,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dental-implants.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="aligners.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dental-veneers.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="root-canal.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dental-bridge.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="pediatric-dentistry.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="periodontal-care.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="oral-surgery.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +275,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="teeth-whitening.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -295,7 +295,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dentures.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -315,7 +315,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="general-dentistry.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
@@ -335,7 +335,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="wisdom-teeth.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
                         </div>
                     </div>
                 </div>
