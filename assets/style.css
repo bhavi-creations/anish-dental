@@ -4005,7 +4005,8 @@ a {
 
 /* 1. Top Commitment Banner */
 .doctor-third-section .commitment-banner {
-    background-color: #003B32;
+    background-color: #389183;
+    /* background-color: #003B32; */
     /* Deep Dark Green/Teal */
     border-radius: 20px;
     padding: 30px 40px;
@@ -4049,11 +4050,11 @@ a {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1.5px solid #c89547;
+    border: 2px solid #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #c89547;
+    color: #ffffff;
     font-size: 1.4rem;
     margin: 0 auto 8px auto;
 }
@@ -7268,7 +7269,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #003b32;
+    color: #389183;
     font-size: 31px;
     margin-bottom: 8px;
 }
@@ -7652,7 +7653,7 @@ a {
 /* New Stylings */
 /* Custom CSS for .treatment_new_section */
 .treatment_new_section .treatment-card {
-  background: #ffffff;
+  background: #e4dfdf;
   transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), 
               box-shadow 0.35s ease-in-out;
 }
@@ -7697,4 +7698,12 @@ a {
   background-color: #f79305;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(11, 87, 208, 0.3);
+}
+
+
+.doctor-third-section .virtue-icon-ring img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
 }
