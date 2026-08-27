@@ -383,7 +383,7 @@ a {
 
 /* Main Heading (Confident Smiles) */
 .index_first_section_main_heading {
-    color: #003B32 !important;
+    color: #389183 !important;
     font-family: 'Playfair Display', serif !important;
     font-size: 58px !important;
     font-weight: 800 !important;
@@ -515,7 +515,8 @@ a {
     right: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    background-image: url('../assets/img/index-page.png');
+    background-image: url('../assets/img/gallery-img-4.png');
+    /* background-image: url('../assets/img/index-page.png'); */
     /* background-image: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop'); */
     /* Replace with your hospital image path */
     background-size: cover !important;
@@ -623,7 +624,7 @@ a {
 
 /* Main Title (Comprehensive Dental Care For Every Smile) */
 .index_second_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
     /* Primary Dark Green */
     font-family: 'Playfair Display', serif !important;
     font-size: 38px !important;
@@ -699,13 +700,13 @@ a {
 }
 
 .index_second_section_card:hover .index_second_section_icon_box {
-    background-color: #003B32 !important;
+    background-color: #389183 !important;
     color: #ffffff !important;
 }
 
 /* Card Title */
 .index_second_section_card_title {
-    color: #003B32 !important;
+    color: #389183 !important;
     font-family: 'Playfair Display', serif !important;
     font-size: 19px !important;
     font-weight: 700 !important;
@@ -1050,7 +1051,7 @@ a {
 
 /* Main Heading */
 .index_fourth_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
     /* Dark Green */
     font-family: 'Playfair Display', serif !important;
     font-size: 38px !important;
@@ -1430,7 +1431,7 @@ a {
 }
 
 .index_fifth_section_cta_title {
-    color: #003B32 !important;
+    color: #389183 !important;
     font-family: 'Playfair Display', serif !important;
     font-size: 24px !important;
     font-weight: 800 !important;
@@ -1488,7 +1489,7 @@ a {
 }
 
 .index_fifth_section_cta_phone_num {
-    color: #003B32 !important;
+    color: #389183 !important;
     font-size: 19px !important;
     font-weight: 800 !important;
     text-decoration: none !important;
@@ -2846,7 +2847,7 @@ a {
 .about-first-section .section-heading {
     font-size: 3rem;
     font-weight: 700;
-    color: #0d3832;
+    color: #389183;
     /* Deep Teal/Dark Green */
     line-height: 1.1;
     margin-bottom: 15px;
@@ -2876,7 +2877,8 @@ a {
 .about-first-section .sub-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #0d3832;
+    color: #e29b27;
+    /* color: #0d3832; */
     margin-bottom: 15px;
 }
 
@@ -2969,7 +2971,8 @@ a {
 
 /* Mission Title */
 .about-second-section .mission-title {
-    color: #0c3832;
+    color: #389183;
+    /* color: #0c3832; */
     /* Deep Teal/Dark Green */
     font-weight: 700;
     font-size: 2rem;
@@ -3098,7 +3101,7 @@ a {
 }
 
 .about-third-section .section-title {
-    color: #0c3832;
+    color: #389183;
     /* Deep Teal */
     font-weight: 700;
     font-size: 2.2rem;
@@ -3161,7 +3164,7 @@ a {
 
 /* Text Content Inside Card */
 .about-third-section .doctor-name {
-    color: #0c3832;
+    color: #389183;
     font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: 4px;
@@ -3242,7 +3245,8 @@ a {
 }
 
 .about-fourth-section .section-title {
-    color: #0c3832;
+    color: #389183;
+    /* color: #0c3832; */
     /* Deep Teal */
     font-weight: 700;
     font-size: 2.2rem;
