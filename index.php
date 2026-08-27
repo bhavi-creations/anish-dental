@@ -731,7 +731,7 @@
                     <!-- Top Main Image -->
                     <div class="row mb-3 g-3">
                         <div class="col-12">
-                            <img src="./assets/img/galllery_1_2.png" alt="Dental Treatment Room" class="index_fourth_section_img_top">
+                            <img src="./assets/img/g5.png" alt="Dental Treatment Room" class="index_fourth_section_img_top">
                         </div>
                     </div>
 
@@ -776,18 +776,18 @@
 
 
 
-WHAT OUR PATIENTS SAY SECTION
+<!-- WHAT OUR PATIENTS SAY SECTION -->
 <section class="index_fifth_section_wrapper">
     <div class="container">
 
-        Header
+        <!-- Header -->
         <div class="index_fifth_section_header">
             <span class="index_fifth_section_subtitle">WHAT OUR PATIENTS SAY</span>
             <h2 class="index_fifth_section_title">
                 Trusted by Thousands of Happy Smiles
             </h2>
 
-            Decorative Gold Diamond Divider
+            <!-- Decorative Gold Diamond Divider -->
             <div class="index_fifth_section_divider">
                 <span class="index_fifth_section_divider_line"></span>
                 <i class="fa-solid fa-diamond index_fifth_section_divider_diamond"></i>
@@ -795,21 +795,21 @@ WHAT OUR PATIENTS SAY SECTION
             </div>
         </div>
 
-        Testimonials Cards Grid
+        <!-- Testimonials Cards Grid -->
         <div class="position-relative">
 
-            Decorative Huge Quote Mark
+            <!-- Decorative Huge Quote Mark -->
             <div class="index_fifth_section_quote_icon">
                 <i class="fa-solid fa-quote-left"></i>
             </div>
 
             <div class="row align-items-center g-4">
 
-                3 Cards Column
+                <!-- 3 Cards Column -->
                 <div class="col-lg-11 col-12">
                     <div class="row g-3 g-lg-4">
 
-                        Testimonial 1
+                        <!-- Testimonial 1 -->
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="index_fifth_section_card">
                                 <div>
