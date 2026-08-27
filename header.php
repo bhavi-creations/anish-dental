@@ -52,7 +52,7 @@
                     <div class="social-icons d-flex align-items-center">
                         <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=917396256474" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
 

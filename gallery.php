@@ -123,7 +123,7 @@
             <!-- Row 3 -->
             <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
-                    <img src="./assets/img/g7.png" alt="Dental camp Unit">
+                    <img src="./assets/img/dental-camp-img-1.png" alt="Dental camp Unit">
                 </div>
             </div>
 
@@ -135,15 +135,43 @@
 
             <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
-                    <img src="./assets/img/g8.png" alt="Lab Dental Camp">
+                    <img src="./assets/img/dental-camp-img-2.png" alt="Lab Dental Camp">
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
-                    <img src="./assets/img/g9.png" alt="Lab Dental Camp">
+                    <img src="./assets/img/dental-camp-img-3.png" alt="Lab Dental Camp">
                 </div>
             </div>
+
+ <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+                <div class="gallery-card">
+                    <img src="./assets/img/dental-camp-img-4.png" alt="Lab Dental Camp">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+                <div class="gallery-card">
+                    <img src="./assets/img/dental-camp-img-5.png" alt="Lab Dental Camp">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+                <div class="gallery-card">
+                    <img src="./assets/img/dental-camp-img-6.png" alt="Lab Dental Camp">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+                <div class="gallery-card">
+                    <img src="./assets/img/dental-camp-img-7.png" alt="Lab Dental Camp">
+                </div>
+            </div>
+           
+
+
+            
 
             <!-- Row 4 (Happy Smiles Category) -->
             <!-- <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
