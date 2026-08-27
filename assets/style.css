@@ -1626,7 +1626,8 @@ a {
 
 /* Main Title */
 .treatments_first_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Dark Green */
     font-family: 'Playfair Display', serif !important;
     font-size: 52px !important;
@@ -1876,7 +1877,8 @@ a {
 
 /* Main Title */
 .treatments_secound_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Dark Green */
     font-family: 'Playfair Display', serif !important;
     font-size: 38px !important;
@@ -2073,7 +2075,8 @@ a {
 
 /* Dark Green Main Container Box */
 .treatments_third_section_container {
-    background-color: #003B32 !important;
+    background-color: #389183 !important;
+    /* background-color: #003B32 !important; */
     /* Deep Dark Green */
     border-radius: 20px !important;
     padding: 35px 30px !important;
@@ -2276,7 +2279,8 @@ a {
 
 /* Main Title */
 .treatments_fourth_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Dark Green */
     font-family: 'Playfair Display', serif !important;
     font-size: 38px !important;
@@ -2933,7 +2937,8 @@ a {
     position: absolute;
     bottom: -20px;
     right: 20px;
-    background-color: #0d3832;
+    background-color: #389183;
+    /* background-color: #0d3832; */
     color: #ffffff;
     padding: 20px 25px;
     border-radius: 20px;
@@ -3832,7 +3837,8 @@ a {
 }
 
 .doctor-second-section .section-title {
-    color: #0c3832;
+    color: #389183;
+    /* color: #0c3832; */
     /* Deep Teal */
     font-weight: 700;
     font-size: 2.2rem;
@@ -3881,7 +3887,8 @@ a {
 
 /* Info Text Styling */
 .doctor-second-section .doctor-name {
-    color: #0c3832;
+    color: #389183;
+    /* color: #0c3832; */
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 2px;
