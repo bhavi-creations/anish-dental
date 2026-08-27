@@ -182,7 +182,7 @@
                         <div>
                             <h5 class="card-title fw-bold text-dark mb-2">Dental Implants</h5>
                             <p class="card-text text-secondary small mb-4">
-                              Permanent solutions for missing teeth.
+                                Permanent solutions for missing teeth.
                             </p>
                         </div>
                         <div>
@@ -202,7 +202,7 @@
                         <div>
                             <h5 class="card-title fw-bold text-dark mb-2">Aligners</h5>
                             <p class="card-text text-secondary small mb-4">
-                               Clear aligners gently straighten misaligned teeth.
+                                Clear aligners gently straighten misaligned teeth.
                             </p>
                         </div>
                         <div>
@@ -242,7 +242,7 @@
                         <div>
                             <h5 class="card-title fw-bold text-dark mb-2">Root Canal Treatment</h5>
                             <p class="card-text text-secondary small mb-4">
-                               Relieve pain and save your natural tooth.
+                                Relieve pain and save your natural tooth.
                             </p>
                         </div>
                         <div>
@@ -253,296 +253,11 @@
             </div>
 
 
-
-
-            <!-- Card 5: Dental Bridge -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/Dental-bridge.png" class="card-img-top img-fluid rounded-3" alt="Root Canal">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Dental Bridge</h5>
-                            <p class="card-text text-secondary small mb-4">
-                               Dental bridges replace missing teeth and restore your smile.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6: Pediatric Dentistry -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/Pediatric-dentistry.png" class="card-img-top img-fluid rounded-3" alt="Dental Braces">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Pediatric Dentistry</h5>
-                            <p class="card-text text-secondary small mb-4">
-                                Special care for kids & growing smiles.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 7: Periodontal Care -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/Periodontal-care-1.png" class="card-img-top img-fluid rounded-3" alt="Dental Implants">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Periodontal Care</h5>
-                            <p class="card-text text-secondary small mb-4">
-                               Gum treatment for healthy and strong gums.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 8: Oral Surgery -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/Oral-surgery-1.png" class="card-img-top img-fluid rounded-3" alt="Tooth Crowns & Bridges">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Oral Surgery</h5>
-                            <p class="card-text text-secondary small mb-4">
-                                Safe and comfortable surgical procedures.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Card 9: Teeth Whitening -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/Teeth-whitening.png" class="card-img-top img-fluid rounded-3" alt="Root Canal">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Teeth Whitening</h5>
-                            <p class="card-text text-secondary small mb-4">
-                               Brighter, whiter smile in just one visit.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 10: Dentures-->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/Dentures.png" class="card-img-top img-fluid rounded-3" alt="Dental Braces">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Dentures</h5>
-                            <p class="card-text text-secondary small mb-4">
-                                natural-looking dentures designed to restore your smile.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 11: General Dentistry -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/general-surgery.png" class="card-img-top img-fluid rounded-3" alt="Dental Implants">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">General Dentistry</h5>
-                            <p class="card-text text-secondary small mb-4">
-                               Complete oral care for you and your family.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 12: Wisdom teeth -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card treatment-card h-100 border-0 shadow-sm rounded-4 p-3 text-center">
-                    <div class="card-img-wrapper mb-3">
-                        <img src="./assets/img/wisdom-teeth.png" class="card-img-top img-fluid rounded-3" alt="Tooth Crowns & Bridges">
-                    </div>
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title fw-bold text-dark mb-2">Wisdom teeth</h5>
-                            <p class="card-text text-secondary small mb-4">
-                               Wisdom teeth are the final teeth to appear.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- OUR SPECIALITIES SECTION -->
-<section class="index_second_section_wrapper">
-    <div class="container">
-
-        <!-- Header -->
-        <div class="index_second_section_header">
-            <span class="index_second_section_subtitle">OUR SPECIALITIES</span>
-            <h2 class="index_second_section_title">
-                Comprehensive Dental Care<br class="d-none d-md-block"> For Every Smile
-            </h2>
-
-            <!-- Decorative Gold Diamond Divider -->
-            <div class="index_second_section_divider">
-                <span class="index_second_section_divider_line"></span>
-                <i class="fa-solid fa-diamond index_second_section_divider_diamond"></i>
-                <span class="index_second_section_divider_line"></span>
-            </div>
-        </div>
-
-        <!-- 6 Speciality Cards Grid -->
-        <div class="row index_second_section_cards_row justify-content-center">
-
-            <!-- Card 1: Dental Implants -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="dental-implants.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <!-- <i class="fa-solid fa-teeth-open"></i> -->
-                        <img src="./assets/img/dental-implants.png" alt="" style="width: 50px; height: 50px;">
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">Dental<br>Implants</h3>
-                        <p class="index_second_section_card_desc">Permanent solutions for missing teeth.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
+            <div class="text-center">
+                <a href="treatments.php" class="index_fourth_section_btn">
+                    MORE SERVICES <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-
-            <!-- Card 2: Aligners -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="aligners.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <!-- <i class="fa-solid fa-teeth"></i> -->
-                        <img src="./assets/img/icons/aligners-icon.png" alt="" style="width: 50px; height: 50px;">
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">Aligners<br></h3>
-                        <p class="index_second_section_card_desc">Straighten your teeth for a confident smile.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Card 3: Dental Veneers -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="dental-veneers.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
-                        <img src="./assets/img/icons/dental-veneer.png " alt="" style="width: 50px; height: auto;">
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">Dental<br>Veneers</h3>
-                        <p class="index_second_section_card_desc">Enhance your smile with advanced care.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Card 4: Root Canal Treatment -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="root-canal.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <!-- <i class="fa-solid fa-file-medical"></i> -->
-                        <img src="./assets/img/root-canal (1).png" alt="" style="width: 50px; height: 50px;">
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">Root Canal<br>Treatment</h3>
-                        <p class="index_second_section_card_desc">Relieve pain and save your natural tooth.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Card 5: Pediatric Dentistry -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="pediatric-dentistry.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <!-- <i class="fa-solid fa-face-smile"></i> -->
-                        <i class="fa-solid fa-child-reaching treatments_secound_section_icon"></i>
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">Pediatric<br>Dentistry</h3>
-                        <p class="index_second_section_card_desc">Special care for kids & growing smiles.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Card 6: General Dentistry -->
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
-                <a href="general-dentistry.php" class="index_second_section_card">
-                    <div class="index_second_section_icon_box">
-                        <i class="fa-solid fa-tooth"></i>
-                    </div>
-                    <div>
-                        <h3 class="index_second_section_card_title">General<br>Dentistry</h3>
-                        <p class="index_second_section_card_desc">Complete oral care for you and your family.</p>
-                    </div>
-                    <div class="index_second_section_card_arrow">
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </div>
-                </a>
-            </div>
-
         </div>
 
     </div>
@@ -557,12 +272,12 @@
 <!-- MEET OUR DENTAL SPECIALISTS SECTION -->
 <section class="about-third-section">
     <div class="container">
-        
+
         <!-- Section Header -->
         <div class="text-center">
             <span class="section-subtitle">OUR DOCTORS</span>
             <h2 class="section-title">Experienced Dental Specialists</h2>
-            
+
             <!-- Custom Gold Divider -->
             <div class="divider-container">
                 <div class="divider-line"></div>
@@ -573,7 +288,7 @@
 
         <!-- Doctors Row -->
         <div class="row g-4">
-            
+
             <!-- Doctor 1 (Male Doctor) -->
             <div class="col-lg-6">
                 <div class="doctor-card">
@@ -652,7 +367,7 @@
                                 </li>
                             </ul>
 
-                             
+
                             <a href="doctor.php" class="btn btn-view-profile d-inline-flex align-items-center gap-2">
                                 VIEW PROFILE <i class="bi bi-arrow-right"></i>
                             </a>
@@ -731,7 +446,7 @@
                     <!-- Top Main Image -->
                     <div class="row mb-3 g-3">
                         <div class="col-12">
-                            <img src="./assets/img/g5.png" alt="Dental Treatment Room" class="index_fourth_section_img_top">
+                            <img src="./assets/img/12121212.png" alt="Dental Treatment Room" class="index_fourth_section_img_top">
                         </div>
                     </div>
 
@@ -892,6 +607,11 @@
                     </button>
                 </div> -->
 
+            </div>
+            <div class="text-center mt-5">
+                <a href="happy-smile.php" class="index_fourth_section_btn">
+                    Video Testmonials <i class="fa-solid fa-arrow-right"></i>
+                </a>
             </div>
 
         </div>

@@ -5,7 +5,7 @@
         <!-- Filter Bar -->
         <div class="text-center">
             <div class="filter-nav">
-                <button class="filter-btn" data-filter="all">
+                <button class="filter-btn active" data-filter="all">
                     <i class="bi bi-grid-fill"></i> All
                 </button>
                 
