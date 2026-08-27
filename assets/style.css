@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* ==========================================
            1. COLOR VARIABLES & GLOBAL STYLES
            ========================================== */
@@ -515,7 +516,8 @@ a {
     right: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    background-image: url('../assets/img/gallery-img-4.png');
+    background-image: url('../assets/img/index_hero_omg.png');
+    /* background-image: url('../assets/img/gallery-img-4.png'); */
     /* background-image: url('../assets/img/index-page.png'); */
     /* background-image: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop'); */
     /* Replace with your hospital image path */
@@ -1975,7 +1977,8 @@ a {
 
 /* Card Title */
 .treatments_secound_section_card_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     font-family: 'Playfair Display', serif !important;
     font-size: 19px !important;
     font-weight: 700 !important;
@@ -2118,7 +2121,8 @@ a {
     width: 65px !important;
     height: 65px !important;
     border-radius: 50% !important;
-    border: 2px solid #e29b27 !important;
+    border: 2px solid white !important;
+    /* border: 2px solid #e29b27 !important; */
     /* Gold Border */
     display: flex !important;
     align-items: center !important;
@@ -2135,7 +2139,8 @@ a {
 
 /* Icon Styling */
 .treatments_third_section_icon {
-    color: #e29b27 !important;
+    color: white !important;
+    /* color: #e29b27 !important; */
     /* Gold Color */
     font-size: 28px !important;
 }
@@ -4159,7 +4164,8 @@ a {
 /* Custom Styles for Gallery First Section */
 .gallery-first-section {
     position: relative;
-    background-color: #052a25;
+    background-color: #389183;
+    /* background-color: #052a25; */
     /* Deep Dark Green / Teal */
     overflow: hidden;
     padding: 60px 0;
@@ -4189,7 +4195,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #052a25 15%, rgba(5, 42, 37, 0.75) 50%, rgba(5, 42, 37, 0.1) 100%);
+    background: linear-gradient(90deg, #389183 15%, rgba(5, 42, 37, 0.75) 50%, rgba(5, 42, 37, 0.1) 100%);
     z-index: 2;
 }
 
@@ -4463,7 +4469,8 @@ a {
 
 /* Main Section Title */
 .rootcanal_first_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Deep Dark Green */
     font-family: 'Playfair Display', Georgia, serif !important;
     font-size: 52px !important;
@@ -4792,7 +4799,8 @@ a {
 
 /* Item Title */
 .rootcanal_second_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     font-family: 'Playfair Display', Georgia, serif !important;
     font-size: 15.5px !important;
     font-weight: 700 !important;
@@ -4928,7 +4936,8 @@ a {
 
 /* Heading */
 .rootcanal_third_section_heading {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Deep Dark Green */
     font-family: 'Playfair Display', Georgia, serif !important;
     font-size: 24px !important;
@@ -5120,7 +5129,8 @@ a {
 }
 
 .rootcanal_fourth_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Deep Dark Green */
     font-family: 'Playfair Display', Georgia, serif !important;
     font-size: 26px !important;
@@ -5388,7 +5398,8 @@ a {
 
 /* Card Titles */
 .rootcanal_fifth_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Deep Dark Green */
     font-family: 'Playfair Display', Georgia, serif !important;
     font-size: 20px !important;
@@ -5914,7 +5925,8 @@ a {
 
 /* Main Title */
 .contactus_first_section_title {
-    color: #003B32 !important;
+    color: #389183 !important;
+    /* color: #003B32 !important; */
     /* Deep Dark Green */
     font-family: 'Playfair Display', Georgia, serif !important;
     font-size: 46px !important;
@@ -6452,7 +6464,8 @@ a {
 
 /* Headings & Gold Dividers */
 .appointment-second-section .section-card-title {
-    color: #0c3832;
+    color: #389183;
+    /* color: #0c3832; */
     /* Deep Dark Teal */
     font-size: 1.5rem;
     font-weight: 700;
@@ -6650,7 +6663,8 @@ a {
 
 /* Right Side Dark Teal Card */
 .appointment-third-section .reach-info-card {
-    background-color: #0c3832;
+    background-color: #389183;
+    /* background-color: #0c3832; */
     color: #ffffff;
     border-radius: 16px;
     padding: 40px 30px;
@@ -7442,7 +7456,8 @@ a {
     margin: 0;
     font-size: 32px;
     font-weight: 700;
-    color: #003f35;
+    color: #389183;
+    /* color: #003f35; */
 }
 
 .testimonial-title-accent {
@@ -7631,4 +7646,55 @@ a {
     .treatments_third_section_item:nth-child(5) {
         align-items: center !important;
     }
+}
+
+
+/* New Stylings */
+/* Custom CSS for .treatment_new_section */
+.treatment_new_section .treatment-card {
+  background: #ffffff;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), 
+              box-shadow 0.35s ease-in-out;
+}
+
+/* Pop-Up Effect on Card Hover */
+.treatment_new_section .treatment-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(11, 87, 208, 0.12) !important;
+}
+
+/* Fixed Image Height Box */
+.treatment_new_section .card-img-wrapper {
+  height: 170px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.treatment_new_section .card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* Image Zoom-in on Card Hover */
+.treatment_new_section .treatment-card:hover .card-img-wrapper img {
+  transform: scale(1.06);
+}
+
+/* Blue Read More Button Styling */
+.treatment_new_section .read-more-btn {
+  background-color: #f79305;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.treatment_new_section .read-more-btn:hover {
+  background-color: #f79305;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(11, 87, 208, 0.3);
 }

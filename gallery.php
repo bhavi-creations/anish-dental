@@ -67,8 +67,8 @@
                 <button class="filter-btn" data-filter="equipment">
                     <i class="bi bi-display"></i> Equipment
                 </button>
-                <button class="filter-btn" data-filter="sterilization">
-                    <i class="bi bi-shield-check"></i> Sterilization
+                <button class="filter-btn" data-filter="Dental Camp">
+                    <i class="bi bi-shield-check"></i> Dental Camp
                 </button>
                 <!-- <button class="filter-btn" data-filter="team">
                     <i class="bi bi-people"></i> Our Team
@@ -121,9 +121,9 @@
             </div>
 
             <!-- Row 3 -->
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="sterilization">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
-                    <img src="./assets/img/g7.png" alt="Sterilization Unit">
+                    <img src="./assets/img/g7.png" alt="Dental camp Unit">
                 </div>
             </div>
 
@@ -133,15 +133,15 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="sterilization">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
-                    <img src="./assets/img/g8.png" alt="Lab Sterilization">
+                    <img src="./assets/img/g8.png" alt="Lab Dental Camp">
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="sterilization">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
-                    <img src="./assets/img/g9.png" alt="Lab Sterilization">
+                    <img src="./assets/img/g9.png" alt="Lab Dental Camp">
                 </div>
             </div>
 
