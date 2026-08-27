@@ -25,14 +25,15 @@ a {
            2. TOP HEADER BAR STYLING
            ========================================== */
 .top-bar-bg {
-    background-color: #003b32 !important;
-    color: #ffffff !important;
+    background-color: #a5d8cf !important;
+    color: #003B32 !important;
     font-size: 13px !important;
     padding: 8px 0 !important;
 }
 
 .top-bar-bg a {
-    color: #ffffff !important;
+    color: #003B32 !important;
+    font-weight: 500;
     text-decoration: none !important;
     transition: opacity 0.2s ease;
 }
@@ -46,10 +47,11 @@ a {
     align-items: center !important;
     gap: 6px !important;
     white-space: nowrap !important;
+    font-weight: 500;
 }
 
 .social-icons a {
-    color: #ffffff !important;
+    color: #003B32 !important;
     margin-left: 14px !important;
     font-size: 14px !important;
     text-decoration: none !important;
@@ -178,7 +180,8 @@ a {
            FOOTER CUSTOM STYLES
            ========================================== */
 .site-footer {
-    background-color: #003B32 !important;
+    background-color: #a5d8cf !important;
+    /* background-color: #003B32 !important; */
     /* Exact Dark Teal Green background */
     color: #e2ece9 !important;
     font-size: 13.5px !important;
@@ -189,7 +192,8 @@ a {
 
 /* Footer Column Headings */
 .footer-heading {
-    color: #ffffff !important;
+    color: #003b32 !important;
+    /* color: #ffffff !important; */
     font-size: 14px !important;
     font-weight: 700 !important;
     letter-spacing: 0.8px !important;
@@ -216,10 +220,12 @@ a {
 }
 
 .footer-links a {
-    color: #d1e0dc !important;
+    color: #003b32 !important;
+    /* color: #d1e0dc !important; */
     text-decoration: none !important;
     transition: color 0.2s ease, padding-left 0.2s ease !important;
     display: inline-block !important;
+    font-weight: 500;
 }
 
 .footer-links a:hover {
@@ -239,8 +245,11 @@ a {
     width: 38px !important;
     height: 38px !important;
     border-radius: 50% !important;
-    border: 1px solid rgba(255, 255, 255, 0.35) !important;
-    color: #ffffff !important;
+    /* border: 1px solid rgba(255, 255, 255, 0.35) !important;
+    color: #ffffff !important; */
+
+        border: 1px solid #003b32 !important;
+    color: #003b32 !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -262,19 +271,23 @@ a {
     align-items: flex-start !important;
     gap: 12px !important;
     margin-bottom: 14px !important;
-    color: #d1e0dc !important;
+    color: #003b32 !important;
+    font-weight: 500;
+    /* color: #d1e0dc !important; */
 }
 
 .footer-contact-item i {
-    color: #ffffff !important;
+    color: #003b32 !important;
+    /* color: #ffffff !important; */
     font-size: 15px !important;
     margin-top: 3px !important;
     min-width: 18px !important;
 }
 
 .footer-contact-item a {
-    color: #d1e0dc !important;
+    color: #003B32 !important;
     text-decoration: none !important;
+    font-weight: 500;
 }
 
 .footer-contact-item a:hover {
@@ -1230,7 +1243,8 @@ a {
        ========================================== */
 
 .index_fifth_section_wrapper {
-    background-color: #a5d8cf !important;
+    background-color: #7db1a8 !important;
+    /* background-color: #a5d8cf !important; */
     /* Deep Dark Green */
     padding: 80px 0 70px 0 !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;

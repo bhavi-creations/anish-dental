@@ -22,7 +22,10 @@
                         <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="logo">
                     </div>
                 </a>
-                <p style="color: #d1e0dc; font-size: 13px;">
+                <p style="color: #003b32; font-size: 13px; font-weight:500;">
+                <!-- <p style="color: #d1e0dc; font-size: 13px;"> -->
+   
+
                     Providing exceptional dental care with compassion, advanced technology and a commitment to your smile.
                 </p>
 
@@ -79,7 +82,7 @@
                 </div>
                 <div class="footer-contact-item">
                     <i class="fa-regular fa-clock"></i>
-                    <span>Mon - Sat: 9:00 AM - 9:00 PM<br>Sunday: 10 am – 12 pm</span>
+                    <span>Mon - Sat: 9:00 AM-9:00 PM<br>Sunday: 10 am – 12 pm</span>
                 </div>
             </div>
 
@@ -98,7 +101,7 @@
     <div class="footer-bottom">
         <div class="container-fluid px-lg-5">
             <div class="row align-items-center justify-content-center text-center">
-                <div class="col-md-8 text-center mb-2 mb-md-0">
+                <div class="col-md-8 text-center mb-2 mb-md-0" style="color:#003b32; font-weight:500; font-size:15px;">
                     © <?php echo date('Y'); ?> Anish Dental Multispeciality Dental Hospital. All Rights Reserved.
                 </div>
             </div>

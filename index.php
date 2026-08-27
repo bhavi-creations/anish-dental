@@ -180,7 +180,7 @@
                 <a href="dental-implants.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-teeth-open"></i> -->
-                        <img src="./assets/img/icons/dentalimplants_new.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/dental-implants.png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Dental<br>Implants</h3>
@@ -231,7 +231,7 @@
                 <a href="root-canal.php" class="index_second_section_card">
                     <div class="index_second_section_icon_box">
                         <!-- <i class="fa-solid fa-file-medical"></i> -->
-                        <img src="./assets/img/icons/root-canal.png" alt="" style="width: 50px; height: 50px;">
+                        <img src="./assets/img/root-canal (1).png" alt="" style="width: 50px; height: 50px;">
                     </div>
                     <div>
                         <h3 class="index_second_section_card_title">Root Canal<br>Treatment</h3>
