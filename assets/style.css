@@ -2893,7 +2893,7 @@ a {
 
 .about-first-section .description {
     color: #555555;
-    font-size: 0.95rem;
+    font-size: 18px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
@@ -2993,7 +2993,7 @@ a {
 
 .about-second-section .mission-desc {
     color: #555555;
-    font-size: 0.95rem;
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -3026,7 +3026,7 @@ a {
 
 .about-second-section .value-desc {
     color: #666666;
-    font-size: 0.85rem;
+    font-size: 16px;
     line-height: 1.4;
     margin-bottom: 0;
 }
