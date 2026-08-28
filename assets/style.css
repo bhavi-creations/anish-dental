@@ -3468,7 +3468,8 @@ a {
 
 /* Main Heading */
 .blog-first-section .blog-title {
-    color: #0c3832;
+    color: #389183 !important;
+    /* color: #0c3832; */
     /* Deep Dark Green */
     font-size: 3rem;
     font-weight: 700;
@@ -5916,7 +5917,7 @@ a {
 .contactus_first_section_tag {
     color: #d98e2b !important;
     /* Gold Accent Color */
-    font-size: 13px !important;
+    font-size: 23px !important;
     font-weight: 800 !important;
     letter-spacing: 1.5px !important;
     text-transform: uppercase !important;
@@ -6146,7 +6147,8 @@ a {
 
 /* Headings & Gold Dividers */
 .contact-second-section .section-card-title {
-    color: #0c3832;
+    color: #389183 !important;
+    /* color: #0c3832; */
     /* Deep Dark Teal */
     font-size: 1.45rem;
     font-weight: 700;
@@ -6205,7 +6207,8 @@ a {
 }
 
 .contact-second-section .info-content h6 {
-    color: #0c3832;
+    color: #389183;
+    /* color: #0c3832; */
     font-size: 0.95rem;
     font-weight: 700;
     margin-bottom: 3px;
@@ -6242,7 +6245,8 @@ a {
 
 /* Emergency Card Box */
 .contact-second-section .emergency-card {
-    background-color: #0c3832;
+    background-color: #389183;
+    /* background-color: #0c3832; */
     color: #ffffff;
     border-radius: 12px;
     padding: 22px 20px;

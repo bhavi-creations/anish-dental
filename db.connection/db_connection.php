@@ -11,7 +11,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
 else {
     $username = "";
     $password = "";
-    $dbname = "";
+    $dbname = "anishdental";
     
 }
  
