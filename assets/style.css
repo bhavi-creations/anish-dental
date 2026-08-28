@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* ==========================================
-           1. COLOR VARIABLES & GLOBAL STYLES
-           ========================================== */
+ /* ==========================================
+   1. COLOR VARIABLES & GLOBAL STYLES
+   ========================================== */
 :root {
-    --dark-teal: #003B32 !important;
-    /* Exact Dark Green/Teal from Image */
-    --accent-gold: #E29B27 !important;
-    /* Gold/Orange for active items */
-    --text-dark: #003B32 !important;
-    /* Nav item color */
+    --dark-green-bg: #032621;
+    --navbar-green-bg: #04332c;
+    --accent-orange: #f39200;
+    --accent-gold: #e29b27;
+    --text-light: #ffffff;
+    --border-line: rgba(255, 255, 255, 0.15);
 }
 
 body {
@@ -17,54 +19,75 @@ body {
     padding: 0;
 }
 
-
 a {
     text-decoration: none;
 }
 
 /* ==========================================
-           2. TOP HEADER BAR STYLING
-           ========================================== */
+   2. TOP HEADER BAR STYLING
+   ========================================== */
 .top-bar-bg {
-    background-color: #a5d8cf !important;
-    color: #003B32 !important;
+    background-color: var(--dark-green-bg) !important;
+    color: var(--text-light) !important;
     font-size: 13px !important;
     padding: 8px 0 !important;
+    border-bottom: 1px solid var(--border-line) !important;
 }
 
 .top-bar-bg a {
-    color: #003B32 !important;
-    font-weight: 500;
+    color: var(--text-light) !important;
+    font-weight: 400;
     text-decoration: none !important;
     transition: opacity 0.2s ease;
 }
 
 .top-bar-bg a:hover {
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .top-info-item {
     display: inline-flex !important;
     align-items: center !important;
-    gap: 6px !important;
+    gap: 8px !important;
     white-space: nowrap !important;
-    font-weight: 500;
+    font-weight: 400;
+    color: var(--text-light) !important;
+}
+
+.top-info-item i {
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+.top-info-item i.icon-gold {
+    color: var(--accent-gold) !important;
 }
 
 .social-icons a {
-    color: #003B32 !important;
-    margin-left: 14px !important;
+    color: var(--text-light) !important;
+    margin-left: 16px !important;
     font-size: 14px !important;
     text-decoration: none !important;
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-2px);
+}
+
+.marquee-section {
+    background-color: var(--dark-green-bg);
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border-line);
 }
 
 /* ==========================================
-           3. MAIN NAVBAR STYLING
-           ========================================== */
+   3. MAIN NAVBAR STYLING
+   ========================================== */
 .main-header-navbar {
-    background-color: #ffffff !important;
-    padding: 10px 0 !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+    background-color: var(--navbar-green-bg) !important;
+    padding: 12px 0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Logo Branding */
@@ -75,54 +98,52 @@ a {
     text-decoration: none !important;
 }
 
-.brand-title {
-    color: #003B32 !important;
-    font-weight: 700 !important;
-    font-size: 24px !important;
-    letter-spacing: 0.5px !important;
-    /* line-height: 1 !important; */
-    margin: 0 !important;
-}
-
-.brand-subtitle {
-    color: #003B32 !important;
-    font-size: 9.5px !important;
-    font-weight: 700 !important;
-    letter-spacing: 0.8px !important;
-    margin-top: 4px !important;
-    display: block !important;
-}
-
 /* Menu Links */
 .main-header-navbar .nav-link {
-    color: #003B32 !important;
+    color: var(--text-light) !important;
     font-weight: 700 !important;
-    font-size: 12px !important;
+    font-size: 13px !important;
     letter-spacing: 0.5px !important;
-    padding: 8px 8px !important;
+    padding: 8px 14px !important;
     text-transform: uppercase !important;
-    transition: color 0.2s ease-in-out !important;
+    transition: opacity 0.2s ease-in-out !important;
 }
 
-/* Active Navigation (HOME) & Hover State */
+/* Active Navigation & Hover State */
 .main-header-navbar .nav-link.active,
 .main-header-navbar .nav-link:hover {
-    color: #E29B27 !important;
+    opacity: 0.8;
 }
 
-/* Dropdown Caret Icon */
-.main-header-navbar .dropdown-toggle::after {
-    margin-left: 5px !important;
-    vertical-align: middle !important;
+/* Dropdown styling on Hover */
+.main-header-navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    background-color: #032621 !important;
+    border-radius: 6px !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+    font-size: 13px !important;
+    padding: 8px 16px !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: var(--accent-gold) !important;
 }
 
 /* Book Appointment Button */
 .btn-appointment-custom {
-    background-color: #f79305 !important;
+    background: linear-gradient(180deg, #f59a0b 0%, #ea7a00 100%) !important;
     color: #ffffff !important;
     font-weight: 700 !important;
-    font-size: 12px !important;
-    padding: 10px 18px !important;
+    font-size: 13px !important;
+    padding: 12px 22px !important;
     border-radius: 8px !important;
     text-transform: uppercase !important;
     display: inline-flex !important;
@@ -130,19 +151,26 @@ a {
     gap: 8px !important;
     text-decoration: none !important;
     border: none !important;
-    margin-left: 10px !important;
+    margin-left: 15px !important;
     white-space: nowrap !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.2s ease-in-out !important;
 }
 
 .btn-appointment-custom:hover {
-    background-color: #002721 !important;
+    background: linear-gradient(180deg, #ea7a00 0%, #d66c00 100%) !important;
     color: #ffffff !important;
+    transform: translateY(-1px);
 }
 
 /* Mobile Hamburger Toggle Customization */
 .navbar-toggler {
-    border: 1px solid #003B32 !important;
+    border: 1px solid var(--text-light) !important;
     padding: 4px 8px !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .navbar-toggler:focus {
@@ -150,22 +178,12 @@ a {
 }
 
 /* ==========================================
-           4. RESPONSIVE BREAKPOINTS (ALL DEVICES)
-           ========================================== */
+   4. RESPONSIVE BREAKPOINTS
+   ========================================== */
 @media (max-width: 991.98px) {
-    .top-bar-bg {
-        font-size: 12px !important;
-    }
-
-    .top-bar-content {
-        flex-direction: column !alignment !important;
-        gap: 8px !important;
-        text-align: center !important;
-    }
-
     .btn-appointment-custom {
         margin-left: 0 !important;
-        margin-top: 12px !important;
+        margin-top: 15px !important;
         width: 100% !important;
         justify-content: center !important;
     }
@@ -174,8 +192,6 @@ a {
         padding-top: 15px !important;
     }
 }
-
-
 
 /* ==========================================
            FOOTER CUSTOM STYLES
@@ -249,7 +265,7 @@ a {
     /* border: 1px solid rgba(255, 255, 255, 0.35) !important;
     color: #ffffff !important; */
 
-        border: 1px solid #003b32 !important;
+    border: 1px solid #003b32 !important;
     color: #003b32 !important;
     display: inline-flex !important;
     align-items: center !important;
@@ -591,6 +607,150 @@ a {
         grid-template-columns: repeat(2, 1fr) !important;
     }
 }
+
+/* new stylings */
+/* Content Column Wrapper Relative Positioning */
+.index_first_section_content_col {
+    position: relative !important;
+}
+
+/* Badge Positioning - Perfect Middle Gap */
+.index_first_section_badge_wrapper {
+    position: absolute !important;
+    top: 42% !important;
+    /* Vertically Centered relative to curve */
+    right: 5% !important;
+    /* Perfect middle distance between text & curve */
+    z-index: 5 !important;
+    pointer-events: none !important;
+}
+
+.index_first_section_animated_badge {
+    width: 220px !important;
+    height: 220px !important;
+    background: #ffffff !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 10px 25px rgba(0, 59, 50, 0.15) !important;
+    border: 3px solid #e29b27 !important;
+    /* Combined Horizontal and Vertical Floating Animation */
+    animation: diagonal_float 4s ease-in-out infinite !important;
+    position: relative !important;
+}
+
+/* Dashed Outer Ring Animation */
+.index_first_section_animated_badge::before {
+    content: '' !important;
+    position: absolute !important;
+    top: -6px !important;
+    left: -6px !important;
+    right: -6px !important;
+    bottom: -6px !important;
+    border-radius: 50% !important;
+    border: 2px dashed #389183 !important;
+    animation: spin_ring 10s linear infinite !important;
+}
+
+.index_first_section_badge_inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.index_first_section_badge_icon {
+    font-size: 24px !important;
+    color: #389183 !important;
+    margin-bottom: 2px !important;
+    animation: pulse_icon 2s ease-in-out infinite !important;
+}
+
+.index_first_section_badge_inner span {
+    font-size: 9.5px !important;
+    font-weight: 800 !important;
+    color: #003B32 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Horizontal & Vertical (Diagonal Float) Keyframes */
+@keyframes diagonal_float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(6px, -8px);
+        /* Moves Up & Right */
+    }
+
+    50% {
+        transform: translate(0px, -14px);
+        /* Moves Straight Up */
+    }
+
+    75% {
+        transform: translate(-6px, -6px);
+        /* Moves Up & Left */
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        /* Returns Back */
+    }
+}
+
+@keyframes spin_ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse_icon {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1399.98px) {
+    .index_first_section_badge_wrapper {
+        right: 40% !important;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .index_first_section_animated_badge {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .index_first_section_badge_icon {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    /* Hide on Tablet/Mobile to avoid overlap when curve hides */
+    .index_first_section_badge_wrapper {
+        display: none !important;
+    }
+}
+
 
 
 
@@ -1025,7 +1185,7 @@ a {
        INDEX FOURTH SECTION (WHY CHOOSE US)
        Prefix: index_fourth_section_
        ========================================== */
-
+/* 
 .index_fourth_section_wrapper {
     background-color: #ffffff !important;
     padding: 70px 0 80px 0 !important;
@@ -1034,15 +1194,15 @@ a {
     overflow: hidden !important;
 }
 
-/* Left Content Column */
+
 .index_fourth_section_content_col {
     padding-right: 35px !important;
 }
 
-/* Subtitle (WHY CHOOSE US?) */
+
 .index_fourth_section_subtitle {
     color: #e29b27 !important;
-    /* Gold Accent */
+    
     font-size: 12.5px !important;
     font-weight: 800 !important;
     letter-spacing: 2px !important;
@@ -1051,10 +1211,10 @@ a {
     display: block !important;
 }
 
-/* Main Heading */
+
 .index_fourth_section_title {
     color: #389183 !important;
-    /* Dark Green */
+    
     font-family: 'Playfair Display', serif !important;
     font-size: 38px !important;
     font-weight: 800 !important;
@@ -1062,7 +1222,7 @@ a {
     margin-bottom: 20px !important;
 }
 
-/* Description Text */
+
 .index_fourth_section_desc {
     color: #4a5568 !important;
     font-size: 18px !important;
@@ -1070,7 +1230,7 @@ a {
     margin-bottom: 25px !important;
 }
 
-/* Checklist */
+
 .index_fourth_section_list {
     list-style: none !important;
     padding: 0 !important;
@@ -1097,7 +1257,7 @@ a {
     min-width: 20px !important;
 }
 
-/* Action Button */
+
 .index_fourth_section_btn {
     background-color: #e29b27 !important;
     color: #ffffff !important;
@@ -1132,13 +1292,13 @@ a {
     transform: translateX(4px) !important;
 }
 
-/* Right Side Gallery Container */
+
 .index_fourth_section_gallery_container {
     position: relative !important;
     padding-right: 25px !important;
 }
 
-/* Large Top Image */
+
 .index_fourth_section_img_top {
     width: 100% !important;
     height: 270px !important;
@@ -1148,7 +1308,7 @@ a {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05) !important;
 }
 
-/* Bottom 3 Images */
+
 .index_fourth_section_img_bottom {
     width: 100% !important;
     height: 160px !important;
@@ -1158,7 +1318,7 @@ a {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05) !important;
 }
 
-/* Right Decorative Dot Pattern */
+
 .index_fourth_section_dots {
     position: absolute !important;
     right: 0 !important;
@@ -1174,12 +1334,12 @@ a {
     width: 6px !important;
     height: 6px !important;
     background-color: #f0c987 !important;
-    /* Soft gold dots */
+  
     border-radius: 50% !important;
     opacity: 0.7 !important;
 }
 
-/* Responsive Breakdown */
+
 @media (max-width: 1199.98px) {
     .index_fourth_section_title {
         font-size: 32px !important;
@@ -1210,7 +1370,7 @@ a {
 
     .index_fourth_section_dots {
         display: none !important;
-        /* Hide dot background on mobile/tablet */
+        
     }
 }
 
@@ -1236,6 +1396,272 @@ a {
         justify-content: center !important;
     }
 }
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ==========================================
+   INDEX FOURTH SECTION - WHY CHOOSE US
+   ========================================== */
+.index_fourth_section_wrapper {
+    background-color: #fcfdfc !important;
+    background-image:
+        radial-gradient(circle at left bottom, rgba(3, 35, 30, 0.05) 0%, transparent 45%),
+        radial-gradient(circle at left top, rgba(226, 155, 39, 0.08) 0%, transparent 35%) !important;
+    padding: 75px 0 !important;
+    font-family: 'Poppins', sans-serif !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.index_fourth_section_content_col {
+    padding-right: 20px !important;
+}
+
+/* Subtitle Styling */
+.subtitle-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.index_fourth_section_subtitle {
+    color: #e29b27 !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+}
+
+.subtitle-line {
+    width: 25px;
+    height: 1px;
+    background-color: rgba(226, 155, 39, 0.6);
+}
+
+.sparkle-icon {
+    color: #e29b27;
+    font-size: 10px;
+}
+
+.sparkle-icon-sm {
+    color: #e29b27;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+/* Title Styling with Cursive Gold Font */
+.index_fourth_section_title {
+    color: #03231e !important;
+    font-family: 'Playfair Display', serif !important;
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    margin-top: 8px !important;
+    margin-bottom: 18px !important;
+}
+
+.title-cursive-gold {
+    font-family: 'Alex Brush', cursive !important;
+    color: #e29b27 !important;
+    font-weight: 400 !important;
+    font-size: 58px !important;
+    line-height: 0.8 !important;
+    display: inline-block;
+}
+
+/* Description */
+.index_fourth_section_desc {
+    color: #4a5568 !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    margin-bottom: 28px !important;
+}
+
+.index_fourth_section_desc strong {
+    color: #03231e;
+}
+
+/* Icon List Styling */
+.index_fourth_section_list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 0 32px 0 !important;
+}
+
+.index_fourth_section_list_item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    color: #03231e !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04) !important;
+}
+
+.list-icon-badge {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    border-radius: 50% !important;
+    background-color: #03231e !important;
+    color: #e29b27 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 14px !important;
+    box-shadow: 0 4px 10px rgba(3, 35, 30, 0.15) !important;
+}
+
+.list-star-icon {
+    color: #e29b27 !important;
+    font-size: 8px !important;
+}
+
+/* Pill Button */
+.index_fourth_section_btn {
+    background-color: #03231e !important;
+    border: 1px solid #e29b27 !important;
+    color: #ffffff !important;
+    padding: 12px 30px !important;
+    border-radius: 30px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    text-transform: uppercase !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 6px 18px rgba(3, 35, 30, 0.25) !important;
+}
+
+.index_fourth_section_btn:hover {
+    background-color: #e29b27 !important;
+    border-color: #e29b27 !important;
+    color: #03231e !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 22px rgba(226, 155, 39, 0.35) !important;
+}
+
+/* Main Hospital Hero Image Wrapper */
+.main-hospital-img-box {
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(226, 155, 39, 0.2);
+}
+
+.main-hospital-img-box img {
+    border-radius: 24px;
+    display: block;
+    object-fit: cover;
+    max-height: 380px;
+}
+
+/* Feature Card Styling */
+.feature-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: visible;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+    position: relative;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card-img-wrapper {
+    height: 140px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.feature-card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Floating Circular Badge on Cards */
+.feature-floating-badge {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #03231e;
+    border: 1.5px solid #e29b27;
+    color: #e29b27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: -21px auto 0;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card-title {
+    color: #03231e;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.feature-card-text {
+    color: #666666;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+    .index_fourth_section_title {
+        font-size: 34px !important;
+    }
+
+    .title-cursive-gold {
+        font-size: 46px !important;
+    }
+
+    .index_fourth_section_content_col {
+        padding-right: 0 !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .index_fourth_section_btn {
+        width: 100% !important;
+        justify-content: center !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3094,16 +3520,16 @@ a {
 
 
 /* Custom Styles for About Third Section */
-.about-third-section {
+/* .about-third-section {
     background-color: #ffffff;
     padding: 60px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Subtitle & Title */
+
 .about-third-section .section-subtitle {
     color: #c89547;
-    /* Gold color */
+    
     font-weight: 700;
     font-size: 0.85rem;
     letter-spacing: 1.5px;
@@ -3112,14 +3538,14 @@ a {
 
 .about-third-section .section-title {
     color: #389183;
-    /* Deep Teal */
+    
     font-weight: 700;
     font-size: 2.2rem;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-/* Custom Divider Line with Diamond */
+
 .about-third-section .divider-container {
     display: flex;
     align-items: center;
@@ -3141,7 +3567,7 @@ a {
     margin: 0 4px;
 }
 
-/* Doctor Card Styles */
+/
 .about-third-section .doctor-card {
     background: #ffffff;
     border: 1px solid #e2e8e5;
@@ -3172,7 +3598,7 @@ a {
     object-fit: cover;
 }
 
-/* Text Content Inside Card */
+
 .about-third-section .doctor-name {
     color: #389183;
     font-weight: 700;
@@ -3193,7 +3619,7 @@ a {
     margin-bottom: 15px;
 }
 
-/* Points Checklist */
+
 .about-third-section .doctor-features {
     list-style: none;
     padding-left: 0;
@@ -3214,7 +3640,7 @@ a {
     font-size: 0.95rem;
 }
 
-/* View Profile Button */
+
 .about-third-section .btn-view-profile {
     border: 1px solid #0c3832;
     color: #0c3832;
@@ -3231,9 +3657,182 @@ a {
 .about-third-section .btn-view-profile:hover {
     background-color: #0c3832;
     color: #ffffff;
+} */
+
+/* ==========================================
+   DOCTORS SECTION STYLING (DARK LUXURY GOLD)
+   ========================================== */
+.about-third-section {
+    background-color: #03231e !important;
+    background-image: radial-gradient(circle at center, #05332b 0%, #021a16 100%) !important;
+    color: #ffffff;
+    padding: 70px 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
+/* Header Subtitle */
+.about-third-section .section-subtitle {
+    color: #e29b27;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
+.about-third-section .header-tooth-icon {
+    font-size: 14px;
+}
+
+/* Header Title */
+.about-third-section .section-title {
+    color: #ffffff;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+/* Header Gold Divider */
+.about-third-section .divider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.about-third-section .divider-line {
+    height: 1px;
+    width: 50px;
+    background-color: rgba(226, 155, 39, 0.4);
+}
+
+.about-third-section .divider-diamond {
+    color: #e29b27;
+    font-size: 10px;
+}
+
+/* Doctor Card */
+.about-third-section .doctor-card {
+    background: #042a24 !important;
+    border: 1px solid rgba(226, 155, 39, 0.35) !important;
+    border-radius: 20px !important;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-third-section .doctor-card:hover {
+    transform: translateY(-6px);
+    border-color: #e29b27 !important;
+    box-shadow: 0 12px 30px rgba(226, 155, 39, 0.2) !important;
+}
+
+/* Doctor Image Container */
+.about-third-section .doctor-img-box {
+    border-radius: 16px;
+    overflow: hidden;
+    height: 100%;
+    min-height: 330px;
+    background-color: #03201b;
+}
+
+.about-third-section .doctor-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* Circular Doctor Badge Icon */
+.about-third-section .doctor-badge-icon {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #e29b27;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e29b27;
+    font-size: 16px;
+    background-color: rgba(226, 155, 39, 0.05);
+}
+
+/* Name & Qualification Typography */
+.about-third-section .doctor-name {
+    color: #ffffff !important;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1.25;
+}
+
+.about-third-section .doctor-degree {
+    color: #e29b27 !important;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.about-third-section .doctor-title {
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Feature List Items with Circular Icon Badges */
+.about-third-section .doctor-features {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 24px;
+}
+
+.about-third-section .doctor-features li {
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.about-third-section .feature-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border: 1px solid rgba(226, 155, 39, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e29b27;
+    font-size: 13px;
+    background-color: rgba(226, 155, 39, 0.05);
+}
+
+/* Outline View Profile Button */
+.about-third-section .btn-view-profile {
+    border: 1px solid #e29b27 !important;
+    color: #e29b27 !important;
+    background: transparent !important;
+    padding: 8px 24px !important;
+    font-weight: 600 !important;
+    font-size: 11.5px !important;
+    letter-spacing: 1px !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase !important;
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+.about-third-section .btn-view-profile:hover {
+    background-color: #e29b27 !important;
+    color: #03231e !important;
+    box-shadow: 0 0 15px rgba(226, 155, 39, 0.3) !important;
+}
 
 
 
@@ -7656,58 +8255,167 @@ a {
 
 /* New Stylings */
 /* Custom CSS for .treatment_new_section */
+/* ==========================================
+   TREATMENTS SECTION STYLING (DARK LUXURY GOLD)
+   ========================================== */
+.treatment_new_section {
+    background-color: #03231e !important;
+    background-image: radial-gradient(circle at center, #05332b 0%, #021a16 100%) !important;
+    color: #ffffff;
+    padding: 65px 0;
+}
+
+/* Subtitle */
+.treatments_secound_section_subtitle {
+    color: #e29b27;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Title */
+.treatments_secound_section_title {
+    color: #ffffff;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 1.25;
+}
+
+.treatments_secound_section_title .text-gold {
+    color: #e29b27 !important;
+}
+
+/* Divider */
+.treatments_secound_section_divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 12px 0 16px;
+}
+
+.treatments_secound_section_divider_line {
+    width: 40px;
+    height: 1px;
+    background-color: rgba(226, 155, 39, 0.5);
+}
+
+.treatments_secound_section_divider_diamond {
+    color: #e29b27;
+    font-size: 8px;
+}
+
+/* Subtitle Description */
+.treatments_secound_section_desc {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Treatment Card */
 .treatment_new_section .treatment-card {
-  background: #e4dfdf;
-  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), 
-              box-shadow 0.35s ease-in-out;
+    background: #042a24 !important;
+    border: 1px solid rgba(226, 155, 39, 0.35) !important;
+    border-radius: 16px !important;
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
 }
 
-/* Pop-Up Effect on Card Hover */
 .treatment_new_section .treatment-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(11, 87, 208, 0.12) !important;
+    transform: translateY(-8px);
+    border-color: #e29b27 !important;
+    box-shadow: 0 10px 25px rgba(226, 155, 39, 0.2) !important;
 }
 
-/* Fixed Image Height Box */
+/* Image Wrapper */
 .treatment_new_section .card-img-wrapper {
-  height: 170px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .treatment_new_section .card-img-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
 }
 
-/* Image Zoom-in on Card Hover */
 .treatment_new_section .treatment-card:hover .card-img-wrapper img {
-  transform: scale(1.06);
+    transform: scale(1.05);
 }
 
-/* Blue Read More Button Styling */
-.treatment_new_section .read-more-btn {
-  background-color: #f79305;
-  border-radius: 8px;
-  font-size: 14px;
-  transition: all 0.3s ease;
+/* Circular Floating Icon Badge */
+.card-icon-badge {
+    width: 44px;
+    height: 44px;
+    background-color: #042a24;
+    border: 1.5px solid #e29b27;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -22px auto 14px;
+    position: relative;
+    z-index: 2;
+    color: #e29b27;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-.treatment_new_section .read-more-btn:hover {
-  background-color: #f79305;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(11, 87, 208, 0.3);
+/* Card Content Styling */
+.treatment_new_section .card-title {
+    color: #ffffff !important;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
 }
 
+.treatment_new_section .card-text {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 13px;
+    line-height: 1.5;
+}
 
-.doctor-third-section .virtue-icon-ring img {
-    width: 45px;
-    height: 45px;
-    object-fit: contain;
-    filter: brightness(0) invert(1);
+/* Learn More Link */
+.learn-more-link {
+    color: #e29b27 !important;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: gap 0.2s ease, color 0.2s ease;
+}
+
+.learn-more-link:hover {
+    gap: 10px;
+    color: #ffffff !important;
+}
+
+/* Bottom Button */
+.btn-more-services {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 28px;
+    border: 1px solid #e29b27;
+    border-radius: 30px;
+    color: #e29b27;
+    background: transparent;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-more-services:hover {
+    background-color: #e29b27;
+    color: #03231e;
+    box-shadow: 0 0 18px rgba(226, 155, 39, 0.4);
 }
