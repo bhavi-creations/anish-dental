@@ -407,7 +407,7 @@ a {
 /* Paragraph Description */
 .index_first_section_description {
     color: #4a5568 !important;
-    font-size: 15px !important;
+    font-size: 18px !important;
     line-height: 1.6 !important;
     max-width: 460px !important;
     margin-bottom: 30px !important;
@@ -1065,7 +1065,7 @@ a {
 /* Description Text */
 .index_fourth_section_desc {
     color: #4a5568 !important;
-    font-size: 14.5px !important;
+    font-size: 18px !important;
     line-height: 1.65 !important;
     margin-bottom: 25px !important;
 }
