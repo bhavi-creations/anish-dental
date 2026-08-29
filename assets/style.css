@@ -13733,11 +13733,11 @@ a {
 
 
 
-
+/* 
 
 * ==========================================================
    DENTAL IMPLANTS FIRST SECTION
-========================================================== */
+========================================================== */ */
 
 .rootcanal_first_section_wrapper {
 
@@ -25935,4 +25935,765 @@ a {
     .treatment_new_section .learn-more-link {
         font-size: 13px;
     }
+}
+
+
+
+/* ==========================================================
+   DENTAL IMPLANTS HERO
+   PREMIUM COLOR OVERRIDES ONLY
+   NO SIZE / SPACING / ALIGNMENT CHANGES
+========================================================== */
+
+.rootcanal_first_section_wrapper {
+
+    --implant-dark: #003d37;
+    --implant-dark-mid: #00352f;
+    --implant-dark-deep: #002c29;
+
+    --implant-gold: #e6a238;
+    --implant-gold-light: #f5c15c;
+
+    background:
+        linear-gradient(
+            110deg,
+            #003d37 0%,
+            #00342f 50%,
+            #002d29 100%
+        ) !important;
+}
+
+
+/* ==========================================================
+   MAIN OUTER SECTION
+   Same existing border / radius / dimensions
+========================================================== */
+
+.rootcanal_first_section_main_card {
+
+    background:
+        radial-gradient(
+            circle at 28% 42%,
+            rgba(0, 139, 118, 0.13),
+            transparent 43%
+        ),
+        linear-gradient(
+            110deg,
+            #003e38 0%,
+            #00352f 48%,
+            #002c29 100%
+        ) !important;
+
+    border-color:
+        rgba(230, 162, 56, 0.50) !important;
+
+    box-shadow:
+        0 16px 45px
+        rgba(0, 0, 0, 0.18) !important;
+}
+
+
+/* ==========================================================
+   LEFT SIDE
+   White -> Premium Dark Teal
+========================================================== */
+
+.rootcanal_first_section_left {
+
+    color: #ffffff !important;
+
+    background:
+        radial-gradient(
+            circle at 18% 45%,
+            rgba(9, 147, 125, 0.14),
+            transparent 45%
+        ),
+        linear-gradient(
+            115deg,
+            #003e38 0%,
+            #003730 55%,
+            #00312d 100%
+        ) !important;
+}
+
+
+/* ==========================================================
+   BREADCRUMB
+========================================================== */
+
+.rootcanal_first_section_breadcrumb a {
+
+    color:
+        rgba(255, 255, 255, 0.88) !important;
+}
+
+
+.rootcanal_first_section_breadcrumb a:hover {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+.rootcanal_first_section_breadcrumb i {
+
+    color:
+        rgba(255, 255, 255, 0.65) !important;
+}
+
+
+.rootcanal_first_section_active {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+/* ==========================================================
+   SMALL STAR
+========================================================== */
+
+.rootcanal_first_section_top_decor i {
+
+    color:
+        var(--implant-gold-light) !important;
+
+    filter:
+        drop-shadow(
+            0 0 6px
+            rgba(245, 193, 92, 0.75)
+        ) !important;
+}
+
+
+/* ==========================================================
+   MAIN TITLE
+   Same font / size - color only
+========================================================== */
+
+.rootcanal_first_section_title {
+
+    color:
+        #ffffff !important;
+
+    text-shadow:
+        0 5px 18px
+        rgba(0, 0, 0, 0.13) !important;
+}
+
+
+/* ==========================================================
+   GOLD SUBTITLE
+========================================================== */
+
+.rootcanal_first_section_subtitle {
+
+    color:
+        var(--implant-gold-light) !important;
+
+    text-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.08) !important;
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.rootcanal_first_section_desc {
+
+    color:
+        rgba(255, 255, 255, 0.90) !important;
+}
+
+
+/* ==========================================================
+   GOLD DIVIDER
+========================================================== */
+
+.rootcanal_first_section_divider_line {
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(230, 162, 56, 0.15),
+            var(--implant-gold)
+        ) !important;
+}
+
+
+.rootcanal_first_section_divider_line:last-child {
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--implant-gold),
+            rgba(230, 162, 56, 0.15)
+        ) !important;
+}
+
+
+.rootcanal_first_section_divider_dot {
+
+    background:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 0 9px
+        rgba(245, 193, 92, 0.90) !important;
+}
+
+
+/* ==========================================================
+   BOOK APPOINTMENT BUTTON
+========================================================== */
+
+.rootcanal_first_section_btn_primary {
+
+    color:
+        #ffffff !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #005448 0%,
+            #003f38 100%
+        ) !important;
+
+    border-color:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 8px 18px
+        rgba(0, 0, 0, 0.13),
+        inset 0 0 15px
+        rgba(255, 255, 255, 0.02) !important;
+}
+
+
+.rootcanal_first_section_btn_primary i {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+/* Button gold glow */
+
+.rootcanal_first_section_btn_primary::after {
+
+    background:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 0 10px
+        rgba(245, 193, 92, 0.90) !important;
+}
+
+
+.rootcanal_first_section_btn_primary:hover {
+
+    color:
+        #07342f !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f7c762,
+            #e5a137
+        ) !important;
+
+    border-color:
+        #f7c762 !important;
+}
+
+
+.rootcanal_first_section_btn_primary:hover i {
+
+    color:
+        #07342f !important;
+}
+
+
+/* ==========================================================
+   CALL US NOW BUTTON
+========================================================== */
+
+.rootcanal_first_section_btn_secondary {
+
+    color:
+        #ffffff !important;
+
+    background:
+        rgba(0, 56, 50, 0.48) !important;
+
+    border-color:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        inset 0 0 16px
+        rgba(0, 0, 0, 0.06) !important;
+}
+
+
+.rootcanal_first_section_btn_secondary i {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+.rootcanal_first_section_btn_secondary::after {
+
+    background:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 0 10px
+        rgba(245, 193, 92, 0.85) !important;
+}
+
+
+.rootcanal_first_section_btn_secondary:hover {
+
+    color:
+        #07342f !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f7c762,
+            #e5a137
+        ) !important;
+
+    border-color:
+        #f7c762 !important;
+}
+
+
+.rootcanal_first_section_btn_secondary:hover i {
+
+    color:
+        #07342f !important;
+}
+
+
+/* ==========================================================
+   BOTTOM 3 FEATURES BOX
+   Same dimensions - colors only
+========================================================== */
+
+.rootcanal_first_section_features {
+
+    background:
+        linear-gradient(
+            115deg,
+            rgba(0, 72, 63, 0.78),
+            rgba(0, 52, 47, 0.88)
+        ) !important;
+
+    border-color:
+        rgba(230, 162, 56, 0.55) !important;
+
+    box-shadow:
+        inset 0 0 25px
+        rgba(0, 0, 0, 0.07),
+        0 8px 20px
+        rgba(0, 0, 0, 0.06) !important;
+}
+
+
+/* Vertical separators */
+
+.rootcanal_first_section_feature_item:not(:last-child)::after {
+
+    background:
+        rgba(230, 162, 56, 0.42) !important;
+}
+
+
+/* Feature circles */
+
+.rootcanal_first_section_feature_icon {
+
+    color:
+        #ffffff !important;
+
+    border-color:
+        var(--implant-gold) !important;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(230, 162, 56, 0.13),
+            rgba(0, 54, 49, 0.86)
+        ) !important;
+
+    box-shadow:
+        0 5px 13px
+        rgba(0, 0, 0, 0.12),
+        0 0 10px
+        rgba(230, 162, 56, 0.05) !important;
+}
+
+
+.rootcanal_first_section_feature_icon i {
+
+    color:
+        #ffffff !important;
+}
+
+
+/* Feature heading */
+
+.rootcanal_first_section_feature_item h5 {
+
+    color:
+        #ffffff !important;
+}
+
+
+/* Feature description */
+
+.rootcanal_first_section_feature_item p {
+
+    color:
+        rgba(255, 255, 255, 0.74) !important;
+}
+
+
+/* ==========================================================
+   LEFT DECORATIVE CIRCLES
+========================================================== */
+
+.rootcanal_first_section_left_lines {
+
+    border-color:
+        rgba(230, 162, 56, 0.13) !important;
+}
+
+
+.rootcanal_first_section_left_lines::before {
+
+    border-color:
+        rgba(255, 255, 255, 0.045) !important;
+}
+
+
+/* ==========================================================
+   RIGHT IMAGE
+   IMAGE ITSELF UNCHANGED
+========================================================== */
+
+.rootcanal_first_section_img_card {
+
+    background:
+        #00352f !important;
+}
+
+
+/*
+IMPORTANT:
+No width, height, object-fit or object-position changes.
+This keeps current image exactly as it is.
+*/
+
+.rootcanal_first_section_img {
+
+    background:
+        transparent !important;
+}
+
+
+/* Very soft premium teal blending only */
+
+.rootcanal_first_section_img_overlay {
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 58, 52, 0.08) 0%,
+            rgba(0, 58, 52, 0.025) 24%,
+            transparent 45%
+        ) !important;
+}
+
+
+/* ==========================================================
+   CURVED LEFT EDGE
+   Same shape / size
+========================================================== */
+
+.rootcanal_first_section_curve {
+
+    background:
+        var(--implant-dark-mid) !important;
+
+    border-color:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        13px 0 0
+        rgba(230, 162, 56, 0.76) !important;
+}
+
+
+.rootcanal_first_section_curve::after {
+
+    border-color:
+        rgba(245, 193, 92, 0.82) !important;
+}
+
+
+/* ==========================================================
+   15,000+ FLOATING CARD
+========================================================== */
+
+.rootcanal_first_section_stat_card {
+
+    color:
+        #ffffff !important;
+
+    background:
+        radial-gradient(
+            circle at 50% 10%,
+            rgba(0, 119, 100, 0.18),
+            transparent 48%
+        ),
+        linear-gradient(
+            145deg,
+            #005347,
+            #003b35
+        ) !important;
+
+    border-color:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 18px 36px
+        rgba(0, 0, 0, 0.22),
+        inset 0 0 24px
+        rgba(230, 162, 56, 0.025) !important;
+}
+
+
+/* top/bottom glow */
+
+.rootcanal_first_section_stat_card::before,
+.rootcanal_first_section_stat_card::after {
+
+    background:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 0 11px
+        rgba(245, 193, 92, 0.95) !important;
+}
+
+
+/* Diamond */
+
+.rootcanal_first_section_stat_icon {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+/* 15,000 */
+
+.rootcanal_first_section_stat_card strong {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+/* Smiles Restored */
+
+.rootcanal_first_section_stat_card > span {
+
+    color:
+        #ffffff !important;
+}
+
+
+.rootcanal_first_section_stat_line span {
+
+    background:
+        rgba(245, 193, 92, 0.50) !important;
+}
+
+
+.rootcanal_first_section_stat_line i {
+
+    background:
+        var(--implant-gold-light) !important;
+}
+
+
+/* ==========================================================
+   PRECISION IMPLANT CARE CARD
+========================================================== */
+
+.rootcanal_first_section_precision_card {
+
+    color:
+        #ffffff !important;
+
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(0, 122, 103, 0.18),
+            transparent 48%
+        ),
+        linear-gradient(
+            145deg,
+            #005347,
+            #003a34
+        ) !important;
+
+    border-color:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 18px 40px
+        rgba(0, 0, 0, 0.23),
+        inset 0 0 25px
+        rgba(230, 162, 56, 0.025) !important;
+}
+
+
+/* Gold glow */
+
+.rootcanal_first_section_precision_card::after {
+
+    background:
+        var(--implant-gold-light) !important;
+
+    box-shadow:
+        0 0 11px
+        rgba(245, 193, 92, 0.95) !important;
+}
+
+
+/* Tooth circle */
+
+.rootcanal_first_section_precision_icon {
+
+    color:
+        #ffffff !important;
+
+    border-color:
+        var(--implant-gold) !important;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(230, 162, 56, 0.14),
+            rgba(0, 55, 49, 0.83)
+        ) !important;
+}
+
+
+.rootcanal_first_section_precision_icon i {
+
+    color:
+        #ffffff !important;
+}
+
+
+/* Precision heading */
+
+.rootcanal_first_section_precision_card h5 {
+
+    color:
+        var(--implant-gold-light) !important;
+}
+
+
+/* Precision paragraph */
+
+.rootcanal_first_section_precision_card p {
+
+    color:
+        rgba(255, 255, 255, 0.88) !important;
+}
+
+
+/* ==========================================================
+   PREMIUM SPARKLES
+========================================================== */
+
+.rootcanal_first_section_sparkle {
+
+    color:
+        var(--implant-gold-light) !important;
+
+    text-shadow:
+        0 0 9px
+        rgba(245, 193, 92, 0.95) !important;
+}
+
+/* ==========================================================
+   LEFT CONTENT POSITION ADJUSTMENT ONLY
+   No other design changes
+========================================================== */
+
+/* Desktop */
+.rootcanal_first_section_left {
+    padding-left: 75px !important;
+}
+
+
+/* Large Laptop */
+@media (max-width: 1399.98px) {
+
+    .rootcanal_first_section_left {
+        padding-left: 60px !important;
+    }
+
+}
+
+
+/* Small Laptop */
+@media (max-width: 1199.98px) {
+
+    .rootcanal_first_section_left {
+        padding-left: 48px !important;
+    }
+
+}
+
+
+/* Tablet */
+@media (max-width: 991.98px) {
+
+    .rootcanal_first_section_left {
+        padding-left: 42px !important;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 767.98px) {
+
+    .rootcanal_first_section_left {
+        padding-left: 24px !important;
+        padding-right: 18px !important;
+    }
+
+}
+
+
+/* Small Mobile */
+@media (max-width: 430px) {
+
+    .rootcanal_first_section_left {
+        padding-left: 20px !important;
+        padding-right: 15px !important;
+    }
+
 }
