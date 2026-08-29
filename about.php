@@ -1,218 +1,618 @@
 <?php include  'header.php'; ?>
 
+<!-- ==========================================================
+     ABOUT PAGE - FIRST SECTION
+=========================================================== -->
+
 <section class="about-first-section">
+
     <div class="container">
-        <div class="row align-items-center g-4">
 
-            <!-- Left Text Content Column -->
+        <div class="row align-items-center g-4 g-xl-5">
+
+            <!-- LEFT CONTENT -->
             <div class="col-lg-5">
-                <!-- Breadcrumb -->
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb mb-2 text-uppercase">
-                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                    </ol>
-                </nav>
 
-                <!-- Main Heading -->
-                <h1 class="section-heading">About<br>Anish Dental</h1>
+                <div class="about-left-content">
 
-                <!-- Decorative Divider Line -->
-                <div class="divider-container">
-                    <div class="divider-line"></div>
-                    <div class="divider-diamond"></div>
-                    <div class="divider-line"></div>
+                    <!-- Breadcrumb -->
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb text-uppercase">
+
+                            <li class="breadcrumb-item">
+                                <a href="index.php">
+                                    <i class="bi bi-house-door about-home-icon"></i>
+                                    HOME
+                                </a>
+                            </li>
+
+                            <li class="breadcrumb-item active">
+                                ABOUT US
+                            </li>
+
+                        </ol>
+                    </nav>
+
+
+                    <!-- Heading -->
+                    <h1 class="section-heading">
+                        <span class="heading-about">About</span>
+                        <span class="heading-anish">Anish Dental</span>
+                    </h1>
+
+
+                    <!-- Gold Divider -->
+                    <div class="divider-container">
+                        <span class="divider-line"></span>
+                        <span class="divider-diamond"></span>
+                        <span class="divider-line"></span>
+                    </div>
+
+
+                    <!-- Subtitle -->
+                    <h5 class="sub-title">
+                        Compassionate Care, Advanced Dentistry,
+                        Beautiful Smiles.
+                    </h5>
+
+
+                    <!-- Small Gold Line -->
+                    <div class="about-small-line"></div>
+
+
+                    <!-- Description -->
+                    <p class="description">
+                        At Anish Dental Multispeciality Dental Hospital, we are
+                        committed to providing exceptional dental care in a
+                        comfortable, modern and friendly environment. Our
+                        experienced team uses the latest technology and proven
+                        techniques to deliver personalized treatment for
+                        lasting oral health.
+                    </p>
+
+
+                    <!-- Buttons -->
+                    <div class="about-button-wrapper">
+
+                        <!-- Book Appointment -->
+                        <a href="appointment.php" class="btn btn-book">
+
+                            <span class="button-left-content">
+                                <i class="bi bi-calendar3 about-btn-icon"></i>
+                                <span>BOOK APPOINTMENT</span>
+                            </span>
+
+                            <i class="bi bi-arrow-right button-arrow"></i>
+
+                        </a>
+
+
+                        <!-- Contact -->
+                        <a href="contact.php" class="btn btn-contact">
+
+                            <span class="button-left-content">
+                                <i class="bi bi-telephone-fill about-btn-icon"></i>
+                                <span>CONTACT US</span>
+                            </span>
+
+                            <i class="bi bi-arrow-right button-arrow"></i>
+
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <!-- Subtitle -->
-                <h5 class="sub-title">Compassionate Care, Advanced Dentistry, Beautiful Smiles.</h5>
-
-                <!-- Description Paragraph (As-it-is exact text) -->
-                <p class="description">
-                    At Anish Dental Multispeciality Dental Hospital, we are committed to providing exceptional dental care in a comfortable, modern and friendly environment. Our experienced team uses the latest technology and proven techniques to deliver personalized treatment for lasting oral health.
-                </p>
-
-                <!-- Action Buttons -->
-                <div class="d-flex flex-wrap align-items-center gap-3">
-                    <a href="appointment.php" class="btn btn-book d-inline-flex align-items-center gap-2">
-                        <i class="bi bi-calendar-event"></i> BOOK APPOINTMENT
-                    </a>
-                    <a href="contact.php" class="btn btn-contact d-inline-flex align-items-center gap-2">
-                        CONTACT US <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
             </div>
 
-            <!-- Right Image Column with Floating Badge -->
-            <div class="col-lg-7">
-                <div class="image-container">
-                    <!-- Main Reception/Hospital Image -->
-                    <img src="./assets/img/g5.png" alt="Anish Dental Reception" class="img-fluid rounded-4 w-100 shadow-sm">
 
-                    <!-- Bottom Right Floating Badge -->
-                    <div class="floating-badge d-flex align-items-center gap-3">
-                        <div>
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-7">
+
+                <div class="image-container">
+
+                    <img
+                        src="./assets/img/g5.png"
+                        alt="Anish Dental Clinic"
+                        class="img-fluid w-100"
+                    >
+
+
+                    <!-- Floating Badge -->
+                    <div class="floating-badge">
+
+                        <div class="badge-icon">
+
+                           <i class="bi bi-shield badge-shield-icon"></i>
+
+                            <i class="fa-solid fa-tooth badge-tooth-icon"></i>
+
+                            <i class="bi bi-stars badge-sparkle"></i>
+
+                        </div>
+
+
+                        <div class="badge-divider"></div>
+
+
+                        <div class="badge-content">
+
                             <h6>Your Smile,</h6>
+
                             <h6>Our Commitment</h6>
+
                         </div>
-                        <!-- Custom Tooth/Heart Icon -->
-                        <div class="badge-icon text-warning fs-1">
-                            <i class="bi bi-heart-pulse"></i> <!-- Replace with SVG/Icon if needed -->
-                        </div>
+
                     </div>
+
                 </div>
+
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 
+
+<!-- ==========================================================
+     ABOUT PAGE - SECOND SECTION
+=========================================================== -->
 
 <section class="about-second-section">
+
     <div class="container">
 
-        <!-- Top Row: Mission & Values -->
-        <div class="row g-4 align-items-stretch">
+        <!-- ======================================================
+             TOP ROW : OUR MISSION + OUR VALUES
+        ======================================================= -->
+        <div class="row g-4 g-xl-5 align-items-stretch">
 
-            <!-- Left Side: Our Mission -->
-            <div class="col-lg-5 pe-lg-4">
-                <div class="d-flex align-items-center gap-2">
-                    <span class="section-subtitle">OUR MISSION</span>
-                    <div style="width: 30px; height: 2px; background-color: #c89547;"></div>
+
+            <!-- ==================================================
+                 LEFT : OUR MISSION
+            =================================================== -->
+            <div class="col-lg-4">
+
+                <div class="about-mission-wrapper">
+
+                    <!-- Mission Heading -->
+                    <div class="about-section-heading">
+
+                        <span class="section-subtitle">
+                            OUR MISSION
+                        </span>
+
+                        <span class="about-heading-line"></span>
+
+                        <span class="about-heading-diamond"></span>
+
+                        <span class="about-heading-line about-heading-line-small"></span>
+
+                    </div>
+
+
+                    <!-- Mission Main Title -->
+                    <h2 class="mission-title">
+
+                        To deliver advanced,
+                        <span class="mission-highlight">
+                            ethical and affordable
+                        </span>
+                        dental care with
+                        <br>
+                        a personal touch.
+
+                    </h2>
+
+
+                    <!-- Gold Decorative Line -->
+                    <div class="mission-divider">
+
+                        <span></span>
+
+                        <i></i>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- Description -->
+                    <p class="mission-desc mb-0">
+
+                        We strive to create healthy, confident smiles that
+                        enhance lives. Patient comfort, safety and satisfaction
+                        are at the heart of everything we do.
+
+                    </p>
+
                 </div>
 
-                <h2 class="mission-title">
-                    To deliver advanced, ethical and affordable dental care with a personal touch.
-                </h2>
-
-                <p class="mission-desc mb-0">
-                    We strive to create healthy, confident smiles that enhance lives. Patient comfort, safety and satisfaction are at the heart of everything we do.
-                </p>
             </div>
 
-            <!-- Right Side: Our Values -->
-            <div class="col-lg-7 ps-lg-5 border-start-custom">
-                <div class="mb-4">
-                    <span class="section-subtitle">OUR VALUES</span>
+
+
+            <!-- ==================================================
+                 RIGHT : OUR VALUES
+            =================================================== -->
+            <div class="col-lg-8 border-start-custom">
+
+                <div class="about-values-wrapper">
+
+
+                    <!-- Our Values Heading -->
+                    <div class="about-values-heading">
+
+                        <span class="about-values-line"></span>
+
+                        <span class="about-values-dot"></span>
+
+                        <span class="section-subtitle">
+                            OUR VALUES
+                        </span>
+
+                        <span class="about-values-dot"></span>
+
+                        <span class="about-values-line"></span>
+
+                    </div>
+
+
+
+                    <!-- ==================================================
+                         VALUES CARDS
+                    =================================================== -->
+                    <div class="row g-3 g-xl-4 text-center">
+
+
+                        <!-- VALUE 1 -->
+                        <div class="col-12 col-sm-6 col-xl-3">
+
+                            <div class="about-value-card">
+
+                                <div class="value-icon-box">
+
+                                    <i class="fa-solid fa-people-group"></i>
+
+                                </div>
+
+
+                                <h5 class="value-title">
+                                    Patient First
+                                </h5>
+
+
+                                <div class="value-small-line"></div>
+
+
+                                <p class="value-desc">
+
+                                    We put your comfort
+                                    and well-being
+                                    above everything.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- VALUE 2 -->
+                        <div class="col-12 col-sm-6 col-xl-3">
+
+                            <div class="about-value-card">
+
+                                <div class="value-icon-box">
+
+                                    <i class="fa-solid fa-award"></i>
+
+                                </div>
+
+
+                                <h5 class="value-title">
+                                    Excellence
+                                </h5>
+
+
+                                <div class="value-small-line"></div>
+
+
+                                <p class="value-desc">
+
+                                    We use advanced
+                                    technology and follow
+                                    best practices.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- VALUE 3 -->
+                        <div class="col-12 col-sm-6 col-xl-3">
+
+                            <div class="about-value-card">
+
+                                <div class="value-icon-box">
+
+                                    <i class="fa-solid fa-handshake"></i>
+
+                                </div>
+
+
+                                <h5 class="value-title">
+                                    Integrity
+                                </h5>
+
+
+                                <div class="value-small-line"></div>
+
+
+                                <p class="value-desc">
+
+                                    We believe in honest
+                                    communication and
+                                    ethical treatment.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- VALUE 4 -->
+                        <div class="col-12 col-sm-6 col-xl-3">
+
+                            <div class="about-value-card">
+
+                                <div class="value-icon-box">
+
+                                    <i class="fa-solid fa-hand-holding-heart"></i>
+
+                                </div>
+
+
+                                <h5 class="value-title">
+                                    Compassion
+                                </h5>
+
+
+                                <div class="value-small-line"></div>
+
+
+                                <p class="value-desc">
+
+                                    We treat every patient
+                                    with care, respect
+                                    and empathy.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
                 </div>
 
-                <div class="row g-3 text-center">
-
-                    <!-- Value 1: Patient First -->
-                    <div class="col-6 col-md-3 border-end">
-                        <div class="value-icon-box">
-                            <!-- <i class="bi bi-people"></i> -->
-                            <img src="./assets/img/patients.png" alt="" style="width: 50px; height: 50px;"> 
-                        </div>
-                        <h5 class="value-title">Patient First</h5>
-                        <p class="value-desc">We put your comfort and well-being above everything.</p>
-                    </div>
-
-                    <!-- Value 2: Excellence -->
-                    <div class="col-6 col-md-3 border-end">
-                        <div class="value-icon-box">
-                            <!-- <i class="bi bi-shield-check"></i> -->
-                             <img src="./assets/img/Excellence.png" alt="" style="width: 50px; height: 50px;">
-                        </div>
-                        <h5 class="value-title">Excellence</h5>
-                        <p class="value-desc">We use advanced technology and follow best practices.</p>
-                    </div>
-
-                    <!-- Value 3: Integrity -->
-                    <div class="col-6 col-md-3 border-end">
-                        <div class="value-icon-box">
-                            <!-- <i class="bi bi-hand-thumbs-up"></i> -->
-                             <img src="./assets/img/Integrity.png" alt="" style="width: 50px; height: 50px;">
-                        </div>
-                        <h5 class="value-title">Integrity</h5>
-                        <p class="value-desc">We believe in honest communication and ethical treatment.</p>
-                    </div>
-
-                    <!-- Value 4: Compassion -->
-                    <div class="col-6 col-md-3">
-                        <div class="value-icon-box">
-                            <!-- Custom Tooth/Heart Icon equivalent -->
-                            <!-- <i class="bi bi-heart-pulse"></i> -->
-                             <img src="./assets/img/patient-care.png" alt="" style="width: 50px; height: 50px;"> 
-                        </div>
-                        <h5 class="value-title">Compassion</h5>
-                        <p class="value-desc">We treat every patient with care, respect and empathy.</p>
-                    </div>
-
-                </div>
             </div>
 
         </div>
 
-        <!-- STATS / COUNTERS THIRD SECTION -->
-<section class="treatments_third_section_wrapper">
-    <div class="container">
-        <div class="treatments_third_section_container">
-            <div class="treatments_third_section_row">
 
-                <!-- Stat 1: Happy Patients -->
-                <div class="treatments_third_section_item">
-                    <div class="treatments_third_section_icon_circle">
-                        <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
-                    </div>
-                    <div class="treatments_third_section_content">
-                        <span class="treatments_third_section_number">5000+</span>
-                        <span class="treatments_third_section_label">Happy Patients</span>
-                    </div>
-                </div>
 
-                <!-- Stat 2: Dental Specialities -->
-                <div class="treatments_third_section_item">
-                    <div class="treatments_third_section_icon_circle">
-                        <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
-                    </div>
-                    <div class="treatments_third_section_content">
-                        <span class="treatments_third_section_number">15+</span>
-                        <span class="treatments_third_section_label">Dental Specialities</span>
-                    </div>
-                </div>
+        <!-- ======================================================
+             STATS / COUNTERS THIRD SECTION
+        ======================================================= -->
 
-                <!-- Stat 3: Experienced Doctors -->
-                <div class="treatments_third_section_item">
-                    <div class="treatments_third_section_icon_circle">
-                        <i class="fa-solid fa-users treatments_third_section_icon"></i>
-                    </div>
-                    <div class="treatments_third_section_content">
-                        <span class="treatments_third_section_number">10+</span>
-                        <span class="treatments_third_section_label">Experienced Doctors</span>
-                    </div>
-                </div>
+        <section class="treatments_third_section_wrapper">
 
-                <!-- Stat 4: Years of Excellence -->
-                <div class="treatments_third_section_item">
-                    <div class="treatments_third_section_icon_circle">
-                        <i class="fa-solid fa-award treatments_third_section_icon"></i>
-                    </div>
-                    <div class="treatments_third_section_content">
-                        <span class="treatments_third_section_number">10+</span>
-                        <span class="treatments_third_section_label">Years of Excellence</span>
-                    </div>
-                </div>
+            <div class="container">
 
-                <!-- Stat 5: Patient Satisfaction -->
-                <div class="treatments_third_section_item">
-                    <div class="treatments_third_section_icon_circle">
-                        <i class="fa-regular fa-thumbs-up treatments_third_section_icon"></i>
+                <div class="treatments_third_section_container">
+
+                    <div class="treatments_third_section_row">
+
+
+                        <!-- ==============================
+                             STAT 1
+                        =============================== -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+
+                                <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    5000+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Happy Patients
+                                </span>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- ==============================
+                             STAT 2
+                        =============================== -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+
+                                <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    15+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Dental Specialities
+                                </span>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- ==============================
+                             STAT 3
+                        =============================== -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+
+                                <i class="fa-solid fa-user-doctor treatments_third_section_icon"></i>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    10+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Experienced Doctors
+                                </span>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- ==============================
+                             STAT 4
+                        =============================== -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+
+                                <i class="fa-solid fa-award treatments_third_section_icon"></i>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    10+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Years of Excellence
+                                </span>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- ==============================
+                             STAT 5
+                        =============================== -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+
+                                <i class="fa-solid fa-thumbs-up treatments_third_section_icon"></i>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    100%
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Patient Satisfaction
+                                </span>
+
+                            </div>
+
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
                     </div>
-                    <div class="treatments_third_section_content">
-                        <span class="treatments_third_section_number">100%</span>
-                        <span class="treatments_third_section_label">Patient Satisfaction</span>
-                    </div>
+
                 </div>
 
             </div>
-        </div>
-    </div>
-</section>
+
+        </section>
 
     </div>
+
 </section>
+
+
 
 <div class="icons_image d-none d-md-block">
     <img src="./assets/img/dental-care.gif" alt="" class="img-fluid">
@@ -332,111 +732,388 @@
 </section>
 
 
+<!-- ==========================================================
+     ABOUT PAGE - FOURTH SECTION
+=========================================================== -->
+
 <section class="about-fourth-section">
+
     <div class="container">
-        
-        <!-- Section Header -->
-        <div class="text-center">
-            <span class="section-subtitle">OUR CLINIC</span>
-            <h2 class="section-title">Modern Facilities For Advanced Care</h2>
-            
+
+        <!-- ======================================================
+             SECTION HEADER
+        ======================================================= -->
+        <div class="text-center about-fourth-header">
+
+            <!-- Subtitle -->
+            <div class="about-fourth-subtitle-wrapper">
+
+                <span class="about-fourth-subtitle-line"></span>
+
+                <span class="section-subtitle">
+                    OUR CLINIC
+                </span>
+
+                <span class="about-fourth-subtitle-line"></span>
+
+            </div>
+
+
+            <!-- Main Heading -->
+            <h2 class="section-title">
+
+                <span class="clinic-title-teal">
+                    Modern Facilities
+                </span>
+
+                <span class="clinic-title-white">
+                    For Advanced Care
+                </span>
+
+            </h2>
+
+
             <!-- Gold Divider -->
             <div class="divider-container">
+
                 <div class="divider-line"></div>
+
                 <div class="divider-diamond"></div>
+
                 <div class="divider-line"></div>
-            </div>
-        </div>
 
-        <!-- 4 Facilities Grid Row -->
-        <div class="row g-4 mb-5">
-            
-            <!-- Facility 1 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card">
-                    <div class="facility-img-box">
-                        <img src="./assets/img/index-page.png" alt="Advanced Treatment Rooms" class="img-fluid">
-                    </div>
-                    <h4 class="facility-title">Advanced Treatment Rooms</h4>
-                    <p class="facility-desc">Modern, hygienic and fully equipped operatories for your comfort.</p>
-                </div>
-            </div>
-
-            <!-- Facility 2 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card">
-                    <div class="facility-img-box">
-                        <img src="./assets/img/waiting-hall.png" alt="Comfortable Waiting Area" class="img-fluid">
-                    </div>
-                    <h4 class="facility-title">Comfortable Waiting Area</h4>
-                    <p class="facility-desc">Spacious and relaxing space for a pleasant experience.</p>
-                </div>
-            </div>
-
-            <!-- Facility 3 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card">
-                    <div class="facility-img-box">
-                        <img src="./assets/img/g8.png" alt="Sterilization & Safety" class="img-fluid">
-                    </div>
-                    <h4 class="facility-title">Sterilization & Safety</h4>
-                    <p class="facility-desc">Strict sterilization protocols for maximum safety and hygiene.</p>
-                </div>
-            </div>
-
-            <!-- Facility 4 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card">
-                    <div class="facility-img-box">
-                        <img src="./assets/img/g4.png" alt="Welcoming Environment" class="img-fluid">
-                    </div>
-                    <h4 class="facility-title">Welcoming Environment</h4>
-                    <p class="facility-desc">A friendly team and soothing ambience to make you feel at home.</p>
-                </div>
             </div>
 
         </div>
 
-        <!-- Bottom Call To Action Banner -->
+
+
+        <!-- ======================================================
+             4 FACILITIES
+        ======================================================= -->
+        <div class="row g-3 g-xl-4">
+
+
+            <!-- ==================================================
+                 FACILITY 1
+            =================================================== -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="facility-card">
+
+                    <!-- Image -->
+                    <div class="facility-img-box">
+
+                        <img
+                            src="./assets/img/index-page.png"
+                            alt="Advanced Treatment Rooms"
+                            class="img-fluid"
+                        >
+
+                    </div>
+
+
+                    <!-- Floating Icon -->
+                    <div class="facility-icon-box">
+
+                        <i class="fa-solid fa-chair"></i>
+
+                    </div>
+
+
+                    <!-- Card Content -->
+                    <div class="facility-content">
+
+                        <h4 class="facility-title">
+                            Advanced Treatment Rooms
+                        </h4>
+
+
+                        <div class="facility-small-line"></div>
+
+
+                        <p class="facility-desc">
+
+                            Modern, hygienic and fully equipped
+                            operatories for your comfort.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 FACILITY 2
+            =================================================== -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="facility-card">
+
+                    <div class="facility-img-box">
+
+                        <img
+                            src="./assets/img/waiting-hall.png"
+                            alt="Comfortable Waiting Area"
+                            class="img-fluid"
+                        >
+
+                    </div>
+
+
+                    <div class="facility-icon-box">
+
+                        <i class="fa-solid fa-users"></i>
+
+                    </div>
+
+
+                    <div class="facility-content">
+
+                        <h4 class="facility-title">
+                            Comfortable Waiting Area
+                        </h4>
+
+
+                        <div class="facility-small-line"></div>
+
+
+                        <p class="facility-desc">
+
+                            Spacious and relaxing space for
+                            a pleasant experience.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 FACILITY 3
+            =================================================== -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="facility-card">
+
+                    <div class="facility-img-box">
+
+                        <img
+                            src="./assets/img/g8.png"
+                            alt="Sterilization and Safety"
+                            class="img-fluid"
+                        >
+
+                    </div>
+
+
+                    <div class="facility-icon-box">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                    </div>
+
+
+                    <div class="facility-content">
+
+                        <h4 class="facility-title">
+                            Sterilization & Safety
+                        </h4>
+
+
+                        <div class="facility-small-line"></div>
+
+
+                        <p class="facility-desc">
+
+                            Strict sterilization protocols for
+                            maximum safety and hygiene.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 FACILITY 4
+            =================================================== -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="facility-card">
+
+                    <div class="facility-img-box">
+
+                        <img
+                            src="./assets/img/g4.png"
+                            alt="Welcoming Environment"
+                            class="img-fluid"
+                        >
+
+                    </div>
+
+
+                    <div class="facility-icon-box">
+
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+
+                    </div>
+
+
+                    <div class="facility-content">
+
+                        <h4 class="facility-title">
+                            Welcoming Environment
+                        </h4>
+
+
+                        <div class="facility-small-line"></div>
+
+
+                        <p class="facility-desc">
+
+                            A friendly team and soothing ambience
+                            to make you feel at home.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ======================================================
+             BOTTOM CTA
+        ======================================================= -->
         <div class="cta-banner">
-            <div class="row g-4 align-items-center justify-content-between">
-                
-                <!-- Left: Icon + Text -->
-                <div class="col-lg-6">
-                    <div class="d-flex align-items-center gap-3">
+
+            <div class="row align-items-center g-4">
+
+
+                <!-- ==================================================
+                     LEFT CTA
+                =================================================== -->
+                <div class="col-xl-6 col-lg-5">
+
+                    <div class="cta-left-wrapper">
+
+
+                        <!-- Icon -->
                         <div class="cta-icon-box">
-                              <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
+
+                            <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
+
                         </div>
-                        <div>
-                            <div class="cta-subtitle">READY FOR A HEALTHIER SMILE?</div>
-                            <h3 class="cta-title">Book Your Appointment Today!</h3>
-                            <p class="cta-desc">We're here to help you smile brighter every day.</p>
+
+
+                        <!-- Content -->
+                        <div class="cta-text-content">
+
+                            <div class="cta-subtitle">
+                                READY FOR A HEALTHIER SMILE?
+                            </div>
+
+
+                            <h3 class="cta-title">
+                                Book Your Appointment Today!
+                            </h3>
+
+
+                            <p class="cta-desc">
+                                We're here to help you smile brighter every day.
+                            </p>
+
                         </div>
+
                     </div>
+
                 </div>
 
-                <!-- Middle: Appointment Button -->
-                <div class="col-lg-3 text-lg-center">
-                    <a href="appointment.php" class="btn btn-cta-appointment d-inline-flex align-items-center gap-2">
-                        <i class="bi bi-calendar-plus"></i> BOOK APPOINTMENT NOW
-                    </a>
+
+
+                <!-- ==================================================
+                     CENTER BUTTON
+                =================================================== -->
+                <div class="col-xl-3 col-lg-3">
+
+                    <div class="cta-button-wrapper">
+
+                        <a
+                            href="appointment.php"
+                            class="btn btn-cta-appointment"
+                        >
+
+                            <i class="bi bi-calendar-check"></i>
+
+                            <span>
+                                BOOK APPOINTMENT NOW
+                            </span>
+
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <!-- Right: Phone Number -->
-                <div class="col-lg-3 text-lg-end">
-                    <div class="d-flex align-items-center justify-content-lg-end gap-3">
-                        <i class="bi bi-telephone-outbound phone-icon"></i>
-                        <div class="text-start">
-                            <div class="phone-number">+91 73962 56474</div>
-                            <div class="phone-label">Call Us Anytime</div>
+
+
+                <!-- ==================================================
+                     PHONE
+                =================================================== -->
+                <div class="col-xl-3 col-lg-4">
+
+                    <div class="cta-phone-wrapper">
+
+                     <div class="phone-icon-box">
+                         <i class="fa-solid fa-phone phone-icon"></i>
+                     </div>
+
+
+                        <!-- Phone Details -->
+                        <div class="phone-content">
+
+                            <a
+                                href="tel:+917396256474"
+                                class="phone-number"
+                            >
+                                +91 73962 56474
+                            </a>
+
+
+                            <div class="phone-label">
+                                Call Us Anytime
+                            </div>
+
                         </div>
+
                     </div>
+
                 </div>
+
 
             </div>
+
         </div>
 
     </div>
+
 </section>
 
 <?php include 'footer.php'; ?>

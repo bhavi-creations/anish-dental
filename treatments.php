@@ -111,7 +111,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="dental-implants.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dental-implants.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="dental-implants.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -131,7 +134,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="aligners.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="aligners.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="aligners.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -151,7 +157,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="dental-veneers.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dental-veneers.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="dental-veneers.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -171,7 +180,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="root-canal.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="root-canal.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="root-canal.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -194,7 +206,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="dental-bridge.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dental-bridge.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="dental-bridge.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -214,7 +229,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="pediatric-dentistry.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="pediatric-dentistry.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="pediatric-dentistry.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -234,7 +252,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="periodontal-care.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="periodontal-care.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="periodontal-care.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -254,7 +275,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="oral-surgery.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="oral-surgery.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="oral-surgery.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -275,7 +299,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="teeth-whitening.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="teeth-whitening.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="teeth-whitening.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -295,7 +322,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="dentures.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="dentures.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="dentures.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -315,7 +345,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="general-dentistry.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="general-dentistry.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="general-dentistry.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>
@@ -335,7 +368,10 @@
                             </p>
                         </div>
                         <div>
-                            <a href="wisdom-teeth.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a>
+                            <a href="wisdom-teeth.php" class="learn-more-link">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <!-- <a href="wisdom-teeth.php" class="btn btn-primary read-more-btn fw-semibold px-4 py-2 border-0">Read More...</a> -->
                         </div>
                     </div>
                 </div>

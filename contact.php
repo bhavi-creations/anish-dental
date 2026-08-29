@@ -2,67 +2,266 @@
 
 
 
-<!-- CONTACT US FIRST SECTION (HERO SECTION) -->
-<section class="contactus_first_section_wrapper">
-    <div class="container">
-        <div class="row align-items-center g-4">
+<!-- ==========================================================
+     CONTACT US FIRST SECTION
+=========================================================== -->
 
-            <!-- Left Column: Text & Buttons -->
-            <div class="col-lg-5 col-md-12">
+<section class="contactus_first_section_wrapper">
+
+    <div class="container">
+
+        <div class="row align-items-center g-4 g-xl-5">
+
+            <!-- ==================================================
+                 LEFT SIDE
+            =================================================== -->
+            <div class="col-lg-5 col-12">
+
                 <div class="contactus_first_section_content">
 
-                    <!-- Subtag -->
-                    <span class="contactus_first_section_tag">CONTACT US</span>
-
-                    <!-- Headline -->
-                    <h1 class="contactus_first_section_title">
-                        We're Here<br>To Help You Smile
-                    </h1>
-
-                    <!-- Gold Divider -->
-                    <div class="contactus_first_section_divider">
-                        <div class="contactus_first_section_line"></div>
-                        <span class="contactus_first_section_diamond">◆</span>
-                        <div class="contactus_first_section_line"></div>
+                    <!-- CONTACT US -->
+                    <div class="contactus_first_section_tag_wrapper">
+                        <span class="contactus_first_section_tag">CONTACT US</span>
+                        <span class="contactus_first_section_tag_line"></span>
+                        <span class="contactus_first_section_tag_diamond"></span>
                     </div>
 
-                    <!-- Description -->
+                    <!-- TITLE -->
+                    <h1 class="contactus_first_section_title">
+
+                        <span class="contactus_first_section_title_white">
+                            We’re Here
+                        </span>
+
+                        <span class="contactus_first_section_title_gold">
+                            To Help You Smile
+                        </span>
+
+                    </h1>
+
+                    <!-- GOLD DIVIDER -->
+                    <div class="contactus_first_section_divider">
+
+                        <span class="contactus_first_section_line"></span>
+
+                        <span class="contactus_first_section_diamond"></span>
+
+                        <span class="contactus_first_section_line"></span>
+
+                    </div>
+
+                    <!-- DESCRIPTION -->
                     <p class="contactus_first_section_desc">
-                        Have a question or need to book an appointment?<br class="d-none d-md-inline">
+                        Have a question or need to book an appointment?
+                        <br>
                         Our team is ready to assist you.
                     </p>
 
-                    <!-- Buttons Group -->
+                    <!-- BUTTONS -->
                     <div class="contactus_first_section_btn_group">
-                        <!-- Primary Button -->
-                        <a href="appointment.php" class="contactus_first_section_btn_primary">
-                            <i class="fa-regular fa-calendar-check"></i>
+
+                        <a href="appointment.php"
+                           class="contactus_first_section_btn_primary">
+
+                            <i class="fa-regular fa-calendar-days"></i>
+
                             <span>BOOK APPOINTMENT</span>
+
                         </a>
 
-                        <!-- Secondary Button -->
-                        <a href="tel:+917396256474" class="contactus_first_section_btn_secondary">
+
+                        <a href="tel:+917396256474"
+                           class="contactus_first_section_btn_secondary">
+
                             <i class="fa-solid fa-phone"></i>
+
                             <span>CALL US NOW</span>
+
                         </a>
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         PHONE / TIME BOX
+                    =================================================== -->
+                    <div class="contactus_first_section_info_box">
+
+                        <!-- PHONE -->
+                        <div class="contactus_first_section_info_item">
+
+                            <div class="contactus_first_section_info_icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div>
+
+                                <div class="contactus_first_section_info_label">
+                                    Speak with our care team
+                                </div>
+
+                                <a href="tel:+917396256474"
+                                   class="contactus_first_section_info_number">
+                                    +91 73962 56474
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contactus_first_section_info_separator"></div>
+
+
+                        <!-- TIME -->
+                        <div class="contactus_first_section_info_item">
+
+                            <div class="contactus_first_section_info_icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div>
+
+                                <div class="contactus_first_section_info_label">
+                                    We’re available
+                                </div>
+
+                                <div class="contactus_first_section_info_time">
+                                    Mon – Sat&nbsp; | &nbsp;10:00 AM – 7:00 PM
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
+
             </div>
 
-            <!-- Right Column: Clinic Image -->
-            <div class="col-lg-7 col-md-12">
-                <div class="contactus_first_section_img_container">
-                    <!-- Image Placeholder matching Anish Dental Clinic Reception -->
-                    <img src="./assets/img/contact-bg-img.png" alt="Anish Dental Multispeciality Dental Hospital Reception">
 
-                    <!-- Left Soft Blending Gradient -->
+            <!-- ==================================================
+                 RIGHT IMAGE SIDE
+            =================================================== -->
+            <div class="col-lg-7 col-12">
+
+                <div class="contactus_first_section_img_container">
+
+                    <!-- CLINIC IMAGE -->
+                    <img
+                        src="./assets/img/g5.png"
+                        alt="Anish Dental Multispeciality Dental Hospital"
+                        class="contactus_first_section_main_img"
+                    >
+
+                    <!-- GREEN IMAGE OVERLAY -->
                     <div class="contactus_first_section_img_overlay"></div>
+
+
+                    <!-- ==================================================
+                         ACTUAL ANISH DENTAL LOGO
+                    =================================================== -->
+                    <div class="contactus_first_section_brand">
+
+                        <img
+                            src="./assets/img/Anish Logo 1224 X 260@3x.png"
+                            alt="Anish Dental Multispeciality Dental Hospital"
+                            class="contactus_first_section_brand_logo_img"
+                        >
+
+                    </div>
+
+
+                    <!-- IMAGE GOLD DIVIDER -->
+                    <div class="contactus_first_section_image_divider">
+
+                        <span></span>
+                        <i></i>
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- IMAGE DESCRIPTION -->
+                    <div class="contactus_first_section_image_text">
+
+                        Personalized care. Advanced dentistry.
+                        <br>
+                        Healthier smiles, happier lives.
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         GLASS FEATURES PANEL
+                    =================================================== -->
+                    <div class="contactus_first_section_features">
+
+
+                        <!-- QUICK RESPONSE -->
+                        <div class="contactus_first_section_feature_item">
+
+                            <div class="contactus_first_section_feature_icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <h5>Quick Response</h5>
+
+                            <p>
+                                We get back to you
+                                <br>
+                                promptly
+                            </p>
+
+                        </div>
+
+
+                        <!-- EXPERT TEAM -->
+                        <div class="contactus_first_section_feature_item">
+
+                            <div class="contactus_first_section_feature_icon">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+
+                            <h5>Expert Team</h5>
+
+                            <p>
+                                Experienced professionals
+                                <br>
+                                you can trust
+                            </p>
+
+                        </div>
+
+
+                        <!-- QUALITY CARE -->
+                        <div class="contactus_first_section_feature_item">
+
+                            <div class="contactus_first_section_feature_icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+
+                            <h5>Quality Care</h5>
+
+                            <p>
+                                Advanced treatments with
+                                <br>
+                                gentle care
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
+
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 

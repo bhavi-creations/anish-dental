@@ -1,7 +1,6 @@
 <?php include 'header.php'; ?>
 
 <!-- HERO SECTION CONTENT -->
-<!-- HERO SECTION CONTENT -->
 <!-- <section class="index_first_section_wrapper">
     <div class="container-fluid p-0">
         <div class="row g-0 align-items-center">
@@ -100,99 +99,341 @@
 
 <!-- HERO SECTION CONTENT -->
 <section class="index_first_section_wrapper">
+
     <div class="container-fluid p-0">
-        <div class="row g-0 align-items-center">
 
-            <!-- Left Column (Content & Buttons) -->
-            <div class="col-md-6 col-12 index_first_section_content_col">
+        <div class="index_first_section_inner">
 
-                <!-- Sub-tagline -->
-                <div class="index_first_section_tagline">
-                    ADVANCED CARE &bull; GENTLE TOUCH &bull; HEALTHY SMILES
+            <div class="row g-0 index_first_section_main_row">
+
+                <!-- =========================
+                     LEFT CONTENT
+                ========================== -->
+                <div class="col-xl-5 col-lg-5 col-md-12 index_first_section_content_col">
+
+                    <!-- Small Tagline -->
+                    <div class="index_first_section_tagline">
+                        ADVANCED CARE. HEALTHY SMILES. HAPPIER LIVES.
+                    </div>
+
+                    <!-- Main Heading -->
+                    <h1 class="index_first_section_main_heading">
+                        Confident Smiles
+                    </h1>
+
+                    <!-- Script Heading -->
+                    <div class="index_first_section_script_title">
+                        Start Here
+                    </div>
+
+                    <!-- Description -->
+                    <p class="index_first_section_description">
+                        Expert dental care for you and your family
+                        in a comfortable, modern and friendly environment.
+                    </p>
+
+
+                    <!-- =========================
+                         FEATURES
+                    ========================== -->
+                    <div class="index_first_section_features_grid">
+
+                        <!-- Feature 1 -->
+                        <div class="index_first_section_feature_item">
+
+                            <div class="index_first_section_feature_icon">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+
+                            <p class="index_first_section_feature_text">
+                                Advanced<br>
+                                Technology
+                            </p>
+
+                        </div>
+
+
+                        <!-- Feature 2 -->
+                        <div class="index_first_section_feature_item">
+
+                            <div class="index_first_section_feature_icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+
+                            <p class="index_first_section_feature_text">
+                                Safe & Hygienic<br>
+                                Environment
+                            </p>
+
+                        </div>
+
+
+                        <!-- Feature 3 -->
+                        <div class="index_first_section_feature_item">
+
+                            <div class="index_first_section_feature_icon">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+
+                            <p class="index_first_section_feature_text">
+                                Experienced<br>
+                                Dental Team
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <!-- Main Title -->
-                <h1 class="index_first_section_main_heading">Confident Smiles</h1>
 
-                <!-- Gold Script Subtitle -->
-                <div class="index_first_section_script_title">Start Here</div>
+                <!-- =========================
+                     RIGHT HERO IMAGE
+                ========================== -->
+                <div class="col-xl-7 col-lg-7 col-md-12 index_first_section_image_col">
 
-                <!-- Description -->
-                <p class="index_first_section_description">
-                    Expert dental care for you and your family in a comfortable, modern and friendly environment.
-                </p>
+                    <div class="index_first_section_image_wrapper">
 
-                <!-- Action Buttons -->
-                <div class="index_first_section_btn_container">
-                    <a href="appointment.php" class="index_first_section_btn_primary">
-                        <i class="fa-regular fa-calendar-days"></i> BOOK APPOINTMENT
-                    </a>
-                    <a href="treatments.php" class="index_first_section_btn_secondary">
-                        OUR TREATMENTS <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
+                        <!-- Gold Curved Border -->
+                        <div class="index_first_section_gold_curve"></div>
 
-                <!-- Bottom Features Grid (4 Items) -->
-                <div class="index_first_section_features_grid">
 
-                    <div class="index_first_section_feature_item">
-                        <div class="index_first_section_feature_icon">
-                            <i class="fa-solid fa-tooth"></i>
+                        <!-- =========================
+                             PAIN FREE CARD
+                        ========================== -->
+                        <div class="index_first_section_pain_card">
+
+                            <div class="index_first_section_pain_icon">
+                                <i class="fa-solid fa-shield-heart"></i>
+                            </div>
+
+                            <div class="index_first_section_pain_content">
+
+                                <h6>Pain-Free Dentistry</h6>
+
+                                <p>
+                                    Your comfort is<br>
+                                    our priority.
+                                </p>
+
+                                <div class="index_first_section_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                            </div>
+
                         </div>
-                        <p class="index_first_section_feature_text">Multi-speciality<br>Dental Care</p>
+
+
+                        <!-- =========================
+                             APPOINTMENT FORM
+                        ========================== -->
+                        <div class="index_first_section_appointment_card">
+
+                            <div class="index_first_section_calendar_icon">
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </div>
+
+                            <h3 class="index_first_section_appointment_title">
+                                Book Your Appointment
+                            </h3>
+
+                            <p class="index_first_section_appointment_subtitle">
+                                We're here to make you smile.
+                            </p>
+
+
+                            <form action="appointment.php"
+                                  method="get"
+                                  class="index_first_section_appointment_form">
+
+                                <!-- Name -->
+                                <div class="index_first_section_form_group">
+
+                                    <i class="fa-regular fa-user"></i>
+
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        placeholder="Your Name"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <!-- Phone -->
+                                <div class="index_first_section_form_group">
+
+                                    <i class="fa-solid fa-phone"></i>
+
+                                    <input
+                                        type="tel"
+                                        name="phone"
+                                        placeholder="Phone Number"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <!-- Date -->
+                                <div class="index_first_section_form_group">
+
+                                    <i class="fa-regular fa-calendar"></i>
+
+                                    <input
+                                        type="date"
+                                        name="date"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <!-- Treatment -->
+                                <div class="index_first_section_form_group">
+
+                                    <i class="fa-solid fa-tooth"></i>
+
+                                    <select name="treatment" required>
+
+                                        <option value="" selected disabled>
+                                            Select Treatment
+                                        </option>
+
+                                        <option value="general-dentistry">
+                                            General Dentistry
+                                        </option>
+
+                                        <option value="root-canal">
+                                            Root Canal Treatment
+                                        </option>
+
+                                        <option value="dental-implants">
+                                            Dental Implants
+                                        </option>
+
+                                        <option value="crowns">
+                                            Dental Crowns
+                                        </option>
+
+                                        <option value="braces">
+                                            Braces
+                                        </option>
+
+                                        <option value="aligners">
+                                            Clear Aligners
+                                        </option>
+
+                                        <option value="teeth-whitening">
+                                            Teeth Whitening
+                                        </option>
+
+                                        <option value="kids-dentistry">
+                                            Kids Dentistry
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <!-- Submit -->
+                                <button
+                                    type="submit"
+                                    class="index_first_section_btn_primary"
+                                >
+                                    BOOK APPOINTMENT
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+
+                            </form>
+
+                        </div>
+
                     </div>
 
-                    <div class="index_first_section_feature_item">
-                        <div class="index_first_section_feature_icon">
-                            <i class="fa-solid fa-microscope"></i>
-                        </div>
-                        <p class="index_first_section_feature_text">Advanced<br>Technology</p>
-                    </div>
-
-                    <div class="index_first_section_feature_item">
-                        <div class="index_first_section_feature_icon">
-                            <i class="fa-solid fa-user-doctor"></i>
-                        </div>
-                        <p class="index_first_section_feature_text">Experienced<br>Doctors</p>
-                    </div>
-
-                    <div class="index_first_section_feature_item">
-                        <div class="index_first_section_feature_icon">
-                            <i class="fa-solid fa-shield-halved"></i>
-                        </div>
-                        <p class="index_first_section_feature_text">Safe & Hygienic<br>Environment</p>
-                    </div>
-
-                </div>
-
-                <!-- Animated Circle Badge (Shows ONLY on Desktop >= 992px) -->
-                <div class="index_first_section_badge_wrapper">
-                    <div class="index_first_section_animated_badge">
-                        <div class="index_first_section_badge_inner">
-                            <!-- <i class="fa-solid fa-tooth index_first_section_badge_icon"></i>
-                            <span>100% Care</span> -->
-                            <img src="./assets/img/img-img (2).png" alt="" class="img-fluid">
-                        </div>
-                    </div>
                 </div>
 
             </div>
 
-            <!-- Right Column (Hero Image with Curved Gold Border) -->
-            <div class="col-md-6 col-12 index_first_section_image_col">
-                <div class="index_first_section_image_wrapper">
 
-                    <!-- SVG Curve Overlay with Gold Border -->
-                    <svg class="index_first_section_curved_divider" viewBox="0 0 100 800" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0 C60 200, 60 600, 0 800 L0 0 Z" fill="#ffffff" />
-                        <path d="M0 0 C60 200, 60 600, 0 800" stroke="#e29b27" stroke-width="4" fill="none" />
-                    </svg>
+            <!-- =========================
+                 BOTTOM STATISTICS BAR
+            ========================== -->
+            <div class="index_first_section_stats_wrapper">
+
+                <!-- Stat 1 -->
+                <div class="index_first_section_stat_item">
+
+                    <div class="index_first_section_stat_icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+
+                    <div class="index_first_section_stat_content">
+                        <h4>15+</h4>
+                        <p>Years of Care</p>
+                    </div>
 
                 </div>
+
+
+                <!-- Stat 2 -->
+                <div class="index_first_section_stat_item">
+
+                    <div class="index_first_section_stat_icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <div class="index_first_section_stat_content">
+                        <h4>20K+</h4>
+                        <p>Happy Patients</p>
+                    </div>
+
+                </div>
+
+
+                <!-- Stat 3 -->
+                <div class="index_first_section_stat_item">
+
+                    <div class="index_first_section_stat_icon">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+
+                    <div class="index_first_section_stat_content">
+                        <h4>25K+</h4>
+                        <p>Successful Treatments</p>
+                    </div>
+
+                </div>
+
+
+                <!-- Stat 4 -->
+                <div class="index_first_section_stat_item">
+
+                    <div class="index_first_section_stat_icon">
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+
+                    <div class="index_first_section_stat_content">
+                        <h4>98%</h4>
+                        <p>Patient Satisfaction</p>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 
@@ -1057,173 +1298,423 @@
     </div>
 </section>
 
-<!-- WHAT OUR PATIENTS SAY SECTION -->
+<!-- ==========================================================
+     INDEX FIFTH SECTION - TESTIMONIALS & CTA
+=========================================================== -->
+
 <section class="index_fifth_section_wrapper">
+
     <div class="container">
 
-        <!-- Header -->
+        <!-- ======================================================
+             SECTION HEADER
+        ======================================================= -->
         <div class="index_fifth_section_header">
-            <span class="index_fifth_section_subtitle">WHAT OUR PATIENTS SAY</span>
+
+            <!-- Top Tooth Ornament -->
+            <div class="index_fifth_section_top_icon">
+
+                <span class="index_fifth_section_top_line"></span>
+
+                <span class="index_fifth_section_tooth_circle">
+                    <i class="fa-solid fa-tooth"></i>
+                </span>
+
+                <span class="index_fifth_section_top_line"></span>
+
+            </div>
+
+
+            <span class="index_fifth_section_subtitle">
+                WHAT OUR PATIENTS SAY
+            </span>
+
+
             <h2 class="index_fifth_section_title">
-                Trusted by Thousands of Happy Smiles
+
+                <span class="index_fifth_section_title_white">
+                    Trusted by Thousands
+                </span>
+
+                <span class="index_fifth_section_title_script">
+                    of Happy Smiles
+                </span>
+
             </h2>
 
-            <!-- Decorative Gold Diamond Divider -->
+
+            <!-- Gold Decorative Divider -->
             <div class="index_fifth_section_divider">
+
                 <span class="index_fifth_section_divider_line"></span>
+
                 <i class="fa-solid fa-diamond index_fifth_section_divider_diamond"></i>
+
                 <span class="index_fifth_section_divider_line"></span>
+
             </div>
+
+
+            <p class="index_fifth_section_header_desc">
+                Real stories. Real smiles. Real trust.
+            </p>
+
         </div>
 
-        <!-- Testimonials Cards Grid -->
-        <div class="position-relative">
 
-            <!-- Decorative Huge Quote Mark -->
+
+        <!-- ======================================================
+             TESTIMONIAL AREA
+        ======================================================= -->
+        <div class="position-relative index_fifth_section_cards_area">
+
+
+            <!-- Large Decorative Quote -->
             <div class="index_fifth_section_quote_icon">
                 <i class="fa-solid fa-quote-left"></i>
             </div>
 
-            <div class="row align-items-center g-4">
 
-                <!-- 3 Cards Column -->
-                <div class="col-lg-11 col-12">
-                    <div class="row g-3 g-lg-4">
+            <div class="row g-4">
 
-                        <!-- Testimonial 1 -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="index_fifth_section_card">
-                                <div>
-                                    <div class="index_fifth_section_stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="index_fifth_section_text">
-                                        Doctor Anish garu explained very nicely regarding my condition and made me comfortable. Excellence dental care treatment in Kakinada. I strongly recommend my friends to this dental clinic . Tq u for support and treatment sir</strong>
-                                    </p>
-                                </div>
-                                <div class="index_fifth_section_user">
-                                    <!-- <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" alt="Ravi Kumar" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash; Mr.Bijjala</span>
-                                </div>
-                            </div>
+
+                <!-- ==================================================
+                     TESTIMONIAL 1
+                =================================================== -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="index_fifth_section_card">
+
+                        <!-- Floating Quote Circle -->
+                        <div class="index_fifth_section_card_quote">
+                            <i class="fa-solid fa-quote-left"></i>
                         </div>
 
-                        <!-- Testimonial 2 -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="index_fifth_section_card">
-                                <div>
-                                    <div class="index_fifth_section_stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="index_fifth_section_text">
-                                        The best treatment I have ever seen painless and very pleasant atmosphere, great treatment
-                                        Thank you DR Anish garu
-                                        I highly recommend this hop ❤️
-                                    </p>
-                                </div>
-                                <div class="index_fifth_section_user">
-                                    <!-- <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" alt="Sushma Reddy" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash;
-                                        royal rajesh</span>
-                                </div>
+
+                        <div>
+
+                            <!-- Stars -->
+                            <div class="index_fifth_section_stars">
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
                             </div>
+
+
+                            <!-- Review -->
+                            <p class="index_fifth_section_text">
+
+                                Doctor Anish garu explained very nicely regarding
+                                my condition and made me comfortable. Excellence
+                                dental care treatment in Kakinada. I strongly
+                                recommend my friends to this dental clinic.
+                                Tq u for support and treatment sir.
+
+                            </p>
+
                         </div>
 
-                        <!-- Testimonial 3 -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="index_fifth_section_card">
-                                <div>
-                                    <div class="index_fifth_section_stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="index_fifth_section_text">
-                                        I have got cleaned my teeth with very clean and smooth way dr anish garu have taken very smooth care without any pain done treatment
-                                    </p>
-                                </div>
-                                <div class="index_fifth_section_user">
-                                    <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Karthik Varma" class="index_fifth_section_avatar"> -->
-                                    <span class="index_fifth_section_username">&ndash;
-                                        Anand Travels</span>
-                                </div>
+
+                        <!-- User -->
+                        <div class="index_fifth_section_user">
+
+                            <div class="index_fifth_section_avatar">
+                                <i class="fa-solid fa-user"></i>
                             </div>
+
+
+                            <span class="index_fifth_section_username">
+                                Mr. Bijjala
+                            </span>
+
+
+                            <span class="index_fifth_section_verified">
+
+                                <i class="fa-solid fa-check"></i>
+
+                            </span>
+
                         </div>
 
                     </div>
+
                 </div>
 
-                <!-- Navigation Arrows on Far Right -->
-                <!-- <div class="col-lg-1 col-12 d-flex flex-lg-column flex-row justify-content-center align-items-center gap-2">
-                    <button type="button" class="index_fifth_section_nav_btn" aria-label="Previous">
-                        <i class="fa-solid fa-arrow-left"></i>
-                    </button>
-                    <button type="button" class="index_fifth_section_nav_btn" aria-label="Next">
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div> -->
+
+
+                <!-- ==================================================
+                     TESTIMONIAL 2
+                =================================================== -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="index_fifth_section_card">
+
+                        <div class="index_fifth_section_card_quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+
+
+                        <div>
+
+                            <div class="index_fifth_section_stars">
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                            </div>
+
+
+                            <p class="index_fifth_section_text">
+
+                                The best treatment I have ever seen, painless and
+                                very pleasant atmosphere, great treatment.
+                                Thank you Dr. Anish garu. I highly recommend
+                                this hospital ❤️
+
+                            </p>
+
+                        </div>
+
+
+                        <div class="index_fifth_section_user">
+
+                            <div class="index_fifth_section_avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+
+
+                            <span class="index_fifth_section_username">
+                                royal rajesh
+                            </span>
+
+
+                            <span class="index_fifth_section_verified">
+
+                                <i class="fa-solid fa-check"></i>
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==================================================
+                     TESTIMONIAL 3
+                =================================================== -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="index_fifth_section_card">
+
+                        <div class="index_fifth_section_card_quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+
+
+                        <div>
+
+                            <div class="index_fifth_section_stars">
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                            </div>
+
+
+                            <p class="index_fifth_section_text">
+
+                                I have got cleaned my teeth with very clean and
+                                smooth way. Dr Anish garu have taken very smooth
+                                care without any pain during the treatment.
+
+                            </p>
+
+                        </div>
+
+
+                        <div class="index_fifth_section_user">
+
+                            <div class="index_fifth_section_avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+
+
+                            <span class="index_fifth_section_username">
+                                Anand Travels
+                            </span>
+
+
+                            <span class="index_fifth_section_verified">
+
+                                <i class="fa-solid fa-check"></i>
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
 
             </div>
-            <div class="text-center mt-5">
-                <a href="happy-smile.php" class="index_fourth_section_btn">
-                    Video Testmonials <i class="fa-solid fa-arrow-right"></i>
+
+
+
+            <!-- ==================================================
+                 VIDEO TESTIMONIAL BUTTON
+            =================================================== -->
+            <div class="text-center index_fifth_section_video_wrapper">
+
+                <a href="happy-smile.php"
+                   class="index_fourth_section_btn">
+
+                    <span class="index_fifth_section_video_play">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+
+                    <span>
+                        VIDEO TESTIMONIALS
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
+
             </div>
 
         </div>
 
-        <!-- Bottom CTA Appointment Box -->
+
+
+        <!-- ======================================================
+             BOTTOM APPOINTMENT CTA
+        ======================================================= -->
         <div class="index_fifth_section_cta_box">
-            <div class="row align-items-center g-3">
 
-                <!-- Left: Title & Subtitle -->
+            <div class="row align-items-center g-4">
+
+
+                <!-- ==================================================
+                     LEFT
+                =================================================== -->
                 <div class="col-xl-6 col-lg-5 col-12">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="index_fifth_section_cta_icon_box d-none d-sm-flex">
-                            <i class="fa-regular fa-calendar-days"></i>
+
+                    <div class="index_fifth_section_cta_left">
+
+                        <!-- Calendar Circle -->
+                        <div class="index_fifth_section_cta_icon_box">
+
+                            <i class="fa-regular fa-calendar-check"></i>
+
                         </div>
+
+
+                        <!-- Text -->
                         <div>
-                            <span class="index_fifth_section_cta_tag">READY FOR A HEALTHIER SMILE?</span>
-                            <h3 class="index_fifth_section_cta_title">Book Your Appointment Today!</h3>
-                            <p class="index_fifth_section_cta_desc">We're here to help you smile brighter every day.</p>
+
+                            <span class="index_fifth_section_cta_tag">
+                                READY FOR A HEALTHIER SMILE?
+                            </span>
+
+
+                            <h3 class="index_fifth_section_cta_title">
+                                Book Your Appointment Today!
+                            </h3>
+
+
+                            <p class="index_fifth_section_cta_desc">
+                                We're here to help you smile brighter every day.
+                            </p>
+
                         </div>
+
                     </div>
+
                 </div>
 
-                <!-- Middle: Book Button -->
-                <div class="col-xl-3 col-lg-3 col-sm-6 col-12 text-lg-center">
-                    <a href="appointment.php" class="index_fifth_section_cta_btn">
-                        <i class="fa-regular fa-calendar-check"></i> BOOK APPOINTMENT NOW
-                    </a>
+
+
+                <!-- ==================================================
+                     CENTER BUTTON
+                =================================================== -->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+
+                    <div class="index_fifth_section_cta_btn_wrapper">
+
+                        <a href="appointment.php"
+                           class="index_fifth_section_cta_btn">
+
+                            <i class="fa-regular fa-calendar-plus"></i>
+
+                            <span>
+                                BOOK APPOINTMENT NOW
+                            </span>
+
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <!-- Right: Call Phone Section -->
-                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+
+
+                <!-- ==================================================
+                     PHONE
+                =================================================== -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+
                     <div class="index_fifth_section_cta_phone_container">
+
+
                         <div class="index_fifth_section_cta_phone_icon">
+
                             <i class="fa-solid fa-phone-volume"></i>
+
                         </div>
+
+
                         <div>
-                            <a href="tel:+917396256474" class="index_fifth_section_cta_phone_num">+91 73962 56474</a>
-                            <div class="index_fifth_section_cta_phone_sub">Call Us Anytime</div>
+
+                            <a href="tel:+917396256474"
+                               class="index_fifth_section_cta_phone_num">
+
+                                +91 73962 56474
+
+                            </a>
+
+
+                            <div class="index_fifth_section_cta_phone_sub">
+                                Call Us Anytime
+                            </div>
+
                         </div>
+
+
                     </div>
+
                 </div>
+
 
             </div>
+
         </div>
 
     </div>
+
 </section>
 
 

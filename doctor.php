@@ -3,122 +3,216 @@
 
 
 <!-- TREATMENTS HERO BANNER SECTION -->
-<section class="treatments_first_section_wrapper">
-    <div class="container-fluid p-0">
-        <div class="row g-0 align-items-center treatments_first_section_main_row">
+<!-- ==========================================================
+     DOCTORS PAGE - HERO SECTION
+=========================================================== -->
 
-            <!-- Left Side Content Area -->
+<section class="treatments_first_section_wrapper">
+
+    <div class="container-fluid p-0">
+
+        <div class="row g-0 treatments_first_section_main_row">
+
+            <!-- ==================================================
+                 LEFT CONTENT
+            =================================================== -->
             <div class="col-lg-5 col-12 treatments_first_section_left_col">
 
                 <!-- Breadcrumb -->
                 <div class="treatments_first_section_breadcrumb">
-                    <a href="index.php" class="treatments_first_section_breadcrumb_link">HOME</a>
-                    <i class="fa-solid fa-chevron-right treatments_first_section_breadcrumb_sep"></i>
-                    <span class="treatments_first_section_breadcrumb_active">DOCTORS</span>
+
+                    <a href="index.php"
+                       class="treatments_first_section_breadcrumb_link">
+
+                        <i class="bi bi-house-door"></i>
+
+                        <span>HOME</span>
+
+                    </a>
+
+                    <span class="treatments_first_section_breadcrumb_sep">
+                        /
+                    </span>
+
+                    <span class="treatments_first_section_breadcrumb_active">
+                        DOCTORS
+                    </span>
+
                 </div>
+
 
                 <!-- Main Heading -->
                 <h1 class="treatments_first_section_title">
                     Our Doctors
                 </h1>
 
-                <!-- Cursive Gold Subtitle -->
+
+                <!-- Gold Heading -->
                 <div class="treatments_first_section_cursive">
-                    Experts Who Care for Your Smile
+                    Experts Who Care<br>
+                    for Your Smile
                 </div>
+
+
+                <!-- Decorative Gold Divider -->
+                <div class="treatments_first_section_title_divider">
+
+                    <span></span>
+
+                    <i></i>
+
+                    <span></span>
+
+                </div>
+
 
                 <!-- Description -->
                 <p class="treatments_first_section_desc">
-                    Our experienced dental specialists are dedicated to providing the highest quality care with compassion,expertise and advanced technology.
+
+                    Our experienced dental specialists are dedicated to
+                    providing the highest quality care with compassion,
+                    expertise and advanced technology.
+
                 </p>
 
-                <!-- DOCTORS SUB SECTION - FEATURES -->
+
+                <!-- ==================================================
+                     DOCTORS SUB SECTION
+                =================================================== -->
                 <div class="doctors_sub_section_wrapper">
+
 
                     <!-- Experienced Specialists -->
                     <div class="doctors_sub_section_item">
+
                         <div class="doctors_sub_section_icon">
+
                             <i class="fa-solid fa-user-doctor"></i>
+
                         </div>
+
                         <div class="doctors_sub_section_title">
-                            Experienced<br>Specialists
+                            Experienced<br>
+                            Specialists
                         </div>
+
                     </div>
+
 
                     <!-- Years of Excellence -->
                     <div class="doctors_sub_section_item">
+
                         <div class="doctors_sub_section_icon">
+
                             <i class="fa-solid fa-award"></i>
+
                         </div>
+
                         <div class="doctors_sub_section_title">
-                            Years of<br>Excellence
+                            Years of<br>
+                            Excellence
                         </div>
+
                     </div>
+
 
                     <!-- Patient-Centered Approach -->
                     <div class="doctors_sub_section_item">
+
                         <div class="doctors_sub_section_icon">
+
                             <i class="fa-solid fa-hand-holding-heart"></i>
+
                         </div>
+
                         <div class="doctors_sub_section_title">
-                            Patient-Centered
+                            Patient-Centred<br>
+                            Approach
                         </div>
+
                     </div>
+
 
                     <!-- Advanced Technology -->
                     <div class="doctors_sub_section_item">
+
                         <div class="doctors_sub_section_icon">
+
                             <i class="fa-solid fa-microscope"></i>
+
                         </div>
+
                         <div class="doctors_sub_section_title">
-                            Advanced<br>Technology
+                            Advanced<br>
+                            Technology
                         </div>
+
                     </div>
+
 
                 </div>
 
-
-
-
-                <!-- Book Appointment Button -->
-                <!-- <a href="appointment.php" class="treatments_first_section_btn">
-                    <i class="fa-regular fa-calendar-check"></i> BOOK APPOINTMENT
-                </a> -->
-
             </div>
 
-            <!-- Right Side Image Area with Curved Boundary -->
+
+
+            <!-- ==================================================
+                 RIGHT IMAGE
+            =================================================== -->
             <div class="col-lg-7 col-12 treatments_first_section_right_col">
 
-                <!-- Medical Room Image -->
-                <img src="./assets/img/docotr-img.png" alt="Dental Treatment Room" class="treatments_first_section_bg_img">
+                <img
+                    src="./assets/img/docotr-img.png"
+                    alt="Our Dental Doctors"
+                    class="treatments_first_section_bg_img"
+                >
 
-                <!-- Smooth Wave Curve with Gold Stroke (Desktop View Overlay) -->
-                <svg class="treatments_first_section_curve_svg" viewBox="0 0 130 520" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <!-- White Fill Background -->
-                    <path d="M0 0 H35 C90 120, 120 180, 50 320 C10 410, 80 480, 110 520 H0 V0 Z" fill="#ffffff" />
-                    <!-- Outer Gold Line -->
-                    <path d="M35 0 C90 120, 120 180, 50 320 C10 410, 80 480, 110 520" stroke="#e29b27" stroke-width="4.5" fill="none" />
-                    <!-- Inner Dark Green Line Accent -->
-                    <path d="M38 0 C93 120, 123 180, 53 320 C13 410, 83 480, 113 520" stroke="#003B32" stroke-width="2" fill="none" opacity="0.8" />
+
+                <!-- Curved Gold Divider -->
+                <svg
+                    class="treatments_first_section_curve_svg"
+                    viewBox="0 0 150 900"
+                    preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+
+                    <!-- Dark background fill -->
+                    <path
+                        d="M0 0
+                           H45
+                           C145 170,
+                           145 305,
+                           90 430
+                           C35 555,
+                           70 720,
+                           150 900
+                           H0 Z"
+                        fill="#003837"
+                    />
+
+
+                    <!-- Gold Curve -->
+                    <path
+                        d="M45 0
+                           C145 170,
+                           145 305,
+                           90 430
+                           C35 555,
+                           70 720,
+                           150 900"
+                        fill="none"
+                        stroke="#efb33b"
+                        stroke-width="5"
+                    />
+
                 </svg>
-
-                <!-- Bottom Right Floating Badge -->
-                <!-- <div class="treatments_first_section_badge">
-                    <div class="treatments_first_section_badge_icon">
-                        <i class="fa-solid fa-tooth"></i>
-                    </div>
-                    <div class="treatments_first_section_badge_text">
-                        Advanced Care.<br>
-                        Comfortable Experience.<br>
-                        Beautiful Smiles.
-                    </div>
-                </div> -->
 
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 <div class="img-icon-5 d-none d-md-block mt-3">
