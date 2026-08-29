@@ -1121,101 +1121,208 @@
 </div>
 
 <!-- ADVANCED TECHNOLOGY FOURTH SECTION -->
+<!-- ==========================================================
+     TREATMENTS PAGE - FOURTH SECTION
+     ADVANCED TECHNOLOGY
+=========================================================== -->
+
 <section class="treatments_fourth_section_wrapper">
+
     <div class="container">
 
-        <!-- Section Header -->
+        <!-- ======================================================
+             SECTION HEADER
+        ======================================================= -->
         <div class="treatments_fourth_section_header">
-            <span class="treatments_fourth_section_subtitle">ADVANCED TECHNOLOGY</span>
+
+            <span class="treatments_fourth_section_subtitle">
+                ADVANCED TECHNOLOGY
+            </span>
+
             <h2 class="treatments_fourth_section_title">
-                Technology That Makes A Difference
+                Technology That Makes
+                <span class="treatments_fourth_section_title_gold">
+                    A Difference
+                </span>
             </h2>
 
             <!-- Gold Diamond Divider -->
             <div class="treatments_fourth_section_divider">
+
                 <span class="treatments_fourth_section_divider_line"></span>
+
                 <i class="fa-solid fa-diamond treatments_fourth_section_divider_diamond"></i>
+
                 <span class="treatments_fourth_section_divider_line"></span>
+
             </div>
+
         </div>
 
-        <!-- Section Main Content -->
+
+        <!-- ======================================================
+             MAIN CONTENT
+        ======================================================= -->
         <div class="treatments_fourth_section_main_row">
 
-            <!-- Left: Medical Scanner Image with Floating Badge -->
-            <div class="treatments_fourth_section_left_col">
-                <div class="treatments_fourth_section_img_container">
-                    <!-- Technology Equipment Image -->
-                    <img src="./assets/img/g6.png"
-                        alt="Advanced Dental Scanner Technology"
-                        class="treatments_fourth_section_img">
 
-                    <!-- Floating White Card Badge -->
+            <!-- ==================================================
+                 LEFT IMAGE
+            =================================================== -->
+            <div class="treatments_fourth_section_left_col">
+
+                <div class="treatments_fourth_section_img_container">
+
+                    <img
+                        src="./assets/img/g6.png"
+                        alt="Advanced Dental Technology"
+                        class="treatments_fourth_section_img"
+                    >
+
+
+                    <!-- Floating Treatment Badge -->
                     <div class="treatments_fourth_section_badge">
+
                         <div class="treatments_fourth_section_badge_icon_box">
+
                             <i class="fa-solid fa-shield-halved treatments_fourth_section_badge_icon"></i>
+
                         </div>
+
+
                         <p class="treatments_fourth_section_badge_text">
-                            Safe, Accurate<br>& Painless Treatments
+                            Safe, Accurate
+                            <br>
+                            & Painless
+                            <br>
+                            Treatments
                         </p>
+
+
+                        <span class="treatments_fourth_section_badge_line"></span>
+
                     </div>
+
                 </div>
+
             </div>
 
-            <!-- Right: 4 Technology Features -->
+
+            <!-- ==================================================
+                 RIGHT FEATURES
+            =================================================== -->
             <div class="treatments_fourth_section_right_col">
+
                 <div class="treatments_fourth_section_features_grid">
 
-                    <!-- Feature 1: Digital X-Rays -->
+
+                    <!-- ==================================================
+                         FEATURE 1
+                    =================================================== -->
                     <div class="treatments_fourth_section_feature_item">
+
                         <div class="treatments_fourth_section_feature_icon_box">
+
                             <i class="fa-solid fa-x-ray treatments_fourth_section_feature_icon"></i>
+
                         </div>
-                        <h3 class="treatments_fourth_section_feature_title">Digital X-Rays</h3>
+
+                        <h3 class="treatments_fourth_section_feature_title">
+                            Digital X-Rays
+                        </h3>
+
+                        <span class="treatments_fourth_section_feature_line"></span>
+
                         <p class="treatments_fourth_section_feature_desc">
                             Low radiation digital X-rays for accurate and safe diagnosis.
                         </p>
+
                     </div>
 
-                    <!-- Feature 2: Intraoral Scanner -->
+
+                    <!-- ==================================================
+                         FEATURE 2
+                    =================================================== -->
                     <div class="treatments_fourth_section_feature_item">
+
                         <div class="treatments_fourth_section_feature_icon_box">
+
                             <i class="fa-solid fa-camera-rotate treatments_fourth_section_feature_icon"></i>
+
                         </div>
-                        <h3 class="treatments_fourth_section_feature_title">Intraoral Scanner</h3>
+
+                        <h3 class="treatments_fourth_section_feature_title">
+                            Intraoral Scanner
+                        </h3>
+
+                        <span class="treatments_fourth_section_feature_line"></span>
+
                         <p class="treatments_fourth_section_feature_desc">
                             Advanced scanning for precise and comfortable results.
                         </p>
+
                     </div>
 
-                    <!-- Feature 3: Laser Dentistry -->
+
+                    <!-- ==================================================
+                         FEATURE 3
+                    =================================================== -->
                     <div class="treatments_fourth_section_feature_item">
+
                         <div class="treatments_fourth_section_feature_icon_box">
+
                             <i class="fa-solid fa-wand-magic-sparkles treatments_fourth_section_feature_icon"></i>
+
                         </div>
-                        <h3 class="treatments_fourth_section_feature_title">Laser Dentistry</h3>
+
+                        <h3 class="treatments_fourth_section_feature_title">
+                            Laser Dentistry
+                        </h3>
+
+                        <span class="treatments_fourth_section_feature_line"></span>
+
                         <p class="treatments_fourth_section_feature_desc">
                             Minimally invasive laser treatments for better healing.
                         </p>
+
                     </div>
 
-                    <!-- Feature 4: Sterilization Protocol -->
+
+                    <!-- ==================================================
+                         FEATURE 4
+                    =================================================== -->
                     <div class="treatments_fourth_section_feature_item">
+
                         <div class="treatments_fourth_section_feature_icon_box">
+
                             <i class="fa-solid fa-pump-soap treatments_fourth_section_feature_icon"></i>
+
                         </div>
-                        <h3 class="treatments_fourth_section_feature_title">Sterilization Protocol</h3>
+
+                        <h3 class="treatments_fourth_section_feature_title">
+                            Sterilization
+                            <br>
+                            Protocol
+                        </h3>
+
+                        <span class="treatments_fourth_section_feature_line"></span>
+
                         <p class="treatments_fourth_section_feature_desc">
                             Strict sterilization standards for your safety and hygiene.
                         </p>
+
                     </div>
 
+
                 </div>
+
             </div>
+
 
         </div>
 
     </div>
+
 </section>
 
 
