@@ -196,7 +196,7 @@
 
                         <!-- Main Dental Implant Image -->
                         <img
-                            src="./assets/img/Dental-implants-bg.png"
+                            src=".\assets\img\Denture-prosthetics-bg.png"
                             alt="Dental Implants Treatment Procedure"
                             class="rootcanal_first_section_img">
 
@@ -1068,7 +1068,7 @@ Trial Fitting
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/Dental-implants-before.png"
+                                src="./assets/img/Before-dentures.png"
                                 alt="Before Dental Implants Treatment">
 
                             <span class="rootcanal_fifth_section_ba_badge">
@@ -1090,7 +1090,7 @@ Trial Fitting
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/After-implants.png"
+                                src="./assets/img/after-dentures.png"
                                 alt="After Dental Implants Treatment">
 
                             <span class="rootcanal_fifth_section_ba_badge">

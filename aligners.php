@@ -193,7 +193,7 @@
 
                         <!-- Main Dental Implant Image -->
                         <img
-                            src="./assets/img/Dental-implants-bg.png"
+                            src="./assets/img/Aligners-bg.png"
                             alt="Dental Implants Treatment Procedure"
                             class="rootcanal_first_section_img"
                         >
@@ -1056,7 +1056,7 @@
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/Dental-implants-before.png"
+                                src="./assets/img/aligners-before.png"
                                 alt="Before Dental Implants Treatment"
                             >
 
@@ -1079,7 +1079,7 @@
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/After-implants.png"
+                                src=" ./assets/img/aligners-after.png"
                                 alt="After Dental Implants Treatment"
                             >
 

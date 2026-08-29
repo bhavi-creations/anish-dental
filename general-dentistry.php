@@ -197,7 +197,7 @@
 
                         <!-- Main Dental Implant Image -->
                         <img
-                            src="./assets/img/Dental-implants-bg.png"
+                            src=".\assets\img\General-dentistry.png"
                             alt="Dental Implants Treatment Procedure"
                             class="rootcanal_first_section_img">
 
@@ -1044,7 +1044,7 @@
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/Dental-implants-before.png"
+                                src="./assets/img/Before-General-dentistry.png"
                                 alt="Before Dental Implants Treatment">
 
                             <span class="rootcanal_fifth_section_ba_badge">
@@ -1066,7 +1066,7 @@
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/After-implants.png"
+                                src="./assets/img/after-General-dentistry.png"
                                 alt="After Dental Implants Treatment">
 
                             <span class="rootcanal_fifth_section_ba_badge">
