@@ -1158,52 +1158,118 @@
 
 
 <!-- BOOK APPOINTMENT FIFTH SECTION (CTA BANNER) -->
-<section class="treatments_fifth_section_wrapper">
+<section class="index_fifth_section_wrapper">
+
     <div class="container">
-        <div class="treatments_fifth_section_container">
-            <div class="treatments_fifth_section_row">
+        <div class="index_fifth_section_cta_box">
 
-                <!-- Left: Badge Icon + Text Block -->
-                <div class="treatments_fifth_section_left">
-                    <!-- White Badge Circle with Gold Border -->
-                    <div class="treatments_fifth_section_badge_circle">
-                        <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
-                    </div>
+            <div class="row align-items-center g-4">
 
-                    <!-- Text Block -->
-                    <div class="treatments_fifth_section_text_box">
-                        <span class="treatments_fifth_section_subtitle">READY FOR A HEALTHIER SMILE?</span>
-                        <h2 class="treatments_fifth_section_title">Book Your Appointment Today!</h2>
-                        <p class="treatments_fifth_section_desc">We're here to help you smile brighter every day.</p>
-                    </div>
-                </div>
 
-                <!-- Right: Button + Vertical Divider + Phone Call Block -->
-                <div class="treatments_fifth_section_right">
+                <!-- ==================================================
+                     LEFT
+                =================================================== -->
+                <div class="col-xl-6 col-lg-5 col-12">
 
-                    <!-- Book Appointment Button -->
-                    <a href="appointment.php" class="treatments_fifth_section_btn">
-                        <i class="fa-regular fa-calendar-days"></i>
-                        BOOK APPOINTMENT NOW
-                    </a>
+                    <div class="index_fifth_section_cta_left">
 
-                    <!-- Vertical Divider Line -->
-                    <div class="treatments_fifth_section_divider"></div>
+                        <!-- Calendar Circle -->
+                        <div class="index_fifth_section_cta_icon_box">
 
-                    <!-- Phone Call Block -->
-                    <a href="tel:+917396256474" class="treatments_fifth_section_phone_box">
-                        <i class="fa-solid fa-phone-volume treatments_fifth_section_phone_icon"></i>
-                        <div class="treatments_fifth_section_phone_content">
-                            <span class="treatments_fifth_section_phone_number">+91 73962 56474</span>
-                            <span class="treatments_fifth_section_phone_label">Call Us Anytime</span>
+                            <i class="fa-regular fa-calendar-check"></i>
+
                         </div>
-                    </a>
+
+
+                        <!-- Text -->
+                        <div>
+
+                            <span class="index_fifth_section_cta_tag">
+                                READY FOR A HEALTHIER SMILE?
+                            </span>
+
+
+                            <h3 class="index_fifth_section_cta_title">
+                                Book Your Appointment Today!
+                            </h3>
+
+
+                            <p class="index_fifth_section_cta_desc">
+                                We're here to help you smile brighter every day.
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 </div>
+
+
+
+                <!-- ==================================================
+                     CENTER BUTTON
+                =================================================== -->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+
+                    <div class="index_fifth_section_cta_btn_wrapper">
+
+                        <a href="appointment.php"
+                           class="index_fifth_section_cta_btn">
+
+                            <i class="fa-regular fa-calendar-plus"></i>
+
+                            <span>
+                                BOOK APPOINTMENT NOW
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==================================================
+                     PHONE
+                =================================================== -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+
+                    <div class="index_fifth_section_cta_phone_container">
+
+
+                        <div class="index_fifth_section_cta_phone_icon">
+
+                            <i class="fa-solid fa-phone-volume"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <a href="tel:+917396256474"
+                               class="index_fifth_section_cta_phone_num">
+
+                                +91 73962 56474
+
+                            </a>
+
+
+                            <div class="index_fifth_section_cta_phone_sub">
+                                Call Us Anytime
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
 
             </div>
-        </div>
-    </div>
-</section>
 
+        </div>
+  </div>    
+</section>
 <?php include 'footer.php'; ?>

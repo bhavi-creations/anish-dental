@@ -799,45 +799,120 @@
             </div>
         </div>
 
-        <!-- Bottom Banner: Call To Action -->
-        <div class="cta-banner-light">
-            <div class="row g-4 align-items-center justify-content-between">
+        <!-- BOOK APPOINTMENT FIFTH SECTION (CTA BANNER) -->
+<section class="index_fifth_section_wrapper">
 
-                <!-- Left: Calendar Icon + Title -->
-                <div class="col-lg-5">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="cta-icon-square">
-                            <!-- <i class="bi bi-calendar-event"></i> -->
-                            <i class="fa-regular fa-calendar-check "></i>
+    <div class="container">
+        <div class="index_fifth_section_cta_box">
+
+            <div class="row align-items-center g-4">
+
+
+                <!-- ==================================================
+                     LEFT
+                =================================================== -->
+                <div class="col-xl-6 col-lg-5 col-12">
+
+                    <div class="index_fifth_section_cta_left">
+
+                        <!-- Calendar Circle -->
+                        <div class="index_fifth_section_cta_icon_box">
+
+                            <i class="fa-regular fa-calendar-check"></i>
+
                         </div>
+
+
+                        <!-- Text -->
                         <div>
-                            <div class="cta-subtitle-gold">Ready for a Healthier Smile?</div>
-                            <h4 class="cta-main-title">Book an appointment with our experts today!</h4>
+
+                            <span class="index_fifth_section_cta_tag">
+                                READY FOR A HEALTHIER SMILE?
+                            </span>
+
+
+                            <h3 class="index_fifth_section_cta_title">
+                                Book Your Appointment Today!
+                            </h3>
+
+
+                            <p class="index_fifth_section_cta_desc">
+                                We're here to help you smile brighter every day.
+                            </p>
+
                         </div>
+
                     </div>
+
                 </div>
 
-                <!-- Middle: Dark Green Button -->
-                <div class="col-lg-3 text-lg-center">
-                    <a href="appointment.php" class="btn btn-cta-dark d-inline-flex align-items-center gap-2">
-                        <i class="bi bi-calendar-check"></i> BOOK APPOINTMENT NOW
-                    </a>
+
+
+                <!-- ==================================================
+                     CENTER BUTTON
+                =================================================== -->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+
+                    <div class="index_fifth_section_cta_btn_wrapper">
+
+                        <a href="appointment.php"
+                           class="index_fifth_section_cta_btn">
+
+                            <i class="fa-regular fa-calendar-plus"></i>
+
+                            <span>
+                                BOOK APPOINTMENT NOW
+                            </span>
+
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <!-- Right: Phone Box -->
-                <div class="col-lg-4 text-lg-end">
-                    <div class="phone-box-card d-inline-flex align-items-center gap-3">
-                        <i class="bi bi-telephone phone-icon-dark"></i>
-                        <div class="text-start">
-                            <div class="phone-num-dark">+91 73962 56474</div>
-                            <p class="phone-sub-text">Call Us Anytime</p>
+
+
+                <!-- ==================================================
+                     PHONE
+                =================================================== -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+
+                    <div class="index_fifth_section_cta_phone_container">
+
+
+                        <div class="index_fifth_section_cta_phone_icon">
+
+                            <i class="fa-solid fa-phone-volume"></i>
+
                         </div>
+
+
+                        <div>
+
+                            <a href="tel:+917396256474"
+                               class="index_fifth_section_cta_phone_num">
+
+                                +91 73962 56474
+
+                            </a>
+
+
+                            <div class="index_fifth_section_cta_phone_sub">
+                                Call Us Anytime
+                            </div>
+
+                        </div>
+
+
                     </div>
+
                 </div>
+
 
             </div>
-        </div>
 
+        </div>
+  </div>    
     </div>
 </section>
 
