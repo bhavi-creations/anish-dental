@@ -2,6 +2,7 @@
 
 
 
+<!-- CONTACT US FIRST SECTION (HERO SECTION) -->
 <!-- ==========================================================
      CONTACT US FIRST SECTION
 =========================================================== -->
@@ -265,143 +266,440 @@
 </section>
 
 
-<section class="appointment-second-section">
-    <div class="container">
-        <div class="row g-4">
+<!-- ==========================================================
+     CONTACT / APPOINTMENT SECOND SECTION
+=========================================================== -->
 
-            <!-- Left Side: Get In Touch Sidebar (4 Columns) -->
+<section class="appointment-second-section">
+
+    <div class="container">
+
+        <div class="row g-4 align-items-stretch">
+
+            <!-- ==================================================
+                 LEFT CONTACT INFORMATION
+            =================================================== -->
             <div class="col-lg-4">
+
                 <div class="info-sidebar-card">
 
-                    <!-- Title & Subtitle -->
-                    <h3 class="section-card-title">Get In Touch</h3>
-                    <div class="gold-divider">
-                        <div class="line"></div>
-                        <div class="diamond"></div>
-                        <div class="line"></div>
-                    </div>
-                    <p class="section-subtitle">We'd love to hear from you. Reach out to us anytime through the following.</p>
+                    <!-- Top Small Heading -->
+                    <div class="contact-panel-heading">
 
-                    <!-- Our Location -->
-                    <div class="contact-info-item">
-                        <div class="info-icon-box">
-                            <!-- <i class="bi bi-geo-alt-fill"></i> -->
-                            <!-- <i class="bi bi-geo-alt"></i> -->
-                            <img src="./assets/img/location.png" alt="" class="img-fluid" style="width: 30px;">
-                        </div>
-                        <div class="info-content">
-                            <h6>Our Location</h6>
-                            <p>1st floor, Kokila junction, RTC Complex Rd, above Vantillu, beside carewell hospital, G O Colony, Kakinada, Andhra Pradesh 533003</p>
-                        </div>
-                    </div>
-
-                    <!-- Call Us -->
-                    <div class="contact-info-item">
-                        <div class="info-icon-box">
-                            <!-- <i class="bi bi-telephone-fill"></i> -->
-                            <img src="./assets/img//call.png" alt="" class="img-fluid" style="width: 30px;">
-                        </div>
-                        <div class="info-content">
-                            <h6>Call Us</h6>
-                            <p>+91 73962 56474</p>
-                        </div>
-                    </div>
-
-                    <!-- Email Us -->
-                    <div class="contact-info-item">
-                        <div class="info-icon-box">
-                            <!-- <i class="bi bi-envelope-fill"></i> -->
-                            <img src="./assets/img/email.png" alt="" class="img-fluid" style="width: 30px;">
-
-                        </div>
-                        <div class="info-content">
-                            <h6>Email Us</h6>
-                            <p>anishdentalhospital@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <!-- Working Hours -->
-                    <div class="contact-info-item">
-                        <div class="info-icon-box">
-                            <!-- <i class="bi bi-clock-fill"></i> -->
-                            <img src="./assets/img/working-hours.png" alt="" class="img-fluid" style="width: 30px;">
-
-                        </div>
-                        <div class="info-content">
-                            <h6>Working Hours</h6>
-                            <p>Mon - Sat: 9:00 AM - 9:00 PM<br>Sunday: 10:00 AM - 12:00 PM</p>
-                        </div>
-                    </div>
-
-                    <!-- WhatsApp -->
-                    <div class="contact-info-item mb-0">
-                        <div class="info-icon-box">
-                            <!-- <i class="bi bi-whatsapp"></i> -->
-
-                            <img src="./assets/img/whatsapp.png" alt="" class="img-fluid" style="width: 30px;">
-                        </div>
-                        <div class="info-content">
-                            <h6>WhatsApp</h6>
-                            <p>+91 73962 56474</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Right Side: Send Us a Message Form (8 Columns) -->
-            <div class="col-lg-8">
-                <div class="message-form-card">
-
-                    <!-- Title & Subtitle -->
-                    <h3 class="section-card-title">Send Us a Message</h3>
-                    <div class="gold-divider">
-                        <div class="line"></div>
-                        <div class="diamond"></div>
-                        <div class="line"></div>
-                    </div>
-                    <p class="section-subtitle">Fill out the form below and we will get back to you as soon as possible.</p>
-
-                    <!-- Form Start -->
-                    <form>
-                        <div class="row g-3 mb-3">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="tel" class="form-control" placeholder="Phone Number">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" placeholder="Email Address">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Subject">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-                            </div>
-                        </div>
-
-                        <!-- Terms & Submit Button -->
-                        <div class="form-check mb-4">
-                            <input class="form-check-input" type="checkbox" id="privacyCheck">
-                            <label class="form-check-label terms-text" for="privacyCheck">
-                                I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>
-                            </label>
+                        <div class="contact-heading-icon">
+                            <i class="fa-solid fa-headset"></i>
                         </div>
 
                         <div>
-                            <button type="submit" class="btn btn-send d-inline-flex align-items-center gap-2">
-                                SEND MESSAGE <i class="bi bi-send-fill"></i>
-                            </button>
+                            <div class="contact-heading-label">
+                                CONTACT US
+                            </div>
+
+                            <div class="contact-heading-small-line"></div>
                         </div>
-                    </form>
+
+                    </div>
+
+
+                    <!-- Main Heading -->
+                    <h3 class="section-card-title">
+
+                        <span class="contact-title-white">
+                            Let’s Start Your
+                        </span>
+
+                        <span class="contact-title-gold">
+                            Smile Journey
+                        </span>
+
+                    </h3>
+
+
+                    <!-- Description -->
+                    <p class="section-subtitle">
+                        We’re here to help you with any questions
+                        or appointments. Reach out to us anytime!
+                    </p>
+
+
+                    <!-- Separator -->
+                    <div class="contact-main-separator"></div>
+
+
+                    <!-- ==================================================
+                         LOCATION
+                    =================================================== -->
+                    <div class="contact-info-item">
+
+                        <div class="info-icon-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="info-content">
+
+                            <h6>Our Location</h6>
+
+                            <p>
+                                1st floor, Kokila junction,<br>
+                                RTC Complex Rd, above Vantillu,<br>
+                                beside carewell hospital,<br>
+                                G O Colony, Kakinada,<br>
+                                Andhra Pradesh 533003
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         CALL
+                    =================================================== -->
+                    <div class="contact-info-item">
+
+                        <div class="info-icon-box">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div class="info-content">
+
+                            <h6>Call Us</h6>
+
+                            <p>
+                                <a href="tel:+917396256474">
+                                    +91 73962 56474
+                                </a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         EMAIL
+                    =================================================== -->
+                    <div class="contact-info-item">
+
+                        <div class="info-icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div class="info-content">
+
+                            <h6>Email Us</h6>
+
+                            <p>
+                                <a href="mailto:anishdentalhospital@gmail.com">
+                                    anishdentalhospital@gmail.com
+                                </a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         WORKING HOURS
+                    =================================================== -->
+                    <div class="contact-info-item">
+
+                        <div class="info-icon-box">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+                        <div class="info-content">
+
+                            <h6>Working Hours</h6>
+
+                            <p>
+                                Mon - Sat: 9:00 AM - 9:00 PM<br>
+                                Sunday: 10:00 AM - 12:00 PM
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         WHATSAPP
+                    =================================================== -->
+                    <div class="contact-info-item mb-0">
+
+                        <div class="info-icon-box">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+
+                        <div class="info-content">
+
+                            <h6>WhatsApp</h6>
+
+                            <p>
+                                <a href="https://wa.me/917396256474">
+                                    +91 73962 56474
+                                </a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Decorative Tooth -->
+                    <div class="contact-sidebar-tooth">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
 
                 </div>
+
+            </div>
+
+
+            <!-- ==================================================
+                 RIGHT MESSAGE FORM
+            =================================================== -->
+            <div class="col-lg-8">
+
+                <div class="message-form-card">
+
+                    <!-- ==================================================
+                         FORM HEADER
+                    =================================================== -->
+                    <div class="message-header-row">
+
+                        <div class="message-header-content">
+
+                            <div class="message-title-row">
+
+                                <div class="message-title-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+
+                                <div>
+
+                                    <h3 class="section-card-title">
+
+                                        <span class="message-title-dark">
+                                            Send Us a
+                                        </span>
+
+                                        <span class="message-title-script">
+                                            Message
+                                        </span>
+
+                                    </h3>
+
+
+                                    <!-- Gold small divider -->
+                                    <div class="gold-divider">
+
+                                        <div class="line"></div>
+
+                                        <div class="diamond"></div>
+
+                                        <div class="line short-line"></div>
+
+                                    </div>
+
+
+                                    <p class="section-subtitle">
+
+                                        Fill out the form below and we will get back
+                                        <br class="d-none d-md-block">
+                                        to you as soon as possible.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Decorative Dental Area -->
+                        <div class="message-dental-decoration">
+
+                            <div class="message-dental-circle">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+
+                            <div class="message-dental-note">
+
+                                <i class="fa-regular fa-clipboard"></i>
+
+                                <span>
+                                    We Care<br>
+                                    For Your<br>
+                                    Smile
+                                </span>
+
+                                <i class="fa-regular fa-heart"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ==================================================
+                         FORM
+                    =================================================== -->
+                    <form>
+
+
+                        <div class="row g-3">
+
+
+                            <!-- NAME -->
+                            <div class="col-md-6">
+
+                                <div class="message-input-wrapper">
+
+                                    <i class="fa-regular fa-user"></i>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Your Name"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- PHONE -->
+                            <div class="col-md-6">
+
+                                <div class="message-input-wrapper">
+
+                                    <i class="fa-solid fa-phone"></i>
+
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        placeholder="Phone Number"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+                            <div class="col-md-6">
+
+                                <div class="message-input-wrapper">
+
+                                    <i class="fa-regular fa-envelope"></i>
+
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        placeholder="Email Address"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- SUBJECT -->
+                            <div class="col-md-6">
+
+                                <div class="message-input-wrapper">
+
+                                    <i class="fa-regular fa-file-lines"></i>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Subject"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- MESSAGE -->
+                            <div class="col-12">
+
+                                <div class="message-input-wrapper textarea-wrapper">
+
+                                    <i class="fa-regular fa-comment"></i>
+
+                                    <textarea
+                                        class="form-control"
+                                        rows="6"
+                                        placeholder="Your Message"
+                                    ></textarea>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- ==================================================
+                             TERMS
+                        =================================================== -->
+                        <div class="form-check">
+
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="privacyCheck"
+                            >
+
+                            <label
+                                class="form-check-label terms-text"
+                                for="privacyCheck"
+                            >
+
+                                I agree to the
+                                <a href="#">Privacy Policy</a>
+                                and
+                                <a href="#">Terms of Service</a>
+
+                            </label>
+
+                        </div>
+
+
+                        <!-- ==================================================
+                             SUBMIT
+                        =================================================== -->
+                        <button
+                            type="submit"
+                            class="btn btn-send"
+                        >
+
+                            <i class="fa-solid fa-paper-plane"></i>
+
+                            <span>SEND MESSAGE</span>
+
+                        </button>
+
+                    </form>
+
+
+                    <!-- Bottom Right Decorative Dots -->
+                    <div class="message-bottom-dots"></div>
+
+                </div>
+
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 
@@ -410,75 +708,327 @@
 <!-- ==========================================
      SECTION 3: Map & Easy to Reach Section
      ========================================== -->
+<!-- ==========================================================
+     APPOINTMENT THIRD SECTION
+=========================================================== -->
+
 <section class="appointment-third-section">
+
     <div class="container">
+
+        <!-- ======================================================
+             TOP ROW : MAP + REACH INFO
+        ======================================================= -->
         <div class="row g-4 align-items-stretch">
 
-            <!-- Left: Embedded Map with Floating Info Card -->
+            <!-- ==================================================
+                 LEFT : MAP
+            =================================================== -->
             <div class="col-lg-7">
+
                 <div class="map-wrapper">
-                    <!-- Overlay Info Card -->
+
+                    <!-- ==========================================
+                         FLOATING LOCATION CARD
+                    =========================================== -->
                     <div class="map-info-overlay">
-                        <h6>Anish Dental Multispeciality Hospital</h6>
-                        <p>kakinada,<br>Andhra Pradesh - 533002</p>
-                        <a href="https://maps.google.com" target="_blank">
-                            Directions <i class="bi bi-arrow-right"></i>
+
+                        <div class="map-info-title-row">
+
+                            <div class="map-location-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <h6>
+                                Anish Dental<br>
+                                Multispeciality Hospital
+                            </h6>
+
+                        </div>
+
+
+                        <p>
+                            1st floor, Kokila junction,<br>
+                            RTC Complex Rd, above Vantillu,<br>
+                            beside Carewell Hospital,<br>
+                            G O Colony, Kakinada,<br>
+                            Andhra Pradesh - 533003
+                        </p>
+
+
+                        <div class="map-info-divider"></div>
+
+
+                        <a
+                            href="https://maps.google.com"
+                            target="_blank"
+                        >
+                            Get Directions
+                            <i class="fa-solid fa-arrow-right"></i>
                         </a>
+
                     </div>
-                    <!-- Google Map Iframe -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1787042391206!5m2!1sen!2sin!6m8!1m7!1sS1zXLNRWu2tE61zl8S-UEg!2m2!1d16.96992081050521!2d82.2399223912115!3f85.84011605840708!4f10.381744482674364!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+                    <!-- GOOGLE MAP -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1787042391206!5m2!1sen!2sin!6m8!1m7!1sS1zXLNRWu2tE61zl8S-UEg!2m2!1d16.96992081050521!2d82.2399223912115!3f85.84011605840708!4f10.381744482674364!5f0.7820865974627469"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+
                 </div>
+
             </div>
 
-            <!-- Right: Dark Teal Info Box -->
-            <div class="col-lg-5">
-                <div class="reach-info-card">
-                    <h3>Easy to Reach,<br>Easy to Smile!</h3>
 
+            <!-- ==================================================
+                 RIGHT : EASY TO REACH CARD
+            =================================================== -->
+            <div class="col-lg-5">
+
+                <div class="reach-info-card">
+
+                    <!-- Decorative Dots -->
+                    <div class="reach-card-dots"></div>
+
+
+                    <!-- MAIN HEADING -->
+                    <h3>
+
+                        <span class="reach-title-white">
+                            Easy to Reach,
+                        </span>
+
+                        <span class="reach-title-gold">
+                            Easy to Smile!
+                        </span>
+
+                    </h3>
+
+
+                    <!-- GOLD DIVIDER -->
                     <div class="gold-divider">
+
                         <div class="line"></div>
+
                         <div class="diamond"></div>
+
                         <div class="line"></div>
+
                     </div>
 
-                    <!-- <div class="car-icon-circle">
-                        <i class="bi bi-car-front"></i>
-                    </div> -->
 
-                    <p class="reach-description">
-                        Conveniently located in the heart of Kothapet, Guntur with ample parking and a comfortable environment.
-                    </p>
+                    <!-- LOCATION DESCRIPTION -->
+                    <div class="reach-description-wrapper">
 
-                    <!-- Bottom 3 Features Grid -->
+                        <div class="reach-location-icon">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                        </div>
+
+
+                        <p class="reach-description">
+
+                            Conveniently located in the heart of Kothapet,
+                            Guntur with ample parking and a comfortable
+                            environment.
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- Main separator -->
+                    <div class="reach-main-separator"></div>
+
+
+                    <!-- ==================================================
+                         FACILITY GRID
+                    =================================================== -->
                     <div class="facility-grid">
+
+
+                        <!-- PARKING -->
                         <div class="facility-item">
+
                             <div class="facility-icon">
-                                <!-- <i class="bi bi-p-square"></i> -->
-                                <img src="./assets/img/parking-area.png" alt="" style="width: 25px;">
+
+                                <i class="fa-solid fa-car-side"></i>
+
                             </div>
-                            <span>Ample Parking</span>
+
+                            <span>
+                                Ample<br>
+                                Parking
+                            </span>
+
                         </div>
+
+
+                        <!-- ACCESSIBLE -->
                         <div class="facility-item">
+
                             <div class="facility-icon">
-                                <!-- <i class="bi bi-person-wheelchair"></i> -->
-                                <img src="./assets/img/disabled.png" alt="" style="width: 30px;">
+
+                                <i class="fa-solid fa-wheelchair"></i>
+
                             </div>
-                            <span>Wheelchair Accessible</span>
+
+                            <span>
+                                Wheelchair<br>
+                                Accessible
+                            </span>
+
                         </div>
+
+
+                        <!-- HYGIENIC -->
                         <div class="facility-item">
+
                             <div class="facility-icon">
-                                <!-- <i class="bi bi-shield-check"></i> -->
-                                <img src="./assets/img/protection.png" alt="" style="width: 30px;">
+
+                                <i class="fa-solid fa-shield-halved"></i>
+
                             </div>
-                            <span>Hygienic &amp; Comfortable</span>
+
+                            <span>
+                                Hygienic &amp;<br>
+                                Comfortable
+                            </span>
+
                         </div>
+
+
                     </div>
 
                 </div>
+
             </div>
 
         </div>
+
+
+
+        <!-- ======================================================
+             BOTTOM APPOINTMENT CTA
+        ======================================================= -->
+        <div class="appointment-third-cta">
+
+            <div class="row align-items-center g-4">
+
+
+                <!-- ==================================================
+                     LEFT CALENDAR + TEXT
+                =================================================== -->
+                <div class="col-xl-6 col-lg-5">
+
+                    <div class="appointment-third-cta-left">
+
+
+                        <!-- Calendar Block -->
+                        <div class="appointment-third-calendar-box">
+
+                            <div class="appointment-third-calendar-icon">
+                                <i class="fa-regular fa-calendar-check"></i>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Gold vertical separator -->
+                        <div class="appointment-third-cta-divider"></div>
+
+
+                        <!-- Text -->
+                        <div class="appointment-third-cta-content">
+
+                            <div class="appointment-third-cta-tag">
+                                READY FOR A HEALTHIER SMILE?
+                            </div>
+
+                            <h4>
+                                Book Your Appointment Today!
+                            </h4>
+
+                            <p>
+                                We're here to help you smile brighter every day.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================================
+                     CENTER BUTTON
+                =================================================== -->
+                <div class="col-xl-3 col-lg-3">
+
+                    <div class="appointment-third-cta-button-wrap">
+
+                        <a
+                            href="appointment.php"
+                            class="appointment-third-cta-button"
+                        >
+
+                            <i class="fa-regular fa-calendar-check"></i>
+
+                            <span>
+                                BOOK APPOINTMENT NOW
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================================
+                     PHONE AREA
+                =================================================== -->
+                <div class="col-xl-3 col-lg-4">
+
+                    <div class="appointment-third-phone">
+
+                        <div class="appointment-third-phone-icon">
+
+                            <i class="fa-solid fa-phone-volume"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <a
+                                href="tel:+917396256474"
+                                class="appointment-third-phone-number"
+                            >
+                                +91 73962 56474
+                            </a>
+
+                            <div class="appointment-third-phone-label">
+                                Call Us Anytime
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
     </div>
+
 </section>
 
 
@@ -529,47 +1079,6 @@
     </div>
 </section> -->
 
-<section class="about-fourth-section">
-    <div class="container">
-       <!-- Bottom Call To Action Banner -->
-        <div class="cta-banner">
-            <div class="row g-4 align-items-center justify-content-between">
-                
-                <!-- Left: Icon + Text -->
-                <div class="col-lg-6">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="cta-icon-box">
-                              <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
-                        </div>
-                        <div>
-                            <div class="cta-subtitle">READY FOR A HEALTHIER SMILE?</div>
-                            <h3 class="cta-title">Book Your Appointment Today!</h3>
-                            <p class="cta-desc">We're here to help you smile brighter every day.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Middle: Appointment Button -->
-                <div class="col-lg-3 text-lg-center">
-                    <a href="appointment.php" class="btn btn-cta-appointment d-inline-flex align-items-center gap-2">
-                        <i class="bi bi-calendar-plus"></i> BOOK APPOINTMENT NOW
-                    </a>
-                </div>
-
-                <!-- Right: Phone Number -->
-                <div class="col-lg-3 text-lg-end">
-                    <div class="d-flex align-items-center justify-content-lg-end gap-3">
-                        <i class="bi bi-telephone-outbound phone-icon"></i>
-                        <div class="text-start">
-                            <div class="phone-number">+91 73962 56474</div>
-                            <div class="phone-label">Call Us Anytime</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php include  'footer.php'; ?>

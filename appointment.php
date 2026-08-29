@@ -25,6 +25,9 @@
     ?>
  <?php include  'header.php'; ?>
 
+<!-- ==========================================================
+     BOOK APPOINTMENT - FIRST SECTION
+=========================================================== -->
  <section class="blog-first-section">
 
      <!-- Background Image Overlay with Soft Gradient -->
@@ -69,317 +72,549 @@
 
  </section>
 
- <section class="contact-second-section">
-     <div class="container">
-         <div class="row g-4">
+<!-- ==========================================================
+     CONTACT SECOND SECTION - APPOINTMENT DETAILS
+=========================================================== -->
+
+<section class="contact-second-section">
+
+    <div class="container">
+
+        <div class="row g-4 align-items-stretch">
 
 
-             <div class="col-lg-4">
-                 <div class="info-sidebar-card">
+            <!-- ==================================================
+                 LEFT SIDEBAR
+            =================================================== -->
+            <div class="col-lg-4">
+
+                <div class="contact-second-sidebar-wrap">
+
+                    <!-- Dark Green Background Cap -->
+                    <div class="contact-second-sidebar-bg"></div>
+
+                    <div class="info-sidebar-card">
 
 
-                     <h3 class="section-card-title">We're Here To Help</h3>
-                     <p class="section-subtitle">Have questions? Need assistance in booking? Reach out to us anytime.</p>
+                        <!-- ==================================================
+                             SIDEBAR HEADER
+                        =================================================== -->
+                        <div class="contact-second-help-header">
 
-
-                     <div class="contact-info-item">
-                         <div class="info-icon-box">
-
-                             <img src="./assets/img/location.png" alt="" class="img-fluid" style="width: 30px;">
-                         </div>
-                         <div class="info-content">
-                             <h6>Our Location</h6>
-                             <p>1st floor, Kokila junction, RTC Complex Rd, above Vantillu, beside carewell hospital, G O Colony, Kakinada, Andhra Pradesh 533003</p>
-                         </div>
-                     </div>
-
-
-                     <div class="contact-info-item">
-                         <div class="info-icon-box">
-
-                             <img src="./assets/img/call.png" alt="" class="img-fluid" style="width: 30px;">
-                         </div>
-                         <div class="info-content">
-                             <h6>Call Us</h6>
-                             <p>+91 73962 56474</p>
-                         </div>
-                     </div>
-
-
-                     <div class="contact-info-item">
-                         <div class="info-icon-box">
-
-                             <img src="./assets/img/whatsapp.png" alt="" class="img-fluid" style="width: 30px;">
-                         </div>
-                         <div class="info-content">
-                             <h6>WhatsApp Us</h6>
-                             <p>+91 73962 56474</p>
-                         </div>
-                     </div>
-
-
-                     <div class="contact-info-item">
-                         <div class="info-icon-box">
-
-                             <img src="./assets/img/email.png" alt="" class="img-fluid" style="width: 30px;">
-                         </div>
-                         <div class="info-content">
-                             <h6>Email Us</h6>
-                             <p>info@anishdental.com</p>
-                         </div>
-                     </div>
-
-
-                     <div class="contact-info-item mb-4">
-                         <div class="info-icon-box">
-
-                             <img src="./assets/img/working-hours.png" alt="" class="img-fluid" style="width: 30px;">
-                         </div>
-                         <div class="info-content">
-                             <h6>Working Hours</h6>
-                             <p>Mon - Sat: 9:00 AM - 9:00 PM<br>Sunday: 10:00 AM - 12:00 PM</p>
-                         </div>
-                     </div>
-
-
-                     <h4 class="section-card-title mt-4">Why Choose Us?</h4>
-                     <div class="gold-divider">
-                         <div class="line"></div>
-                         <div class="diamond"></div>
-                         <div class="line"></div>
-                     </div>
-
-                     <ul class="why-choose-list">
-                         <li><i class="bi bi-check-circle-fill"></i> Experienced &amp; Caring Professionals</li>
-                         <li><i class="bi bi-check-circle-fill"></i> Advanced Technology &amp; Equipment</li>
-                         <li><i class="bi bi-check-circle-fill"></i> Personalized Treatment Plans</li>
-                         <li><i class="bi bi-check-circle-fill"></i> Comfortable &amp; Hygienic Environment</li>
-                     </ul>
-
-
-                     <div class="emergency-card">
-                         <h5>Have an emergency?</h5>
-                         <h4>We're here for you!</h4>
-                         <a href="tel:+918123456789" class="btn-emergency-call">
-                             <i class="bi bi-telephone"></i> CALL NOW
-                         </a>
-                     </div>
-
-                 </div>
-             </div>
-
-
-             <div class="col-lg-8">
-                 <div class="appointment-form-card">
-
-
-                     <h3 class="section-card-title">Appointment Details</h3>
-                     <div class="gold-divider">
-                         <div class="line"></div>
-                         <div class="diamond"></div>
-                         <div class="line"></div>
-                     </div>
-
-
-                     <!-- <div class="step-wizard">
-                        <div class="wizard-step active">
-                            <div class="step-number">1</div>
-                            <div class="step-label">Patient Details</div>
-                        </div>
-                        <div class="wizard-step">
-                            <div class="step-number">2</div>
-                            <div class="step-label">Select Options</div>
-                        </div>
-                        <div class="wizard-step">
-                            <div class="step-number">3</div>
-                            <div class="step-label">Choose Date &amp; Time</div>
-                        </div>
-                        <div class="wizard-step">
-                            <div class="step-number">4</div>
-                            <div class="step-label">Confirmation</div>
-                        </div>
-                    </div> -->
-
-
-                     <!-- <form>
-                      
-                        <h5 class="form-section-title"><i class="bi bi-person"></i> Patient Details</h5>
-                        <div class="row g-3 mb-4">
-                            <div class="col-md-6">
-                                <label class="form-label">Full Name <span class="required">*</span></label>
-                                <input type="text" class="form-control" placeholder="Enter your full name">
+                            <div class="contact-second-help-icon">
+                                <i class="fa-regular fa-tooth"></i>
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Phone Number <span class="required">*</span></label>
-                                <input type="tel" class="form-control" placeholder="Enter your phone number">
+
+                            <div>
+
+                                <h3 class="section-card-title">
+                                    We're Here To Help
+                                </h3>
+
+                                <p class="section-subtitle">
+                                    Have questions? Need assistance in booking?<br>
+                                    Reach out to us anytime.
+                                </p>
+
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Email Address</label>
-                                <input type="email" class="form-control" placeholder="Enter your email address">
+
+                        </div>
+
+
+                        <!-- Gold Line -->
+                        <div class="contact-second-header-divider">
+
+                            <span></span>
+
+                            <i></i>
+
+                            <span></span>
+
+                        </div>
+
+
+                        <!-- ==================================================
+                             LOCATION
+                        =================================================== -->
+                        <div class="contact-info-item">
+
+                            <div class="info-icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Date of Birth</label>
-                                <div class="input-icon-group">
-                                    <input type="text" class="form-control" placeholder="DD / MM / YYYY">
-                                    <i class="bi bi-calendar3 input-icon"></i>
-                                </div>
+
+                            <div class="info-content">
+
+                                <h6>Our Location</h6>
+
+                                <p>
+                                    1st floor, Kokila junction, RTC Complex Rd,<br>
+                                    above Vantillu, beside carewell hospital,<br>
+                                    G O Colony, Kakinada, Andhra Pradesh 533003
+                                </p>
+
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Gender</label>
-                                <select class="form-select">
-                                    <option selected disabled>Select Gender</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+
+                        </div>
+
+
+                        <!-- CALL -->
+                        <div class="contact-info-item">
+
+                            <div class="info-icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div class="info-content">
+
+                                <h6>Call Us</h6>
+
+                                <p>
+                                    <a href="tel:+917396256474">
+                                        +91 73962 56474
+                                    </a>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- WHATSAPP -->
+                        <div class="contact-info-item">
+
+                            <div class="info-icon-box">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+
+                            <div class="info-content">
+
+                                <h6>WhatsApp Us</h6>
+
+                                <p>
+                                    <a href="https://wa.me/917396256474">
+                                        +91 73962 56474
+                                    </a>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="contact-info-item">
+
+                            <div class="info-icon-box">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+
+                            <div class="info-content">
+
+                                <h6>Email Us</h6>
+
+                                <p>
+                                    <a href="mailto:anishdentalhospital@gmail.com">
+                                        anishdentalhospital@gmail.com
+                                    </a>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- WORKING HOURS -->
+                        <div class="contact-info-item contact-second-last-info">
+
+                            <div class="info-icon-box">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div class="info-content">
+
+                                <h6>Working Hours</h6>
+
+                                <p>
+                                    Mon - Sat: 9:00 AM - 9:00 PM<br>
+                                    Sunday: 10:00 AM - 12:00 PM
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- ==================================================
+                             WHY CHOOSE US
+                        =================================================== -->
+                        <div class="contact-second-why-header">
+
+                            <h4 class="section-card-title">
+                                Why Choose Us?
+                            </h4>
+
+                            <div class="gold-divider">
+
+                                <div class="line"></div>
+
+                                <div class="diamond"></div>
+
+                                <div class="line"></div>
+
+                            </div>
+
+                        </div>
+
+
+                        <ul class="why-choose-list">
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Experienced &amp; Caring Professionals
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Advanced Technology &amp; Equipment
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Personalized Treatment Plans
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Comfortable &amp; Hygienic Environment
+                            </li>
+
+                        </ul>
+
+
+                        <!-- ==================================================
+                             EMERGENCY CARD
+                        =================================================== -->
+                        <div class="emergency-card">
+
+                            <div class="emergency-phone-circle">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+
+                            <div class="emergency-content">
+
+                                <span>Have an emergency?</span>
+
+                                <h4>
+                                    We're here for you!
+                                </h4>
+
+                                <a href="tel:+917396256474"
+                                   class="btn-emergency-call">
+
+                                    CALL NOW
+
+                                </a>
+
+                            </div>
+
+                            <div class="emergency-dots"></div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 RIGHT APPOINTMENT FORM
+            =================================================== -->
+            <div class="col-lg-8">
+
+                <div class="appointment-form-card">
+
+
+                    <!-- Decorative Tooth Top Right -->
+                    <div class="appointment-form-tooth">
+                        <i class="fa-solid fa-tooth"></i>
+                        <span class="appointment-form-sparkle sparkle-1">✦</span>
+                        <span class="appointment-form-sparkle sparkle-2">✦</span>
+                    </div>
+
+
+                    <!-- ==================================================
+                         FORM HEADER
+                    =================================================== -->
+                    <div class="appointment-form-heading">
+
+                        <div class="appointment-heading-icon">
+
+                            <i class="fa-regular fa-calendar-check"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h3 class="section-card-title">
+                                Appointment Details
+                            </h3>
+
+
+                            <div class="gold-divider">
+
+                                <div class="line"></div>
+
+                                <div class="diamond"></div>
+
+                                <div class="line"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- ==================================================
+                         FORM
+                    =================================================== -->
+                    <form id="appointmentForm"
+                          method="POST"
+                          action="save_appointment.php"
+                          class="row appointment-form">
+
+
+                        <!-- FULL NAME -->
+                        <div class="col-md-6 mb-4">
+
+                            <label class="form-label">
+                                Full Name
+                            </label>
+
+                            <div class="input-icon-group">
+
+                                <input
+                                    type="text"
+                                    name="name"
+                                    class="form-control"
+                                    required
+                                    placeholder="Enter your name"
+                                >
+
+                                <i class="fa-regular fa-user input-icon"></i>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="col-md-6 mb-4">
+
+                            <label class="form-label">
+                                Email Address
+                            </label>
+
+                            <div class="input-icon-group">
+
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-control"
+                                    required
+                                    placeholder="example@email.com"
+                                >
+
+                                <i class="fa-regular fa-envelope input-icon"></i>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- CONTACT NUMBER -->
+                        <div class="col-md-6 mb-4">
+
+                            <label class="form-label">
+                                Contact Number
+                            </label>
+
+                            <div class="input-icon-group">
+
+                                <input
+                                    type="text"
+                                    name="phone"
+                                    class="form-control"
+                                    required
+                                    placeholder="+91 10000 00000"
+                                >
+
+                                <i class="fa-solid fa-phone input-icon"></i>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DATE -->
+                        <div class="col-md-6 mb-4">
+
+                            <label class="form-label">
+                                Select Date
+                            </label>
+
+                            <div class="input-icon-group date-input-group">
+
+                                <input
+                                    type="date"
+                                    id="appointment_date"
+                                    name="appointment_date"
+                                    min="<?= date('Y-m-d') ?>"
+                                    class="form-control"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- TIME SLOT -->
+                        <div id="slotContainer"
+                             class="col-12 mb-4">
+
+                            <label class="form-label">
+                                Select Time Slot
+                            </label>
+
+                            <div class="input-icon-group select-input-group">
+
+                                <select
+                                    id="time_slot"
+                                    name="time_slot"
+                                    class="form-select"
+                                    required
+                                >
+
+                                    <option value="">
+                                        -- First Select Date --
+                                    </option>
+
                                 </select>
+
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Address</label>
-                                <input type="text" class="form-control" placeholder="Enter your address">
-                            </div>
-                            <div class="col-12">
-                                <label class="form-label">How did you hear about us?</label>
-                                <select class="form-select">
-                                    <option selected disabled>Select an option</option>
-                                    <option>Google Search</option>
-                                    <option>Social Media</option>
-                                    <option>Friend / Family</option>
-                                    <option>Other</option>
-                                </select>
-                            </div>
+
                         </div>
 
-                       
-                        <h5 class="form-section-title"><i class="bi bi-calendar-event"></i> Appointment Preferences</h5>
-                        <div class="row g-3 mb-4">
-                            <div class="col-md-6">
-                                <label class="form-label">Preferred Doctor</label>
-                                <select class="form-select">
-                                    <option selected disabled>Choose a doctor</option>
-                                    <option>Dr. Anish (Senior Consultant)</option>
-                                    <option>Dr. Swapna (Orthodontist)</option>
-                                </select>
+
+                        <!-- MESSAGE -->
+                        <div class="col-12 mb-4">
+
+                            <label class="form-label">
+                                Message (Optional)
+                            </label>
+
+                            <div class="input-icon-group textarea-icon-group">
+
+                                <textarea
+                                    name="message"
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Any additional information..."
+                                ></textarea>
+
+                                <i class="fa-solid fa-pen input-icon"></i>
+
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Treatment / Service</label>
-                                <select class="form-select">
-                                    <option selected disabled>Select treatment</option>
-                                    <option>General Checkup</option>
-                                    <option>Root Canal Treatment</option>
-                                    <option>Teeth Whitening</option>
-                                    <option>Dental Implants</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Preferred Date</label>
-                                <div class="input-icon-group">
-                                    <input type="text" class="form-control" placeholder="Select date">
-                                    <i class="bi bi-calendar3 input-icon"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Preferred Time</label>
-                                <div class="input-icon-group">
-                                    <input type="text" class="form-control" placeholder="Select time">
-                                    <i class="bi bi-clock input-icon"></i>
-                                </div>
-                            </div>
+
                         </div>
 
-                        
-                        <h5 class="form-section-title"><i class="bi bi-journal-text"></i> Additional Information</h5>
-                        <div class="mb-4">
-                            <textarea class="form-control" rows="3" placeholder="Please share any specific concerns or notes (optional)"></textarea>
+
+
+                        <!-- ==================================================
+                             CAPTCHA
+                        =================================================== -->
+                        <div class="col-12 appointment-captcha-wrap">
+
+                            <div class="g-recaptcha mb-3"
+                                 data-sitekey="6Ldws0ktAAAAAD1Y2Q8PZa6aKCMKeqiHAK86IBhr">
+                            </div>
+
                         </div>
 
-                        
-                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 pt-2">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="termsCheck">
-                                <label class="form-check-label terms-text" for="termsCheck">
-                                    I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>
-                                </label>
-                            </div>
-                            <button type="button" class="btn btn-continue d-inline-flex align-items-center gap-2">
-                                CONTINUE TO REVIEW <i class="bi bi-arrow-right"></i>
+
+                        <!-- Honeypot -->
+                        <div style="display:none;">
+                            <input
+                                type="text"
+                                name="website"
+                                autocomplete="off"
+                            >
+                        </div>
+
+
+
+                        <!-- ==================================================
+                             SUBMIT BUTTON
+                        =================================================== -->
+                        <div class="col-12">
+
+                            <button
+                                type="submit"
+                                class="btn btn-continue w-100"
+                            >
+
+                                <i class="fa-regular fa-calendar-check"></i>
+
+                                <span>
+                                    Book Appointment
+                                </span>
+
                             </button>
+
                         </div>
 
-                    </form> -->
 
-                     <form id="appointmentForm"
-                         method="POST"
-                         action="save_appointment.php"
-                         class="row appointment-form mx-auto">
+                        <!-- ==================================================
+                             SECURITY LINE
+                        =================================================== -->
+                        <div class="col-12">
 
-                         <div class="col-md-6 mb-4">
-                             <label>Full Name</label>
-                             <input type="text" name="name" class="form-control" required placeholder="Enter your name">
-                         </div>
+                            <div class="appointment-security">
 
-                         <div class="col-md-6 mb-4">
-                             <label>Email Address</label>
-                             <input type="email" name="email" class="form-control" required placeholder="example@email.com">
-                         </div>
+                                <span class="security-line"></span>
 
-                         <div class="col-md-6 mb-4">
-                             <label>Contact Number</label>
-                             <input type="text" name="phone" class="form-control" required placeholder="+91 XXXXX XXXXX">
-                         </div>
+                                <i class="fa-solid fa-shield-halved"></i>
 
-                         <div class="col-md-6 mb-4">
-                             <label>Select Date</label>
-                             <input type="date"
-                                 id="appointment_date"
-                                 name="appointment_date"
-                                 min="<?= date('Y-m-d') ?>"
-                                 class="form-control"
-                                 required>
-                         </div>
+                                <span>
+                                    Your information is secure and will never be shared.
+                                </span>
+
+                                <span class="security-line"></span>
+
+                            </div>
+
+                        </div>
 
 
-                         <div id="slotContainer" class="col-md-12 mb-4">
-                             <label>Select Time Slot</label>
-                             <select id="time_slot" name="time_slot" class="form-control" required>
-                                 <option value="">-- First Select Date --</option>
-                             </select>
-                         </div>
+                    </form>
 
-                         <div class="col-md-12 mb-4">
-                             <label>Message (Optional)</label>
-                             <textarea name="message" class="form-control" rows="4"
-                                 placeholder="Any additional information..."></textarea>
-                         </div>
+                </div>
 
-                         <div class="g-recaptcha mb-2" data-sitekey="6Ldws0ktAAAAAD1Y2Q8PZa6aKCMKeqiHAK86IBhr"></div>
-                         <br>
+            </div>
 
 
-                         <div style="display:none;">
-                             <input type="text" name="website" autocomplete="off">
-                         </div>
+        </div>
 
+    </div>
 
-
-
-                         <div class="col-md-12">
-                             <button type="submit" class="btn btn-primary w-100" style="background-color:#f79305">
-                                 Book Appointment
-                             </button>
-                         </div>
-
-                     </form>
-
-
-
-
-
-                 </div>
-             </div>
-
-         </div>
-     </div>
- </section>
+</section>
 
 
 
