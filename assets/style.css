@@ -13625,7 +13625,8 @@ a {
 
 /* Custom Styles for Gallery Second Section */
 .gallery-second-section {
-    background-color: #f8faf9;
+    background-color: #03231f;
+    /* background-color: #f8faf9; */
     padding: 60px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -24079,7 +24080,8 @@ a {
 
 .testimonial-section {
     padding: 70px 0;
-    background: #f7faf9;
+    /* background: #f7faf9; */
+    background: linear-gradient(90deg, rgba(0, 55, 47, 0.94), rgba(0, 50, 43, 0.91)) !important;
 }
 
 .testimonial-heading {
@@ -24090,7 +24092,8 @@ a {
     margin: 0;
     font-size: 32px;
     font-weight: 700;
-    color: #389183;
+    color: white;
+    /* color: #389183; */
     /* color: #003f35; */
 }
 
@@ -24101,7 +24104,8 @@ a {
 .testimonial-subtitle {
     margin-top: 10px;
     margin-bottom: 0;
-    color: #666;
+    color: white;
+    /* color: #666; */
     font-size: 16px;
 }
 
