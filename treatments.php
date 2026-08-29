@@ -87,7 +87,7 @@
                 <img
                     src="./assets/img/g1.png"
                     alt="Our Dental Doctors"
-                    class="treatments_first_section_bg_img"
+                    class="treatments_first_section_bg_img" class="img-fluid"
                 >
 
 

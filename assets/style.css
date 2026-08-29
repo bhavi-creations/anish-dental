@@ -2626,7 +2626,7 @@ a {
    INDEX FOURTH SECTION - WHY CHOOSE US
    ========================================== */
 .index_fourth_section_wrapper {
-    background-color: #fcfdfc !important;
+    background-color: #03231e !important;
     background-image:
         radial-gradient(circle at left bottom, rgba(3, 35, 30, 0.05) 0%, transparent 45%),
         radial-gradient(circle at left top, rgba(226, 155, 39, 0.08) 0%, transparent 35%) !important;
@@ -2675,7 +2675,7 @@ a {
 
 /* Title Styling with Cursive Gold Font */
 .index_fourth_section_title {
-    color: #03231e !important;
+    color: white !important;
     font-family: 'Playfair Display', serif !important;
     font-size: 42px !important;
     font-weight: 700 !important;
@@ -2695,14 +2695,15 @@ a {
 
 /* Description */
 .index_fourth_section_desc {
-    color: #4a5568 !important;
+    color: white !important;
     font-size: 14px !important;
     line-height: 1.65 !important;
     margin-bottom: 28px !important;
 }
 
 .index_fourth_section_desc strong {
-    color: #03231e;
+    color:  #e29b27 !important;
+    /* color: #03231e; */
 }
 
 /* Icon List Styling */
@@ -2716,7 +2717,7 @@ a {
     display: flex !important;
     align-items: center !important;
     gap: 12px !important;
-    color: #03231e !important;
+    color: white !important;
     font-size: 13.5px !important;
     font-weight: 600 !important;
     padding-bottom: 10px !important;
@@ -2729,7 +2730,7 @@ a {
     height: 34px !important;
     min-width: 34px !important;
     border-radius: 50% !important;
-    background-color: #03231e !important;
+    background-color: white !important;
     color: #e29b27 !important;
     display: flex !important;
     align-items: center !important;
