@@ -648,7 +648,7 @@
                         <i class="fa-solid fa-tooth"></i>
                     </div>
 
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
                         <div>
                             <h5 class="card-title mb-2">Dental Implants</h5>
                             <p class="card-text small mb-4">
@@ -676,7 +676,7 @@
                         <i class="fa-solid fa-teeth"></i>
                     </div>
 
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
                         <div>
                             <h5 class="card-title mb-2">Aligners</h5>
                             <p class="card-text small mb-4">
@@ -704,7 +704,7 @@
                         <i class="fa-solid fa-tooth"></i>
                     </div>
 
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
                         <div>
                             <h5 class="card-title mb-2">Dental Veneers</h5>
                             <p class="card-text small mb-4">
@@ -732,7 +732,7 @@
                         <i class="fa-solid fa-tooth"></i>
                     </div>
 
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
                         <div>
                             <h5 class="card-title mb-2">Root Canal Treatment</h5>
                             <p class="card-text small mb-4">
