@@ -748,7 +748,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-3.png"
+                                src="./assets/img/icons/digital-imaging.png"
                                 alt="Implant Placement">
 
                         </div>
@@ -800,7 +800,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-4.png"
+                                src="./assets/img/icons/Denture-custom-fit.png"
                                 alt="Healing and Osseointegration">
 
                         </div>
@@ -852,7 +852,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-5.png"
+                                src="./assets/img/icons/dentures-step-4.png"
                                 alt="Abutment Placement">
 
                         </div>
@@ -862,7 +862,7 @@
 
                     <h3 class="rootcanal_fourth_section_step_title">
                        
-Trial Fitting
+                    Trial Fitting
 
                     </h3>
 
@@ -905,7 +905,7 @@ Trial Fitting
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-6.png"
+                                src="./assets/img/icons/denture.png"
                                 alt="Crown Placement">
 
                         </div>
@@ -958,7 +958,7 @@ Trial Fitting
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-6.png"
+                                src="./assets/img/smiling-teeth.png"
                                 alt="Crown Placement">
 
                         </div>
