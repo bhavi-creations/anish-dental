@@ -195,9 +195,9 @@
                     <div class="rootcanal_first_section_img_card">
 
 
-                        <!-- Main Dental Implant Image -->
+                        <!-- Main Dental Veneers bg Image -->
                         <img
-                            src="./assets/img/Dental-implants-bg.png"
+                            src="./assets/img/Dental-Veneers-111.png"
                             alt="Dental Implants Treatment Procedure"
                             class="rootcanal_first_section_img">
 

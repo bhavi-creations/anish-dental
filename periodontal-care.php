@@ -195,7 +195,7 @@ Treatment
 
                         <!-- Main Dental Implant Image -->
                         <img
-                            src="./assets/img/Dental-implants-bg.png"
+                            src="./assets/img/Periodontal-care-bg.png"
                             alt="Dental Implants Treatment Procedure"
                             class="rootcanal_first_section_img">
 
