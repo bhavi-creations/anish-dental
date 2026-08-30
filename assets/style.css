@@ -29292,3 +29292,267 @@ This keeps current image exactly as it is.
     }
 
 }
+
+
+
+/* Before - After images cards new stylings */
+/* ==========================================================
+   BEFORE / AFTER IMAGES
+   VERTICAL STACK - FULL IMAGE - NO CROPPING
+========================================================== */
+
+.rootcanal_fifth_section_ba_grid {
+
+    position: relative;
+
+    width: 100%;
+
+    /* Compact overall width */
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    /* Only small gap between before and after */
+    gap: 12px;
+
+}
+
+
+/* ==========================================================
+   BEFORE / AFTER BOX
+========================================================== */
+
+.rootcanal_fifth_section_ba_box {
+
+    position: relative;
+
+    width: 100%;
+
+    /* Exact square ratio */
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(0, 96, 86, 0.18);
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 8px 22px rgba(0, 59, 50, 0.08);
+
+}
+
+
+/* ==========================================================
+   IMAGE
+   IMPORTANT - FULL IMAGE WITHOUT CROPPING
+========================================================== */
+
+.rootcanal_fifth_section_ba_box img {
+
+    width: 100% !important;
+
+    height: 100% !important;
+
+    display: block !important;
+
+    /*
+       CONTAIN = complete 500x500 image visible.
+       No left/right teeth cropping.
+    */
+    object-fit: contain !important;
+
+    object-position: center center !important;
+
+    /* background: #ffffff; */
+
+}
+
+
+/* ==========================================================
+   BEFORE / AFTER BADGE
+========================================================== */
+
+.rootcanal_fifth_section_ba_badge {
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 12px;
+
+    z-index: 5;
+
+    min-width: 84px;
+
+    height: 34px;
+
+    padding: 0 14px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #00796d 0%,
+            #005e56 100%
+        );
+
+    border-radius: 7px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.4px;
+
+    box-shadow:
+        0 5px 12px rgba(0, 70, 64, 0.18);
+
+}
+
+
+/* ==========================================================
+   SUBTLE PREMIUM HOVER
+========================================================== */
+
+.rootcanal_fifth_section_ba_box {
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+
+}
+
+
+.rootcanal_fifth_section_ba_box:hover {
+
+    transform: translateY(-2px);
+
+    border-color: rgba(226, 155, 39, 0.65);
+
+    box-shadow:
+        0 12px 26px rgba(0, 59, 50, 0.12);
+
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 767.98px) {
+
+    .rootcanal_fifth_section_ba_grid {
+
+        width: 100%;
+
+        max-width: 460px;
+
+        gap: 10px;
+
+    }
+
+
+    .rootcanal_fifth_section_ba_box {
+
+        width: 100%;
+
+        aspect-ratio: 1 / 1;
+
+        border-radius: 16px;
+
+    }
+
+
+    .rootcanal_fifth_section_ba_badge {
+
+        top: 10px;
+
+        left: 10px;
+
+        min-width: 75px;
+
+        height: 31px;
+
+        padding: 0 11px;
+
+        font-size: 9px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 575.98px) {
+
+    .rootcanal_fifth_section_ba_grid {
+
+        max-width: 100%;
+
+        gap: 9px;
+
+    }
+
+
+    .rootcanal_fifth_section_ba_box {
+
+        width: 100%;
+
+        aspect-ratio: 1 / 1;
+
+        border-radius: 14px;
+
+    }
+
+
+    .rootcanal_fifth_section_ba_badge {
+
+        top: 9px;
+
+        left: 9px;
+
+        min-width: 68px;
+
+        height: 29px;
+
+        padding: 0 10px;
+
+        font-size: 8.5px;
+
+    }
+
+}
+
+
+
+

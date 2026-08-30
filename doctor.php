@@ -6,79 +6,83 @@
 <!-- ==========================================================
      DOCTORS PAGE - HERO SECTION
 =========================================================== -->
-
-<section class="treatments_first_section_wrapper">
+<section class="rootcanal_first_section_wrapper">
 
     <div class="container-fluid p-0">
 
-        <div class="row g-0 treatments_first_section_main_row">
+        <div class="rootcanal_first_section_main_card">
 
-            <!-- ==================================================
-                 LEFT CONTENT
-            =================================================== -->
-            <div class="col-lg-5 col-12 treatments_first_section_left_col">
-
-                <!-- Breadcrumb -->
-                <div class="treatments_first_section_breadcrumb">
-
-                    <a href="index.php"
-                       class="treatments_first_section_breadcrumb_link">
-
-                        <i class="bi bi-house-door"></i>
-
-                        <span>HOME</span>
-
-                    </a>
-
-                    <span class="treatments_first_section_breadcrumb_sep">
-                        /
-                    </span>
-
-                    <span class="treatments_first_section_breadcrumb_active">
-                        DOCTORS
-                    </span>
-
-                </div>
-
-
-                <!-- Main Heading -->
-                <h1 class="treatments_first_section_title">
-                    Our Doctors
-                </h1>
-
-
-                <!-- Gold Heading -->
-                <div class="treatments_first_section_cursive">
-                    Experts Who Care<br>
-                    for Your Smile
-                </div>
-
-
-                <!-- Decorative Gold Divider -->
-                <div class="treatments_first_section_title_divider">
-
-                    <span></span>
-
-                    <i></i>
-
-                    <span></span>
-
-                </div>
-
-
-                <!-- Description -->
-                <p class="treatments_first_section_desc">
-
-                    Our experienced dental specialists are dedicated to
-                    providing the highest quality care with compassion,
-                    expertise and advanced technology.
-
-                </p>
+            <div class="row g-0 rootcanal_first_section_row">
 
 
                 <!-- ==================================================
-                     DOCTORS SUB SECTION
+                     LEFT CONTENT
                 =================================================== -->
+                <div class="col-lg-5 col-12 rootcanal_first_section_left">
+
+                    <!-- Breadcrumb -->
+                    <div class="rootcanal_first_section_breadcrumb">
+
+                        <a href="index.php">Home</a>
+
+                        
+
+                        <i class="fa-solid fa-chevron-right"></i>
+
+                        <span class="rootcanal_first_section_active">
+                            Doctors
+                        </span>
+
+                    </div>
+
+
+                    <!-- Small Top Gold Decoration -->
+                    <div class="rootcanal_first_section_top_decor">
+
+                        <span></span>
+
+                        <i class="fa-solid fa-star"></i>
+
+                    </div>
+
+
+                    <!-- Main Title -->
+                    <h1 class="rootcanal_first_section_title">
+                        Our Doctors
+                    </h1>
+
+
+                    <!-- Gold Subtitle -->
+                    <h2 class="rootcanal_first_section_subtitle">
+                        Experts Who Care For Your Smile
+                    </h2>
+
+
+                    <!-- Subtitle Bottom Decoration -->
+                    <div class="rootcanal_first_section_divider">
+
+                        <div class="rootcanal_first_section_divider_line"></div>
+
+                        <div class="rootcanal_first_section_divider_dot"></div>
+
+                    </div>
+
+
+                    <!-- Description -->
+                    <p class="rootcanal_first_section_desc">
+
+                        Our Experienced dental specialists are dedicated to providing the highest quality care with compassion, expertise and advanced Technology.
+
+                    </p>
+
+
+                    
+
+
+                    
+
+
+                        <!--DOCTORS SUB SECTION-->
                 <div class="doctors_sub_section_wrapper">
 
 
@@ -152,60 +156,111 @@
 
                 </div>
 
-            </div>
+
+                    
+
+
+                    <!-- faint decorative lines -->
+                    <div class="rootcanal_first_section_left_lines"></div>
+
+                </div>
 
 
 
-            <!-- ==================================================
-                 RIGHT IMAGE
-            =================================================== -->
-            <div class="col-lg-7 col-12 treatments_first_section_right_col">
+                <!-- ==================================================
+                     RIGHT IMAGE
+                =================================================== -->
+                <div class="col-lg-7 col-12 rootcanal_first_section_right">
 
-                <img
-                    src="./assets/img/docotr-img.png"
-                    alt="Our Dental Doctors"
-                    class="treatments_first_section_bg_img"
-                >
+                    <div class="rootcanal_first_section_img_card">
 
 
-                <!-- Curved Gold Divider -->
-                <svg
-                    class="treatments_first_section_curve_svg"
-                    viewBox="0 0 150 900"
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-
-                    <!-- Dark background fill -->
-                    <path
-                        d="M0 0
-                           H45
-                           C145 170,
-                           145 305,
-                           90 430
-                           C35 555,
-                           70 720,
-                           150 900
-                           H0 Z"
-                        fill="#003837"
-                    />
+                        <!-- Main Dental Doctor Image -->
+                        <img
+                            src="./assets/img/docotr-img.png"
+                            alt="Dental Implants Treatment Procedure"
+                            class="rootcanal_first_section_img"
+                        >
 
 
-                    <!-- Gold Curve -->
-                    <path
-                        d="M45 0
-                           C145 170,
-                           145 305,
-                           90 430
-                           C35 555,
-                           70 720,
-                           150 900"
-                        fill="none"
-                        stroke="#efb33b"
-                        stroke-width="5"
-                    />
+                        <!-- Dark image tint -->
+                        <div class="rootcanal_first_section_img_overlay"></div>
 
-                </svg>
+
+                        <!-- CSS curved white / gold edge -->
+                        <div class="rootcanal_first_section_curve"></div>
+
+
+                        <!-- ==================================================
+                             RESTORED SMILES CARD
+                        =================================================== -->
+                        <!-- <div class="rootcanal_first_section_stat_card">
+
+                            <div class="rootcanal_first_section_stat_icon">
+
+                                <i class="fa-regular fa-gem"></i>
+
+                            </div>
+
+
+                            <strong>
+                                15,000+
+                            </strong>
+
+
+                            <span>
+                                Smiles Restored
+                            </span>
+
+
+                            <div class="rootcanal_first_section_stat_line"></div>
+
+                        </div> -->
+
+
+                        <!-- ==================================================
+                             PRECISION IMPLANT CARD
+                        =================================================== -->
+                        <!-- <div class="rootcanal_first_section_precision_card">
+
+
+                            <div class="rootcanal_first_section_precision_icon">
+
+                                <i class="fa-solid fa-tooth"></i>
+
+                            </div>
+
+
+                            <h5>
+                                Precision Implant Care
+                            </h5>
+
+
+                            <p>
+                                Advanced technology for<br>
+                                safe &amp; precise results
+                            </p>
+
+
+                            <div class="rootcanal_first_section_precision_line"></div>
+
+
+                        </div> -->
+
+
+                        <!-- Decorative Sparkles -->
+                        <span class="rootcanal_first_section_sparkle sparkle-one">
+                            ✦
+                        </span>
+
+                        <span class="rootcanal_first_section_sparkle sparkle-two">
+                            ✦
+                        </span>
+
+                    </div>
+
+                </div>
+
 
             </div>
 

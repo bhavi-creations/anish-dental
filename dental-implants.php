@@ -1021,48 +1021,38 @@
 
 
                     <!-- BEFORE / AFTER IMAGES -->
-                    <div class="rootcanal_fifth_section_ba_grid">
+<div class="rootcanal_fifth_section_ba_grid">
+
+    <!-- BEFORE -->
+    <div class="rootcanal_fifth_section_ba_box">
+
+        <img
+            src="./assets/img/Dental-implants-before.png"
+            alt="Before Dental Implants Treatment"
+        >
+
+        <span class="rootcanal_fifth_section_ba_badge">
+            BEFORE
+        </span>
+
+    </div>
 
 
-                        <!-- BEFORE -->
-                        <div class="rootcanal_fifth_section_ba_box">
+    <!-- AFTER -->
+    <div class="rootcanal_fifth_section_ba_box">
 
-                            <img
-                                src="./assets/img/Dental-implants-before.png"
-                                alt="Before Dental Implants Treatment"
-                            >
+        <img
+            src="./assets/img/After-implants.png"
+            alt="After Dental Implants Treatment"
+        >
 
-                            <span class="rootcanal_fifth_section_ba_badge">
-                                BEFORE
-                            </span>
+        <span class="rootcanal_fifth_section_ba_badge">
+            AFTER
+        </span>
 
-                        </div>
+    </div>
 
-
-                        <!-- CENTER ARROW -->
-                        <div class="rootcanal_fifth_section_ba_arrow">
-
-                            <i class="fa-solid fa-chevron-right"></i>
-
-                        </div>
-
-
-                        <!-- AFTER -->
-                        <div class="rootcanal_fifth_section_ba_box">
-
-                            <img
-                                src="./assets/img/After-implants.png"
-                                alt="After Dental Implants Treatment"
-                            >
-
-                            <span class="rootcanal_fifth_section_ba_badge">
-                                AFTER
-                            </span>
-
-                        </div>
-
-
-                    </div>
+</div>
 
 
 
