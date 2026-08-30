@@ -1068,7 +1068,7 @@
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/Before-dentures.png"
+                                src="./assets/img/Dentures-before.png"
                                 alt="Before Dental Implants Treatment">
 
                             <span class="rootcanal_fifth_section_ba_badge">
@@ -1090,7 +1090,7 @@
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/after-dentures.png"
+                                src="./assets/img/Denture-After.png"
                                 alt="After Dental Implants Treatment">
 
                             <span class="rootcanal_fifth_section_ba_badge">

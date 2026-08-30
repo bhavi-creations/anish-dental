@@ -1034,7 +1034,7 @@ Treatment
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/Dental-implants-before.png"
+                                src="./assets/img/Before-periodontal.png"
                                 alt="Before Dental Implants Treatment"
                             >
 
@@ -1057,7 +1057,7 @@ Treatment
                         <div class="rootcanal_fifth_section_ba_box">
 
                             <img
-                                src="./assets/img/After-implants.png"
+                                src="./assets/img/After-periodontal.png"
                                 alt="After Dental Implants Treatment"
                             >
 
