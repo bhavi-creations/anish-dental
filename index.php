@@ -1232,64 +1232,290 @@
                         </div>
                     </div>
 
-                    <!-- Bottom 3 Feature Cards with Floating Badges -->
-                    <div class="row g-3">
+                    <!-- Bottom 3 Google Review Cards -->
+<div class="row g-3">
 
-                        <!-- Card 1 -->
-                        <div class="col-md-4 col-12">
-                            <div class="feature-card text-center">
-                                <div class="feature-card-img-wrapper">
-                                    <img src="./assets/img/root-canal (1).png" alt="Advanced Treatments" class="img-fluid">
-                                </div>
-                                <div class="feature-floating-badge">
-                                    <i class="fa-solid fa-tooth"></i>
-                                </div>
-                                <div class="feature-card-body p-3 pt-4">
-                                    <h5 class="feature-card-title">Advanced Treatments</h5>
-                                    <p class="feature-card-text">
-                                        Modern techniques for effective and painless care.
-                                    </p>
-                                </div>
-                            </div>
+    <!-- ================= CARD 1 ================= -->
+    <div class="col-md-4 col-12">
+
+        <div class="feature-card gmd_review_card">
+
+            <div class="gmd_review_body">
+
+                <!-- Reviewer -->
+                <div class="gmd_review_header">
+
+                    <div class="gmd_review_avatar gmd_review_avatar_1">
+                        n
+                    </div>
+
+                    <div class="gmd_review_user_details">
+                        <h5 class="gmd_review_name">
+                            nagarjun kumar
+                        </h5>
+
+                        <span class="gmd_review_count">
+                            6 reviews
+                        </span>
+                    </div>
+
+                    <span class="gmd_review_menu">
+                        &#8942;
+                    </span>
+
+                </div>
+
+
+                <!-- Stars + Date -->
+                <div class="gmd_review_rating_row">
+
+                    <div class="gmd_review_stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="gmd_review_date">
+                        3 months ago
+                    </span>
+
+                </div>
+
+
+                <!-- Review -->
+                <p class="gmd_review_text">
+                    The staff were friendly and welcoming. The doctor patiently
+                    explained everything and fixed my front teeth so naturally
+                    that they look just like my original teeth. Very happy with
+                    the treatment and overall experience. Definitely recommend.
+                </p>
+
+
+                <!-- Owner Reply -->
+                <div class="gmd_review_reply">
+
+                    <div class="gmd_review_reply_header">
+
+                        <div class="gmd_review_owner_avatar">
+                            <i class="fa-solid fa-user"></i>
                         </div>
 
-                        <!-- Card 2 -->
-                        <div class="col-md-4 col-12">
-                            <div class="feature-card text-center">
-                                <div class="feature-card-img-wrapper">
-                                    <img src="./assets/img/dental-implants.png" alt="Reliable Solutions" class="img-fluid">
-                                </div>
-                                <div class="feature-floating-badge">
-                                    <i class="fa-solid fa-capsules"></i>
-                                </div>
-                                <div class="feature-card-body p-3 pt-4">
-                                    <h5 class="feature-card-title">Reliable Solutions</h5>
-                                    <p class="feature-card-text">
-                                        Long-lasting solutions for a healthy, confident smile.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="gmd_review_owner_details">
 
-                        <!-- Card 3 -->
-                        <div class="col-md-4 col-12">
-                            <div class="feature-card text-center">
-                                <div class="feature-card-img-wrapper">
-                                    <img src="./assets/img/orthodontic-braces.png" alt="Beautiful Smiles" class="img-fluid">
-                                </div>
-                                <div class="feature-floating-badge">
-                                    <i class="fa-regular fa-face-smile"></i>
-                                </div>
-                                <div class="feature-card-body p-3 pt-4">
-                                    <h5 class="feature-card-title">Beautiful Smiles</h5>
-                                    <p class="feature-card-text">
-                                        Enhancing smiles with precision, care and expertise.
-                                    </p>
-                                </div>
-                            </div>
+                            <h6>
+                                Anish Multispeciality Dental Hospital
+                                <span>(owner)</span>
+                            </h6>
+
+                            <small>
+                                2 months ago
+                            </small>
+
                         </div>
 
                     </div>
+
+                    <p>
+                        Thank you so much sir. Your kind words motivate our team
+                        to continue providing excellent care.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= CARD 2 ================= -->
+    <div class="col-md-4 col-12">
+
+        <div class="feature-card gmd_review_card">
+
+            <div class="gmd_review_body">
+
+                <!-- Reviewer -->
+                <div class="gmd_review_header">
+
+                    <div class="gmd_review_avatar gmd_review_avatar_2">
+                        M
+                    </div>
+
+                    <div class="gmd_review_user_details">
+
+                        <h5 class="gmd_review_name">
+                            MrBijjala
+                        </h5>
+
+                        <span class="gmd_review_count">
+                            11 reviews
+                        </span>
+
+                    </div>
+
+                    <span class="gmd_review_menu">
+                        &#8942;
+                    </span>
+
+                </div>
+
+
+                <!-- Stars + Date -->
+                <div class="gmd_review_rating_row">
+
+                    <div class="gmd_review_stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="gmd_review_date">
+                        2 months ago
+                    </span>
+
+                </div>
+
+
+                <!-- Review -->
+                <p class="gmd_review_text">
+                    Doctor Anish garu explained my condition very nicely and
+                    made me comfortable. Excellent dental care treatment in
+                    Kakinada. I strongly recommend this clinic. Thank you for
+                    the support and treatment.
+                </p>
+
+
+                <!-- Owner Reply -->
+                <div class="gmd_review_reply">
+
+                    <div class="gmd_review_reply_header">
+
+                        <div class="gmd_review_owner_avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="gmd_review_owner_details">
+
+                            <h6>
+                                Anish Multispeciality Dental Hospital
+                                <span>(owner)</span>
+                            </h6>
+
+                            <small>
+                                2 months ago
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Thank you so much sir.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= CARD 3 ================= -->
+    <div class="col-md-4 col-12">
+
+        <div class="feature-card gmd_review_card">
+
+            <div class="gmd_review_body">
+
+                <!-- Reviewer -->
+                <div class="gmd_review_header">
+
+                    <div class="gmd_review_avatar gmd_review_avatar_3">
+                        A
+                    </div>
+
+                    <div class="gmd_review_user_details">
+
+                        <h5 class="gmd_review_name">
+                            Amu Sasha
+                        </h5>
+
+                        <span class="gmd_review_count">
+                            1 review
+                        </span>
+
+                    </div>
+
+                    <span class="gmd_review_menu">
+                        &#8942;
+                    </span>
+
+                </div>
+
+
+                <!-- Stars + Date -->
+                <div class="gmd_review_rating_row">
+
+                    <div class="gmd_review_stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="gmd_review_date">
+                        a year ago
+                    </span>
+
+                </div>
+
+
+                <!-- Review -->
+                <p class="gmd_review_text">
+                    I visited Anish Dental Clinic for a root canal treatment
+                    and was impressed by the professional, well-organized and
+                    comforting experience. The procedure was completely painless
+                    and smooth.
+                </p>
+
+
+                <!-- Owner Reply -->
+                <div class="gmd_review_reply">
+
+                    <div class="gmd_review_reply_header">
+
+                        <div class="gmd_review_owner_avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="gmd_review_owner_details">
+
+                            <h6>
+                                Anish Multispeciality Dental Hospital
+                                <span>(owner)</span>
+                            </h6>
+
+                            <small>
+                                a year ago
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Thank you for your feedback! It means a lot to know you
+                        had a comfortable and positive experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
                 </div>
             </div>

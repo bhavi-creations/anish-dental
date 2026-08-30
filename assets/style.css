@@ -26697,3 +26697,469 @@ This keeps current image exactly as it is.
     }
 
 }
+
+
+
+
+/* ==========================================================
+   Index page lo 3 GOOGLE REVIEW CARDS
+   Unique Prefix: gmd_review_
+========================================================== */
+
+/* SAME SMALL SQUARE CARD */
+.feature-card.gmd_review_card {
+    width: 100% !important;
+    aspect-ratio: 1 / 1 !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    overflow: hidden !important;
+
+    text-align: left !important;
+
+    background: #ffffff !important;
+
+    border: 1px solid #dadce0 !important;
+    border-radius: 20px !important;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
+
+    transition: all 0.3s ease !important;
+}
+
+.feature-card.gmd_review_card:hover {
+    transform: translateY(-4px) !important;
+
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.13) !important;
+
+    border-color: #f1b33b !important;
+}
+
+
+/* Remove any existing decorative effects */
+.feature-card.gmd_review_card::before,
+.feature-card.gmd_review_card::after {
+    display: none !important;
+}
+
+
+/* ==========================================================
+   CARD BODY
+========================================================== */
+
+.gmd_review_body {
+    width: 100%;
+    height: 100%;
+
+    padding: 17px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    text-align: left;
+}
+
+
+/* ==========================================================
+   REVIEWER HEADER
+========================================================== */
+
+.gmd_review_header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+
+/* Avatar */
+.gmd_review_avatar {
+    width: 36px;
+    height: 36px;
+
+    min-width: 36px;
+
+    margin-right: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #ffffff;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.gmd_review_avatar_1 {
+    background: #c2185b;
+}
+
+.gmd_review_avatar_2 {
+    background: #4285f4;
+}
+
+.gmd_review_avatar_3 {
+    background: #f4511e;
+}
+
+
+/* User Details */
+.gmd_review_user_details {
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+.gmd_review_name {
+    margin: 0 0 2px 0 !important;
+
+    padding: 0 !important;
+
+    color: #202124 !important;
+
+    font-family: Arial, sans-serif !important;
+
+    font-size: 13px !important;
+
+    font-weight: 500 !important;
+
+    line-height: 1.2 !important;
+
+    text-align: left !important;
+}
+
+
+.gmd_review_count {
+    display: block;
+
+    color: #5f6368;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    line-height: 1.2;
+}
+
+
+/* Three dot menu */
+.gmd_review_menu {
+    margin-left: 5px;
+
+    align-self: flex-start;
+
+    color: #5f6368;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    line-height: 1;
+}
+
+
+/* ==========================================================
+   RATING
+========================================================== */
+
+.gmd_review_rating_row {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 10px;
+}
+
+
+/* IMPORTANT:
+   No FontAwesome dependency for stars.
+   These will definitely appear gold.
+*/
+.gmd_review_stars {
+    color: #fbbc04 !important;
+
+    font-family: Arial, sans-serif !important;
+
+    font-size: 15px !important;
+
+    font-weight: 700 !important;
+
+    line-height: 1 !important;
+
+    letter-spacing: -1px;
+}
+
+
+.gmd_review_date {
+    color: #5f6368;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    white-space: nowrap;
+}
+
+
+/* ==========================================================
+   REVIEW TEXT
+========================================================== */
+
+.gmd_review_text {
+    margin: 0 !important;
+
+    color: #3c4043 !important;
+
+    font-family: Arial, sans-serif !important;
+
+    font-size: 10px !important;
+
+    font-weight: 400 !important;
+
+    line-height: 1.48 !important;
+
+    text-align: left !important;
+
+    /* Prevent review from stretching card */
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+
+    overflow: hidden;
+}
+
+
+/* ==========================================================
+   OWNER REPLY
+   Always stays at card bottom
+========================================================== */
+
+.gmd_review_reply {
+    width: 100%;
+
+    margin-top: auto;
+
+    padding: 9px 9px 8px 11px;
+
+    flex-shrink: 0;
+
+    background: #f8f9fa;
+
+    border-left: 2px solid #dadce0;
+
+    border-radius: 0 7px 7px 0;
+}
+
+
+/* ==========================================================
+   REPLY HEADER
+========================================================== */
+
+.gmd_review_reply_header {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Owner Avatar */
+.gmd_review_owner_avatar {
+    width: 27px;
+    height: 27px;
+
+    min-width: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #4285f4;
+
+    color: #ffffff;
+
+    font-size: 11px;
+}
+
+
+.gmd_review_owner_details {
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+/* Owner Name */
+.gmd_review_owner_details h6 {
+    margin: 0 !important;
+
+    color: #202124 !important;
+
+    font-family: Arial, sans-serif !important;
+
+    font-size: 8px !important;
+
+    font-weight: 500 !important;
+
+    line-height: 1.25 !important;
+
+    text-align: left !important;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+
+.gmd_review_owner_details h6 span {
+    font-weight: 400;
+
+    color: #3c4043;
+}
+
+
+/* Owner Date */
+.gmd_review_owner_details small {
+    display: block;
+
+    margin-top: 2px;
+
+    color: #5f6368;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 7px;
+
+    line-height: 1.2;
+}
+
+
+/* Reply text */
+.gmd_review_reply > p {
+    margin: 0 !important;
+
+    color: #3c4043 !important;
+
+    font-family: Arial, sans-serif !important;
+
+    font-size: 8px !important;
+
+    font-weight: 400 !important;
+
+    line-height: 1.4 !important;
+
+    text-align: left !important;
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 991.98px) {
+
+    .gmd_review_body {
+        padding: 13px;
+    }
+
+    .gmd_review_avatar {
+        width: 32px;
+        height: 32px;
+
+        min-width: 32px;
+    }
+
+    .gmd_review_name {
+        font-size: 11px !important;
+    }
+
+    .gmd_review_stars {
+        font-size: 12px !important;
+    }
+
+    .gmd_review_text {
+        font-size: 8.5px !important;
+
+        -webkit-line-clamp: 6;
+    }
+
+    .gmd_review_reply > p {
+        font-size: 7px !important;
+    }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 767.98px) {
+
+    .feature-card.gmd_review_card {
+        width: 100% !important;
+
+        max-width: 330px !important;
+
+        aspect-ratio: 1 / 1 !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    .gmd_review_body {
+        padding: 16px;
+    }
+
+
+    .gmd_review_name {
+        font-size: 13px !important;
+    }
+
+
+    .gmd_review_stars {
+        font-size: 14px !important;
+    }
+
+
+    .gmd_review_text {
+        font-size: 9.5px !important;
+
+        -webkit-line-clamp: 7;
+    }
+
+
+    .gmd_review_reply > p {
+        font-size: 7.5px !important;
+    }
+
+}
