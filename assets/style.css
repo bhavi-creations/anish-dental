@@ -28012,9 +28012,9 @@ This keeps current image exactly as it is.
 .about-first-section
 .image-container > img {
 
-    width: 100% !important;
+    width: 770px !important;
 
-    height: 100% !important;
+    height: 500px !important;
 
     display: block;
 
