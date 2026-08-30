@@ -7391,6 +7391,39 @@ a {
     font-size: clamp(58px, 4.8vw, 86px);
 }
 
+/* Keep left content as positioning parent */
+.about-first-section .about-left-content {
+    position: relative;
+}
+
+
+/* Faded Tooth beside About Anish Dental */
+.about-first-section .about-first-title-tooth {
+    position: absolute;
+
+    top: 50px;
+    right: 50px;
+
+    width: 115px;
+    height: 135px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #38a096;
+
+    font-size: 105px;
+
+    opacity: 0.09;
+
+    transform: rotate(-8deg);
+
+    pointer-events: none;
+
+    z-index: -1;
+}
+
 
 /* ==========================================================
    GOLD DIVIDER

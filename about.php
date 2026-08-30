@@ -51,10 +51,14 @@
                         <span class="heading-anish">
                             Anish Dental
                         </span>
-
+ 
                     </h1>
 
-
+                    <!-- Faded Tooth Decoration -->
+                    <div class="about-first-title-tooth">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    
                     <!-- Divider -->
                     <div class="divider-container">
 
