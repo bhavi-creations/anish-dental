@@ -24824,8 +24824,8 @@ span:last-child {
     position:
         relative !important;
 
-    min-height:
-        205px !important;
+    /* min-height:
+        205px !important; */
 
     display:
         flex !important;
