@@ -749,7 +749,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-3.png"
+                                src="./assets/img/icons/dental-bridge-step-2.png"
                                 alt="Implant Placement"
                             >
 
@@ -801,7 +801,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-4.png"
+                                src="./assets/img/icons/aligners-fitting.png"
                                 alt="Healing and Osseointegration"
                             >
 
@@ -853,7 +853,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-5.png"
+                                src="./assets/img/icons/aligners-icon.png"
                                 alt="Abutment Placement"
                             >
 
@@ -905,7 +905,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-6.png"
+                                src="./assets/img/icons/oral-surgery-step-6.png"
                                 alt="Crown Placement"
                             >
 
@@ -956,7 +956,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/implant-step-6.png"
+                                src="./assets/img/smiling-teeth.png"
                                 alt="Crown Placement"
                             >
 
