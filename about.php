@@ -8,7 +8,7 @@
 
     <div class="container">
 
-        <div class="row align-items-center g-4 g-xl-5">
+        <div class="row align-items-center g-4">
 
             <!-- LEFT CONTENT -->
             <div class="col-lg-5">
@@ -17,13 +17,19 @@
 
                     <!-- Breadcrumb -->
                     <nav aria-label="breadcrumb">
+
                         <ol class="breadcrumb text-uppercase">
 
                             <li class="breadcrumb-item">
+
                                 <a href="index.php">
+
                                     <i class="bi bi-house-door about-home-icon"></i>
-                                    HOME
+
+                                    <span>HOME</span>
+
                                 </a>
+
                             </li>
 
                             <li class="breadcrumb-item active">
@@ -31,21 +37,33 @@
                             </li>
 
                         </ol>
+
                     </nav>
 
 
                     <!-- Heading -->
                     <h1 class="section-heading">
-                        <span class="heading-about">About</span>
-                        <span class="heading-anish">Anish Dental</span>
+
+                        <span class="heading-about">
+                            About
+                        </span>
+
+                        <span class="heading-anish">
+                            Anish Dental
+                        </span>
+
                     </h1>
 
 
-                    <!-- Gold Divider -->
+                    <!-- Divider -->
                     <div class="divider-container">
+
                         <span class="divider-line"></span>
+
                         <span class="divider-diamond"></span>
+
                         <span class="divider-line"></span>
+
                     </div>
 
 
@@ -56,30 +74,36 @@
                     </h5>
 
 
-                    <!-- Small Gold Line -->
+                    <!-- Small Line -->
                     <div class="about-small-line"></div>
 
 
                     <!-- Description -->
                     <p class="description">
+
                         At Anish Dental Multispeciality Dental Hospital, we are
                         committed to providing exceptional dental care in a
                         comfortable, modern and friendly environment. Our
                         experienced team uses the latest technology and proven
                         techniques to deliver personalized treatment for
                         lasting oral health.
+
                     </p>
 
 
                     <!-- Buttons -->
                     <div class="about-button-wrapper">
 
-                        <!-- Book Appointment -->
                         <a href="appointment.php" class="btn btn-book">
 
                             <span class="button-left-content">
+
                                 <i class="bi bi-calendar3 about-btn-icon"></i>
-                                <span>BOOK APPOINTMENT</span>
+
+                                <span>
+                                    BOOK APPOINTMENT
+                                </span>
+
                             </span>
 
                             <i class="bi bi-arrow-right button-arrow"></i>
@@ -87,12 +111,16 @@
                         </a>
 
 
-                        <!-- Contact -->
                         <a href="contact.php" class="btn btn-contact">
 
                             <span class="button-left-content">
-                                <i class="bi bi-telephone-fill about-btn-icon"></i>
-                                <span>CONTACT US</span>
+
+                                <i class="fa-solid fa-phone about-btn-icon"></i>
+
+                                <span>
+                                    CONTACT US
+                                </span>
+
                             </span>
 
                             <i class="bi bi-arrow-right button-arrow"></i>
@@ -123,7 +151,7 @@
 
                         <div class="badge-icon">
 
-                           <i class="bi bi-shield badge-shield-icon"></i>
+                            <i class="bi bi-shield badge-shield-icon"></i>
 
                             <i class="fa-solid fa-tooth badge-tooth-icon"></i>
 
@@ -163,6 +191,15 @@
 
 <section class="about-second-section">
 
+    <!-- Premium Background Tooth -->
+    <div class="about-second-bg-tooth">
+        <i class="fa-solid fa-tooth"></i>
+    </div>
+
+    <!-- Premium Background Dots -->
+    <div class="about-second-bg-dots"></div>
+
+
     <div class="container">
 
         <!-- ======================================================
@@ -177,6 +214,7 @@
             <div class="col-lg-4">
 
                 <div class="about-mission-wrapper">
+
 
                     <!-- Mission Heading -->
                     <div class="about-section-heading">
@@ -198,11 +236,14 @@
                     <h2 class="mission-title">
 
                         To deliver advanced,
+
                         <span class="mission-highlight">
                             ethical and affordable
                         </span>
+
                         dental care with
                         <br>
+
                         a personal touch.
 
                     </h2>
@@ -265,7 +306,7 @@
                     <!-- ==================================================
                          VALUES CARDS
                     =================================================== -->
-                    <div class="row g-3 g-xl-4 text-center">
+                    <div class="row g-3 text-center">
 
 
                         <!-- VALUE 1 -->
@@ -274,26 +315,19 @@
                             <div class="about-value-card">
 
                                 <div class="value-icon-box">
-
                                     <i class="fa-solid fa-people-group"></i>
-
                                 </div>
-
 
                                 <h5 class="value-title">
                                     Patient First
                                 </h5>
 
-
                                 <div class="value-small-line"></div>
 
-
                                 <p class="value-desc">
-
                                     We put your comfort
                                     and well-being
                                     above everything.
-
                                 </p>
 
                             </div>
@@ -308,26 +342,19 @@
                             <div class="about-value-card">
 
                                 <div class="value-icon-box">
-
                                     <i class="fa-solid fa-award"></i>
-
                                 </div>
-
 
                                 <h5 class="value-title">
                                     Excellence
                                 </h5>
 
-
                                 <div class="value-small-line"></div>
 
-
                                 <p class="value-desc">
-
                                     We use advanced
                                     technology and follow
                                     best practices.
-
                                 </p>
 
                             </div>
@@ -342,26 +369,19 @@
                             <div class="about-value-card">
 
                                 <div class="value-icon-box">
-
                                     <i class="fa-solid fa-handshake"></i>
-
                                 </div>
-
 
                                 <h5 class="value-title">
                                     Integrity
                                 </h5>
 
-
                                 <div class="value-small-line"></div>
 
-
                                 <p class="value-desc">
-
                                     We believe in honest
                                     communication and
                                     ethical treatment.
-
                                 </p>
 
                             </div>
@@ -376,26 +396,19 @@
                             <div class="about-value-card">
 
                                 <div class="value-icon-box">
-
                                     <i class="fa-solid fa-hand-holding-heart"></i>
-
                                 </div>
-
 
                                 <h5 class="value-title">
                                     Compassion
                                 </h5>
 
-
                                 <div class="value-small-line"></div>
 
-
                                 <p class="value-desc">
-
                                     We treat every patient
                                     with care, respect
                                     and empathy.
-
                                 </p>
 
                             </div>
@@ -426,17 +439,12 @@
                     <div class="treatments_third_section_row">
 
 
-                        <!-- ==============================
-                             STAT 1
-                        =============================== -->
+                        <!-- STAT 1 -->
                         <div class="treatments_third_section_item">
 
                             <div class="treatments_third_section_icon_circle">
-
                                 <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
-
                             </div>
-
 
                             <div class="treatments_third_section_content">
 
@@ -450,7 +458,6 @@
 
                             </div>
 
-
                             <div class="treatments_third_section_item_line">
                                 <span></span>
                                 <i></i>
@@ -461,17 +468,12 @@
 
 
 
-                        <!-- ==============================
-                             STAT 2
-                        =============================== -->
+                        <!-- STAT 2 -->
                         <div class="treatments_third_section_item">
 
                             <div class="treatments_third_section_icon_circle">
-
                                 <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
-
                             </div>
-
 
                             <div class="treatments_third_section_content">
 
@@ -485,7 +487,6 @@
 
                             </div>
 
-
                             <div class="treatments_third_section_item_line">
                                 <span></span>
                                 <i></i>
@@ -496,17 +497,12 @@
 
 
 
-                        <!-- ==============================
-                             STAT 3
-                        =============================== -->
+                        <!-- STAT 3 -->
                         <div class="treatments_third_section_item">
 
                             <div class="treatments_third_section_icon_circle">
-
                                 <i class="fa-solid fa-user-doctor treatments_third_section_icon"></i>
-
                             </div>
-
 
                             <div class="treatments_third_section_content">
 
@@ -520,7 +516,6 @@
 
                             </div>
 
-
                             <div class="treatments_third_section_item_line">
                                 <span></span>
                                 <i></i>
@@ -531,17 +526,12 @@
 
 
 
-                        <!-- ==============================
-                             STAT 4
-                        =============================== -->
+                        <!-- STAT 4 -->
                         <div class="treatments_third_section_item">
 
                             <div class="treatments_third_section_icon_circle">
-
                                 <i class="fa-solid fa-award treatments_third_section_icon"></i>
-
                             </div>
-
 
                             <div class="treatments_third_section_content">
 
@@ -555,7 +545,6 @@
 
                             </div>
 
-
                             <div class="treatments_third_section_item_line">
                                 <span></span>
                                 <i></i>
@@ -566,17 +555,12 @@
 
 
 
-                        <!-- ==============================
-                             STAT 5
-                        =============================== -->
+                        <!-- STAT 5 -->
                         <div class="treatments_third_section_item">
 
                             <div class="treatments_third_section_icon_circle">
-
                                 <i class="fa-solid fa-thumbs-up treatments_third_section_icon"></i>
-
                             </div>
-
 
                             <div class="treatments_third_section_content">
 
@@ -589,7 +573,6 @@
                                 </span>
 
                             </div>
-
 
                             <div class="treatments_third_section_item_line">
                                 <span></span>
