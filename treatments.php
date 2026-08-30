@@ -3,132 +3,201 @@
 
 
 <!-- TREATMENTS HERO BANNER SECTION -->
-<section class="treatments_first_section_wrapper">
+<section class="contactus_first_section_wrapper">
 
-    <div class="container-fluid p-0">
+    <div class="container">
 
-        <div class="row g-0 treatments_first_section_main_row">
+        <div class="row align-items-center g-4 g-xl-5">
 
             <!-- ==================================================
-                 LEFT CONTENT
+                 LEFT SIDE
             =================================================== -->
-            <div class="col-lg-5 col-12 treatments_first_section_left_col">
+            <div class="col-lg-5 col-12">
 
-                <!-- Breadcrumb -->
-                <div class="treatments_first_section_breadcrumb">
+                <div class="contactus_first_section_content">
 
-                    <a href="index.php"
-                       class="treatments_first_section_breadcrumb_link">
+                    <!-- CONTACT US -->
+                    <div class="contactus_first_section_tag_wrapper">
+                        <span class="contactus_first_section_tag">TREATMENTS</span>
+                        <span class="contactus_first_section_tag_line"></span>
+                        <span class="contactus_first_section_tag_diamond"></span>
+                    </div>
 
-                        <i class="bi bi-house-door"></i>
+                    <!-- TITLE -->
+                    <h1 class="contactus_first_section_title">
 
-                        <span>HOME</span>
+                        <span class="contactus_first_section_title_white">
+                            Dental Treatments
+                        </span>
 
-                    </a>
+                        <span class="contactus_first_section_title_gold">
+                            Complete Care For Every Smile
+                        </span>
 
-                    <span class="treatments_first_section_breadcrumb_sep">
-                        >
-                    </span>
+                    </h1>
 
-                    <span class="treatments_first_section_breadcrumb_active">
-                        DOCTORS
-                    </span>
+                    <!-- GOLD DIVIDER -->
+                    <div class="contactus_first_section_divider">
+
+                        <span class="contactus_first_section_line"></span>
+
+                        <span class="contactus_first_section_diamond"></span>
+
+                        <span class="contactus_first_section_line"></span>
+
+                    </div>
+
+                    <!-- DESCRIPTION -->
+                    <p class="contactus_first_section_desc">
+                       We offer a wide range of advanced dental treatments using the latest technology and techniques to ensure healthy, beautiful and confident smiles.
+                    </p>
+
+                    <!-- BUTTONS -->
+                    <div class="contactus_first_section_btn_group">
+
+                        <a href="appointment.php"
+                           class="contactus_first_section_btn_primary">
+
+                            <i class="fa-regular fa-calendar-days"></i>
+
+                            <span>BOOK APPOINTMENT</span>
+
+                        </a>
+
+
+                        <a href="tel:+917396256474"
+                           class="contactus_first_section_btn_secondary">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            <span>CALL US NOW</span>
+
+                        </a>
+
+                    </div>
+
+
+                    
 
                 </div>
-
-
-                <!-- Main Heading -->
-                <h1 class="treatments_first_section_title">
-                    Our Dental <br>Treatments
-                </h1>
-
-
-                <!-- Gold Heading -->
-                <div class="treatments_first_section_cursive">
-                    Complete Care For<br>
-                    Every Smile
-                </div>
-
-
-                <!-- Decorative Gold Divider -->
-                <div class="treatments_first_section_title_divider">
-
-                    <span></span>
-
-                    <i></i>
-
-                    <span></span>
-
-                </div>
-
-
-                <!-- Description -->
-                <p class="treatments_first_section_desc">
-
-                    We offer a wide range of advanced dental treatments using the latest technology and techniques to ensure healty,beautiful and confident smiles.
-
-                </p>
-
-
-                <!-- Book Appointment Button -->
-            <a href="appointment.php" class="btn-appointment-custom">
-                <i class="fa-regular fa-calendar-days"></i> BOOK APPOINTMENT
-            </a>
 
             </div>
 
 
-
             <!-- ==================================================
-                 RIGHT IMAGE
+                 RIGHT IMAGE SIDE
             =================================================== -->
-            <div class="col-lg-7 col-12 treatments_first_section_right_col">
+            <div class="col-lg-7 col-12">
 
-                <img
-                    src="./assets/img/g1.png"
-                    alt="Our Dental Doctors"
-                    class="treatments_first_section_bg_img" class="img-fluid"
-                >
+                <div class="contactus_first_section_img_container">
 
+                    <!-- CLINIC IMAGE -->
+                    <img
+                        src="./assets/img/g1.png"
+                        alt="Anish Dental Multispeciality Dental Hospital"
+                        class="contactus_first_section_main_img"
+                    >
 
-                <!-- Curved Gold Divider -->
-                <svg
-                    class="treatments_first_section_curve_svg"
-                    viewBox="0 0 150 900"
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-
-                    <!-- Dark background fill -->
-                    <path
-                        d="M0 0
-                           H45
-                           C145 170,
-                           145 305,
-                           90 430
-                           C35 555,
-                           70 720,
-                           150 900
-                           H0 Z"
-                        fill="#003837"
-                    />
+                    <!-- GREEN IMAGE OVERLAY -->
+                    <div class="contactus_first_section_img_overlay"></div>
 
 
-                    <!-- Gold Curve -->
-                    <path
-                        d="M45 0
-                           C145 170,
-                           145 305,
-                           90 430
-                           C35 555,
-                           70 720,
-                           150 900"
-                        fill="none"
-                        stroke="#efb33b"
-                        stroke-width="5"
-                    />
+                    <!-- ==================================================
+                         ACTUAL ANISH DENTAL LOGO
+                    =================================================== -->
+                    <!-- <div class="contactus_first_section_brand">
 
-                </svg>
+                        <img
+                            src="./assets/img/Anish Logo 1224 X 260@3x.png"
+                            alt="Anish Dental Multispeciality Dental Hospital"
+                            class="contactus_first_section_brand_logo_img"
+                        >
+
+                    </div> -->
+
+
+                    <!-- IMAGE GOLD DIVIDER -->
+                    <!-- <div class="contactus_first_section_image_divider">
+
+                        <span></span>
+                        <i></i>
+                        <span></span>
+
+                    </div> -->
+
+
+                    <!-- IMAGE DESCRIPTION -->
+                    <!-- <div class="contactus_first_section_image_text">
+
+                        Personalized care. Advanced dentistry.
+                        <br>
+                        Healthier smiles, happier lives.
+
+                    </div> -->
+
+
+                    <!-- ==================================================
+                         GLASS FEATURES PANEL
+                    =================================================== -->
+                    <!-- <div class="contactus_first_section_features">
+
+
+                        QUICK RESPONSE
+                        <div class="contactus_first_section_feature_item">
+
+                            <div class="contactus_first_section_feature_icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <h5>Quick Response</h5>
+
+                            <p>
+                                We get back to you
+                                <br>
+                                promptly
+                            </p>
+
+                        </div>
+
+
+                        EXPERT TEAM
+                        <div class="contactus_first_section_feature_item">
+
+                            <div class="contactus_first_section_feature_icon">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+
+                            <h5>Expert Team</h5>
+
+                            <p>
+                                Experienced professionals
+                                <br>
+                                you can trust
+                            </p>
+
+                        </div>
+
+
+                        QUALITY CARE
+                        <div class="contactus_first_section_feature_item">
+
+                            <div class="contactus_first_section_feature_icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+
+                            <h5>Quality Care</h5>
+
+                            <p>
+                                Advanced treatments with
+                                <br>
+                                gentle care
+                            </p>
+
+                        </div> -->
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -1049,12 +1118,12 @@
 
 
 <!-- STATS / COUNTERS THIRD SECTION -->
-<section class="treatments_third_section_wrapper">
+<!-- <section class="treatments_third_section_wrapper">
     <div class="container">
         <div class="treatments_third_section_container">
             <div class="treatments_third_section_row">
 
-                <!-- Stat 1: Happy Patients -->
+                Stat 1: Happy Patients
                 <div class="treatments_third_section_item">
                     <div class="treatments_third_section_icon_circle">
                         <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
@@ -1065,7 +1134,7 @@
                     </div>
                 </div>
 
-                <!-- Stat 2: Dental Specialities -->
+                Stat 2: Dental Specialities
                 <div class="treatments_third_section_item">
                     <div class="treatments_third_section_icon_circle">
                         <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
@@ -1076,7 +1145,7 @@
                     </div>
                 </div>
 
-                <!-- Stat 3: Experienced Doctors -->
+                Stat 3: Experienced Doctors
                 <div class="treatments_third_section_item">
                     <div class="treatments_third_section_icon_circle">
                         <i class="fa-solid fa-users treatments_third_section_icon"></i>
@@ -1087,7 +1156,7 @@
                     </div>
                 </div>
 
-                <!-- Stat 4: Years of Excellence -->
+                Stat 4: Years of Excellence
                 <div class="treatments_third_section_item">
                     <div class="treatments_third_section_icon_circle">
                         <i class="fa-solid fa-award treatments_third_section_icon"></i>
@@ -1098,7 +1167,7 @@
                     </div>
                 </div>
 
-                <!-- Stat 5: Patient Satisfaction -->
+                Stat 5: Patient Satisfaction
                 <div class="treatments_third_section_item">
                     <div class="treatments_third_section_icon_circle">
                         <i class="fa-regular fa-thumbs-up treatments_third_section_icon"></i>
@@ -1112,7 +1181,169 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+
+        <!-- STATS / COUNTERS THIRD SECTION -->
+        <section class="treatments_third_section_wrapper treatments_page_third_section">
+
+            <div class="container">
+
+                <div class="treatments_third_section_container">
+
+                    <div class="treatments_third_section_row">
+
+
+                        <!-- STAT 1 -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+                                <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
+                            </div>
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    5000+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Happy Patients
+                                </span>
+
+                            </div>
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- STAT 2 -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+                                <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
+                            </div>
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    15+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Dental Specialities
+                                </span>
+
+                            </div>
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- STAT 3 -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+                                <i class="fa-solid fa-user-doctor treatments_third_section_icon"></i>
+                            </div>
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    10+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Experienced Doctors
+                                </span>
+
+                            </div>
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- STAT 4 -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+                                <i class="fa-solid fa-award treatments_third_section_icon"></i>
+                            </div>
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    10+
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Years of Excellence
+                                </span>
+
+                            </div>
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- STAT 5 -->
+                        <div class="treatments_third_section_item">
+
+                            <div class="treatments_third_section_icon_circle">
+                                <i class="fa-solid fa-thumbs-up treatments_third_section_icon"></i>
+                            </div>
+
+                            <div class="treatments_third_section_content">
+
+                                <span class="treatments_third_section_number">
+                                    100%
+                                </span>
+
+                                <span class="treatments_third_section_label">
+                                    Patient Satisfaction
+                                </span>
+
+                            </div>
+
+                            <div class="treatments_third_section_item_line">
+                                <span></span>
+                                <i></i>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
 <div class="img-icon-4 d-none d-md-block mt-3">
