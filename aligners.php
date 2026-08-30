@@ -905,7 +905,7 @@
                         <div class="rootcanal_fourth_section_icon">
 
                             <img
-                                src="./assets/img/icons/oral-surgery-step-6.png"
+                                src="./assets/img/icons/digital-imaging.png"
                                 alt="Crown Placement"
                             >
 
