@@ -270,10 +270,10 @@
 
 </section>
 
-<div class="img-icon-5 d-none d-md-block mt-3">
+<!-- <div class="img-icon-5 d-none d-md-block mt-3">
     <img src="./assets/img/health-checkup.gif " alt="" class="img-fluid">
 
-</div>
+</div> -->
 
 <!-- ==========================================================
      DOCTORS PAGE - SECOND SECTION
