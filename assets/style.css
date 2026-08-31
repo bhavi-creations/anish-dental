@@ -77,7 +77,7 @@ a {
 
 .marquee-section {
     background-color: var(--dark-green-bg);
-    padding: 6px 0;
+    /* padding: 6px 0; */
     border-bottom: 1px solid var(--border-line);
 }
 
@@ -20530,15 +20530,60 @@ span:last-child {
 }
 
 
+/* ==========================================================
+   CONTACT PAGE - RIGHT IMAGE LOGO
+========================================================== */
+
+.contactus_first_section_brand {
+    position: relative;
+    width: fit-content;
+}
+
+
+/* Hide original image - only used as source */
+.contactus_first_section_brand_logo_source {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* Final visible logo */
 .contactus_first_section_brand_logo_img {
     display: block;
 
     width: clamp(240px, 25vw, 335px);
+    max-width: 100%;
+
     height: auto;
 
     object-fit: contain;
 
-    filter: drop-shadow(0 3px 7px rgba(0, 0, 0, .12));
+    filter:
+        drop-shadow(0 3px 7px rgba(0, 0, 0, 0.15))
+        drop-shadow(0 0 5px rgba(255, 255, 255, 0.04));
+}
+
+
+/* Tablet */
+@media (max-width: 991.98px) {
+
+    .contactus_first_section_brand_logo_img {
+        width: clamp(220px, 42vw, 310px);
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 575.98px) {
+
+    .contactus_first_section_brand_logo_img {
+        width: min(270px, 82vw);
+    }
+
 }
 
 
@@ -30016,3 +30061,85 @@ This keeps current image exactly as it is.
 
 
 
+/* ==========================================================
+   REUSABLE ANISH DENTAL LOGO
+========================================================== */
+
+.anish_reusable_logo {
+    position: relative;
+    display: inline-block;
+    width: clamp(240px, 25vw, 335px);
+    max-width: 100%;
+}
+
+
+/* Hidden original source image */
+.anish_reusable_logo_source {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+
+    opacity: 0;
+
+    pointer-events: none;
+}
+
+
+/* Visible white + gold converted logo */
+.anish_reusable_logo_canvas {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    max-width: 100%;
+
+    filter:
+        drop-shadow(0 3px 7px rgba(0, 0, 0, 0.15))
+        drop-shadow(0 0 5px rgba(255, 255, 255, 0.04));
+}
+
+
+/* Header logo size */
+.anish_reusable_logo_header {
+    width: 250px;
+}
+
+
+/* Footer logo size */
+.anish_reusable_logo_footer {
+    width: 285px;
+}
+
+
+/* Tablet */
+@media (max-width: 991.98px) {
+
+    .anish_reusable_logo {
+        width: 280px;
+    }
+
+    .anish_reusable_logo_header {
+        width: 220px;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 575.98px) {
+
+    .anish_reusable_logo {
+        width: 240px;
+    }
+
+    .anish_reusable_logo_header {
+        width: 190px;
+    }
+
+    .anish_reusable_logo_footer {
+        width: 230px;
+    }
+
+}

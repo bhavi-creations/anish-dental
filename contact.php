@@ -161,17 +161,26 @@
 
 
                     <!-- ==================================================
-                         ACTUAL ANISH DENTAL LOGO
-                    =================================================== -->
-                    <div class="contactus_first_section_brand">
+     ACTUAL ANISH DENTAL LOGO
+=================================================== -->
+<div class="contactus_first_section_brand">
 
-                        <img
-                            src="./assets/img/Anish Logo 1224 X 260@3x.png"
-                            alt="Anish Dental Multispeciality Dental Hospital"
-                            class="contactus_first_section_brand_logo_img"
-                        >
+    <!-- Original Logo Source -->
+    <img
+        src="./assets/img/Anish Logo 1224 X 260@3x.png"
+        alt="Anish Dental Multispeciality Dental Hospital"
+        id="contactusLogoSource"
+        class="contactus_first_section_brand_logo_source"
+    >
 
-                    </div>
+    <!-- Recolored Output -->
+    <canvas
+        id="contactusLogoCanvas"
+        class="contactus_first_section_brand_logo_img"
+        aria-label="Anish Dental Multispeciality Dental Hospital">
+    </canvas>
+
+</div>
 
 
                     <!-- IMAGE GOLD DIVIDER -->

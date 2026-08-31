@@ -26,6 +26,7 @@
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+
 </head>
 
 <body>
@@ -93,13 +94,27 @@
 <nav class="navbar navbar-expand-lg main-header-navbar sticky-top">
     <div class="container-fluid px-lg-5">
 
-        <!-- Brand Logo & Title -->
+        <!-- Brand Logo & Title
         <a class="brand-logo-container" href="#">
             <div class="d-flex align-items-center logo-section">
                 <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="logo" height="48">
             </div>
-        </a>
+        </a> -->
+        <div class="anish_reusable_logo anish_reusable_logo_header">
 
+        <img
+            src="./assets/img/Anish Logo 1224 X 260@3x.png"
+            alt="Anish Dental"
+            class="anish_reusable_logo_source"
+        >
+
+        <canvas
+            class="anish_reusable_logo_canvas">
+        </canvas>
+
+    </div>
+
+         
         <!-- Mobile Responsive Toggle Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#anishHeaderNav" aria-controls="anishHeaderNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -117,12 +132,12 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="treatments.php">TREATMENTS</a>
-                    <ul class="dropdown-menu border-0 shadow" aria-labelledby="treatmentsMenu">
+                    <!-- <ul class="dropdown-menu border-0 shadow" aria-labelledby="treatmentsMenu">
                         <li><a class="dropdown-item" href="root-canal.php">Root Canal Treatment</a></li>
                         <li><a class="dropdown-item" href="dental-implants.php">Dental Implants</a></li>
                         <li><a class="dropdown-item" href="teeth-whitening.php">Teeth Whitening</a></li>
                         <li><a class="dropdown-item" href="aligners.php">Aligners</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
 
                 <li class="nav-item">

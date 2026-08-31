@@ -5,11 +5,19 @@
 
             <!-- 1. Brand & Description -->
             <div class="col-lg-3 col-xl-3 col-md-6 col-12 footer-col-spacing footer-border-right pe-lg-4">
-                <a href="index.php" class="d-flex align-items-center mb-3 text-decoration-none">
-                    <div class="logo-section">
-                        <img src="./assets/img/Anish Logo 1224 X 260@3x.png" alt="Anish Dental Logo" class="img-fluid">
+                <div class="anish_reusable_logo anish_reusable_logo_footer">
+
+                        <img
+                            src="./assets/img/Anish Logo 1224 X 260@3x.png"
+                            alt="Anish Dental"
+                            class="anish_reusable_logo_source"
+                        >
+
+                        <canvas
+                            class="anish_reusable_logo_canvas">F
+                        </canvas>
+
                     </div>
-                </a>
 
                 <p class="footer-desc">
                     Providing exceptional dental care with compassion, advanced technology and a commitment to your smile.
@@ -54,7 +62,7 @@
             </div>
 
             <!-- 3. Our Treatments -->
-            <div class="col-lg-2 col-xl-2 col-md-3 col-12 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
+            <div class="col-lg-3 col-xl-2 col-md-3 col-12 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                 <div class="footer-heading-wrapper">
                     <div class="footer-heading-icon">
                         <i class="fa-solid fa-tooth"></i>
@@ -72,7 +80,7 @@
             </div>
 
             <!-- 4. Contact Us -->
-            <div class="col-lg-2 col-xl-2 col-md-6 col-12 footer-col-spacing footer-border-right ps-lg-4 pe-lg-2">
+            <div class="col-lg-4 col-xl-2 col-md-6 col-12 footer-col-spacing footer-border-right ps-lg-4 pe-lg-2">
                 <div class="footer-heading-wrapper">
                     <div class="footer-heading-icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -98,7 +106,7 @@
             </div>
 
             <!-- 5. Google Map Card -->
-            <div class="col-lg-3 col-xl-3 col-md-6 col-12 ps-lg-4">
+            <div class="col-lg-3 col-xl-3 col-md-6 col-12 ps-lg-4 d-block d-lg-none d-xl-block">
                 <div class="footer-map-card">
                     <div class="footer-map-container">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15264.37641925859!2d82.22962270859432!3d16.96992081050522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38297bc37af231%3A0x596701c64aebb643!2sAnish%20Multispeciality%20Dental%20Hospital!5e0!3m2!1sen!2sin!4v1787042722890!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -136,6 +144,9 @@
             </div>
         </div>
     </div>
+
+
+    
 </footer>
 
 <!-- FLOATING ACTION BUTTONS -->
@@ -151,6 +162,198 @@
 
 <!-- Bootstrap 5.3 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const logoWrappers = document.querySelectorAll(".anish_reusable_logo");
+
+    logoWrappers.forEach(function (wrapper) {
+
+        const image = wrapper.querySelector(".anish_reusable_logo_source");
+        const canvas = wrapper.querySelector(".anish_reusable_logo_canvas");
+
+        if (!image || !canvas) return;
+
+
+        function recolorLogo() {
+
+            const ctx = canvas.getContext("2d", {
+                willReadFrequently: true
+            });
+
+            canvas.width = image.naturalWidth;
+            canvas.height = image.naturalHeight;
+
+            ctx.clearRect(
+                0,
+                0,
+                canvas.width,
+                canvas.height
+            );
+
+            ctx.drawImage(
+                image,
+                0,
+                0
+            );
+
+
+            const imageData = ctx.getImageData(
+                0,
+                0,
+                canvas.width,
+                canvas.height
+            );
+
+            const pixels = imageData.data;
+
+
+            for (let i = 0; i < pixels.length; i += 4) {
+
+                const r = pixels[i];
+                const g = pixels[i + 1];
+                const b = pixels[i + 2];
+                const a = pixels[i + 3];
+
+                if (a === 0) continue;
+
+
+                /*
+                    Detect green / teal areas only.
+
+                    Green tooth outline
+                    Green ANISH DENTAL text
+                    Green subtitle
+
+                    → converted to WHITE
+
+                    Gold portions remain unchanged.
+                */
+                const isGreenTeal =
+                    g > r + 14 &&
+                    g >= b * 0.82 &&
+                    r < 150 &&
+                    g < 190;
+
+
+                if (isGreenTeal) {
+
+                    pixels[i]     = 255;
+                    pixels[i + 1] = 255;
+                    pixels[i + 2] = 255;
+                    pixels[i + 3] = a;
+
+                }
+
+            }
+
+
+            ctx.putImageData(
+                imageData,
+                0,
+                0
+            );
+        }
+
+
+        if (
+            image.complete &&
+            image.naturalWidth > 0
+        ) {
+
+            recolorLogo();
+
+        } else {
+
+            image.addEventListener(
+                "load",
+                recolorLogo
+            );
+
+        }
+
+    });
+
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const image  = document.getElementById("contactusLogoSource");
+    const canvas = document.getElementById("contactusLogoCanvas");
+
+    if (!image || !canvas) return;
+
+    function recolorLogo() {
+
+        const ctx = canvas.getContext("2d", {
+            willReadFrequently: true
+        });
+
+        canvas.width  = image.naturalWidth;
+        canvas.height = image.naturalHeight;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(image, 0, 0);
+
+        const imageData = ctx.getImageData(
+            0,
+            0,
+            canvas.width,
+            canvas.height
+        );
+
+        const pixels = imageData.data;
+
+        for (let i = 0; i < pixels.length; i += 4) {
+
+            const r = pixels[i];
+            const g = pixels[i + 1];
+            const b = pixels[i + 2];
+            const a = pixels[i + 3];
+
+            if (a === 0) continue;
+
+            /*
+               Detect dark green / teal logo portions only.
+
+               Gold remains untouched because gold has:
+               red > green.
+
+               Green/teal has:
+               green > red and blue close to green.
+            */
+            const isGreenTeal =
+                g > r + 14 &&
+                g >= b * 0.82 &&
+                r < 150 &&
+                g < 190;
+
+            if (isGreenTeal) {
+
+                pixels[i]     = 255; /* Red   */
+                pixels[i + 1] = 255; /* Green */
+                pixels[i + 2] = 255; /* Blue  */
+
+                /* Keep original transparency */
+                pixels[i + 3] = a;
+            }
+        }
+
+        ctx.putImageData(imageData, 0, 0);
+    }
+
+
+    if (image.complete && image.naturalWidth > 0) {
+        recolorLogo();
+    } else {
+        image.addEventListener("load", recolorLogo);
+    }
+
+});
+</script>
 </body>
 
 </html>
