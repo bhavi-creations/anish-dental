@@ -10378,8 +10378,8 @@ span:last-child {
     border-radius: 16px;
     overflow: hidden;
     height: 100%;
-    min-height: 330px;
-    background-color: #03201b;
+    /* min-height: 330px; */
+    /* background-color: #03201b; */
 }
 
 .about-third-section .doctor-img-box img {
@@ -19014,7 +19014,7 @@ span:last-child {
    CENTER ARROW
 ========================================================== */
 
-.rootcanal_fifth_section_ba_arrow {
+/* .rootcanal_fifth_section_ba_arrow {
 
     position: absolute;
 
@@ -19053,7 +19053,7 @@ span:last-child {
     box-shadow:
         0 5px 14px
         rgba(0,0,0,.18);
-}
+} */
 
 
 /* ==========================================================

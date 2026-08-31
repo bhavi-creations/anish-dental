@@ -1044,11 +1044,11 @@
 
 
                         <!-- CENTER ARROW -->
-                        <div class="rootcanal_fifth_section_ba_arrow">
+                        <!-- <div class="rootcanal_fifth_section_ba_arrow">
 
                             <i class="fa-solid fa-chevron-right"></i>
 
-                        </div>
+                        </div> -->
 
 
                         <!-- AFTER -->
