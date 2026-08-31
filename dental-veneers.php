@@ -630,7 +630,7 @@
                         <div class="rootcanal_third_section_implant_circle"></div>
 
                         <img
-                            src="./assets/img/dental-implant.gif"
+                            src="./assets/img/icons/dental-veneer.png"
                             alt="Dental Implant"
                             class="rootcanal_third_section_implant_img">
 

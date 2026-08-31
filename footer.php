@@ -34,10 +34,10 @@
                 <div class="footer-follow-us">
                     <span class="follow-title">FOLLOW US</span>
                     <div class="footer-social-icons">
-                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+                        <a href="https://www.facebook.com/p/Anish-Dental-100071175949729/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/anish_dental/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=917396256474" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://share.google/DtBqZGGfe0x4Ok9vk" aria-label="Google"><i class="fa-brands fa-google"></i></a>
                     </div>
                 </div>
             </div>

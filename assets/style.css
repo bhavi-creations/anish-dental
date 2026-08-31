@@ -10309,7 +10309,7 @@ span:last-child {
    ========================================== */
 .about-third-section {
     background-color: #03231e !important;
-    background-image: radial-gradient(circle at center, #05332b 0%, #021a16 100%) !important;
+    background-image: radial-gradient(circle at center, #05332b 0%, #05332b 100%) !important;
     color: #ffffff;
     padding: 70px 0;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -17512,6 +17512,8 @@ span:last-child {
 
     mix-blend-mode:
         multiply;
+
+    opacity: 0.3;
 }
 
 

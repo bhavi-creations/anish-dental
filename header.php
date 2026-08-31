@@ -61,8 +61,8 @@
                     <span>Mon - Sat: 9:00 AM - 9:00 PM</span>
                 </div>
                 <div class="social-icons d-flex align-items-center">
-                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://www.facebook.com/p/Anish-Dental-100071175949729/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/anish_dental/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=917396256474" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
