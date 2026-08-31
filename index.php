@@ -612,6 +612,9 @@
 
 <!-- OUR TREATMENTS SECTION -->
 <section class="treatment_new_section py-5">
+    
+    <!-- Premium top-left gold curve decoration -->
+    <div class="treatment-premium-top-curve"></div>
     <div class="container">
 
         <!-- Section Header -->

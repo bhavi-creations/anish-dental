@@ -222,6 +222,8 @@
              SECTION HEADER
         ======================================================= -->
         <div class="treatments_secound_section_header text-center mb-5">
+            <!-- Premium top-left gold curve decoration -->
+    <div class="treatment-premium-top-curve"></div>
 
             <span class="treatments_secound_section_subtitle">
                 — OUR TREATMENTS —

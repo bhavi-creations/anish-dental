@@ -30145,3 +30145,284 @@ This keeps current image exactly as it is.
     }
 
 }
+
+
+
+/* ==========================================================
+   PREMIUM TOP-LEFT GOLD CURVE EFFECT
+   EXTRA DECORATION ONLY
+========================================================== */
+
+.treatment_new_section {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+
+/* Keep actual content above decoration */
+.treatment_new_section > .container {
+    position: relative !important;
+    z-index: 3 !important;
+}
+
+
+/* ==========================================================
+   MAIN DECORATION HOLDER
+========================================================== */
+
+.treatment-premium-top-curve {
+
+    position: absolute;
+
+    z-index: 1;
+
+    top: -285px;
+    left: -330px;
+
+    width: 560px;
+    height: 590px;
+
+    border-radius: 50%;
+
+    border-right: 2px solid rgba(241, 177, 54, 0.72);
+
+    transform: rotate(20deg);
+
+    pointer-events: none;
+
+    box-shadow:
+
+        5px 0 5px rgba(255, 218, 128, 0.25),
+
+        9px 0 15px rgba(238, 169, 45, 0.18),
+
+        15px 0 30px rgba(238, 169, 45, 0.10);
+
+}
+
+
+/* ==========================================================
+   SECOND INNER CURVE
+========================================================== */
+
+.treatment-premium-top-curve::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 22px;
+    left: 28px;
+
+    width: 505px;
+    height: 545px;
+
+    border-radius: 50%;
+
+    border-right:
+        1px solid
+        rgba(231, 163, 39, 0.22);
+
+    box-shadow:
+
+        3px 0 8px
+        rgba(245, 182, 57, 0.07);
+
+}
+
+
+/* ==========================================================
+   GOLD SPARKLES + SHINING POINTS
+========================================================== */
+
+.treatment-premium-top-curve::after {
+
+    content: "";
+
+    position: absolute;
+
+    top: 105px;
+    right: -24px;
+
+    width: 145px;
+    height: 285px;
+
+    opacity: 0.82;
+
+    background:
+
+        /* Main bright shine */
+        radial-gradient(
+            circle at 96% 55%,
+            rgba(255,255,255,1) 0px,
+            #ffe3a0 2px,
+            rgba(244,179,51,0.85) 4px,
+            rgba(244,179,51,0.22) 10px,
+            transparent 20px
+        ),
+
+        /* Sparkle dots */
+        radial-gradient(
+            circle at 38% 16%,
+            #ffd373 0 1.5px,
+            transparent 2.5px
+        ),
+
+        radial-gradient(
+            circle at 66% 28%,
+            rgba(245,183,58,0.95) 0 1.3px,
+            transparent 2.7px
+        ),
+
+        radial-gradient(
+            circle at 26% 43%,
+            rgba(255,215,112,0.90) 0 1.5px,
+            transparent 3px
+        ),
+
+        radial-gradient(
+            circle at 74% 65%,
+            rgba(240,166,35,0.90) 0 1.4px,
+            transparent 3px
+        ),
+
+        radial-gradient(
+            circle at 47% 82%,
+            rgba(255,207,86,0.85) 0 1.2px,
+            transparent 2.5px
+        ),
+
+        /* Dense gold dust */
+        radial-gradient(
+            circle,
+            rgba(232,163,37,0.58) 0 1px,
+            transparent 1.4px
+        );
+
+    background-size:
+
+        100% 100%,
+
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+
+        9px 9px;
+
+    filter:
+
+        drop-shadow(
+            0 0 5px
+            rgba(255,198,70,0.38)
+        );
+}
+
+
+/* ==========================================================
+   SOFT TEAL LIGHT BEHIND CURVE
+========================================================== */
+
+.treatment-premium-top-curve {
+
+    background:
+
+        radial-gradient(
+            circle at 88% 56%,
+            rgba(64, 183, 162, 0.13),
+            transparent 34%
+        );
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 991.98px) {
+
+    .treatment-premium-top-curve {
+
+        top: -250px;
+        left: -300px;
+
+        width: 490px;
+        height: 520px;
+
+        opacity: 0.78;
+    }
+
+
+    .treatment-premium-top-curve::before {
+
+        width: 440px;
+        height: 470px;
+    }
+
+
+    .treatment-premium-top-curve::after {
+
+        width: 120px;
+        height: 235px;
+
+        top: 100px;
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 767.98px) {
+
+    .treatment-premium-top-curve {
+
+        top: -205px;
+        left: -250px;
+
+        width: 390px;
+        height: 420px;
+
+        border-right-width: 1.5px;
+
+        opacity: 0.58;
+    }
+
+
+    .treatment-premium-top-curve::before {
+
+        top: 18px;
+        left: 20px;
+
+        width: 350px;
+        height: 380px;
+    }
+
+
+    .treatment-premium-top-curve::after {
+
+        top: 80px;
+        right: -18px;
+
+        width: 100px;
+        height: 190px;
+
+        opacity: 0.60;
+
+        background-size:
+
+            100% 100%,
+
+            100% 100%,
+            100% 100%,
+            100% 100%,
+            100% 100%,
+            100% 100%,
+
+            8px 8px;
+    }
+
+}
