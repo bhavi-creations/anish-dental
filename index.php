@@ -897,6 +897,15 @@
 
 <!-- OUR DOCTORS SECTION -->
 <section class="about-third-section py-5">
+
+    <!-- Premium top-left gold curve decoration -->
+    <div class="doctors-premium-top-curve"></div>
+
+    <!-- Right side background tooth icon -->
+    <div class="doctors-premium-bg-tooth">
+        <i class="fa-solid fa-tooth"></i>
+    </div>
+    
     <div class="container">
        <!-- Premium top-left gold curve decoration -->
     <div class="treatment-premium-top-curve"></div>

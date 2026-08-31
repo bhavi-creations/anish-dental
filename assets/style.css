@@ -30815,3 +30815,235 @@ This keeps current image exactly as it is.
     }
 
 }
+
+
+
+
+/* ==========================================================
+   OUR DOCTORS SECTION - PREMIUM EXTRA BACKGROUND EFFECTS
+   Only decorative additions
+========================================================== */
+
+.about-third-section {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+
+/* ==========================================================
+   TOP LEFT PREMIUM GOLD CURVE
+========================================================== */
+
+.doctors-premium-top-curve {
+    position: absolute;
+    top: -40px;
+    left: -130px;
+    width: 420px;
+    height: 420px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.doctors-premium-top-curve::before,
+.doctors-premium-top-curve::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* Main gold arc */
+.doctors-premium-top-curve::before {
+    width: 420px;
+    height: 420px;
+    top: 0;
+    left: 0;
+    border: 2px solid rgba(233, 177, 73, 0.55);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-15deg);
+    box-shadow:
+        0 0 14px rgba(233, 177, 73, 0.14),
+        0 0 28px rgba(233, 177, 73, 0.10);
+}
+
+/* Inner soft glow curve */
+.doctors-premium-top-curve::after {
+    width: 325px;
+    height: 325px;
+    top: 48px;
+    left: 55px;
+    border: 1.5px solid rgba(248, 210, 122, 0.32);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-16deg);
+    box-shadow:
+        0 0 10px rgba(255, 213, 109, 0.10);
+}
+
+
+/* Extra sparkle particles */
+.about-third-section::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 250px;
+    height: 250px;
+    pointer-events: none;
+    z-index: 0;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 18% 35%, rgba(255, 220, 130, 0.85) 0 1.5px, transparent 2px),
+        radial-gradient(circle at 28% 22%, rgba(255, 213, 110, 0.75) 0 1.2px, transparent 2px),
+        radial-gradient(circle at 37% 28%, rgba(255, 226, 155, 0.70) 0 1.3px, transparent 2px),
+        radial-gradient(circle at 46% 18%, rgba(255, 210, 105, 0.55) 0 1.4px, transparent 2px),
+        radial-gradient(circle at 34% 42%, rgba(255, 231, 170, 0.65) 0 1.2px, transparent 2px),
+        radial-gradient(circle at 52% 31%, rgba(255, 216, 115, 0.55) 0 1.3px, transparent 2px),
+        radial-gradient(circle at 22% 50%, rgba(255, 226, 155, 0.55) 0 1.1px, transparent 2px);
+    opacity: 0.85;
+    animation: doctorsSparkleFloat 6s ease-in-out infinite alternate;
+}
+
+
+/* Soft top glow blobs */
+.about-third-section::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: 160px;
+    width: 320px;
+    height: 180px;
+    pointer-events: none;
+    z-index: 0;
+    background:
+        radial-gradient(circle at 20% 45%, rgba(255, 214, 121, 0.14), transparent 42%),
+        radial-gradient(circle at 72% 22%, rgba(190, 255, 240, 0.10), transparent 48%),
+        radial-gradient(circle at 48% 60%, rgba(255, 255, 255, 0.05), transparent 52%);
+    filter: blur(6px);
+}
+
+
+/* ==========================================================
+   RIGHT SIDE BACKGROUND TOOTH ICON
+========================================================== */
+
+.doctors-premium-bg-tooth {
+    position: absolute;
+    right: 40px;
+    top: 110px;
+    font-size: clamp(170px, 16vw, 250px);
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    z-index: 0;
+    transform: rotate(-6deg);
+}
+
+.doctors-premium-bg-tooth i {
+    display: block;
+    filter: drop-shadow(0 0 8px rgba(255, 213, 109, 0.05));
+}
+
+
+/* ==========================================================
+   KEEP CONTENT ABOVE DECORATIONS
+========================================================== */
+
+.about-third-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* ==========================================================
+   OPTIONAL SUBTLE SHIMMER ANIMATION
+========================================================== */
+
+@keyframes doctorsSparkleFloat {
+    0% {
+        transform: translateY(0px) translateX(0px);
+        opacity: 0.72;
+    }
+    100% {
+        transform: translateY(8px) translateX(6px);
+        opacity: 1;
+    }
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 991.98px) {
+    .doctors-premium-top-curve {
+        width: 320px;
+        height: 320px;
+        top: -25px;
+        left: -115px;
+    }
+
+    .doctors-premium-top-curve::before {
+        width: 320px;
+        height: 320px;
+    }
+
+    .doctors-premium-top-curve::after {
+        width: 245px;
+        height: 245px;
+        top: 38px;
+        left: 40px;
+    }
+
+    .doctors-premium-bg-tooth {
+        right: 20px;
+        top: 140px;
+        font-size: 150px;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .doctors-premium-top-curve {
+        width: 260px;
+        height: 260px;
+        top: -15px;
+        left: -100px;
+    }
+
+    .doctors-premium-top-curve::before {
+        width: 260px;
+        height: 260px;
+    }
+
+    .doctors-premium-top-curve::after {
+        width: 200px;
+        height: 200px;
+        top: 30px;
+        left: 32px;
+    }
+
+    .about-third-section::before {
+        width: 180px;
+        height: 180px;
+        top: 12px;
+        left: 10px;
+        opacity: 0.65;
+    }
+
+    .doctors-premium-bg-tooth {
+        right: 10px;
+        top: 135px;
+        font-size: 115px;
+        color: rgba(255, 255, 255, 0.04);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .doctors-premium-bg-tooth {
+        right: 8px;
+        top: 155px;
+        font-size: 90px;
+    }
+}
