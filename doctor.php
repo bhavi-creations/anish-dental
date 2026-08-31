@@ -7,6 +7,7 @@
      DOCTORS PAGE - HERO SECTION
 =========================================================== -->
 <section class="rootcanal_first_section_wrapper">
+    
 
     <div class="container-fluid p-0">
 
@@ -958,6 +959,8 @@ function toggleDoctorDetails(button) {
 =========================================================== -->
 
 <section class="doctor-third-section">
+    <!-- Premium top-left gold curve decoration -->
+    <div class="treatment-premium-top-curve"></div>
 
     <div class="container">
 

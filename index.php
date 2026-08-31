@@ -110,6 +110,10 @@
                      LEFT CONTENT
                 ========================== -->
                 <div class="col-xl-5 col-lg-5 col-md-12 index_first_section_content_col">
+                    <!-- Right side background tooth icon -->
+    <div class="doctors-premium-bg-tooth">
+        <i class="fa-solid fa-tooth"></i>
+    </div>
 
                     <!-- Small Tagline -->
                     <div class="index_first_section_tagline">
@@ -615,6 +619,10 @@
 
     <!-- Premium top-left gold curve decoration -->
     <div class="treatment-premium-top-curve"></div>
+    <!-- Right side background tooth icon -->
+    <div class="doctors-premium-bg-tooth">
+        <i class="fa-solid fa-tooth"></i>
+    </div>
     <div class="container">
 
         <!-- Section Header -->
@@ -907,8 +915,7 @@
     </div>
     
     <div class="container">
-       <!-- Premium top-left gold curve decoration -->
-    <div class="treatment-premium-top-curve"></div>
+     
         <!-- Section Header -->
         <div class="text-center mb-5">
             
