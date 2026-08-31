@@ -20,7 +20,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /* ==========================================
@@ -13068,38 +13068,59 @@ span:last-child {
 
 /* ==========================================================
    DOCTORS PAGE - THIRD SECTION
+   COMPACT PREMIUM VERSION
 ========================================================== */
 
 .doctor-third-section {
 
-    --doctor-third-dark: #003c35;
-    --doctor-third-deep: #002f2b;
+    --doctor-third-dark: #003b36;
+    --doctor-third-mid: #00342f;
+    --doctor-third-deep: #002b28;
 
-    --doctor-third-gold: #e8a324;
-    --doctor-third-gold-light: #f3b83b;
+    --doctor-third-gold: #e7a52e;
+    --doctor-third-gold-light: #f5bd4f;
 
     position: relative;
 
+    width: 100%;
+
     overflow: hidden;
 
-    padding: 125px 0;
+    padding: 58px 0;
+
+    color: #ffffff;
 
     font-family: 'Poppins', sans-serif;
 
     background:
         radial-gradient(
-            circle at 50% 50%,
-            rgba(0, 126, 108, 0.14),
+            circle at 50% 48%,
+            rgba(0, 143, 123, 0.12),
             transparent 42%
         ),
         linear-gradient(
             115deg,
-            #003c35,
-            #00342f 55%,
-            #002e2a
+            #003b36 0%,
+            #00332f 55%,
+            #002a28 100%
         );
+}
 
-    color: #ffffff;
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.doctor-third-section .container {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+    max-width: 1460px;
+
 }
 
 
@@ -13113,26 +13134,111 @@ span:last-child {
 
     width: 100%;
 
-    padding: 55px 45px;
+    padding: 32px 38px;
 
-    border: 1px solid rgba(232, 163, 36, 0.65);
+    overflow: hidden;
 
-    border-radius: 25px;
+    border:
+        1px solid
+        rgba(231, 165, 46, 0.58);
+
+    border-radius: 23px;
 
     background:
         radial-gradient(
-            circle at 17% 50%,
-            rgba(0, 132, 113, 0.12),
-            transparent 38%
+            circle at 15% 50%,
+            rgba(0, 145, 124, 0.12),
+            transparent 34%
         ),
         linear-gradient(
             120deg,
-            rgba(0, 63, 55, 0.96),
-            rgba(0, 50, 45, 0.96)
+            rgba(0, 62, 56, 0.98),
+            rgba(0, 48, 44, 0.98)
         );
 
     box-shadow:
-        0 20px 45px rgba(0, 0, 0, 0.12);
+        0 18px 42px rgba(0, 0, 0, 0.18),
+        inset 0 0 25px rgba(255,255,255,0.012);
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* subtle shining top border */
+
+.doctor-third-section
+.commitment-banner::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: -1px;
+
+    left: 50%;
+
+    width: 170px;
+
+    height: 2px;
+
+    transform: translateX(-50%);
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #ffd267,
+            transparent
+        );
+
+    box-shadow:
+        0 0 14px
+        rgba(245, 189, 79, 0.75);
+}
+
+
+/* subtle background premium curve */
+
+.doctor-third-section
+.commitment-banner::after {
+
+    content: "";
+
+    position: absolute;
+
+    right: -120px;
+
+    bottom: -120px;
+
+    width: 420px;
+
+    height: 185px;
+
+    border:
+        1px solid
+        rgba(231,165,46,0.08);
+
+    border-radius: 50%;
+
+    transform: rotate(-12deg);
+
+    pointer-events: none;
+}
+
+
+.doctor-third-section
+.commitment-banner:hover {
+
+    border-color:
+        rgba(245,189,79,0.80);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,0.22),
+        0 0 25px rgba(231,165,46,0.05);
 }
 
 
@@ -13142,24 +13248,31 @@ span:last-child {
 
 .doctor-third-section .commitment-left {
 
+    position: relative;
+
+    z-index: 2;
+
     display: flex;
 
     align-items: center;
 
-    gap: 30px;
+    gap: 24px;
 }
 
 
 /* ==========================================================
-   LARGE ROUND ICON
+   LARGE ROUND HEART ICON
 ========================================================== */
 
 .doctor-third-section .tooth-icon-box {
 
-    width: 150px;
-    height: 150px;
+    position: relative;
 
-    flex: 0 0 150px;
+    width: 112px;
+
+    height: 112px;
+
+    flex: 0 0 112px;
 
     display: flex;
 
@@ -13167,40 +13280,67 @@ span:last-child {
 
     justify-content: center;
 
-    position: relative;
-
-    border: 1.5px solid var(--doctor-third-gold);
+    border:
+        1.5px solid
+        var(--doctor-third-gold);
 
     border-radius: 50%;
 
-    color: var(--doctor-third-gold);
+    color:
+        var(--doctor-third-gold-light);
 
     background:
         radial-gradient(
             circle,
-            rgba(232, 163, 36, 0.08),
-            transparent 65%
+            rgba(231,165,46,0.11),
+            rgba(0,55,50,0.42) 65%
         );
 
-    font-size: 55px;
+    font-size: 42px;
+
+    box-shadow:
+        inset 0 0 18px rgba(231,165,46,0.05),
+        0 0 18px rgba(231,165,46,0.04);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 
-/* little dotted circular accent */
+.doctor-third-section
+.tooth-icon-box:hover {
 
-.doctor-third-section .tooth-icon-box::after {
+    transform:
+        translateY(-3px)
+        scale(1.03);
+
+    box-shadow:
+        0 0 23px rgba(231,165,46,0.16),
+        inset 0 0 20px rgba(231,165,46,0.08);
+}
+
+
+/* dotted circular accent */
+
+.doctor-third-section
+.tooth-icon-box::after {
 
     content: "";
 
     position: absolute;
 
-    top: 9px;
-    right: 4px;
+    top: 5px;
 
-    width: 28px;
-    height: 55px;
+    right: 0;
 
-    border-right: 3px dotted var(--doctor-third-gold);
+    width: 25px;
+
+    height: 48px;
+
+    border-right:
+        3px dotted
+        var(--doctor-third-gold-light);
 
     border-radius: 50%;
 
@@ -13209,8 +13349,17 @@ span:last-child {
 
 
 /* ==========================================================
-   COMMITMENT TITLE
+   TITLE
 ========================================================== */
+
+.doctor-third-section
+.commitment-title-wrap {
+
+    position: relative;
+
+    z-index: 2;
+}
+
 
 .doctor-third-section .commitment-title {
 
@@ -13221,15 +13370,18 @@ span:last-child {
         Georgia,
         serif;
 
-    font-size: 42px;
+    font-size: 35px;
 
     font-weight: 700;
 
-    line-height: 1.2;
+    line-height: 1.18;
+
+    letter-spacing: -0.4px;
 }
 
 
-.doctor-third-section .commitment-title-white {
+.doctor-third-section
+.commitment-title-white {
 
     display: block;
 
@@ -13237,51 +13389,71 @@ span:last-child {
 }
 
 
-.doctor-third-section .commitment-title-gold {
+.doctor-third-section
+.commitment-title-gold {
 
     display: block;
 
-    margin-top: 5px;
+    margin-top: 4px;
 
-    color: var(--doctor-third-gold);
+    color:
+        var(--doctor-third-gold);
 }
 
 
 /* ==========================================================
-   SMALL GOLD TITLE DIVIDER
+   TITLE DIVIDER
 ========================================================== */
 
-.doctor-third-section .commitment-title-divider {
+.doctor-third-section
+.commitment-title-divider {
 
-    width: 105px;
+    width: 92px;
 
     display: flex;
 
     align-items: center;
 
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 
-.doctor-third-section .commitment-title-divider span {
+.doctor-third-section
+.commitment-title-divider span {
 
-    width: 70px;
-    height: 2px;
+    width: 61px;
 
-    background: var(--doctor-third-gold);
+    height: 1.5px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--doctor-third-gold),
+            var(--doctor-third-gold-light)
+        );
 }
 
 
-.doctor-third-section .commitment-title-divider i {
+.doctor-third-section
+.commitment-title-divider i {
 
     width: 8px;
+
     height: 8px;
 
-    margin-left: 12px;
+    margin-left: 11px;
 
-    background: var(--doctor-third-gold);
+    flex-shrink: 0;
 
-    transform: rotate(45deg);
+    background:
+        var(--doctor-third-gold-light);
+
+    transform:
+        rotate(45deg);
+
+    box-shadow:
+        0 0 8px
+        rgba(245,189,79,0.38);
 }
 
 
@@ -13289,21 +13461,29 @@ span:last-child {
    MIDDLE DESCRIPTION
 ========================================================== */
 
-.doctor-third-section .commitment-description-wrap {
+.doctor-third-section
+.commitment-description-wrap {
 
-    min-height: 165px;
+    position: relative;
+
+    z-index: 2;
+
+    min-height: 130px;
 
     display: flex;
 
     align-items: center;
 
-    padding: 0 33px;
+    padding:
+        0 28px;
 
     border-left:
-        1px solid rgba(232, 163, 36, 0.48);
+        1px solid
+        rgba(231,165,46,0.42);
 
     border-right:
-        1px solid rgba(232, 163, 36, 0.48);
+        1px solid
+        rgba(231,165,46,0.42);
 }
 
 
@@ -13311,24 +13491,24 @@ span:last-child {
 
     margin: 0;
 
-    color: rgba(255, 255, 255, 0.91);
+    color:
+        rgba(255,255,255,0.90);
 
-    font-size: 15px;
+    font-size: 13px;
 
     font-weight: 400;
 
-    line-height: 2;
+    line-height: 1.8;
 }
 
 
-/* ==========================================================
-   REMOVE BOOTSTRAP LEFT BORDER
-   Custom separator already handled
-========================================================== */
+/* Bootstrap border disabled */
 
-.doctor-third-section .border-start-banner {
+.doctor-third-section
+.border-start-banner {
 
-    border-left: none !important;
+    border-left:
+        none !important;
 }
 
 
@@ -13340,13 +13520,16 @@ span:last-child {
 
     position: relative;
 
+    z-index: 2;
+
     text-align: center;
 }
 
 
-/* vertical separator between values */
+/* vertical separator */
 
-.doctor-third-section .virtue-item:not(:last-child)::after {
+.doctor-third-section
+.virtue-item:not(:last-child)::after {
 
     content: "";
 
@@ -13354,25 +13537,33 @@ span:last-child {
 
     right: -1px;
 
-    top: 20%;
+    top: 18%;
 
     width: 1px;
 
-    height: 60%;
+    height: 62%;
 
     background:
-        rgba(232, 163, 36, 0.40);
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(245,189,79,0.48),
+            transparent
+        );
 }
 
 
 /* ==========================================================
-   VIRTUE ICON CIRCLE
+   VALUE ICON CIRCLE
 ========================================================== */
 
 .doctor-third-section .virtue-icon-ring {
 
-    width: 96px;
-    height: 96px;
+    position: relative;
+
+    width: 78px;
+
+    height: 78px;
 
     display: flex;
 
@@ -13380,52 +13571,111 @@ span:last-child {
 
     justify-content: center;
 
-    margin: 0 auto 17px;
+    margin:
+        0 auto 12px;
 
-    border: 1.5px solid var(--doctor-third-gold);
+    border:
+        1.3px solid
+        var(--doctor-third-gold);
 
     border-radius: 50%;
 
     background:
         radial-gradient(
             circle,
-            rgba(232, 163, 36, 0.07),
-            transparent 68%
+            rgba(231,165,46,0.10),
+            rgba(0,53,48,0.46)
         );
 
     box-shadow:
-        0 8px 18px rgba(0, 0, 0, 0.10);
+        0 7px 16px rgba(0,0,0,0.13),
+        inset 0 0 14px rgba(231,165,46,0.04);
 
     transition:
         transform 0.3s ease,
-        box-shadow 0.3s ease;
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
 }
 
 
-.doctor-third-section .virtue-icon-ring:hover {
+/* bottom glow */
 
-    transform: translateY(-4px);
+.doctor-third-section
+.virtue-icon-ring::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: -2px;
+
+    width: 30px;
+
+    height: 2px;
+
+    transform:
+        translateX(-50%);
+
+    opacity: 0;
+
+    background:
+        var(--doctor-third-gold-light);
 
     box-shadow:
-        0 12px 24px rgba(0, 0, 0, 0.18);
+        0 0 11px
+        var(--doctor-third-gold-light);
+
+    transition:
+        opacity 0.3s ease;
 }
 
 
-/* Existing PNG Icons */
+.doctor-third-section
+.virtue-item:hover
+.virtue-icon-ring {
 
-.doctor-third-section .virtue-icon-ring img {
+    transform:
+        translateY(-5px)
+        scale(1.04);
 
-    width: 55px !important;
-    height: 55px !important;
+    border-color:
+        var(--doctor-third-gold-light);
 
-    object-fit: contain;
+    box-shadow:
+        0 12px 24px rgba(0,0,0,0.18),
+        0 0 18px rgba(231,165,46,0.13);
+}
 
-    display: block;
+
+.doctor-third-section
+.virtue-item:hover
+.virtue-icon-ring::after {
+
+    opacity: 1;
 }
 
 
 /* ==========================================================
-   VIRTUE LABEL
+   EXISTING IMAGE ICONS
+========================================================== */
+
+.doctor-third-section
+.virtue-icon-ring img {
+
+    width: 43px !important;
+
+    height: 43px !important;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* ==========================================================
+   VALUE LABEL
 ========================================================== */
 
 .doctor-third-section .virtue-label {
@@ -13434,11 +13684,15 @@ span:last-child {
 
     color: #ffffff;
 
-    font-size: 16px;
+    font-size: 13px;
 
     font-weight: 700;
 
     line-height: 1.25;
+
+    text-shadow:
+        0 2px 8px
+        rgba(0,0,0,0.15);
 }
 
 
@@ -13450,56 +13704,98 @@ span:last-child {
 
     .doctor-third-section {
 
-        padding: 100px 0;
+        padding:
+            48px 0;
     }
 
 
-    .doctor-third-section .commitment-banner {
+    .doctor-third-section
+    .commitment-banner {
 
-        padding: 45px 35px;
+        padding:
+            28px 30px;
     }
 
 
-    .doctor-third-section .tooth-icon-box {
+    .doctor-third-section
+    .tooth-icon-box {
 
-        width: 125px;
-        height: 125px;
+        width:
+            96px;
 
-        flex-basis: 125px;
+        height:
+            96px;
 
-        font-size: 46px;
+        flex-basis:
+            96px;
+
+        font-size:
+            36px;
     }
 
 
-    .doctor-third-section .commitment-title {
+    .doctor-third-section
+    .commitment-title {
 
-        font-size: 35px;
+        font-size:
+            30px;
     }
 
 
-    .doctor-third-section .commitment-desc {
+    .doctor-third-section
+    .commitment-left {
 
-        font-size: 13px;
+        gap:
+            18px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring {
+    .doctor-third-section
+    .commitment-description-wrap {
 
-        width: 82px;
-        height: 82px;
+        min-height:
+            115px;
+
+        padding:
+            0 22px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring img {
+    .doctor-third-section
+    .commitment-desc {
 
-        width: 47px !important;
-        height: 47px !important;
+        font-size:
+            11.5px;
     }
 
 
-    .doctor-third-section .virtue-label {
+    .doctor-third-section
+    .virtue-icon-ring {
 
-        font-size: 14px;
+        width:
+            68px;
+
+        height:
+            68px;
+    }
+
+
+    .doctor-third-section
+    .virtue-icon-ring img {
+
+        width:
+            38px !important;
+
+        height:
+            38px !important;
+    }
+
+
+    .doctor-third-section
+    .virtue-label {
+
+        font-size:
+            11.5px;
     }
 
 }
@@ -13513,70 +13809,104 @@ span:last-child {
 
     .doctor-third-section {
 
-        padding: 80px 0;
+        padding:
+            42px 0;
     }
 
 
-    .doctor-third-section .commitment-banner {
+    .doctor-third-section
+    .commitment-banner {
 
-        padding: 38px 25px;
+        padding:
+            25px 22px;
     }
 
 
-    .doctor-third-section .commitment-left {
+    .doctor-third-section
+    .tooth-icon-box {
 
-        gap: 18px;
+        width:
+            84px;
+
+        height:
+            84px;
+
+        flex-basis:
+            84px;
+
+        font-size:
+            31px;
     }
 
 
-    .doctor-third-section .tooth-icon-box {
+    .doctor-third-section
+    .commitment-title {
 
-        width: 105px;
-        height: 105px;
-
-        flex-basis: 105px;
-
-        font-size: 38px;
+        font-size:
+            26px;
     }
 
 
-    .doctor-third-section .commitment-title {
+    .doctor-third-section
+    .commitment-title-divider {
 
-        font-size: 30px;
+        margin-top:
+            14px;
     }
 
 
-    .doctor-third-section .commitment-description-wrap {
+    .doctor-third-section
+    .commitment-description-wrap {
 
-        padding: 0 20px;
+        min-height:
+            105px;
+
+        padding:
+            0 16px;
     }
 
 
-    .doctor-third-section .commitment-desc {
+    .doctor-third-section
+    .commitment-desc {
 
-        font-size: 12px;
+        font-size:
+            10.5px;
 
-        line-height: 1.8;
+        line-height:
+            1.7;
     }
 
 
-    .doctor-third-section .virtue-icon-ring {
+    .doctor-third-section
+    .virtue-icon-ring {
 
-        width: 70px;
-        height: 70px;
+        width:
+            60px;
+
+        height:
+            60px;
+
+        margin-bottom:
+            9px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring img {
+    .doctor-third-section
+    .virtue-icon-ring img {
 
-        width: 40px !important;
-        height: 40px !important;
+        width:
+            33px !important;
+
+        height:
+            33px !important;
     }
 
 
-    .doctor-third-section .virtue-label {
+    .doctor-third-section
+    .virtue-label {
 
-        font-size: 12px;
+        font-size:
+            10px;
     }
 
 }
@@ -13590,83 +13920,138 @@ span:last-child {
 
     .doctor-third-section {
 
-        padding: 65px 0;
+        padding:
+            38px 0;
     }
 
 
-    .doctor-third-section .commitment-banner {
+    .doctor-third-section
+    .commitment-banner {
 
-        max-width: 760px;
+        max-width:
+            760px;
 
-        margin: 0 auto;
+        margin:
+            0 auto;
 
-        padding: 40px 32px;
+        padding:
+            30px 26px;
     }
 
 
-    .doctor-third-section .commitment-left {
+    .doctor-third-section
+    .commitment-left {
 
-        justify-content: center;
-
-        text-align: left;
+        justify-content:
+            center;
     }
 
 
-    .doctor-third-section .commitment-description-wrap {
+    .doctor-third-section
+    .tooth-icon-box {
 
-        min-height: auto;
+        width:
+            95px;
 
-        margin: 25px 0;
+        height:
+            95px;
 
-        padding: 28px 20px;
+        flex-basis:
+            95px;
 
-        text-align: center;
+        font-size:
+            35px;
+    }
 
-        border-left: 0;
 
-        border-right: 0;
+    .doctor-third-section
+    .commitment-title {
+
+        font-size:
+            30px;
+    }
+
+
+    .doctor-third-section
+    .commitment-description-wrap {
+
+        min-height:
+            auto;
+
+        margin:
+            20px 0;
+
+        padding:
+            20px 15px;
+
+        text-align:
+            center;
+
+        border-left:
+            none;
+
+        border-right:
+            none;
 
         border-top:
-            1px solid rgba(232, 163, 36, 0.42);
+            1px solid
+            rgba(231,165,46,0.38);
 
         border-bottom:
-            1px solid rgba(232, 163, 36, 0.42);
+            1px solid
+            rgba(231,165,46,0.38);
     }
 
 
-    .doctor-third-section .commitment-desc {
+    .doctor-third-section
+    .commitment-desc {
 
-        max-width: 600px;
+        max-width:
+            590px;
 
-        margin: auto;
+        margin:
+            auto;
 
-        font-size: 14px;
+        font-size:
+            12px;
     }
 
 
-    .doctor-third-section .border-start-banner {
+    .doctor-third-section
+    .border-start-banner {
 
-        padding-left: 12px !important;
+        padding-left:
+            12px !important;
     }
 
 
-    .doctor-third-section .virtue-icon-ring {
+    .doctor-third-section
+    .virtue-icon-ring {
 
-        width: 88px;
-        height: 88px;
+        width:
+            75px;
+
+        height:
+            75px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring img {
+    .doctor-third-section
+    .virtue-icon-ring img {
 
-        width: 50px !important;
-        height: 50px !important;
+        width:
+            42px !important;
+
+        height:
+            42px !important;
     }
 
 
-    .doctor-third-section .virtue-label {
+    .doctor-third-section
+    .virtue-label {
 
-        font-size: 14px;
+        font-size:
+            12px;
     }
 
 }
@@ -13680,153 +14065,227 @@ span:last-child {
 
     .doctor-third-section {
 
-        padding: 45px 0;
+        padding:
+            30px 0;
     }
 
 
-    .doctor-third-section .commitment-banner {
+    .doctor-third-section .container {
 
-        padding: 30px 20px;
+        padding-left:
+            16px;
 
-        border-radius: 20px;
+        padding-right:
+            16px;
     }
 
 
-    .doctor-third-section .commitment-left {
+    .doctor-third-section
+    .commitment-banner {
 
-        flex-direction: column;
+        padding:
+            25px 17px;
 
-        text-align: center;
+        border-radius:
+            19px;
     }
 
 
-    .doctor-third-section .tooth-icon-box {
+    .doctor-third-section
+    .commitment-left {
 
-        width: 110px;
-        height: 110px;
+        flex-direction:
+            column;
 
-        flex-basis: 110px;
+        gap:
+            14px;
 
-        font-size: 40px;
+        text-align:
+            center;
     }
 
 
-    .doctor-third-section .commitment-title {
+    .doctor-third-section
+    .tooth-icon-box {
 
-        font-size: 32px;
+        width:
+            85px;
+
+        height:
+            85px;
+
+        flex-basis:
+            85px;
+
+        font-size:
+            31px;
     }
 
 
-    .doctor-third-section .commitment-title-divider {
+    .doctor-third-section
+    .commitment-title {
 
-        margin-left: auto;
-        margin-right: auto;
+        font-size:
+            28px;
     }
 
 
-    .doctor-third-section .commitment-description-wrap {
+    .doctor-third-section
+    .commitment-title-divider {
 
-        margin: 25px 0;
-
-        padding: 22px 5px;
+        margin:
+            14px auto 0;
     }
 
 
-    .doctor-third-section .commitment-desc {
+    .doctor-third-section
+    .commitment-description-wrap {
 
-        font-size: 13px;
+        margin:
+            18px 0;
 
-        line-height: 1.8;
+        padding:
+            17px 5px;
     }
 
 
-    .doctor-third-section .virtue-item:nth-child(2)::after {
+    .doctor-third-section
+    .commitment-desc {
+
+        font-size:
+            11px;
+
+        line-height:
+            1.7;
+    }
+
+
+    /* 2x2 values */
+
+    .doctor-third-section
+    .virtue-item:nth-child(2)::after {
 
         display: none;
     }
 
 
-    .doctor-third-section .virtue-item:nth-child(1),
-    .doctor-third-section .virtue-item:nth-child(2) {
+    .doctor-third-section
+    .virtue-item:nth-child(1),
 
-        margin-bottom: 25px;
+    .doctor-third-section
+    .virtue-item:nth-child(2) {
+
+        margin-bottom:
+            19px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring {
+    .doctor-third-section
+    .virtue-icon-ring {
 
-        width: 82px;
-        height: 82px;
+        width:
+            70px;
+
+        height:
+            70px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring img {
+    .doctor-third-section
+    .virtue-icon-ring img {
 
-        width: 46px !important;
-        height: 46px !important;
+        width:
+            39px !important;
+
+        height:
+            39px !important;
     }
 
 
-    .doctor-third-section .virtue-label {
+    .doctor-third-section
+    .virtue-label {
 
-        font-size: 14px;
+        font-size:
+            12px;
     }
 
 }
 
 
 /* ==========================================================
-   SMALL MOBILE
+   EXTRA SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 399.98px) {
 
-    .doctor-third-section .commitment-banner {
+    .doctor-third-section
+    .commitment-banner {
 
-        padding: 27px 14px;
+        padding:
+            22px 12px;
     }
 
 
-    .doctor-third-section .commitment-title {
+    .doctor-third-section
+    .tooth-icon-box {
 
-        font-size: 28px;
+        width:
+            76px;
+
+        height:
+            76px;
+
+        flex-basis:
+            76px;
+
+        font-size:
+            28px;
     }
 
 
-    .doctor-third-section .tooth-icon-box {
+    .doctor-third-section
+    .commitment-title {
 
-        width: 95px;
-        height: 95px;
-
-        flex-basis: 95px;
-
-        font-size: 35px;
+        font-size:
+            25px;
     }
 
 
-    .doctor-third-section .commitment-desc {
+    .doctor-third-section
+    .commitment-desc {
 
-        font-size: 12px;
+        font-size:
+            10.5px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring {
+    .doctor-third-section
+    .virtue-icon-ring {
 
-        width: 72px;
-        height: 72px;
+        width:
+            62px;
+
+        height:
+            62px;
     }
 
 
-    .doctor-third-section .virtue-icon-ring img {
+    .doctor-third-section
+    .virtue-icon-ring img {
 
-        width: 40px !important;
-        height: 40px !important;
+        width:
+            34px !important;
+
+        height:
+            34px !important;
     }
 
 
-    .doctor-third-section .virtue-label {
+    .doctor-third-section
+    .virtue-label {
 
-        font-size: 12px;
+        font-size:
+            10.5px;
     }
 
 }
@@ -23957,7 +24416,8 @@ span:last-child {
 
 @media (max-width:992px) {
     .marquee-section {
-        background-color: #389183 !important;
+        background-color: var(--dark-green-bg) !important;
+        /* background-color: #389183 !important; */
         color: white;
         padding: 6px;
     }
@@ -24564,7 +25024,7 @@ span:last-child {
 @media (min-width: 992px) and (max-width: 1200px) {
 
     .main-header-navbar .nav-link {
-        color: #003B32 !important;
+        color: white !important;
         font-weight: 700 !important;
         font-size: 10px !important;
         letter-spacing: 0.3px !important;

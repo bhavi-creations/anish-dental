@@ -79,12 +79,12 @@
         &nbsp; &nbsp; / &nbsp; &nbsp;
         <div class="top-info-item">
             <i class="fa-solid fa-phone"></i>
-            <a href="tel:+917396256474">+91 7396256474</a>
+            <a href="tel:+917396256474" style="color:white">+91 7396256474</a>
         </div>
         &nbsp; &nbsp; / &nbsp; &nbsp;
         <div class="top-info-item">
             <i class="fa-regular fa-envelope"></i>
-            <a href="mailto:anishdentalhospital@gmail.com">anishdentalhospital@gmail.com</a>
+            <a href="mailto:anishdentalhospital@gmail.com" style="color:white">anishdentalhospital@gmail.com</a>
         </div>
     </marquee>
 </div>
