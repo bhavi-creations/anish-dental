@@ -16400,7 +16400,8 @@ span:last-child {
 
     border:
         1px solid
-        #dce8e5;
+        #003b32;
+        /* #dce8e5; */
 
     border-radius:
         16px 16px
@@ -17085,7 +17086,7 @@ span:last-child {
     position: relative;
 
     padding:
-        65px 0
+        65px 37px
         38px !important;
 
     overflow: hidden;
@@ -17643,7 +17644,7 @@ span:last-child {
 
     border:
         1px solid
-        #dce8e5;
+         #003b32;
 
     border-radius:
         18px;
@@ -18676,7 +18677,7 @@ span:last-child {
 
     padding: 30px 25px 35px !important;
 
-    border: 1px solid var(--fifth-border) !important;
+    border: 1px solid  #003b32 !important;
 
     border-radius: 16px !important;
 
@@ -18774,7 +18775,7 @@ span:last-child {
 
     color: var(--fifth-green);
 
-    background: #ffffff;
+    background: #e9f1ef;
 
     border: 2px solid var(--fifth-green);
 
