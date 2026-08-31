@@ -1264,8 +1264,7 @@
 
                             <div class="faq_answer">
 
-                                Local anesthesia is used during implant placement,
-                                helping keep the procedure comfortable.
+                                No, local anesthesia minimizes discomfort.
 
                             </div>
 

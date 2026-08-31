@@ -354,6 +354,73 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
+<!-- COMMON FAQ JAVASCRIPT -->
+<script>
+function toggleFAQ(button) {
+
+    /* Find current FAQ item */
+    const faqItem = button.closest(
+        '.rootcanal_fifth_section_faq_item'
+    );
+
+    /* Find answer */
+    const answer = faqItem.querySelector(
+        '.faq_answer'
+    );
+
+    /* Find ONLY plus / minus span */
+    const plusIcon = button.querySelector(
+        '.rootcanal_fifth_section_faq_plus'
+    );
+
+    /* Safety check */
+    if (!answer || !plusIcon) {
+        return;
+    }
+
+
+    /* ==============================
+       CLOSE
+    ============================== */
+    if (answer.classList.contains('faq_answer_show')) {
+
+        answer.classList.remove(
+            'faq_answer_show'
+        );
+
+        /* Only icon changes */
+        plusIcon.textContent = '+';
+
+        button.setAttribute(
+            'aria-expanded',
+            'false'
+        );
+
+    }
+
+
+    /* ==============================
+       OPEN
+    ============================== */
+    else {
+
+        answer.classList.add(
+            'faq_answer_show'
+        );
+
+        /* Only icon changes */
+        plusIcon.textContent = '−';
+
+        button.setAttribute(
+            'aria-expanded',
+            'true'
+        );
+
+    }
+
+}
+</script>
 </body>
 
 </html>
