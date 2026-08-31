@@ -438,7 +438,7 @@
 
 
 
-<section class="mt-5">
+<section class="">
     <div class="container">
         <!-- Main Stats Marquee Section -->
         <div class="stats-card-wrapper py-2">
@@ -612,7 +612,7 @@
 
 <!-- OUR TREATMENTS SECTION -->
 <section class="treatment_new_section py-5">
-    
+
     <!-- Premium top-left gold curve decoration -->
     <div class="treatment-premium-top-curve"></div>
     <div class="container">
@@ -898,9 +898,11 @@
 <!-- OUR DOCTORS SECTION -->
 <section class="about-third-section py-5">
     <div class="container">
-
+       <!-- Premium top-left gold curve decoration -->
+    <div class="treatment-premium-top-curve"></div>
         <!-- Section Header -->
         <div class="text-center mb-5">
+            
             <span class="section-subtitle">— OUR DOCTORS —</span>
             <div class="header-tooth-icon text-gold my-1">
                 <i class="fa-solid fa-tooth"></i>
@@ -917,12 +919,13 @@
 
         <!-- Doctor Cards Row -->
         <div class="row g-4">
+            
 
             <!-- Card 1: Dr. Anish Kumar Lagisetti -->
             <div class="col-lg-6">
                 <div class="doctor-card h-100 p-4">
                     <div class="row g-4 align-items-center">
-
+                         
                         <!-- Image Box -->
                         <div class="col-sm-5">
                             <div class="doctor-img-box">
