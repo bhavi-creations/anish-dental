@@ -31051,3 +31051,23 @@ This keeps current image exactly as it is.
 
 
 
+
+/* Icon Circle */
+.card-icon-badge {
+    background: #00362d;
+    border: 1px solid #E9A323;
+    border-radius: 50%;
+}
+
+/* All PNG icons inside circle -> Gold */
+.card-icon-badge img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+
+    /* Convert black PNG icon to Gold #E9A323 */
+    filter: brightness(0) saturate(100%)
+            invert(69%) sepia(94%)
+            saturate(1027%) hue-rotate(345deg)
+            brightness(99%) contrast(86%);
+}

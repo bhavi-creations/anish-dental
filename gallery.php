@@ -58,6 +58,12 @@
                 <button class="filter-btn active" data-filter="all">
                     <i class="bi bi-grid-fill"></i> All
                 </button>
+
+                <button class="filter-btn" data-filter="Dental Camp">
+                    <i class="bi bi-shield-check"></i> Dental Camp
+                </button>
+
+
                 <button class="filter-btn" data-filter="clinic">
                     <i class="bi bi-building"></i> Clinic
                 </button>
@@ -67,9 +73,7 @@
                 <button class="filter-btn" data-filter="equipment">
                     <i class="bi bi-display"></i> Equipment
                 </button>
-                <button class="filter-btn" data-filter="Dental Camp">
-                    <i class="bi bi-shield-check"></i> Dental Camp
-                </button>
+
                 <!-- <button class="filter-btn" data-filter="team">
                     <i class="bi bi-people"></i> Our Team
                 </button> -->
@@ -82,56 +86,7 @@
         <!-- Gallery Grid -->
         <div class="row g-3" id="gallery-grid">
 
-            <!-- Row 1 -->
-            <div class="col-md-5 col-sm-6 gallery-item" data-category="clinic">
-                <div class="gallery-card">
-                    <img src="./assets/img/g4.png" alt="Clinic Reception">
-                </div>
-            </div>
 
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g6.png" alt="Treatment Room" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 gallery-item" data-category="clinic">
-                <div class="gallery-card">
-                    <img src="./assets/img/waiting-hall.png" alt="Waiting Area">
-                </div>
-            </div>
-
-            <!-- Row 2 -->
-            <!-- <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g10.png" alt="Dental Chair Setup" class="img-fluid">
-                </div>
-            </div> -->
-
-            <!-- <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
-                <div class="gallery-card">
-                    <img src="" alt="Consultation Room">
-                </div>
-            </div> -->
-
-            <div class="col-md-5 col-sm-6 gallery-item" data-category="equipment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g3.png" alt="Advanced Equipment" class="img-fluid">
-                </div>
-            </div>
-
-            <!-- Row 3 -->
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-1.png" alt="Dental camp Unit">
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="equipment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g2.png" alt="3D Dental CT Scanner">
-                </div>
-            </div>
 
             <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
@@ -145,7 +100,7 @@
                 </div>
             </div>
 
- <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
                 <div class="gallery-card">
                     <img src="./assets/img/dental-camp-img-4.png" alt="Lab Dental Camp">
                 </div>
@@ -168,10 +123,70 @@
                     <img src="./assets/img/dental-camp-img-7.png" alt="Lab Dental Camp">
                 </div>
             </div>
-           
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+                <div class="gallery-card">
+                    <img src="./assets/img/dental-camp-img-1.png" alt="Dental camp Unit">
+                </div>
+            </div>
 
 
-            
+
+
+
+
+            <!-- Row 1 -->
+            <div class="col-md-5 col-sm-6 gallery-item" data-category="clinic">
+                <div class="gallery-card">
+                    <img src="./assets/img/g4.png" alt="Clinic Reception">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
+                <div class="gallery-card">
+                    <img src="./assets/img/g6.png" alt="Treatment Room" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 gallery-item" data-category="clinic">
+                <div class="gallery-card">
+                    <img src="./assets/img/waiting-hall.png" alt="Waiting Area">
+                </div>
+            </div>
+
+
+
+            <div class="col-md-5 col-sm-6 gallery-item" data-category="equipment">
+                <div class="gallery-card">
+                    <img src="./assets/img/g3.png" alt="Advanced Equipment" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+
+
+            <div class="col-md-3 col-sm-6 gallery-item" data-category="equipment">
+                <div class="gallery-card">
+                    <img src="./assets/img/g2.png" alt="3D Dental CT Scanner">
+                </div>
+            </div>
+            <!-- Row 2 -->
+            <!-- <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
+                <div class="gallery-card">
+                    <img src="./assets/img/g10.png" alt="Dental Chair Setup" class="img-fluid">
+                </div>
+            </div> -->
+
+            <!-- <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
+                <div class="gallery-card">
+                    <img src="" alt="Consultation Room">
+                </div>
+            </div> -->
+
+
+
+
+
+
 
             <!-- Row 4 (Happy Smiles Category) -->
             <!-- <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
@@ -260,15 +275,15 @@
 
 <section class="about-fourth-section">
     <div class="container">
-       <!-- Bottom Call To Action Banner -->
+        <!-- Bottom Call To Action Banner -->
         <div class="cta-banner">
             <div class="row g-4 align-items-center justify-content-between">
-                
+
                 <!-- Left: Icon + Text -->
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="cta-icon-box">
-                              <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
+                            <i class="fa-regular fa-calendar-check treatments_fifth_section_badge_icon"></i>
                         </div>
                         <div>
                             <div class="cta-subtitle">READY FOR A HEALTHIER SMILE?</div>
@@ -304,31 +319,31 @@
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const filterButtons = document.querySelectorAll(".gallery-second-section .filter-btn");
-    const galleryItems = document.querySelectorAll(".gallery-second-section .gallery-item");
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterButtons = document.querySelectorAll(".gallery-second-section .filter-btn");
+        const galleryItems = document.querySelectorAll(".gallery-second-section .gallery-item");
 
-    filterButtons.forEach(button => {
-        button.addEventListener("click", function () {
-            // Remove active class from all buttons
-            filterButtons.forEach(btn => btn.classList.remove("active"));
-            
-            // Add active class to clicked button
-            this.classList.add("active");
+        filterButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove("active"));
 
-            const filterValue = this.getAttribute("data-filter");
+                // Add active class to clicked button
+                this.classList.add("active");
 
-            // Filter items
-            galleryItems.forEach(item => {
-                if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
-                    item.classList.remove("hide");
-                } else {
-                    item.classList.add("hide");
-                }
+                const filterValue = this.getAttribute("data-filter");
+
+                // Filter items
+                galleryItems.forEach(item => {
+                    if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
+                        item.classList.remove("hide");
+                    } else {
+                        item.classList.add("hide");
+                    }
+                });
             });
         });
     });
-});
 </script>
 
 <?php include 'footer.php'; ?>

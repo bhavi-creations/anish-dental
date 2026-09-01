@@ -49,14 +49,14 @@
 
                     <!-- DESCRIPTION -->
                     <p class="contactus_first_section_desc">
-                       We offer a wide range of advanced dental treatments using the latest technology and techniques to ensure healthy, beautiful and confident smiles.
+                        We offer a wide range of advanced dental treatments using the latest technology and techniques to ensure healthy, beautiful and confident smiles.
                     </p>
 
                     <!-- BUTTONS -->
                     <div class="contactus_first_section_btn_group">
 
                         <a href="appointment.php"
-                           class="contactus_first_section_btn_primary">
+                            class="contactus_first_section_btn_primary">
 
                             <i class="fa-regular fa-calendar-days"></i>
 
@@ -66,7 +66,7 @@
 
 
                         <a href="tel:+917396256474"
-                           class="contactus_first_section_btn_secondary">
+                            class="contactus_first_section_btn_secondary">
 
                             <i class="fa-solid fa-phone"></i>
 
@@ -77,7 +77,7 @@
                     </div>
 
 
-                    
+
 
                 </div>
 
@@ -95,8 +95,7 @@
                     <img
                         src="./assets/img/g1.png"
                         alt="Anish Dental Multispeciality Dental Hospital"
-                        class="contactus_first_section_main_img"
-                    >
+                        class="contactus_first_section_main_img">
 
                     <!-- GREEN IMAGE OVERLAY -->
                     <div class="contactus_first_section_img_overlay"></div>
@@ -195,13 +194,13 @@
 
                         </div> -->
 
-                    </div>
-
                 </div>
 
             </div>
 
         </div>
+
+    </div>
 
     </div>
 
@@ -524,7 +523,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-child-reaching"></i>
+                        <!-- <i class="fa-solid fa-child-reaching"></i> -->
+                        <img src="./assets/img/baby.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -571,7 +572,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                        <img src="./assets/img/periodontal-care.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -618,7 +621,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-user-doctor"></i>
+                        <!-- <i class="fa-solid fa-user-doctor"></i> -->
+                        <img src="./assets/img/icons/oral-surgery-step-4.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -665,7 +670,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
+                        <img src="./assets/img/smiling-teeth.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -712,7 +719,8 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-teeth-open"></i>
+                        <!-- <i class="fa-solid fa-teeth-open"></i> -->
+                        <img src="./assets/img/icons/denture.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -759,7 +767,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                        <img src="./assets/img/icons/general-dentistry-step-2.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -806,7 +816,8 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                        <img src="./assets/img/icons/wisdom-tooth.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -840,7 +851,6 @@
     </div>
 
 </section>
-
 
 
 <!-- SPECIALIZED DENTAL CARE SECTION
@@ -1194,167 +1204,167 @@
     </div>
 </section> -->
 
-        <!-- STATS / COUNTERS THIRD SECTION -->
-        <section class="treatments_third_section_wrapper treatments_page_third_section">
+<!-- STATS / COUNTERS THIRD SECTION -->
+<section class="treatments_third_section_wrapper treatments_page_third_section">
 
-            <div class="container">
+    <div class="container">
 
-                <div class="treatments_third_section_container">
+        <div class="treatments_third_section_container">
 
-                    <div class="treatments_third_section_row">
-
-
-                        <!-- STAT 1 -->
-                        <div class="treatments_third_section_item">
-
-                            <div class="treatments_third_section_icon_circle">
-                                <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
-                            </div>
-
-                            <div class="treatments_third_section_content">
-
-                                <span class="treatments_third_section_number">
-                                    5000+
-                                </span>
-
-                                <span class="treatments_third_section_label">
-                                    Happy Patients
-                                </span>
-
-                            </div>
-
-                            <div class="treatments_third_section_item_line">
-                                <span></span>
-                                <i></i>
-                                <span></span>
-                            </div>
-
-                        </div>
+            <div class="treatments_third_section_row">
 
 
+                <!-- STAT 1 -->
+                <div class="treatments_third_section_item">
 
-                        <!-- STAT 2 -->
-                        <div class="treatments_third_section_item">
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-regular fa-face-smile treatments_third_section_icon"></i>
+                    </div>
 
-                            <div class="treatments_third_section_icon_circle">
-                                <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
-                            </div>
+                    <div class="treatments_third_section_content">
 
-                            <div class="treatments_third_section_content">
+                        <span class="treatments_third_section_number">
+                            5000+
+                        </span>
 
-                                <span class="treatments_third_section_number">
-                                    15+
-                                </span>
+                        <span class="treatments_third_section_label">
+                            Happy Patients
+                        </span>
 
-                                <span class="treatments_third_section_label">
-                                    Dental Specialities
-                                </span>
+                    </div>
 
-                            </div>
-
-                            <div class="treatments_third_section_item_line">
-                                <span></span>
-                                <i></i>
-                                <span></span>
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- STAT 3 -->
-                        <div class="treatments_third_section_item">
-
-                            <div class="treatments_third_section_icon_circle">
-                                <i class="fa-solid fa-user-doctor treatments_third_section_icon"></i>
-                            </div>
-
-                            <div class="treatments_third_section_content">
-
-                                <span class="treatments_third_section_number">
-                                    10+
-                                </span>
-
-                                <span class="treatments_third_section_label">
-                                    Experienced Doctors
-                                </span>
-
-                            </div>
-
-                            <div class="treatments_third_section_item_line">
-                                <span></span>
-                                <i></i>
-                                <span></span>
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- STAT 4 -->
-                        <div class="treatments_third_section_item">
-
-                            <div class="treatments_third_section_icon_circle">
-                                <i class="fa-solid fa-award treatments_third_section_icon"></i>
-                            </div>
-
-                            <div class="treatments_third_section_content">
-
-                                <span class="treatments_third_section_number">
-                                    10+
-                                </span>
-
-                                <span class="treatments_third_section_label">
-                                    Years of Excellence
-                                </span>
-
-                            </div>
-
-                            <div class="treatments_third_section_item_line">
-                                <span></span>
-                                <i></i>
-                                <span></span>
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- STAT 5 -->
-                        <div class="treatments_third_section_item">
-
-                            <div class="treatments_third_section_icon_circle">
-                                <i class="fa-solid fa-thumbs-up treatments_third_section_icon"></i>
-                            </div>
-
-                            <div class="treatments_third_section_content">
-
-                                <span class="treatments_third_section_number">
-                                    100%
-                                </span>
-
-                                <span class="treatments_third_section_label">
-                                    Patient Satisfaction
-                                </span>
-
-                            </div>
-
-                            <div class="treatments_third_section_item_line">
-                                <span></span>
-                                <i></i>
-                                <span></span>
-                            </div>
-
-                        </div>
-
-
+                    <div class="treatments_third_section_item_line">
+                        <span></span>
+                        <i></i>
+                        <span></span>
                     </div>
 
                 </div>
 
+
+
+                <!-- STAT 2 -->
+                <div class="treatments_third_section_item">
+
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-tooth treatments_third_section_icon"></i>
+                    </div>
+
+                    <div class="treatments_third_section_content">
+
+                        <span class="treatments_third_section_number">
+                            15+
+                        </span>
+
+                        <span class="treatments_third_section_label">
+                            Dental Specialities
+                        </span>
+
+                    </div>
+
+                    <div class="treatments_third_section_item_line">
+                        <span></span>
+                        <i></i>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+
+                <!-- STAT 3 -->
+                <div class="treatments_third_section_item">
+
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-user-doctor treatments_third_section_icon"></i>
+                    </div>
+
+                    <div class="treatments_third_section_content">
+
+                        <span class="treatments_third_section_number">
+                            10+
+                        </span>
+
+                        <span class="treatments_third_section_label">
+                            Experienced Doctors
+                        </span>
+
+                    </div>
+
+                    <div class="treatments_third_section_item_line">
+                        <span></span>
+                        <i></i>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+
+                <!-- STAT 4 -->
+                <div class="treatments_third_section_item">
+
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-award treatments_third_section_icon"></i>
+                    </div>
+
+                    <div class="treatments_third_section_content">
+
+                        <span class="treatments_third_section_number">
+                            10+
+                        </span>
+
+                        <span class="treatments_third_section_label">
+                            Years of Excellence
+                        </span>
+
+                    </div>
+
+                    <div class="treatments_third_section_item_line">
+                        <span></span>
+                        <i></i>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+
+                <!-- STAT 5 -->
+                <div class="treatments_third_section_item">
+
+                    <div class="treatments_third_section_icon_circle">
+                        <i class="fa-solid fa-thumbs-up treatments_third_section_icon"></i>
+                    </div>
+
+                    <div class="treatments_third_section_content">
+
+                        <span class="treatments_third_section_number">
+                            100%
+                        </span>
+
+                        <span class="treatments_third_section_label">
+                            Patient Satisfaction
+                        </span>
+
+                    </div>
+
+                    <div class="treatments_third_section_item_line">
+                        <span></span>
+                        <i></i>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
             </div>
 
-        </section>
+        </div>
+
+    </div>
+
+</section>
 
 
 <div class="img-icon-4 d-none d-md-block mt-3">
@@ -1420,8 +1430,7 @@
                     <img
                         src="./assets/img/g6.png"
                         alt="Advanced Dental Technology"
-                        class="treatments_fourth_section_img"
-                    >
+                        class="treatments_fourth_section_img">
 
 
                     <!-- Floating Treatment Badge -->
@@ -1630,7 +1639,7 @@
                     <div class="index_fifth_section_cta_btn_wrapper">
 
                         <a href="appointment.php"
-                           class="index_fifth_section_cta_btn">
+                            class="index_fifth_section_cta_btn">
 
                             <i class="fa-regular fa-calendar-plus"></i>
 
@@ -1664,7 +1673,7 @@
                         <div>
 
                             <a href="tel:+917396256474"
-                               class="index_fifth_section_cta_phone_num">
+                                class="index_fifth_section_cta_phone_num">
 
                                 +91 73962 56474
 
@@ -1686,6 +1695,6 @@
             </div>
 
         </div>
-  </div>    
+    </div>
 </section>
 <?php include 'footer.php'; ?>

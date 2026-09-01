@@ -8,7 +8,7 @@
                 <button class="filter-btn active" data-filter="all">
                     <i class="bi bi-grid-fill"></i> All
                 </button>
-                
+
                 <button class="filter-btn" data-filter="smiles">
                     <i class="bi bi-emoji-smile"></i> Happy Smiles
                 </button>
@@ -21,7 +21,7 @@
         <!-- Gallery Grid -->
         <div class="row g-3" id="gallery-grid">
 
-            
+
 
             <!-- Row 4 (Happy Smiles Category) -->
             <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
@@ -52,6 +52,27 @@
                 <div class="gallery-card">
                     <img src="./assets/img/gallery-img-5.png" alt="Happy Patient Smile">
                 </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+                 <a href="https://wa.me/917396256474"  aria-label="WhatsApp">
+                    <div class="gallery-card quote-card p-4 text-center h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: linear-gradient(90deg, rgba(2, 56, 48, 0.94), rgba(4, 73, 64, 0.69)) !important; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
+
+                        <!-- DENTAL ICON -->
+                        <div class="quote-icon mb-3" style="font-size: 2.2rem; color: #ffd700;">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+
+                        <!-- QUOTATION -->
+                        <blockquote class="m-0" style="font-size: 1.05rem; font-weight: 500; line-height: 1.5; font-style: italic;">
+                            <!-- “Every smile tells a story — let us make yours unforgettable.” -->
+                            “ A healthy smile is the ultimate sign of confidence”
+                        </blockquote>
+
+                        <!-- DECORATIVE LINE -->
+                        <div class="mt-3" style="width: 40px; height: 3px; background-color: #ffd700; border-radius: 2px;"></div>
+                    </div>
+                </a>
             </div>
 
         </div>
@@ -147,30 +168,30 @@
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const filterButtons = document.querySelectorAll(".gallery-second-section .filter-btn");
-    const galleryItems = document.querySelectorAll(".gallery-second-section .gallery-item");
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterButtons = document.querySelectorAll(".gallery-second-section .filter-btn");
+        const galleryItems = document.querySelectorAll(".gallery-second-section .gallery-item");
 
-    filterButtons.forEach(button => {
-        button.addEventListener("click", function () {
-            // Remove active class from all buttons
-            filterButtons.forEach(btn => btn.classList.remove("active"));
-            
-            // Add active class to clicked button
-            this.classList.add("active");
+        filterButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove("active"));
 
-            const filterValue = this.getAttribute("data-filter");
+                // Add active class to clicked button
+                this.classList.add("active");
 
-            // Filter items
-            galleryItems.forEach(item => {
-                if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
-                    item.classList.remove("hide");
-                } else {
-                    item.classList.add("hide");
-                }
+                const filterValue = this.getAttribute("data-filter");
+
+                // Filter items
+                galleryItems.forEach(item => {
+                    if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
+                        item.classList.remove("hide");
+                    } else {
+                        item.classList.add("hide");
+                    }
+                });
             });
         });
     });
-});
 </script>
 <?php include 'footer.php'; ?>
