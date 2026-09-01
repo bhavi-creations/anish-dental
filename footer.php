@@ -149,6 +149,8 @@
     
 </footer>
 
+<?php include 'c2.php' ; ?>
+
 <!-- FLOATING ACTION BUTTONS -->
 <div class="floating-btn-container">
     <a href="https://wa.me/917396256474" class="floating-btn whatsapp-btn" aria-label="WhatsApp">
