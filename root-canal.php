@@ -532,7 +532,7 @@
 
 
                 <!-- Small Tooth Decoration -->
-                <div class="rootcanal_third_section_top_icon">
+                <div class="rootcanal_third_section_top_icon" style="color:#f5c15c;">
 
                     <i class="fa-solid fa-tooth"></i>
 
