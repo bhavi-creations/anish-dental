@@ -563,8 +563,9 @@ a {
 .index_first_section_wrapper {
     width: 100% !important;
     /* background: #050505 !important; */
+    background:#003b32 !important;
     /* background: linear-gradient(90deg, rgba(0, 55, 47, 0.94), rgba(0, 50, 43, 0.91)) !important; */
-    background: radial-gradient(circle at 25% 50%, rgba(0, 145, 130, 0.13), transparent 40%), linear-gradient(110deg, #003d3c 0%, #003535 48%, #002b2b 100%);
+    /* background: radial-gradient(circle at 25% 50%, rgba(0, 145, 130, 0.13), transparent 40%), linear-gradient(110deg, #003d3c 0%, #003535 48%, #002b2b 100%); */
     /* background: radial-gradient(circle at 28% 46%, rgba(0, 145, 128, 0.13), transparent 42%), linear-gradient(110deg, #03231e 0%, #03231e 48%, #002b2a 100%); */
     padding: 0px !important;
     font-family: 'Poppins', sans-serif !important;
