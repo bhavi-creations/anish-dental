@@ -562,7 +562,10 @@ a {
 
 .index_first_section_wrapper {
     width: 100% !important;
-    background: #ffffff !important;
+    /* background: #050505 !important; */
+    /* background: linear-gradient(90deg, rgba(0, 55, 47, 0.94), rgba(0, 50, 43, 0.91)) !important; */
+    background: radial-gradient(circle at 25% 50%, rgba(0, 145, 130, 0.13), transparent 40%), linear-gradient(110deg, #003d3c 0%, #003535 48%, #002b2b 100%);
+    /* background: radial-gradient(circle at 28% 46%, rgba(0, 145, 128, 0.13), transparent 42%), linear-gradient(110deg, #03231e 0%, #03231e 48%, #002b2a 100%); */
     padding: 0px !important;
     font-family: 'Poppins', sans-serif !important;
     position: relative !important;
@@ -582,14 +585,16 @@ a {
     position: relative !important;
     overflow: hidden !important;
 
-    background:
+    /* background:
         radial-gradient(circle at 20% 35%,
             rgba(11, 104, 90, 0.25),
             transparent 40%),
         linear-gradient(135deg,
             #003b32 0%,
             #002f28 48%,
-            #002820 100%) !important;
+            #002820 100%) !important; */
+    background: radial-gradient(circle at 25% 50%, rgba(0, 145, 130, 0.13), transparent 40%), linear-gradient(110deg, #003d3c 0%, #003535 48%, #002b2b 100%);
+
 
     border-radius: 4px !important;
 }
@@ -618,6 +623,12 @@ a {
 
     position: relative !important;
     z-index: 10 !important;
+    /* background:red !important; */
+    /* background: radial-gradient(circle at 25% 50%, rgba(0, 145, 130, 0.13), transparent 40%), linear-gradient(110deg, #003d3c 0%, #003535 48%, #002b2b 100%) !important; */
+    ;
+
+    /* background: radial-gradient(circle at 25% 50%, rgba(0, 145, 130, 0.13), transparent 40%), linear-gradient(110deg, #003d3c 0%, #003535 48%, #002b2b 100%) !important; */
+
 }
 
 
@@ -16664,7 +16675,7 @@ a {
     /* color:
         #314a47; */
 
-         color:
+    color:
         #ffffff;
 
     font-size:
@@ -16690,7 +16701,7 @@ a {
     /* color:
         var(--implant-green) !important; */
 
-         color:
+    color:
         #f5c15c !important;
 
     font-family:
@@ -16787,7 +16798,7 @@ a {
 
     /* color:
         #364b54 !important; */
-         color:
+    color:
         #ffffff !important;
 
     font-size:
@@ -17178,7 +17189,7 @@ a {
 
     color:
         #07534d !important;
-         /* color:
+    /* color:
         #07534d !important; */
 
 
@@ -18087,7 +18098,7 @@ a {
     padding: 60px 0 75px !important;
 
     background:
-       #003f3a !important;
+        #003f3a !important;
 
     font-family: 'Poppins', sans-serif !important;
 }
@@ -18172,7 +18183,7 @@ a {
 
     /* background: var(--fifth-green); */
     background: #d99a2b;
-    
+
 }
 
 
