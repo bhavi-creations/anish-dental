@@ -421,6 +421,81 @@ function toggleFAQ(button) {
 
 }
 </script>
+
+
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    const form = this;
+    const submitBtn = document.getElementById("submitBtn");
+    const formMessage = document.getElementById("formMessage");
+
+    const originalButtonContent = submitBtn.innerHTML;
+
+    submitBtn.disabled = true;
+
+    submitBtn.innerHTML = `
+        <i class="fa-solid fa-spinner fa-spin"></i>
+        <span>SENDING...</span>
+    `;
+
+    formMessage.innerHTML = "";
+
+    const formData = new FormData(form);
+
+    fetch("send-mail.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+
+        if (data.status === "success") {
+
+            formMessage.innerHTML = `
+                <div class="alert alert-success">
+                    <i class="fa-solid fa-circle-check me-2"></i>
+                    ${data.message}
+                </div>
+            `;
+
+            form.reset();
+
+        } else {
+
+            formMessage.innerHTML = `
+                <div class="alert alert-danger">
+                    <i class="fa-solid fa-circle-exclamation me-2"></i>
+                    ${data.message}
+                </div>
+            `;
+
+        }
+
+    })
+    .catch(error => {
+
+        formMessage.innerHTML = `
+            <div class="alert alert-danger">
+                Something went wrong. Please try again.
+            </div>
+        `;
+
+        console.error(error);
+
+    })
+    .finally(() => {
+
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalButtonContent;
+
+    });
+
+});
+</script>
 </body>
 
 </html>

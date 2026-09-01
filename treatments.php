@@ -1361,6 +1361,8 @@
 =========================================================== -->
 
 <section class="treatments_fourth_section_wrapper">
+    <!-- Premium top-left gold curve decoration -->
+    <div class="treatment-premium-top-curve"></div>
 
     <div class="container">
 

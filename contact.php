@@ -557,145 +557,144 @@
                     <!-- ==================================================
                          FORM
                     =================================================== -->
-                    <form>
+                    <form id="contactForm" action="send-mail.php" method="POST">
+
+    <div class="row g-3">
+
+        <!-- NAME -->
+        <div class="col-md-6">
+            <div class="message-input-wrapper">
+
+                <i class="fa-regular fa-user"></i>
+
+                <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                >
+
+            </div>
+        </div>
 
 
-                        <div class="row g-3">
+        <!-- PHONE -->
+        <div class="col-md-6">
+            <div class="message-input-wrapper">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <input
+                    type="tel"
+                    name="phone"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    pattern="[0-9+\-\s]{7,15}"
+                    required
+                >
+
+            </div>
+        </div>
 
 
-                            <!-- NAME -->
-                            <div class="col-md-6">
+        <!-- EMAIL -->
+        <div class="col-md-6">
+            <div class="message-input-wrapper">
 
-                                <div class="message-input-wrapper">
+                <i class="fa-regular fa-envelope"></i>
 
-                                    <i class="fa-regular fa-user"></i>
+                <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                >
 
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Your Name"
-                                    >
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- PHONE -->
-                            <div class="col-md-6">
-
-                                <div class="message-input-wrapper">
-
-                                    <i class="fa-solid fa-phone"></i>
-
-                                    <input
-                                        type="tel"
-                                        class="form-control"
-                                        placeholder="Phone Number"
-                                    >
-
-                                </div>
-
-                            </div>
+            </div>
+        </div>
 
 
-                            <!-- EMAIL -->
-                            <div class="col-md-6">
+        <!-- SUBJECT -->
+        <div class="col-md-6">
+            <div class="message-input-wrapper">
 
-                                <div class="message-input-wrapper">
+                <i class="fa-regular fa-file-lines"></i>
 
-                                    <i class="fa-regular fa-envelope"></i>
+                <input
+                    type="text"
+                    name="subject"
+                    class="form-control"
+                    placeholder="Subject"
+                    required
+                >
 
-                                    <input
-                                        type="email"
-                                        class="form-control"
-                                        placeholder="Email Address"
-                                    >
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- SUBJECT -->
-                            <div class="col-md-6">
-
-                                <div class="message-input-wrapper">
-
-                                    <i class="fa-regular fa-file-lines"></i>
-
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Subject"
-                                    >
-
-                                </div>
-
-                            </div>
+            </div>
+        </div>
 
 
-                            <!-- MESSAGE -->
-                            <div class="col-12">
+        <!-- MESSAGE -->
+        <div class="col-12">
+            <div class="message-input-wrapper textarea-wrapper">
 
-                                <div class="message-input-wrapper textarea-wrapper">
+                <i class="fa-regular fa-comment"></i>
 
-                                    <i class="fa-regular fa-comment"></i>
+                <textarea
+                    name="message"
+                    class="form-control"
+                    rows="6"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
 
-                                    <textarea
-                                        class="form-control"
-                                        rows="6"
-                                        placeholder="Your Message"
-                                    ></textarea>
+            </div>
+        </div>
 
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- ==================================================
-                             TERMS
-                        =================================================== -->
-                        <div class="form-check">
-
-                            <input
-                                class="form-check-input"
-                                type="checkbox"
-                                id="privacyCheck"
-                            >
-
-                            <label
-                                class="form-check-label terms-text"
-                                for="privacyCheck"
-                            >
-
-                                I agree to the
-                                <a href="#">Privacy Policy</a>
-                                and
-                                <a href="#">Terms of Service</a>
-
-                            </label>
-
-                        </div>
+    </div>
 
 
-                        <!-- ==================================================
-                             SUBMIT
-                        =================================================== -->
-                        <button
-                            type="submit"
-                            class="btn btn-send"
-                        >
+    <!-- TERMS -->
+    <div class="form-check">
 
-                            <i class="fa-solid fa-paper-plane"></i>
+        <input
+            class="form-check-input"
+            type="checkbox"
+            name="privacy"
+            value="accepted"
+            id="privacyCheck"
+            required
+        >
 
-                            <span>SEND MESSAGE</span>
+        <label
+            class="form-check-label terms-text"
+            for="privacyCheck"
+        >
+            I agree to the
+            <a href="privacy-policy.php">Privacy Policy</a>
+            and
+            <a href="terms.php">Terms of Service</a>
+        </label>
 
-                        </button>
+    </div>
 
-                    </form>
+
+    <!-- STATUS MESSAGE -->
+    <div id="formMessage" class="mt-3"></div>
+
+
+    <!-- SUBMIT -->
+    <button
+        type="submit"
+        class="btn btn-send"
+        id="submitBtn"
+    >
+        <i class="fa-solid fa-paper-plane"></i>
+
+        <span>SEND MESSAGE</span>
+    </button>
+
+</form>
 
 
                     <!-- Bottom Right Decorative Dots -->
