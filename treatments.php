@@ -281,7 +281,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                        <img src="./assets/img/icons/dental_implants1.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -328,7 +330,8 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-teeth"></i>
+                        <!-- <i class="fa-solid fa-teeth"></i> -->
+                        <img src="./assets/img/icons/aligners-icon.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -375,7 +378,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                        <img src="./assets/img/icons/dental-veneer.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -422,7 +427,9 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                        <img src="./assets/img/icons/root-canal.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
@@ -469,7 +476,8 @@
                     </div>
 
                     <div class="card-icon-badge">
-                        <i class="fa-solid fa-teeth"></i>
+                        <!-- <i class="fa-solid fa-teeth"></i> -->
+                        <img src="./assets/img/icons/dental-bridge.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
                     </div>
 
                     <div class="card-body p-0 d-flex flex-column justify-content-between">
