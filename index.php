@@ -111,9 +111,9 @@
                 ========================== -->
                 <div class="col-xl-5 col-lg-5 col-md-12 index_first_section_content_col">
                     <!-- Right side background tooth icon -->
-    <div class="doctors-premium-bg-tooth">
-        <i class="fa-solid fa-tooth"></i>
-    </div>
+                    <div class="doctors-premium-bg-tooth">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
 
                     <!-- Small Tagline -->
                     <div class="index_first_section_tagline">
@@ -251,21 +251,14 @@
                             </p>
 
 
-                            <form action="appointment.php"
-                                  method="get"
-                                  class="index_first_section_appointment_form">
+                            <form action="contactform.php" method="post" role="form" class="php-email-form">
 
                                 <!-- Name -->
                                 <div class="index_first_section_form_group">
 
                                     <i class="fa-regular fa-user"></i>
 
-                                    <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Your Name"
-                                        required
-                                    >
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required style="padding: 10px; border-radius: 5px;">
 
                                 </div>
 
@@ -275,12 +268,8 @@
 
                                     <i class="fa-solid fa-phone"></i>
 
-                                    <input
-                                        type="tel"
-                                        name="phone"
-                                        placeholder="Phone Number"
-                                        required
-                                    >
+                                    <input type="text" class="form-control" id="email" name="number" placeholder="Your Number" required style="padding: 10px; border-radius: 5px;">
+
 
                                 </div>
 
@@ -290,68 +279,28 @@
 
                                     <i class="fa-regular fa-calendar"></i>
 
-                                    <input
-                                        type="date"
-                                        name="date"
-                                        required
-                                    >
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px;">
+
 
                                 </div>
-
-
-                                <!-- Treatment -->
+                                  <!-- Date -->
                                 <div class="index_first_section_form_group">
 
-                                    <i class="fa-solid fa-tooth"></i>
+                                    <i class="fa-regular fa-calendar"></i>
 
-                                    <select name="treatment" required>
+                                    <input type="text" class="form-control" id="meassage" name="message" placeholder="Your Meassage" required style="padding: 10px; border-radius: 5px;">
 
-                                        <option value="" selected disabled>
-                                            Select Treatment
-                                        </option>
-
-                                        <option value="general-dentistry">
-                                            General Dentistry
-                                        </option>
-
-                                        <option value="root-canal">
-                                            Root Canal Treatment
-                                        </option>
-
-                                        <option value="dental-implants">
-                                            Dental Implants
-                                        </option>
-
-                                        <option value="crowns">
-                                            Dental Crowns
-                                        </option>
-
-                                        <option value="braces">
-                                            Braces
-                                        </option>
-
-                                        <option value="aligners">
-                                            Clear Aligners
-                                        </option>
-
-                                        <option value="teeth-whitening">
-                                            Teeth Whitening
-                                        </option>
-
-                                        <option value="kids-dentistry">
-                                            Kids Dentistry
-                                        </option>
-
-                                    </select>
 
                                 </div>
+
+
+                               
 
 
                                 <!-- Submit -->
                                 <button
                                     type="submit"
-                                    class="index_first_section_btn_primary"
-                                >
+                                    class="index_first_section_btn_primary">
                                     BOOK APPOINTMENT
 
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -913,12 +862,12 @@
     <div class="doctors-premium-bg-tooth">
         <i class="fa-solid fa-tooth"></i>
     </div>
-    
+
     <div class="container">
-     
+
         <!-- Section Header -->
         <div class="text-center mb-5">
-            
+
             <span class="section-subtitle">— OUR DOCTORS —</span>
             <div class="header-tooth-icon text-gold my-1">
                 <i class="fa-solid fa-tooth"></i>
@@ -935,13 +884,13 @@
 
         <!-- Doctor Cards Row -->
         <div class="row g-4">
-            
+
 
             <!-- Card 1: Dr. Anish Kumar Lagisetti -->
             <div class="col-lg-6">
                 <div class="doctor-card h-100 p-4">
                     <div class="row g-4 align-items-center">
-                         
+
                         <!-- Image Box -->
                         <div class="col-sm-5">
                             <div class="doctor-img-box">
@@ -1255,289 +1204,289 @@
                     </div>
 
                     <!-- Bottom 3 Google Review Cards -->
-<div class="row g-3">
+                    <div class="row g-3">
 
-    <!-- ================= CARD 1 ================= -->
-    <div class="col-md-4 col-12">
+                        <!-- ================= CARD 1 ================= -->
+                        <div class="col-md-4 col-12">
 
-        <div class="feature-card gmd_review_card">
+                            <div class="feature-card gmd_review_card">
 
-            <div class="gmd_review_body">
+                                <div class="gmd_review_body">
 
-                <!-- Reviewer -->
-                <div class="gmd_review_header">
+                                    <!-- Reviewer -->
+                                    <div class="gmd_review_header">
 
-                    <div class="gmd_review_avatar gmd_review_avatar_1">
-                        n
-                    </div>
+                                        <div class="gmd_review_avatar gmd_review_avatar_1">
+                                            n
+                                        </div>
 
-                    <div class="gmd_review_user_details">
-                        <h5 class="gmd_review_name">
-                            nagarjun kumar
-                        </h5>
+                                        <div class="gmd_review_user_details">
+                                            <h5 class="gmd_review_name">
+                                                nagarjun kumar
+                                            </h5>
 
-                        <span class="gmd_review_count">
-                            6 reviews
-                        </span>
-                    </div>
+                                            <span class="gmd_review_count">
+                                                6 reviews
+                                            </span>
+                                        </div>
 
-                    <span class="gmd_review_menu">
-                        &#8942;
-                    </span>
+                                        <span class="gmd_review_menu">
+                                            &#8942;
+                                        </span>
 
-                </div>
-
-
-                <!-- Stars + Date -->
-                <div class="gmd_review_rating_row">
-
-                    <div class="gmd_review_stars">
-                        ★★★★★
-                    </div>
-
-                    <span class="gmd_review_date">
-                        3 months ago
-                    </span>
-
-                </div>
+                                    </div>
 
 
-                <!-- Review -->
-                <p class="gmd_review_text">
-                    The staff were friendly and welcoming. The doctor patiently
-                    explained everything and fixed my front teeth so naturally
-                    that they look just like my original teeth. Very happy with
-                    the treatment and overall experience. Definitely recommend.
-                </p>
+                                    <!-- Stars + Date -->
+                                    <div class="gmd_review_rating_row">
+
+                                        <div class="gmd_review_stars">
+                                            ★★★★★
+                                        </div>
+
+                                        <span class="gmd_review_date">
+                                            3 months ago
+                                        </span>
+
+                                    </div>
 
 
-                <!-- Owner Reply -->
-                <div class="gmd_review_reply">
-
-                    <div class="gmd_review_reply_header">
-
-                        <div class="gmd_review_owner_avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div class="gmd_review_owner_details">
-
-                            <h6>
-                                Anish Multispeciality Dental Hospital
-                                <span>(owner)</span>
-                            </h6>
-
-                            <small>
-                                2 months ago
-                            </small>
-
-                        </div>
-
-                    </div>
-
-                    <p>
-                        Thank you so much sir. Your kind words motivate our team
-                        to continue providing excellent care.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
+                                    <!-- Review -->
+                                    <p class="gmd_review_text">
+                                        The staff were friendly and welcoming. The doctor patiently
+                                        explained everything and fixed my front teeth so naturally
+                                        that they look just like my original teeth. Very happy with
+                                        the treatment and overall experience. Definitely recommend.
+                                    </p>
 
 
+                                    <!-- Owner Reply -->
+                                    <div class="gmd_review_reply">
 
-    <!-- ================= CARD 2 ================= -->
-    <div class="col-md-4 col-12">
+                                        <div class="gmd_review_reply_header">
 
-        <div class="feature-card gmd_review_card">
+                                            <div class="gmd_review_owner_avatar">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
 
-            <div class="gmd_review_body">
+                                            <div class="gmd_review_owner_details">
 
-                <!-- Reviewer -->
-                <div class="gmd_review_header">
+                                                <h6>
+                                                    Anish Multispeciality Dental Hospital
+                                                    <span>(owner)</span>
+                                                </h6>
 
-                    <div class="gmd_review_avatar gmd_review_avatar_2">
-                        M
-                    </div>
+                                                <small>
+                                                    2 months ago
+                                                </small>
 
-                    <div class="gmd_review_user_details">
+                                            </div>
 
-                        <h5 class="gmd_review_name">
-                            MrBijjala
-                        </h5>
+                                        </div>
 
-                        <span class="gmd_review_count">
-                            11 reviews
-                        </span>
+                                        <p>
+                                            Thank you so much sir. Your kind words motivate our team
+                                            to continue providing excellent care.
+                                        </p>
 
-                    </div>
+                                    </div>
 
-                    <span class="gmd_review_menu">
-                        &#8942;
-                    </span>
+                                </div>
 
-                </div>
-
-
-                <!-- Stars + Date -->
-                <div class="gmd_review_rating_row">
-
-                    <div class="gmd_review_stars">
-                        ★★★★★
-                    </div>
-
-                    <span class="gmd_review_date">
-                        2 months ago
-                    </span>
-
-                </div>
-
-
-                <!-- Review -->
-                <p class="gmd_review_text">
-                    Doctor Anish garu explained my condition very nicely and
-                    made me comfortable. Excellent dental care treatment in
-                    Kakinada. I strongly recommend this clinic. Thank you for
-                    the support and treatment.
-                </p>
-
-
-                <!-- Owner Reply -->
-                <div class="gmd_review_reply">
-
-                    <div class="gmd_review_reply_header">
-
-                        <div class="gmd_review_owner_avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div class="gmd_review_owner_details">
-
-                            <h6>
-                                Anish Multispeciality Dental Hospital
-                                <span>(owner)</span>
-                            </h6>
-
-                            <small>
-                                2 months ago
-                            </small>
+                            </div>
 
                         </div>
 
-                    </div>
-
-                    <p>
-                        Thank you so much sir.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
 
 
+                        <!-- ================= CARD 2 ================= -->
+                        <div class="col-md-4 col-12">
 
-    <!-- ================= CARD 3 ================= -->
-    <div class="col-md-4 col-12">
+                            <div class="feature-card gmd_review_card">
 
-        <div class="feature-card gmd_review_card">
+                                <div class="gmd_review_body">
 
-            <div class="gmd_review_body">
+                                    <!-- Reviewer -->
+                                    <div class="gmd_review_header">
 
-                <!-- Reviewer -->
-                <div class="gmd_review_header">
+                                        <div class="gmd_review_avatar gmd_review_avatar_2">
+                                            M
+                                        </div>
 
-                    <div class="gmd_review_avatar gmd_review_avatar_3">
-                        A
-                    </div>
+                                        <div class="gmd_review_user_details">
 
-                    <div class="gmd_review_user_details">
+                                            <h5 class="gmd_review_name">
+                                                MrBijjala
+                                            </h5>
 
-                        <h5 class="gmd_review_name">
-                            Amu Sasha
-                        </h5>
+                                            <span class="gmd_review_count">
+                                                11 reviews
+                                            </span>
 
-                        <span class="gmd_review_count">
-                            1 review
-                        </span>
+                                        </div>
 
-                    </div>
+                                        <span class="gmd_review_menu">
+                                            &#8942;
+                                        </span>
 
-                    <span class="gmd_review_menu">
-                        &#8942;
-                    </span>
-
-                </div>
-
-
-                <!-- Stars + Date -->
-                <div class="gmd_review_rating_row">
-
-                    <div class="gmd_review_stars">
-                        ★★★★★
-                    </div>
-
-                    <span class="gmd_review_date">
-                        a year ago
-                    </span>
-
-                </div>
+                                    </div>
 
 
-                <!-- Review -->
-                <p class="gmd_review_text">
-                    I visited Anish Dental Clinic for a root canal treatment
-                    and was impressed by the professional, well-organized and
-                    comforting experience. The procedure was completely painless
-                    and smooth.
-                </p>
+                                    <!-- Stars + Date -->
+                                    <div class="gmd_review_rating_row">
+
+                                        <div class="gmd_review_stars">
+                                            ★★★★★
+                                        </div>
+
+                                        <span class="gmd_review_date">
+                                            2 months ago
+                                        </span>
+
+                                    </div>
 
 
-                <!-- Owner Reply -->
-                <div class="gmd_review_reply">
+                                    <!-- Review -->
+                                    <p class="gmd_review_text">
+                                        Doctor Anish garu explained my condition very nicely and
+                                        made me comfortable. Excellent dental care treatment in
+                                        Kakinada. I strongly recommend this clinic. Thank you for
+                                        the support and treatment.
+                                    </p>
 
-                    <div class="gmd_review_reply_header">
 
-                        <div class="gmd_review_owner_avatar">
-                            <i class="fa-solid fa-user"></i>
+                                    <!-- Owner Reply -->
+                                    <div class="gmd_review_reply">
+
+                                        <div class="gmd_review_reply_header">
+
+                                            <div class="gmd_review_owner_avatar">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+
+                                            <div class="gmd_review_owner_details">
+
+                                                <h6>
+                                                    Anish Multispeciality Dental Hospital
+                                                    <span>(owner)</span>
+                                                </h6>
+
+                                                <small>
+                                                    2 months ago
+                                                </small>
+
+                                            </div>
+
+                                        </div>
+
+                                        <p>
+                                            Thank you so much sir.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
-                        <div class="gmd_review_owner_details">
 
-                            <h6>
-                                Anish Multispeciality Dental Hospital
-                                <span>(owner)</span>
-                            </h6>
 
-                            <small>
-                                a year ago
-                            </small>
+                        <!-- ================= CARD 3 ================= -->
+                        <div class="col-md-4 col-12">
+
+                            <div class="feature-card gmd_review_card">
+
+                                <div class="gmd_review_body">
+
+                                    <!-- Reviewer -->
+                                    <div class="gmd_review_header">
+
+                                        <div class="gmd_review_avatar gmd_review_avatar_3">
+                                            A
+                                        </div>
+
+                                        <div class="gmd_review_user_details">
+
+                                            <h5 class="gmd_review_name">
+                                                Amu Sasha
+                                            </h5>
+
+                                            <span class="gmd_review_count">
+                                                1 review
+                                            </span>
+
+                                        </div>
+
+                                        <span class="gmd_review_menu">
+                                            &#8942;
+                                        </span>
+
+                                    </div>
+
+
+                                    <!-- Stars + Date -->
+                                    <div class="gmd_review_rating_row">
+
+                                        <div class="gmd_review_stars">
+                                            ★★★★★
+                                        </div>
+
+                                        <span class="gmd_review_date">
+                                            a year ago
+                                        </span>
+
+                                    </div>
+
+
+                                    <!-- Review -->
+                                    <p class="gmd_review_text">
+                                        I visited Anish Dental Clinic for a root canal treatment
+                                        and was impressed by the professional, well-organized and
+                                        comforting experience. The procedure was completely painless
+                                        and smooth.
+                                    </p>
+
+
+                                    <!-- Owner Reply -->
+                                    <div class="gmd_review_reply">
+
+                                        <div class="gmd_review_reply_header">
+
+                                            <div class="gmd_review_owner_avatar">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+
+                                            <div class="gmd_review_owner_details">
+
+                                                <h6>
+                                                    Anish Multispeciality Dental Hospital
+                                                    <span>(owner)</span>
+                                                </h6>
+
+                                                <small>
+                                                    a year ago
+                                                </small>
+
+                                            </div>
+
+                                        </div>
+
+                                        <p>
+                                            Thank you for your feedback! It means a lot to know you
+                                            had a comfortable and positive experience.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
 
                         </div>
 
                     </div>
-
-                    <p>
-                        Thank you for your feedback! It means a lot to know you
-                        had a comfortable and positive experience.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
 
                 </div>
             </div>
@@ -1828,7 +1777,7 @@
             <div class="text-center index_fifth_section_video_wrapper">
 
                 <a href="happy-smile.php"
-                   class="index_fourth_section_btn">
+                    class="index_fourth_section_btn">
 
                     <span class="index_fifth_section_video_play">
                         <i class="fa-solid fa-play"></i>
@@ -1904,7 +1853,7 @@
                     <div class="index_fifth_section_cta_btn_wrapper">
 
                         <a href="appointment.php"
-                           class="index_fifth_section_cta_btn">
+                            class="index_fifth_section_cta_btn">
 
                             <i class="fa-regular fa-calendar-plus"></i>
 
@@ -1938,7 +1887,7 @@
                         <div>
 
                             <a href="tel:+917396256474"
-                               class="index_fifth_section_cta_phone_num">
+                                class="index_fifth_section_cta_phone_num">
 
                                 +91 73962 56474
 

@@ -62,7 +62,7 @@
                     <div class="contactus_first_section_btn_group">
 
                         <a href="appointment.php"
-                           class="contactus_first_section_btn_primary">
+                            class="contactus_first_section_btn_primary">
 
                             <i class="fa-regular fa-calendar-days"></i>
 
@@ -72,7 +72,7 @@
 
 
                         <a href="tel:+917396256474"
-                           class="contactus_first_section_btn_secondary">
+                            class="contactus_first_section_btn_secondary">
 
                             <i class="fa-solid fa-phone"></i>
 
@@ -102,7 +102,7 @@
                                 </div>
 
                                 <a href="tel:+917396256474"
-                                   class="contactus_first_section_info_number">
+                                    class="contactus_first_section_info_number">
                                     +91 73962 56474
                                 </a>
 
@@ -153,8 +153,7 @@
                     <img
                         src="./assets/img/g5.png"
                         alt="Anish Dental Multispeciality Dental Hospital"
-                        class="contactus_first_section_main_img"
-                    >
+                        class="contactus_first_section_main_img">
 
                     <!-- GREEN IMAGE OVERLAY -->
                     <div class="contactus_first_section_img_overlay"></div>
@@ -163,24 +162,23 @@
                     <!-- ==================================================
      ACTUAL ANISH DENTAL LOGO
 =================================================== -->
-<div class="contactus_first_section_brand">
+                    <div class="contactus_first_section_brand">
 
-    <!-- Original Logo Source -->
-    <img
-        src="./assets/img/Anish Logo 1224 X 260@3x.png"
-        alt="Anish Dental Multispeciality Dental Hospital"
-        id="contactusLogoSource"
-        class="contactus_first_section_brand_logo_source"
-    >
+                        <!-- Original Logo Source -->
+                        <img
+                            src="./assets/img/Anish Logo 1224 X 260@3x.png"
+                            alt="Anish Dental Multispeciality Dental Hospital"
+                            id="contactusLogoSource"
+                            class="contactus_first_section_brand_logo_source">
 
-    <!-- Recolored Output -->
-    <canvas
-        id="contactusLogoCanvas"
-        class="contactus_first_section_brand_logo_img"
-        aria-label="Anish Dental Multispeciality Dental Hospital">
-    </canvas>
+                        <!-- Recolored Output -->
+                        <canvas
+                            id="contactusLogoCanvas"
+                            class="contactus_first_section_brand_logo_img"
+                            aria-label="Anish Dental Multispeciality Dental Hospital">
+                        </canvas>
 
-</div>
+                    </div>
 
 
                     <!-- IMAGE GOLD DIVIDER -->
@@ -557,144 +555,31 @@
                     <!-- ==================================================
                          FORM
                     =================================================== -->
-                    <form id="contactForm" action="send-mail.php" method="POST">
-
-    <div class="row g-3">
-
-        <!-- NAME -->
-        <div class="col-md-6">
-            <div class="message-input-wrapper">
-
-                <i class="fa-regular fa-user"></i>
-
-                <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    placeholder="Your Name"
-                    required
-                >
-
-            </div>
-        </div>
 
 
-        <!-- PHONE -->
-        <div class="col-md-6">
-            <div class="message-input-wrapper">
 
-                <i class="fa-solid fa-phone"></i>
-
-                <input
-                    type="tel"
-                    name="phone"
-                    class="form-control"
-                    placeholder="Phone Number"
-                    pattern="[0-9+\-\s]{7,15}"
-                    required
-                >
-
-            </div>
-        </div>
-
-
-        <!-- EMAIL -->
-        <div class="col-md-6">
-            <div class="message-input-wrapper">
-
-                <i class="fa-regular fa-envelope"></i>
-
-                <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    placeholder="Email Address"
-                    required
-                >
-
-            </div>
-        </div>
+                    <form action="contactform.php" method="post" role="form" class="php-email-form"
+                        data-aos-delay="100">
+                        <div class="form-group p-2">
+                            <label for="name" style="font-weight: 600;">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required style="padding: 10px; border-radius: 5px;">
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="email" style="font-weight: 600;">Number</label>
+                            <input type="text" class="form-control" id="email" name="number" placeholder="Your Number" required style="padding: 10px; border-radius: 5px;">
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="email" style="font-weight: 600;">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px;">
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="message" style="font-weight: 600;">Your query/problem</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your query" required style="padding: 10px; border-radius: 5px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="background-color: #007bff; border: none; padding: 10px 20px; border-radius: 5px;">Send</button>
+                    </form>
 
 
-        <!-- SUBJECT -->
-        <div class="col-md-6">
-            <div class="message-input-wrapper">
-
-                <i class="fa-regular fa-file-lines"></i>
-
-                <input
-                    type="text"
-                    name="subject"
-                    class="form-control"
-                    placeholder="Subject"
-                    required
-                >
-
-            </div>
-        </div>
-
-
-        <!-- MESSAGE -->
-        <div class="col-12">
-            <div class="message-input-wrapper textarea-wrapper">
-
-                <i class="fa-regular fa-comment"></i>
-
-                <textarea
-                    name="message"
-                    class="form-control"
-                    rows="6"
-                    placeholder="Your Message"
-                    required
-                ></textarea>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <!-- TERMS -->
-    <div class="form-check">
-
-        <input
-            class="form-check-input"
-            type="checkbox"
-            name="privacy"
-            value="accepted"
-            id="privacyCheck"
-            required
-        >
-
-        <label
-            class="form-check-label terms-text"
-            for="privacyCheck"
-        >
-            I agree to the
-            <a href="privacy-policy.php">Privacy Policy</a>
-            and
-            <a href="terms.php">Terms of Service</a>
-        </label>
-
-    </div>
-
-
-    <!-- STATUS MESSAGE -->
-    <div id="formMessage" class="mt-3"></div>
-
-
-    <!-- SUBMIT -->
-    <button
-        type="submit"
-        class="btn btn-send"
-        id="submitBtn"
-    >
-        <i class="fa-solid fa-paper-plane"></i>
-
-        <span>SEND MESSAGE</span>
-    </button>
-
-</form>
 
 
                     <!-- Bottom Right Decorative Dots -->
@@ -769,8 +654,7 @@
 
                         <a
                             href="https://maps.google.com"
-                            target="_blank"
-                        >
+                            target="_blank">
                             Get Directions
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -981,8 +865,7 @@
 
                         <a
                             href="appointment.php"
-                            class="appointment-third-cta-button"
-                        >
+                            class="appointment-third-cta-button">
 
                             <i class="fa-regular fa-calendar-check"></i>
 
@@ -1015,8 +898,7 @@
 
                             <a
                                 href="tel:+917396256474"
-                                class="appointment-third-phone-number"
-                            >
+                                class="appointment-third-phone-number">
                                 +91 73962 56474
                             </a>
 
