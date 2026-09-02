@@ -149,12 +149,38 @@
     
 </footer>
 
+<!-- CHATBOT FROM c2.php: keeps c2.php unchanged, but safely embeds only its CSS/body content -->
+<?php
+ob_start();
+include __DIR__ . '/c2.php';
+$c2_output = ob_get_clean();
+
+/* Extract c2.php <style> blocks without injecting its full HTML document wrapper */
+if (preg_match_all('/<style\\b[^>]*>(.*?)<\\/style>/is', $c2_output, $c2_styles)) {
+    foreach ($c2_styles[1] as $c2_style) {
+        echo '<style>' . $c2_style . '</style>';
+    }
+}
+
+/* Extract only c2.php body content (chatbot HTML + JS) */
+if (preg_match('/<body\\b[^>]*>(.*?)<\\/body>/is', $c2_output, $c2_body)) {
+    echo $c2_body[1];
+}
+?>
+
+<!-- Hide c2.php's own tooth launcher so ONLY the existing footer tooth icon is used -->
+<style>
+    #chatbot-icon {
+        display: none !important;
+    }
+</style>
+
 <!-- FLOATING ACTION BUTTONS -->
 <div class="floating-btn-container">
     <a href="https://wa.me/917396256474" class="floating-btn whatsapp-btn" aria-label="WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
-    <a href="tel:+917396256474" class="floating-btn tooth-btn" aria-label="Call Us">
+    <a href="#" class="floating-btn tooth-btn" aria-label="Dental Chat" onclick="toggleChatbot(); return false;">
         <i class="fa-solid fa-tooth"></i>
     </a>
      <!-- Instagram -->
