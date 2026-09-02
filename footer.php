@@ -157,6 +157,13 @@
     <a href="tel:+917396256474" class="floating-btn tooth-btn" aria-label="Call Us">
         <i class="fa-solid fa-tooth"></i>
     </a>
+     <!-- Instagram -->
+    <a href="https://www.instagram.com/anish_dental/"
+       class="floating-btn instagram-btn"
+       aria-label="Instagram"
+       target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
 </div>
 
 

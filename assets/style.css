@@ -534,7 +534,7 @@ a {
 @media (max-width: 991.98px) {
     .site-footer {
         padding-top: 40px !important;
-        border-radius: 20px 20px 0 0 !important;
+        border-radius: 2px 2px 0 0 !important;
     }
 
     .footer-col-spacing {
@@ -30136,3 +30136,177 @@ This keeps current image exactly as it is.
         max-width: 2020px !important;
     }
 }
+
+
+/* ==========================================
+   INDEX FIRST SECTION - GET DIRECTIONS BUTTON
+   ========================================== */
+
+.index_first_section_direction_wrap {
+    width: 100%;
+    margin-top: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* BUTTON */
+.index_first_section_direction_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    min-width: 220px;
+    height: 58px;
+
+    padding: 0 30px;
+
+    /* style golden/orange gradient */
+    background: linear-gradient(135deg, #e7a329, #e48d15) !important;
+
+    color: #ffffff !important;
+
+    border: #e69b20 !important;
+
+    /* Same rounded rectangle feel */
+    border-radius: 16px;
+
+    text-decoration: none !important;
+
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+
+    box-shadow:
+        0 7px 16px rgba(186, 130, 44, 0.22);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+
+/* TEXT */
+.index_first_section_direction_btn span {
+    color: #ffffff;
+    line-height: 1;
+}
+
+
+/* ARROW */
+.index_first_section_direction_btn i {
+    color: #ffffff;
+
+    font-size: 18px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* HOVER */
+.index_first_section_direction_btn:hover {
+    color: #ffffff !important;
+
+    background: linear-gradient(
+        90deg,
+        #d9950f 0%,
+        #eba812 50%,
+        #d98b08 100%
+    );
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 10px 22px rgba(186, 130, 44, 0.30);
+}
+
+
+.index_first_section_direction_btn:hover i {
+    transform: translateX(5px);
+}
+
+
+/* ==========================================
+   TABLET
+   ========================================== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .index_first_section_direction_wrap {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .index_first_section_direction_btn {
+        min-width: 205px;
+        height: 54px;
+
+        padding: 0 25px;
+
+        font-size: 15px;
+
+        border-radius: 15px;
+
+        gap: 15px;
+    }
+
+    .index_first_section_direction_btn i {
+        font-size: 16px;
+    }
+}
+
+
+/* ==========================================
+   MOBILE
+   ========================================== */
+
+@media (max-width: 767px) {
+
+    .index_first_section_direction_wrap {
+        margin-top: 18px;
+        justify-content: center;
+    }
+
+    .index_first_section_direction_btn {
+        min-width: 190px;
+        height: 50px;
+
+        padding: 0 22px;
+
+        font-size: 14px;
+
+        border-radius: 14px;
+
+        gap: 13px;
+    }
+
+    .index_first_section_direction_btn i {
+        font-size: 15px;
+    }
+}
+
+/* instagram floating button new stylings */
+.instagram-btn {
+    background: linear-gradient(
+        45deg,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+    );
+
+    color: #ffffff !important;
+}
+
+.instagram-btn:hover {
+    color: #ffffff !important;
+    transform: translateY(-3px) scale(1.05);
+}
+
+

@@ -137,60 +137,65 @@
                     </p>
 
 
-                    <!-- =========================
-                         FEATURES
-                    ========================== -->
-                    <div class="index_first_section_features_grid">
+                    <!--FEATURES-->
+<div class="index_first_section_features_grid">
 
-                        <!-- Feature 1 -->
-                        <div class="index_first_section_feature_item">
+    <!-- Feature 1 -->
+    <div class="index_first_section_feature_item">
+        <div class="index_first_section_feature_icon">
+            <i class="fa-solid fa-tooth"></i>
+        </div>
 
-                            <div class="index_first_section_feature_icon">
-                                <i class="fa-solid fa-tooth"></i>
-                            </div>
+        <p class="index_first_section_feature_text">
+            Advanced<br>
+            Technology
+        </p>
+    </div>
 
-                            <p class="index_first_section_feature_text">
-                                Advanced<br>
-                                Technology
-                            </p>
+    <!-- Feature 2 -->
+    <div class="index_first_section_feature_item">
+        <div class="index_first_section_feature_icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
 
-                        </div>
+        <p class="index_first_section_feature_text">
+            Safe & Hygienic<br>
+            Environment
+        </p>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="index_first_section_feature_item">
+        <div class="index_first_section_feature_icon">
+            <i class="fa-solid fa-user-doctor"></i>
+        </div>
+
+        <p class="index_first_section_feature_text">
+            Experienced<br>
+            Dental Team
+        </p>
+    </div>
+
+</div>
 
 
-                        <!-- Feature 2 -->
-                        <div class="index_first_section_feature_item">
+<div class="index_first_section_direction_wrap">
 
-                            <div class="index_first_section_feature_icon">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </div>
+    <a href="https://www.google.com/maps/search/?api=1&query=Anish+Multispeciality+Dental+Hospital+Kakinada"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="index_first_section_direction_btn">
 
-                            <p class="index_first_section_feature_text">
-                                Safe & Hygienic<br>
-                                Environment
-                            </p>
+        <span>Get Directions</span>
+        <i class="fa-solid fa-arrow-right"></i>
 
-                        </div>
+    </a>
 
-
-                        <!-- Feature 3 -->
-                        <div class="index_first_section_feature_item">
-
-                            <div class="index_first_section_feature_icon">
-                                <i class="fa-solid fa-user-doctor"></i>
-                            </div>
-
-                            <p class="index_first_section_feature_text">
-                                Experienced<br>
-                                Dental Team
-                            </p>
-
-                        </div>
-
-                    </div>
+</div>
 
                 </div>
 
-
+                  
                 <!-- =========================
                      RIGHT HERO IMAGE
                 ========================== -->
