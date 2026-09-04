@@ -147,6 +147,9 @@
                     <a class="nav-link" href="gallery.php">GALLERY</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="blog.php">BLOGS</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="happy-smile.php">HAPPY SMILE</a>
                 </li>
                 <li class="nav-item">
