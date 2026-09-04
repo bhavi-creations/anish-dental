@@ -621,7 +621,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="dental-implants.php" class="learn-more-link">
+                            <a href="dental-implants-treatment-in-kakinada.php" class="learn-more-link">
                                 Learn More <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -650,7 +650,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="aligners.php" class="learn-more-link">
+                            <a href="aligners-treatment-in-kakinada.php" class="learn-more-link">
                                 Learn More <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -678,7 +678,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="dental-veneers.php" class="learn-more-link">
+                            <a href="dental-veneers-treatment-in-kakinada.php" class="learn-more-link">
                                 Learn More <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -707,7 +707,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="root-canal.php" class="learn-more-link">
+                            <a href="root-canal-treatment-in-kakinada.php" class="learn-more-link">
                                 Learn More <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>

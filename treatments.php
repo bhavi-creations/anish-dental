@@ -299,7 +299,7 @@
 
                         </div>
 
-                        <a href="dental-implants.php" class="learn-more-link">
+                        <a href="dental-implants-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -347,7 +347,7 @@
 
                         </div>
 
-                        <a href="aligners.php" class="learn-more-link">
+                        <a href="aligners-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -396,7 +396,7 @@
 
                         </div>
 
-                        <a href="dental-veneers.php" class="learn-more-link">
+                        <a href="dental-veneers-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -445,7 +445,7 @@
 
                         </div>
 
-                        <a href="root-canal.php" class="learn-more-link">
+                        <a href="root-canal-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -493,7 +493,7 @@
 
                         </div>
 
-                        <a href="dental-bridge.php" class="learn-more-link">
+                        <a href="dental-bridge-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -542,7 +542,7 @@
 
                         </div>
 
-                        <a href="pediatric-dentistry.php" class="learn-more-link">
+                        <a href="pediatric-dentistry-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -591,7 +591,7 @@
 
                         </div>
 
-                        <a href="periodontal-care.php" class="learn-more-link">
+                        <a href="periodontal-care-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -640,7 +640,7 @@
 
                         </div>
 
-                        <a href="oral-surgery.php" class="learn-more-link">
+                        <a href="oral-surgery-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -689,7 +689,7 @@
 
                         </div>
 
-                        <a href="teeth-whitening.php" class="learn-more-link">
+                        <a href="teeth-whitening-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -737,7 +737,7 @@
 
                         </div>
 
-                        <a href="dentures.php" class="learn-more-link">
+                        <a href="dentures-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -786,7 +786,7 @@
 
                         </div>
 
-                        <a href="general-dentistry.php" class="learn-more-link">
+                        <a href="general-dentistry-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -834,7 +834,7 @@
 
                         </div>
 
-                        <a href="wisdom-teeth.php" class="learn-more-link">
+                        <a href="wisdom-teeth-treatment-in-kakinada.php" class="learn-more-link">
                             Learn More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
