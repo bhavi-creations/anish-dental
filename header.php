@@ -26,6 +26,63 @@
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+      <meta name="title" content="Anish Dental Multispeciality Hospital | Dentist in Kakinada">
+      <meta name="description" content="Anish Dental Multispeciality Hospital in Kakinada offers advanced dental care including dental implants, aligners, veneers, root canal treatment and pediatric dentistry.">
+    <meta name="keywords" content="dentist in Kakinada, dental hospital in Kakinada, dental clinic in Kakinada, best dentist in Kakinada, multispeciality dental hospital Kakinada, dental implants Kakinada, root canal treatment Kakinada, teeth aligners Kakinada, dental veneers Kakinada, pediatric dentist Kakinada">
+
+    <link rel="canonical" href="https://anishdental.in/" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "@id": "https://anishdental.in/#dentist",
+  "name": "Anish Dental",
+  "url": "https://anishdental.in/",
+  "email": "anishdentalhospital@gmail.com",
+  "telephone": "+917396256474",
+  "priceRange": "₹₹",
+  "medicalSpecialty": "Dentistry",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1st Floor, Kokila Junction, RTC Complex Rd, above Vantillu, beside Carewell Hospital, G O Colony",
+    "addressLocality": "Kakinada",
+    "addressRegion": "Andhra Pradesh",
+    "postalCode": "533003",
+    "addressCountry": "IN"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Kakinada"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "21:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "10:00",
+      "closes": "12:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/p/Anish-Dental-100071175949729/",
+    "https://www.instagram.com/anish_dental/"
+  ]
+}
+</script>
+
+      
 
 </head>
 
