@@ -1,105 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <url>
-       <loc>https://anishdental.in/</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/index.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/about.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/treatments.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/doctor.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/gallery.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/happy-smile.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/contact.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/dental-implants.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/aligners.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/dental-veneers.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/root-canal.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/general-dentistry.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/pediatric-dentistry.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/dental-bridge.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/periodontal-care.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/oral-surgery.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/teeth-whitening.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/dentures.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://anishdental.in/wisdom-teeth.php</loc>
-       <lastmod>2026-09-04T07:24:10+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://anishdental.in/tel:+917396256474</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/cdn-cgi/l/email-protection#55343b3c263d31303b2134393d3a26253c213439153238343c397b363a38</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/cdn-cgi/l/email-protection#4627282f352e22232832272a2e2935362f32272a06212b272f2a6825292b</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/index.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/about.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/treatments.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/doctor.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/gallery.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/blog.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/happy-smile.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/contact.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/appointment.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/dental-implants-treatment-in-kakinada.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/aligners-treatment-in-kakinada.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/dental-veneers-treatment-in-kakinada.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/root-canal-treatment-in-kakinada.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/general-dentistry-treatment-in-kakinada.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/pediatric-dentistry-treatment-in-kakinada.php</loc>
+</url>
+<url>
+  <loc>http://anishdental.in/cdn-cgi/l/email-protection#92f3fcfbe1faf6f7fce6f3fefafde1e2fbe6f3fed2f5fff3fbfebcf1fdff</loc>
+</url>
+<url>
+  <loc></loc>
+</url>
 </urlset>
