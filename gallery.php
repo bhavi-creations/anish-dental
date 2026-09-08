@@ -84,142 +84,182 @@
         </div>
 
         <!-- Gallery Grid -->
-        <div class="row g-3" id="gallery-grid">
+<div class="row g-3" id="gallery-grid">
 
 
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-2.png" alt="Lab Dental Camp">
+        </div>
+    </div>
 
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-2.png" alt="Lab Dental Camp">
-                </div>
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-3.png" alt="Lab Dental Camp">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-4.png" alt="Lab Dental Camp">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-5.png" alt="Lab Dental Camp">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-6.png" alt="Lab Dental Camp">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-7.png" alt="Lab Dental Camp">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
+        <div class="gallery-card">
+            <img src="./assets/img/dental-camp-img-1.png" alt="Dental camp Unit">
+        </div>
+    </div>
+
+
+    <!-- DENTAL QUOTATION CARD -->
+    <div class="col-md-3 col-sm-6 gallery-item">
+        <div class="gallery-card quote-card p-4 text-center h-100 d-flex flex-column justify-content-center align-items-center"
+            style="background: linear-gradient(90deg, rgba(2, 56, 48, 0.94), rgba(4, 73, 64, 0.69)) !important; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: transform 0.3s ease; border: 2px solid #ea7a00">
+
+            <!-- DENTAL ICON -->
+            <div class="quote-icon mb-3" style="font-size: 2.2rem; color: #ffd700;">
+                <i class="fa-solid fa-tooth"></i>
             </div>
 
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-3.png" alt="Lab Dental Camp">
-                </div>
+            <!-- QUOTATION -->
+            <blockquote class="m-0"
+                style="font-size: 1.05rem; font-weight: 500; line-height: 1.5; font-style: italic;">
+                “A Natural smile begins with healthy teeth.”
+            </blockquote>
+
+            <!-- DECORATIVE LINE -->
+            <div class="mt-3"
+                style="width: 40px; height: 3px; background-color: #ffd700; border-radius: 2px;">
             </div>
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-4.png" alt="Lab Dental Camp">
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-5.png" alt="Lab Dental Camp">
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-6.png" alt="Lab Dental Camp">
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-7.png" alt="Lab Dental Camp">
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="Dental Camp">
-                <div class="gallery-card">
-                    <img src="./assets/img/dental-camp-img-1.png" alt="Dental camp Unit">
-                </div>
-            </div>
-
-
-
-
-
-
-            <!-- Row 1 -->
-            <div class="col-md-5 col-sm-6 gallery-item" data-category="clinic">
-                <div class="gallery-card">
-                    <img src="./assets/img/g4.png" alt="Clinic Reception">
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g6.png" alt="Treatment Room" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 gallery-item" data-category="clinic">
-                <div class="gallery-card">
-                    <img src="./assets/img/waiting-hall.png" alt="Waiting Area">
-                </div>
-            </div>
-
-
-
-            <div class="col-md-5 col-sm-6 gallery-item" data-category="equipment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g3.png" alt="Advanced Equipment" class="img-fluid">
-                </div>
-            </div>
-
-            <!-- Row 3 -->
-
-
-            <div class="col-md-3 col-sm-6 gallery-item" data-category="equipment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g2.png" alt="3D Dental CT Scanner">
-                </div>
-            </div>
-            <!-- Row 2 -->
-            <!-- <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
-                <div class="gallery-card">
-                    <img src="./assets/img/g10.png" alt="Dental Chair Setup" class="img-fluid">
-                </div>
-            </div> -->
-
-            <!-- <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
-                <div class="gallery-card">
-                    <img src="" alt="Consultation Room">
-                </div>
-            </div> -->
-
-
-
-
-
-
-
-            <!-- Row 4 (Happy Smiles Category) -->
-            <!-- <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
-                <div class="gallery-card">
-                    <img src="./assets/img/gallery-img-1.png" alt="Happy Kid Patient">
-                </div>
-            </div>
-
-            <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
-                <div class="gallery-card">
-                    <img src="./assets/img/gallery-img-2.png" alt="Happy Lady Patient">
-                </div>
-            </div>
-
-            <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
-                <div class="gallery-card">
-                    <img src="./assets/img/gallery-img-3.png" alt="Happy Senior Patient">
-                </div>
-            </div>
-
-            <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
-                <div class="gallery-card">
-                    <img src="./assets/img/gallery-img-4.png" alt="Happy Young Patient">
-                </div>
-            </div>
-
-            <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
-                <div class="gallery-card">
-                    <img src="./assets/img/gallery-img-5.png" alt="Happy Patient Smile">
-                </div>
-            </div> -->
 
         </div>
+    </div>
+
+
+    <!-- Row 1 -->
+    <div class="col-md-5 col-sm-6 gallery-item" data-category="clinic">
+        <div class="gallery-card">
+            <img src="./assets/img/g4.png" alt="Clinic Reception">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
+        <div class="gallery-card">
+            <img src="./assets/img/g6.png" alt="Treatment Room" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 gallery-item" data-category="clinic">
+        <div class="gallery-card">
+            <img src="./assets/img/waiting-hall.png" alt="Waiting Area">
+        </div>
+    </div>
+
+
+    <div class="col-md-5 col-sm-6 gallery-item" data-category="equipment">
+        <div class="gallery-card">
+            <img src="./assets/img/g3.png" alt="Advanced Equipment" class="img-fluid">
+        </div>
+    </div>
+
+
+    <!-- Row 3 -->
+
+    <div class="col-md-3 col-sm-6 gallery-item" data-category="equipment">
+        <div class="gallery-card">
+            <img src="./assets/img/g2.png" alt="3D Dental CT Scanner">
+        </div>
+    </div>
+
+    <!-- DENTAL QUOTATION CARD -->
+    <div class="col-md-4 col-sm-6 gallery-item">
+        <div class="gallery-card quote-card p-4 text-center h-100 d-flex flex-column justify-content-center align-items-center"
+            style="background: linear-gradient(90deg, rgba(2, 56, 48, 0.94), rgba(4, 73, 64, 0.69)) !important; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: transform 0.3s ease; border: 2px solid #ea7a00">
+
+            <!-- DENTAL ICON -->
+            <div class="quote-icon mb-3" style="font-size: 2.2rem; color: #ffd700;">
+                <i class="fa-solid fa-tooth"></i>
+            </div>
+
+            <!-- QUOTATION -->
+            <blockquote class="m-0"
+                style="font-size: 1.05rem; font-weight: 500; line-height: 1.5; font-style: italic;">
+                “Care for your teeth, love your smile.”
+            </blockquote>
+
+            <!-- DECORATIVE LINE -->
+            <div class="mt-3"
+                style="width: 40px; height: 3px; background-color: #ffd700; border-radius: 2px;">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <!-- <div class="col-md-3 col-sm-6 gallery-item" data-category="treatment">
+        <div class="gallery-card">
+            <img src="./assets/img/g10.png" alt="Dental Chair Setup" class="img-fluid">
+        </div>
+    </div> -->
+
+    <!-- <div class="col-md-4 col-sm-6 gallery-item" data-category="team">
+        <div class="gallery-card">
+            <img src="" alt="Consultation Room">
+        </div>
+    </div> -->
+
+
+    <!-- Row 4 (Happy Smiles Category) -->
+    <!-- <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+        <div class="gallery-card">
+            <img src="./assets/img/gallery-img-1.png" alt="Happy Kid Patient">
+        </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+        <div class="gallery-card">
+            <img src="./assets/img/gallery-img-2.png" alt="Happy Lady Patient">
+        </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+        <div class="gallery-card">
+            <img src="./assets/img/gallery-img-3.png" alt="Happy Senior Patient">
+        </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+        <div class="gallery-card">
+            <img src="./assets/img/gallery-img-4.png" alt="Happy Young Patient">
+        </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6 gallery-item" data-category="smiles">
+        <div class="gallery-card">
+            <img src="./assets/img/gallery-img-5.png" alt="Happy Patient Smile">
+        </div>
+    </div> -->
+
+</div>
 
     </div>
 </section>

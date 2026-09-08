@@ -72,7 +72,7 @@
                 <ul class="footer-links treatment-links-list">
                     <li><a href="general-dentistry-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> General Dentistry</a></li>
                     <li><a href="dental-implants-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> Dental Implants</a></li>
-                    <li><a href="aligners-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> Aligners</a></li>
+                    <li><a href="clear-aligners-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> Aligners</a></li>
                     <li><a href="root-canal-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> Root Canal Treatment</a></li>
                     <li><a href="dental-veneers-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> Dental Veneers</a></li>
                     <li><a href="pediatric-dentistry-treatment-in-kakinada.php"><i class="fa-solid fa-tooth treatment-tooth-icon"></i> Pediatric Dentistry</a></li>

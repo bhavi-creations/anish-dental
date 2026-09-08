@@ -650,7 +650,7 @@
                             </p>
                         </div>
                         <div>
-                            <a href="aligners-treatment-in-kakinada.php" class="learn-more-link">
+                            <a href="clear-aligners-treatment-in-kakinada.php" class="learn-more-link">
                                 Learn More <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
