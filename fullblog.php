@@ -200,7 +200,7 @@ $count_stmt->close();
                         <source src="./admin/uploads/videos/<?= $video ?>" type="video/mp4">
                     </video>
                 <?php elseif (!empty($main_image)): ?>
-                    <img src="./admin/uploads/photos/<?= $main_image ?>" class="shadow" style="max-height:500px; width:auto; border-radius: 15px;">
+                    <img src="./admin/uploads/photos/<?= $main_image ?>" class="shadow" style="max-height:300px; width:300px; border-radius: 15px;">
                 <?php endif; ?>
             </div>
 
