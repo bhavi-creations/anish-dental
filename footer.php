@@ -43,7 +43,7 @@
             </div>
 
             <!-- 2. Quick Links -->
-            <div class="col-lg-2 col-xxl-2 col-md-3 col-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
+            <div class="col-lg-2 col-xxl-2 col-md-3 col-6 d-none d-md-block footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                 <div class="footer-heading-wrapper">
                     <div class="footer-heading-icon">
                         <i class="fa-solid fa-link"></i>
@@ -62,7 +62,7 @@
             </div>
 
             <!-- 3. Our Treatments -->
-            <div class="col-lg-3 col-xxl-2 col-md-3 col-6 footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
+            <div class="col-lg-3 col-xxl-2 col-md-3 col-6 d-none d-md-block     footer-col-spacing footer-border-right ps-lg-4 pe-lg-3">
                 <div class="footer-heading-wrapper">
                     <div class="footer-heading-icon">
                         <i class="fa-solid fa-tooth"></i>
@@ -80,7 +80,7 @@
             </div>
 
             <!-- 4. Contact Us -->
-            <div class="col-lg-4 col-xxl-2 col-md-6 col-12 footer-col-spacing footer-border-right ps-lg-4 pe-lg-2">
+            <div class="col-lg-4 col-xxl-2 col-md-6 col-12  d-none d-lg-block      footer-col-spacing footer-border-right ps-lg-4 pe-lg-2">
                 <div class="footer-heading-wrapper">
                     <div class="footer-heading-icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -106,7 +106,7 @@
             </div>
 
             <!-- 5. Google Map Card -->
-            <div class="col-lg-3 col-xxl-3 col-md-6 col-12 ps-lg-4 d-block d-lg-none d-xxl-block">
+            <div class="col-lg-3 col-xxl-3 col-md-6 col-12   d-none d-lg-block   ps-lg-4 d-block d-lg-none d-xxl-block">
                 <div class="footer-map-card">
                     <div class="footer-map-container">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15264.37641925859!2d82.22962270859432!3d16.96992081050522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38297bc37af231%3A0x596701c64aebb643!2sAnish%20Multispeciality%20Dental%20Hospital!5e0!3m2!1sen!2sin!4v1787042722890!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>

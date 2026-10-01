@@ -456,7 +456,7 @@ a {
     background-color: rgba(0, 0, 0, 0.25) !important;
     border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
     padding: 18px 0 !important;
-    margin-top: 40px !important;
+    /* margin-top: 40px !important; */
     font-size: 12.5px !important;
     color: #9ab3ac !important;
 }
@@ -537,9 +537,9 @@ a {
         border-radius: 2px 2px 0 0 !important;
     }
 
-    .footer-col-spacing {
+    /* .footer-col-spacing {
         margin-bottom: 30px !important;
-    }
+    } */
 
     .footer-border-right {
         border-right: none !important;

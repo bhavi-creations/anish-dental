@@ -81,7 +81,7 @@ $count_stmt->close();
 
         .fullblogs_section {
             background-color: white;
-            padding-bottom: 50px;
+            /* padding-bottom: 50px; */
         }
 
         /* LIVE SERVER FIX: Force Default Gold */
