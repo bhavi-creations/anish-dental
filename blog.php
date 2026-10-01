@@ -2,7 +2,7 @@
 // 1. Database Connection & Dynamic Blog Query
 include './db.connection/db_connection.php';
 
-$sql = "SELECT id, title, main_content, main_image, service, created_at 
+$sql = "SELECT id, title, slug, main_content, main_image, service, created_at
         FROM blogs 
         ORDER BY created_at DESC";
 
@@ -17,7 +17,7 @@ $result = $stmt->get_result();
 
 
 // 2. Popular Posts Query - Top 4 Recent Posts
-$pop_sql = "SELECT id, title, main_image, created_at 
+$pop_sql = "SELECT id, title, slug, main_image, created_at
             FROM blogs 
             ORDER BY created_at DESC 
             LIMIT 4";
@@ -97,9 +97,8 @@ $pop_result = $pop_stmt->get_result();
                                 ? "admin/uploads/photos/" . htmlspecialchars($row['main_image'])
                                 : "default_image.png";
 
-                            // SEO URL (slug fallback to ID)
-                            $blog_link_val = !empty($row['slug']) ? urlencode($row['slug']) : $row['id'];
-                            $final_url = "fullblog.php?id=" . $blog_link_val;
+                            // Blog URL uses the stored slug
+                            $final_url = "fullblog.php?slug=" . rawurlencode($row['slug']);
 
                             // Date format
                             $formatted_date = date("M d, Y", strtotime($row['created_at']));
@@ -184,7 +183,7 @@ $pop_result = $pop_stmt->get_result();
                     if ($pop_result->num_rows > 0) {
                         while ($pop_row = $pop_result->fetch_assoc()) {
                             $pop_img = !empty($pop_row['main_image']) ? "admin/uploads/photos/" . htmlspecialchars($pop_row['main_image']) : "default_image.png";
-                            $pop_link = "fullblog.php?id=" . (!empty($pop_row['slug']) ? urlencode($pop_row['slug']) : $pop_row['id']);
+                            $pop_link = "fullblog.php?slug=" . rawurlencode($pop_row['slug']);
                             $pop_date = date("M d, Y", strtotime($pop_row['created_at']));
 
                             echo "

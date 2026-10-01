@@ -2,10 +2,11 @@
 // 1. Database Connection
 include './db.connection/db_connection.php';
 
-// Identifier capture
-$blog_input = isset($_GET['id']) ? $_GET['id'] : '';
+// Slug capture
+$blog_slug = isset($_GET['slug']) && is_string($_GET['slug']) ? trim($_GET['slug']) : '';
 
-if (empty($blog_input)) {
+if ($blog_slug === '') {
+    http_response_code(400);
     echo "<h1 style='color:gold; text-align:center; margin-top:50px;'>Invalid Blog Request</h1>";
     exit;
 }
@@ -18,15 +19,17 @@ $stmt = $conn->prepare("
         telugu_title, telugu_main_content, telugu_full_content,
         section1_image, service, hashtags, keypoints
     FROM blogs 
-    WHERE id = ? OR slug = ?
+    WHERE slug = ?
+    LIMIT 1
 ");
 
-$stmt->bind_param("ss", $blog_input, $blog_input);
+$stmt->bind_param("s", $blog_slug);
 $stmt->execute();
 $result = $stmt->get_result();
 $blog = $result->fetch_assoc();
 
 if (!$blog) {
+    http_response_code(404);
     echo "<h1 style='color:gold; text-align:center; margin-top:50px;'>Blog Not Found!</h1>";
     exit;
 }
@@ -241,7 +244,7 @@ $count_stmt->close();
                         while ($row = $latest_res->fetch_assoc()) {
                             $sidebar_img = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "default.png";
                             $sidebar_title = strlen($row['title']) > 50 ? substr(strip_tags($row['title']), 0, 50) . '...' : strip_tags($row['title']);
-                            $blog_url = "fullblog.php?id=" . (!empty($row['slug']) ? $row['slug'] : $row['id']);
+                            $blog_url = "fullblog.php?slug=" . rawurlencode($row['slug']);
                             echo "
                             <div class='swiper-slide'>
                                 <div class='custom-card p-3 text-center'>
