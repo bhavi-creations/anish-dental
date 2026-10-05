@@ -28,15 +28,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ---------------------------------------------------
         // EKKADA MEE EMAIL & APP PASSWORD ENTER CHEYYALI:
         // ---------------------------------------------------
-        $mail->Username   = 'manimalladi05@gmail.com';     // <-- IKKADA MEE GMAIL ID (Sender Email)
-        $mail->Password   = 'nsmgbxkyqxqrwfjh';        // <-- IKKADA MEE 16-DIGIT APP PASSWORD 
+        $mail->Username   = 'anishdentalhospital@gmail.com';     // <-- IKKADA MEE GMAIL ID (Sender Email)
+        $mail->Password   = 'gpnizvggwjcmcjjq';        // <-- IKKADA MEE 16-DIGIT APP PASSWORD 
         
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
         $mail->Port       = 587;                          // Port: 587 (TLS) or 465 (SSL)
 
         // Receivers Info
-        $mail->setFrom('manimalladi05@gmail.com', $name);  // Sender Email
-        $mail->addAddress('manimalladi05@gmail.com');      // Mail eh address ki raavalano (Receiver Email)
+        $mail->setFrom('anishdentalhospital@gmail.com', $name);  // Sender Email
+        $mail->addAddress('anishdentalhospital@gmail.com');      // Mail eh address ki raavalano (Receiver Email)
         $mail->addReplyTo($email, $name);                  // Form fill chesina user email
 
         // Mail Content
