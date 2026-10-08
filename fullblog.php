@@ -12,18 +12,40 @@ if ($blog_slug === '') {
 }
 
 // 2. Fetch Blog Data
+// The blogs table does not require a `slug` column.
+// blogs.php generates URLs in the format: title-slug-ID.
+// We use the final numeric ID from that value to fetch the blog.
+$blog_id_from_slug = 0;
+
+if (preg_match('/-(\\d+)$/', $blog_slug, $slug_match)) {
+    $blog_id_from_slug = (int) $slug_match[1];
+} elseif (ctype_digit($blog_slug)) {
+    // Also support a direct numeric ID if used manually.
+    $blog_id_from_slug = (int) $blog_slug;
+}
+
+if ($blog_id_from_slug <= 0) {
+    http_response_code(400);
+    echo "<h1 style='color:gold; text-align:center; margin-top:50px;'>Invalid Blog Request</h1>";
+    exit;
+}
+
 $stmt = $conn->prepare("
     SELECT 
-        id, title, slug, main_content, full_content, 
+        id, title, main_content, full_content, 
         title_image, main_image, video, 
         telugu_title, telugu_main_content, telugu_full_content,
         section1_image, service, hashtags, keypoints
     FROM blogs 
-    WHERE slug = ?
+    WHERE id = ?
     LIMIT 1
 ");
 
-$stmt->bind_param("s", $blog_slug);
+if ($stmt === false) {
+    die("SQL Prepare Error: " . $conn->error);
+}
+
+$stmt->bind_param("i", $blog_id_from_slug);
 $stmt->execute();
 $result = $stmt->get_result();
 $blog = $result->fetch_assoc();
@@ -238,13 +260,16 @@ $count_stmt->close();
             <div class="swiper blog-swiper">
                 <div class="swiper-wrapper">
                     <?php
-                    $latest_sql = "SELECT id, title, main_image, slug FROM blogs ORDER BY created_at DESC LIMIT 10";
+                    $latest_sql = "SELECT id, title, main_image FROM blogs ORDER BY created_at DESC LIMIT 10";
                     $latest_res = $conn->query($latest_sql);
                     if ($latest_res->num_rows > 0) {
                         while ($row = $latest_res->fetch_assoc()) {
                             $sidebar_img = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "default.png";
                             $sidebar_title = strlen($row['title']) > 50 ? substr(strip_tags($row['title']), 0, 50) . '...' : strip_tags($row['title']);
-                            $blog_url = "fullblog.php?slug=" . rawurlencode($row['slug']);
+                            // Generate the same slug format used by blogs.php.
+                            $latest_slug_base = strtolower(trim(preg_replace('/[^A-Za-z0-9]+/', '-', strip_tags($row['title'])), '-'));
+                            $latest_generated_slug = ($latest_slug_base !== '' ? $latest_slug_base . '-' : '') . $row['id'];
+                            $blog_url = "fullblog.php?slug=" . rawurlencode($latest_generated_slug);
                             echo "
                             <div class='swiper-slide'>
                                 <div class='custom-card p-3 text-center'>

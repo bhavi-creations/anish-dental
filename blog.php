@@ -2,7 +2,7 @@
 // 1. Database Connection & Dynamic Blog Query
 include './db.connection/db_connection.php';
 
-$sql = "SELECT id, title, slug, main_content, main_image, service, created_at
+$sql = "SELECT id, title, main_content, main_image, service, created_at
         FROM blogs 
         ORDER BY created_at DESC";
 
@@ -17,7 +17,7 @@ $result = $stmt->get_result();
 
 
 // 2. Popular Posts Query - Top 4 Recent Posts
-$pop_sql = "SELECT id, title, slug, main_image, created_at
+$pop_sql = "SELECT id, title, main_image, created_at
             FROM blogs 
             ORDER BY created_at DESC 
             LIMIT 4";
@@ -97,8 +97,11 @@ $pop_result = $pop_stmt->get_result();
                                 ? "admin/uploads/photos/" . htmlspecialchars($row['main_image'])
                                 : "default_image.png";
 
-                            // Blog URL uses the stored slug
-                            $final_url = "fullblog.php?slug=" . rawurlencode($row['slug']);
+                            // Blog URL uses a generated slug based on title + ID.
+                            // This avoids requiring a `slug` column in the blogs table.
+                            $slug_base = strtolower(trim(preg_replace('/[^A-Za-z0-9]+/', '-', strip_tags($row['title'])), '-'));
+                            $generated_slug = ($slug_base !== '' ? $slug_base . '-' : '') . $row['id'];
+                            $final_url = "fullblog.php?slug=" . rawurlencode($generated_slug);
 
                             // Date format
                             $formatted_date = date("M d, Y", strtotime($row['created_at']));
@@ -183,7 +186,10 @@ $pop_result = $pop_stmt->get_result();
                     if ($pop_result->num_rows > 0) {
                         while ($pop_row = $pop_result->fetch_assoc()) {
                             $pop_img = !empty($pop_row['main_image']) ? "admin/uploads/photos/" . htmlspecialchars($pop_row['main_image']) : "default_image.png";
-                            $pop_link = "fullblog.php?slug=" . rawurlencode($pop_row['slug']);
+                            // Generate the same slug format used by the main blog cards.
+                            $pop_slug_base = strtolower(trim(preg_replace('/[^A-Za-z0-9]+/', '-', strip_tags($pop_row['title'])), '-'));
+                            $pop_generated_slug = ($pop_slug_base !== '' ? $pop_slug_base . '-' : '') . $pop_row['id'];
+                            $pop_link = "fullblog.php?slug=" . rawurlencode($pop_generated_slug);
                             $pop_date = date("M d, Y", strtotime($pop_row['created_at']));
 
                             echo "
@@ -200,7 +206,7 @@ $pop_result = $pop_stmt->get_result();
                 </div>
 
                 <!-- Newsletter Widget -->
-                <div class="sidebar-widget">
+                <!-- <div class="sidebar-widget">
                     <h4 class="widget-title">Subscribe to Our Newsletter</h4>
                     <p class="text-muted small mb-3">Get the latest dental tips, updates and offers straight to your inbox.</p>
                     <div class="newsletter-input-group mb-2">
@@ -210,7 +216,7 @@ $pop_result = $pop_stmt->get_result();
                     <div class="text-muted" style="font-size: 0.72rem;">
                         <i class="bi bi-lock-fill"></i> We respect your privacy. Unsubscribe anytime.
                     </div>
-                </div>
+                </div> -->
 
             </div>
 

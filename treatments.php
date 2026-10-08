@@ -1554,7 +1554,6 @@
 
                         <h3 class="treatments_fourth_section_feature_title">
                             Sterilization
-                            <br>
                             Protocol
                         </h3>
 
