@@ -30399,3 +30399,70 @@ form[data-form-protected] button:disabled {
 }
 
 
+
+
+
+
+
+
+/* new alignemtn changes */
+/* Mobile view for Appointment Card Fix */
+@media (max-width: 767.98px) {
+  .index_first_section_appointment_card {
+    position: relative !important; /* Fixed absolute positioning cut-off issue */
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    width: calc(100% - 30px) !important;
+    max-width: 368px !important;
+    margin: 20px auto !important; /* Centers the card properly */
+    padding: 30px 18px 18px 18px !important;
+    z-index: 1;
+  }
+}
+
+/* Extra small devices (575.98px and below) */
+@media (max-width: 575.98px) {
+  .index_first_section_appointment_card {
+    width: calc(100% - 24px) !important;
+    margin: 15px auto !important;
+  }
+}
+
+
+
+
+
+
+/* index know more about us button */
+/* 320px to 374px screen range for Know More About Us Button */
+@media (min-width: 320px) and (max-width: 375px) {
+  .index_fourth_section_btn {
+    width: 80% !important; /* Button width thagginchadaniki */
+    max-width: 250px !important;
+    min-width: unset !important;
+    display: flex !important;
+    margin-left: auto !important; /* Center alignment kosam */
+    margin-right: auto !important; /* Center alignment kosam */
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 12px 16px !important; /* Mobile compact padding */
+    font-size: 13px !important; /* Text neatly fit avvadaniki */
+  }
+}
+
+
+
+@media (max-width: 767.98px) {
+  .index_first_section_features_grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 3 items ni single row lo ki teche direction */
+    max-width: 100% !important; /* Single row fit avvadaniki max-width expand cheyali */
+    gap: 8px !important; /* Items madyalo spacing thagginchandi overflow avvakunda */
+    margin-top: 15px !important;
+    align-items: center !important;
+  }
+}

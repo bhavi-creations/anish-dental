@@ -90,9 +90,9 @@ function check($condition, $label)
     }
 }
 
-function run_worker($name)
+function run_worker($name, $phpOptions = [])
 {
-    $process = proc_open([PHP_BINARY, __FILE__, $name], [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $pipes);
+    $process = proc_open(array_merge([PHP_BINARY], $phpOptions, [__FILE__, $name]), [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $pipes);
     $output = stream_get_contents($pipes[1]);
     $error = stream_get_contents($pipes[2]);
     fclose($pipes[1]);
@@ -180,5 +180,34 @@ check(strpos($error, 'IMAGE_RENDERED=1;REFRESHES=0') !== false, 'loading the ima
 [$output, $error] = run_worker('image-refresh');
 check(substr($output, 0, 8) === "\x89PNG\r\n\x1a\n", 'refresh produces a valid image');
 check(strpos($error, 'IMAGE_RENDERED=1;REFRESHES=1') !== false, 'refresh updates server challenge state');
+
+foreach ([['-n'], ['-n', '-d', 'disable_functions=gzcompress']] as $phpOptions) {
+    [$output, $error] = run_worker('image', $phpOptions);
+    check(substr($output, 0, 8) === "\x89PNG\r\n\x1a\n", 'CAPTCHA works without GD');
+    $dimensions = getimagesizefromstring($output);
+    check($dimensions[0] === 240 && $dimensions[1] === 80, 'portable CAPTCHA dimensions are valid');
+    $offset = 8;
+    $compressed = '';
+    $types = [];
+    while ($offset < strlen($output)) {
+        $length = unpack('N', substr($output, $offset, 4))[1];
+        $type = substr($output, $offset + 4, 4);
+        $data = substr($output, $offset + 8, $length);
+        $crc = substr($output, $offset + 8 + $length, 4);
+        check($crc === pack('N', crc32($type . $data)), 'portable PNG chunk checksum is valid');
+        $types[] = $type;
+        if ($type === 'IDAT') {
+            $compressed .= $data;
+        }
+        $offset += 12 + $length;
+    }
+    check($types === ['IHDR', 'IDAT', 'IEND'], 'portable PNG contains raster chunks only');
+    $pixels = gzuncompress($compressed);
+    check(strlen($pixels) === 57680, 'portable PNG pixel data decompresses correctly');
+    check(strpos($error, 'IMAGE_RENDERED=1') !== false, 'portable image enables the same server verification');
+    [$output, $error] = run_worker('image-refresh', $phpOptions);
+    check(substr($output, 0, 8) === "\x89PNG\r\n\x1a\n", 'refresh works without GD');
+    check(strpos($error, 'IMAGE_RENDERED=1;REFRESHES=1') !== false, 'portable refresh updates server state');
+}
 
 echo 'Passed ' . $checks . " form security checks. No database writes or email sent.\n";
