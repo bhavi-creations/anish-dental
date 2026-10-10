@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+require_once __DIR__ . '/includes/form_security.php';
+include 'header.php';
+?>
 
 
 
@@ -559,14 +562,14 @@
 
 
                     <form action="contactform.php" method="post" role="form" class="php-email-form"
-                        data-aos-delay="100">
+                        data-aos-delay="100" data-form-protected>
                         <div class="form-group p-2">
                             <label for="name" style="font-weight: 600;">Full Name</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required style="padding: 10px; border-radius: 5px;">
                         </div>
                         <div class="form-group p-2">
-                            <label for="email" style="font-weight: 600;">Number</label>
-                            <input type="text" class="form-control" id="email" name="number" placeholder="Your Number" required style="padding: 10px; border-radius: 5px;">
+                            <label for="contact-number" style="font-weight: 600;">Number</label>
+                            <input type="tel" class="form-control" id="contact-number" name="number" placeholder="Your Number" required style="padding: 10px; border-radius: 5px;">
                         </div>
                         <div class="form-group p-2">
                             <label for="email" style="font-weight: 600;">Email Address</label>
@@ -575,6 +578,9 @@
                         <div class="form-group p-2">
                             <label for="message" style="font-weight: 600;">Your query/problem</label>
                             <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your query" required style="padding: 10px; border-radius: 5px;"></textarea>
+                        </div>
+                        <div class="form-group p-2">
+                            <?php dental_form_fields('contact'); ?>
                         </div>
                         <button type="submit" class="btn btn-primary" style="background-color: #007bff; border: none; padding: 10px 20px; border-radius: 5px;">Send</button>
                     </form>

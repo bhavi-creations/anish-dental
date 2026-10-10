@@ -455,6 +455,9 @@ function toggleFAQ(button) {
 }
 </script>
 
+<?php if (defined('DENTAL_HAS_PROTECTED_FORM')): ?>
+<script src="assets/form-security.js"></script>
+<?php endif; ?>
 </body>
 
 </html>

@@ -2,19 +2,28 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your project
+require_once __DIR__ . '/includes/form_security.php';
+dental_form_guard('contact');
+
+$name = dental_form_post_text('name', 120);
+$email = dental_form_post_text('email', 254);
+$number = dental_form_post_text('number', 25);
+$message = dental_form_post_text('message', 5000);
+if ($name === null || $name === '' || $email === null || !filter_var($email, FILTER_VALIDATE_EMAIL)
+    || !dental_form_valid_phone($number) || $message === null || $message === '') {
+    dental_form_reject('contact', 'Please enter a valid name, email, phone number and message.', 422);
+}
+
+require __DIR__ . '/vendor/autoload.php';
 
 // Check if the form is submitted
 //-----Contact form------
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Assign POST data to variables
-    $name = $_POST['name'] ?? '';
-    $email = $_POST['email'] ?? '';
-
-    $number = $_POST['number'] ?? '';
-
-    $message = $_POST['message'] ?? '';
+    $name = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+    $email = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
+    $number = htmlspecialchars($number, ENT_QUOTES, 'UTF-8');
+    $message = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);

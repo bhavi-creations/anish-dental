@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+require_once __DIR__ . '/includes/form_security.php';
+include 'header.php';
+?>
 
 <!-- HERO SECTION CONTENT -->
 <!-- <section class="index_first_section_wrapper">
@@ -256,7 +259,7 @@
                             </p>
 
 
-                            <form action="contactform.php" method="post" role="form" class="php-email-form">
+                            <form action="contactform.php" method="post" role="form" class="php-email-form" data-form-protected>
 
                                 <!-- Name -->
                                 <div class="index_first_section_form_group">
@@ -273,7 +276,7 @@
 
                                     <i class="fa-solid fa-phone"></i>
 
-                                    <input type="text" class="form-control" id="email" name="number" placeholder="Your Number" required style="padding: 10px; border-radius: 5px;">
+                                    <input type="tel" class="form-control" id="contact-number" name="number" placeholder="Your Number" required style="padding: 10px; border-radius: 5px;">
 
 
                                 </div>
@@ -301,6 +304,8 @@
 
                                
 
+
+                                <?php dental_form_fields('contact'); ?>
 
                                 <!-- Submit -->
                                 <button

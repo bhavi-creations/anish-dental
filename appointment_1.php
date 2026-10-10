@@ -1,7 +1,4 @@
- <?php
-    session_start();
-    $_SESSION['form_time'] = time();
-    ?>
+<?php require_once __DIR__ . '/includes/form_security.php'; ?>
 
  <?php
     include './db.connection/db_connection.php';
@@ -310,7 +307,7 @@
                      <form id="appointmentForm"
                          method="POST"
                          action="save_appointment.php"
-                         class="row appointment-form mx-auto">
+                         class="row appointment-form mx-auto" data-form-protected>
 
                          <div class="col-md-6 mb-4">
                              <label>Full Name</label>
@@ -351,12 +348,8 @@
                                  placeholder="Any additional information..."></textarea>
                          </div>
 
-                         <div class="g-recaptcha mb-2" data-sitekey="6Ldws0ktAAAAAD1Y2Q8PZa6aKCMKeqiHAK86IBhr"></div>
-                         <br>
-
-
-                         <div style="display:none;">
-                             <input type="text" name="website" autocomplete="off">
+                         <div class="col-12">
+                             <?php dental_form_fields('appointment'); ?>
                          </div>
 
 

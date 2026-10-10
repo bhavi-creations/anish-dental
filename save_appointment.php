@@ -1,31 +1,35 @@
 <?php
-include './db.connection/db_connection.php';
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require_once __DIR__ . '/includes/form_security.php';
+dental_form_guard('appointment');
 
+$name = dental_form_post_text('name', 120);
+$email = dental_form_post_text('email', 254);
+$phone = dental_form_post_text('phone', 25);
+$date = dental_form_post_text('appointment_date', 10);
+$slot = dental_form_post_text('time_slot', 30);
+$msg = dental_form_post_text('message', 5000);
+$validDate = is_string($date) ? DateTimeImmutable::createFromFormat('!Y-m-d', $date) : false;
+$allowedSlots = [
+    '9:00 AM - 10:00 AM', '10:00 AM - 11:00 AM', '11:00 AM - 12:00 PM',
+    '12:00 PM - 01:00 PM', '01:00 PM - 02:00 PM', '02:00 PM - 03:00 PM',
+    '03:00 PM - 04:00 PM', '04:00 PM - 05:00 PM', '05:00 PM - 06:00 PM',
+    '06:00 PM - 07:00 PM', '07:00 PM - 08:00 PM', '08:00 PM - 09:00 PM',
+];
+if ($name === null || $name === '' || $email === null || !filter_var($email, FILTER_VALIDATE_EMAIL)
+    || !dental_form_valid_phone($phone) || $msg === null
+    || !$validDate || $validDate->format('Y-m-d') !== $date || $date < date('Y-m-d')
+    || !in_array($slot, $allowedSlots, true)) {
+    dental_form_reject('appointment', 'Please enter a valid name, email, phone number, appointment date and time slot.', 422);
+}
 
-
-
-
-
-
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+// Database writes and mail are reachable only after all verification succeeds.
+include __DIR__ . '/db.connection/db_connection.php';
+require __DIR__ . '/vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    /* ======================
-       GET & CLEAN INPUT
-       ====================== */
-    $name  = trim($_POST['name']);
-    $email = trim($_POST['email']);
-    $phone = trim($_POST['phone']);
-    $date  = $_POST['appointment_date'];
-    $slot  = $_POST['time_slot'];
-    $msg   = trim($_POST['message']);
 
     $day = date('l', strtotime($date));
 
@@ -108,6 +112,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("ssssss", $name, $email, $phone, $date, $slot, $msg);
     $stmt->execute();
 
+    // Escape user text before inserting it into HTML email bodies.
+    $name = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+    $emailHtml = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
+    $phone = htmlspecialchars($phone, ENT_QUOTES, 'UTF-8');
+    $msg = nl2br(htmlspecialchars($msg, ENT_QUOTES, 'UTF-8'));
+
     /* ======================
        MAIL TO DOCTOR ONLY
        ====================== */
@@ -140,7 +150,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h2>New Appointment Details</h2>
             <p><strong>Name:</strong> $name</p>
             <p><strong>Phone:</strong> $phone</p>
-            <p><strong>Email:</strong> $email</p>
+            <p><strong>Email:</strong> $emailHtml</p>
             <p><strong>Date:</strong> $date ($day)</p>
             <p><strong>Time Slot:</strong> $slot</p>
             <p><strong>Message:</strong> $msg</p>

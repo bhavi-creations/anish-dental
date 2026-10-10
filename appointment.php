@@ -1,7 +1,4 @@
- <?php
-    session_start();
-    $_SESSION['form_time'] = time();
-    ?>
+<?php require_once __DIR__ . '/includes/form_security.php'; ?>
 
  <?php
     include './db.connection/db_connection.php';
@@ -387,7 +384,7 @@
                     <form id="appointmentForm"
                           method="POST"
                           action="save_appointment.php"
-                          class="row appointment-form">
+                          class="row appointment-form" data-form-protected>
 
 
                         <!-- FULL NAME -->
@@ -541,21 +538,7 @@
                              CAPTCHA
                         =================================================== -->
                         <div class="col-12 appointment-captcha-wrap">
-
-                            <div class="g-recaptcha mb-3"
-                                 data-sitekey="6Ldws0ktAAAAAD1Y2Q8PZa6aKCMKeqiHAK86IBhr">
-                            </div>
-
-                        </div>
-
-
-                        <!-- Honeypot -->
-                        <div style="display:none;">
-                            <input
-                                type="text"
-                                name="website"
-                                autocomplete="off"
-                            >
+                            <?php dental_form_fields('appointment'); ?>
                         </div>
 
 

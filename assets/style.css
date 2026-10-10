@@ -30309,4 +30309,93 @@ This keeps current image exactly as it is.
     transform: translateY(-3px) scale(1.05);
 }
 
+/* Shared appointment and contact form verification. */
+.form-security {
+    margin: 12px 0 20px;
+}
+
+.form-security > label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-security-image-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-security-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #c7d1bf;
+    border-radius: 6px;
+}
+
+.form-security-refresh {
+    padding: 6px 10px;
+    color: #173e30;
+    background: #f6f8f1;
+    border: 1px solid #c7d1bf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-security-answer {
+    max-width: 300px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.form-security-help,
+.form-security-feedback {
+    margin: 6px 0 0;
+    font-size: 12px;
+}
+
+.form-security-trap {
+    display: none;
+}
+
+form[data-form-protected] button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.index_first_section_appointment_card .form-security {
+    color: #fff;
+    font-size: 12px;
+}
+
+.form-security-error-page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: #f6f8f1;
+    color: #173e30;
+    font-family: Arial, sans-serif;
+}
+
+.form-security-error-card {
+    max-width: 560px;
+    padding: 28px;
+    background: #fff;
+    border: 1px solid #c7d1bf;
+    border-radius: 12px;
+}
+
+.form-security-error-card h1 {
+    font-size: 24px;
+}
+
+.form-security-error-card a {
+    color: #173e30;
+    font-weight: 600;
+}
+
 
