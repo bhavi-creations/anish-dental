@@ -330,9 +330,9 @@ include 'header.php';
             <!-- =========================
                  BOTTOM STATISTICS BAR
             ========================== -->
-            <div class="index_first_section_stats_wrapper">
+            <!-- <div class="index_first_section_stats_wrapper">
 
-                <!-- Stat 1 -->
+                
                 <div class="index_first_section_stat_item">
 
                     <div class="index_first_section_stat_icon">
@@ -347,7 +347,7 @@ include 'header.php';
                 </div>
 
 
-                <!-- Stat 2 -->
+                
                 <div class="index_first_section_stat_item">
 
                     <div class="index_first_section_stat_icon">
@@ -362,7 +362,7 @@ include 'header.php';
                 </div>
 
 
-                <!-- Stat 3 -->
+             
                 <div class="index_first_section_stat_item">
 
                     <div class="index_first_section_stat_icon">
@@ -377,7 +377,7 @@ include 'header.php';
                 </div>
 
 
-                <!-- Stat 4 -->
+              
                 <div class="index_first_section_stat_item">
 
                     <div class="index_first_section_stat_icon">
@@ -391,7 +391,7 @@ include 'header.php';
 
                 </div>
 
-            </div>
+            </div> -->
 
         </div>
 
