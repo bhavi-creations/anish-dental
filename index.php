@@ -112,7 +112,7 @@ include 'header.php';
                 <!-- =========================
                      LEFT CONTENT
                 ========================== -->
-                <div class="col-xl-5 col-lg-5 col-md-12 index_first_section_content_col"     >
+                <div class="col-xl-5 col-lg-5 col-md-12 index_first_section_content_col">
                     <!-- Right side background tooth icon -->
                     <div class="doctors-premium-bg-tooth">
                         <i class="fa-solid fa-tooth"></i>
@@ -141,64 +141,64 @@ include 'header.php';
 
 
                     <!--FEATURES-->
-<div class="index_first_section_features_grid">
+                    <div class="index_first_section_features_grid">
 
-    <!-- Feature 1 -->
-    <div class="index_first_section_feature_item">
-        <div class="index_first_section_feature_icon">
-            <i class="fa-solid fa-tooth"></i>
-        </div>
+                        <!-- Feature 1 -->
+                        <div class="index_first_section_feature_item">
+                            <div class="index_first_section_feature_icon">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
 
-        <p class="index_first_section_feature_text">
-            Advanced<br>
-            Technology
-        </p>
-    </div>
+                            <p class="index_first_section_feature_text">
+                                Advanced<br>
+                                Technology
+                            </p>
+                        </div>
 
-    <!-- Feature 2 -->
-    <div class="index_first_section_feature_item">
-        <div class="index_first_section_feature_icon">
-            <i class="fa-solid fa-shield-halved"></i>
-        </div>
+                        <!-- Feature 2 -->
+                        <div class="index_first_section_feature_item">
+                            <div class="index_first_section_feature_icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
 
-        <p class="index_first_section_feature_text">
-            Safe & Hygienic<br>
-            Environment
-        </p>
-    </div>
+                            <p class="index_first_section_feature_text">
+                                Safe & Hygienic<br>
+                                Environment
+                            </p>
+                        </div>
 
-    <!-- Feature 3 -->
-    <div class="index_first_section_feature_item">
-        <div class="index_first_section_feature_icon">
-            <i class="fa-solid fa-user-doctor"></i>
-        </div>
+                        <!-- Feature 3 -->
+                        <div class="index_first_section_feature_item">
+                            <div class="index_first_section_feature_icon">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
 
-        <p class="index_first_section_feature_text">
-            Experienced<br>
-            Dental Team
-        </p>
-    </div>
+                            <p class="index_first_section_feature_text">
+                                Experienced<br>
+                                Dental Team
+                            </p>
+                        </div>
 
-</div>
+                    </div>
 
 
-<div class="index_first_section_direction_wrap">
+                    <div class="index_first_section_direction_wrap">
 
-    <a href="https://www.google.com/maps/search/?api=1&query=Anish+Multispeciality+Dental+Hospital+Kakinada"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="index_first_section_direction_btn">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Anish+Multispeciality+Dental+Hospital+Kakinada"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="index_first_section_direction_btn">
 
-        <span>Get Directions</span>
-        <i class="fa-solid fa-arrow-right"></i>
+                            <span>Get Directions</span>
+                            <i class="fa-solid fa-arrow-right"></i>
 
-    </a>
+                        </a>
 
-</div>
+                    </div>
 
                 </div>
 
-                  
+
                 <!-- =========================
                      RIGHT HERO IMAGE
                 ========================== -->
@@ -291,7 +291,7 @@ include 'header.php';
 
 
                                 </div>
-                                  <!-- Date -->
+                                <!-- Date -->
                                 <div class="index_first_section_form_group">
 
                                     <i class="fa-regular fa-calendar"></i>
@@ -302,7 +302,7 @@ include 'header.php';
                                 </div>
 
 
-                               
+
 
 
                                 <?php dental_form_fields('contact'); ?>
@@ -609,114 +609,124 @@ include 'header.php';
             <!-- Card 1: Dental Implants -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card treatment-card h-100 p-3 text-center">
-                    <div class="card-img-wrapper mb-0">
-                        <img src="./assets/img/Dental-implants-bg.png" class="card-img-top img-fluid" alt="Dental Implants">
-                    </div>
-
-                    <!-- Floating Icon Badge -->
-                    <div class="card-icon-badge">
-                        <img src="./assets/img/icons/dental_implants1.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
-                        <div>
-                            <h5 class="card-title mb-2">Dental Implants</h5>
-                            <p class="card-text small mb-4">
-                                Permanent solutions for missing teeth.
-                            </p>
+                    <a href="dental-implants-treatment-in-kakinada.php">
+                        <div class="card-img-wrapper mb-0">
+                            <img src="./assets/img/Dental-implants-bg.png" class="card-img-top img-fluid" alt="Dental Implants">
                         </div>
-                        <div>
-                            <a href="dental-implants-treatment-in-kakinada.php" class="learn-more-link">
-                                Learn More <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+
+                        <!-- Floating Icon Badge -->
+                        <div class="card-icon-badge">
+                            <img src="./assets/img/icons/dental_implants1.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
                         </div>
-                    </div>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
+                            <div>
+                                <h5 class="card-title mb-2">Dental Implants</h5>
+                                <p class="card-text small mb-4">
+                                    Permanent solutions for missing teeth.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="dental-implants-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Card 2: Aligners -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card treatment-card h-100 p-3 text-center">
-                    <div class="card-img-wrapper mb-0">
-                        <img src="./assets/img/aligners.png" class="card-img-top img-fluid" alt="Aligners">
-                    </div>
-
-                    <!-- Floating Icon Badge -->
-                    <div class="card-icon-badge">
-                        <img src="./assets/img/icons/aligners-icon.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
-                        <div>
-                            <h5 class="card-title mb-2">Aligners</h5>
-                            <p class="card-text small mb-4">
-                                Clear aligners gently straighten misaligned teeth.
-                            </p>
+                    <a href="clear-aligners-treatment-in-kakinada.php">
+                        <div class="card-img-wrapper mb-0">
+                            <img src="./assets/img/aligners.png" class="card-img-top img-fluid" alt="Aligners">
                         </div>
-                        <div>
-                            <a href="clear-aligners-treatment-in-kakinada.php" class="learn-more-link">
-                                Learn More <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+
+                        <!-- Floating Icon Badge -->
+                        <div class="card-icon-badge">
+                            <img src="./assets/img/icons/aligners-icon.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
                         </div>
-                    </div>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
+                            <div>
+                                <h5 class="card-title mb-2">Aligners</h5>
+                                <p class="card-text small mb-4">
+                                    Clear aligners gently straighten misaligned teeth.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="clear-aligners-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Card 3: Dental Veneers -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card treatment-card h-100 p-3 text-center">
-                    <div class="card-img-wrapper mb-0">
-                        <img src="./assets/img/Dental-Veneers-111.png" class="card-img-top img-fluid" alt="Dental Veneers">
-                    </div>
 
-                    <!-- Floating Icon Badge -->
-                    <div class="card-icon-badge">
-                        <img src="./assets/img/icons/dental-veneer.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                    </div>
+                    <a href="dental-veneers-treatment-in-kakinada.php">
+                        <div class="card-img-wrapper mb-0">
+                            <img src="./assets/img/Dental-Veneers-111.png" class="card-img-top img-fluid" alt="Dental Veneers">
+                        </div>
 
-                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
-                        <div>
-                            <h5 class="card-title mb-2">Dental Veneers</h5>
-                            <p class="card-text small mb-4">
-                                Dental veneers improve tooth shape and color.
-                            </p>
+                        <!-- Floating Icon Badge -->
+                        <div class="card-icon-badge">
+                            <img src="./assets/img/icons/dental-veneer.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
                         </div>
-                        <div>
-                            <a href="dental-veneers-treatment-in-kakinada.php" class="learn-more-link">
-                                Learn More <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
+                            <div>
+                                <h5 class="card-title mb-2">Dental Veneers</h5>
+                                <p class="card-text small mb-4">
+                                    Dental veneers improve tooth shape and color.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="dental-veneers-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
             <!-- Card 4: Root Canal Treatment -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card treatment-card h-100 p-3 text-center">
-                    <div class="card-img-wrapper mb-0">
-                        <img src="./assets/img/root-canal.png" class="card-img-top img-fluid" alt="Root Canal Treatment">
-                    </div>
 
-                    <!-- Floating Icon Badge -->
-                    <div class="card-icon-badge">
-                        <img src="./assets/img/icons/root-canal.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                    </div>
+                    <a href="root-canal-treatment-in-kakinada.php">
+                        <div class="card-img-wrapper mb-0">
+                            <img src="./assets/img/root-canal.png" class="card-img-top img-fluid" alt="Root Canal Treatment">
+                        </div>
 
-                    <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
-                        <div>
-                            <h5 class="card-title mb-2">Root Canal Treatment</h5>
-                            <p class="card-text small mb-4">
-                                Relieve pain and save your natural tooth.
-                            </p>
+                        <!-- Floating Icon Badge -->
+                        <div class="card-icon-badge">
+                            <img src="./assets/img/icons/root-canal.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
                         </div>
-                        <div>
-                            <a href="root-canal-treatment-in-kakinada.php" class="learn-more-link">
-                                Learn More <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between mt-5">
+                            <div>
+                                <h5 class="card-title mb-2">Root Canal Treatment</h5>
+                                <p class="card-text small mb-4">
+                                    Relieve pain and save your natural tooth.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="root-canal-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 

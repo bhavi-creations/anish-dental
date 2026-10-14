@@ -223,7 +223,7 @@
              SECTION HEADER
         ======================================================= -->
         <div class="treatments_secound_section_header text-center mb-5">
-            
+
 
             <span class="treatments_secound_section_subtitle">
                 — OUR TREATMENTS —
@@ -266,47 +266,48 @@
                  CARD 1 - DENTAL IMPLANTS
             =================================================== -->
             <div class="col-12 col-sm-6 col-lg-3">
+                <a href="dental-implants-treatment-in-kakinada.php">
 
-                <div class="card treatment-card h-100 p-3 text-center">
+                    <div class="card treatment-card h-100 p-3 text-center">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Dental-implants-bg.png"
-                            class="card-img-top img-fluid"
-                            alt="Dental Implants"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                        <img src="./assets/img/icons/dental_implants1.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Dental Implants
-                            </h5>
-
-                            <p class="card-text">
-                                Permanent solutions for missing teeth.
-                            </p>
+                            <img
+                                src="./assets/img/Dental-implants-bg.png"
+                                class="card-img-top img-fluid"
+                                alt="Dental Implants">
 
                         </div>
 
-                        <a href="dental-implants-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="./assets/img/icons/dental_implants1.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
+                        </div>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Dental Implants
+                                </h5>
+
+                                <p class="card-text">
+                                    Permanent solutions for missing teeth.
+                                </p>
+
+                            </div>
+
+                            <a href="dental-implants-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button ">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
 
                     </div>
-
-                </div>
+                </a>
 
             </div>
 
@@ -317,42 +318,43 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="clear-aligners-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/aligners.png"
-                            class="card-img-top img-fluid"
-                            alt="Aligners"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-teeth"></i> -->
-                        <img src="./assets/img/icons/aligners-icon.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Aligners
-                            </h5>
-
-                            <p class="card-text">
-                                Clear aligners gently straighten misaligned teeth.
-                            </p>
+                            <img
+                                src="./assets/img/aligners.png"
+                                class="card-img-top img-fluid"
+                                alt="Aligners">
 
                         </div>
 
-                        <a href="clear-aligners-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-teeth"></i> -->
+                            <img src="./assets/img/icons/aligners-icon.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+                        </div>
 
-                    </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Aligners
+                                </h5>
+
+                                <p class="card-text">
+                                    Clear aligners gently straighten misaligned teeth.
+                                </p>
+
+                            </div>
+
+                            <a href="clear-aligners-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
 
                 </div>
 
@@ -365,44 +367,44 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="dental-veneers-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Dental-Veneers-111.png"
-                            class="card-img-top img-fluid"
-                            alt="Dental Veneers"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                        <img src="./assets/img/icons/dental-veneer.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Dental Veneers
-                            </h5>
-
-                            <p class="card-text">
-                                Dental veneers improve tooth shape and color.
-                            </p>
+                            <img
+                                src="./assets/img/Dental-Veneers-111.png"
+                                class="card-img-top img-fluid"
+                                alt="Dental Veneers">
 
                         </div>
 
-                        <a href="dental-veneers-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="./assets/img/icons/dental-veneer.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
 
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Dental Veneers
+                                </h5>
+
+                                <p class="card-text">
+                                    Dental veneers improve tooth shape and color.
+                                </p>
+
+                            </div>
+
+                            <a href="dental-veneers-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -414,43 +416,44 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="root-canal-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/root-canal.png"
-                            class="card-img-top img-fluid"
-                            alt="Root Canal Treatment"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                        <img src="./assets/img/icons/root-canal.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Root Canal Treatment
-                            </h5>
-
-                            <p class="card-text">
-                                Relieve pain and save your natural tooth.
-                            </p>
+                            <img
+                                src="./assets/img/root-canal.png"
+                                class="card-img-top img-fluid"
+                                alt="Root Canal Treatment">
 
                         </div>
 
-                        <a href="root-canal-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="./assets/img/icons/root-canal.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Root Canal Treatment
+                                </h5>
+
+                                <p class="card-text">
+                                    Relieve pain and save your natural tooth.
+                                </p>
+
+                            </div>
+
+                            <a href="root-canal-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
 
                 </div>
 
@@ -463,43 +466,43 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="dental-bridge-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Dental-bridge.png"
-                            class="card-img-top img-fluid"
-                            alt="Dental Bridge"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-teeth"></i> -->
-                        <img src="./assets/img/icons/dental-bridge.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Dental Bridge
-                            </h5>
-
-                            <p class="card-text">
-                                Dental bridges replace missing teeth and restore your smile.
-                            </p>
+                            <img
+                                src="./assets/img/Dental Veneers (2)/dental-implants-2.png"
+                                class="card-img-top img-fluid"
+                                alt="Dental Bridge">
 
                         </div>
 
-                        <a href="dental-bridge-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-teeth"></i> -->
+                            <img src="./assets/img/icons/dental-bridge.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+                        </div>
 
-                    </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
 
+                            <div>
+
+                                <h5 class="card-title">
+                                    Dental Bridge
+                                </h5>
+
+                                <p class="card-text">
+                                    Dental bridges replace missing teeth and restore your smile.
+                                </p>
+
+                            </div>
+
+                            <a href="dental-bridge-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -511,44 +514,44 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="pediatric-dentistry-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Pediatric-dentistry.png"
-                            class="card-img-top img-fluid"
-                            alt="Pediatric Dentistry"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-child-reaching"></i> -->
-                        <img src="./assets/img/baby.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Pediatric Dentistry
-                            </h5>
-
-                            <p class="card-text">
-                                Special care for kids & growing smiles.
-                            </p>
+                            <img
+                                src="./assets/img/Pediatric-dentistry.png"
+                                class="card-img-top img-fluid"
+                                alt="Pediatric Dentistry">
 
                         </div>
 
-                        <a href="pediatric-dentistry-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-child-reaching"></i> -->
+                            <img src="./assets/img/baby.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
 
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Pediatric Dentistry
+                                </h5>
+
+                                <p class="card-text">
+                                    Special care for kids & growing smiles.
+                                </p>
+
+                            </div>
+
+                            <a href="pediatric-dentistry-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -560,44 +563,44 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="periodontal-care-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Periodontal-care-1.png"
-                            class="card-img-top img-fluid"
-                            alt="Periodontal Care"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                        <img src="./assets/img/periodontal-care.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Periodontal Care
-                            </h5>
-
-                            <p class="card-text">
-                                Gum treatment for healthy and strong gums.
-                            </p>
+                            <img
+                                src="./assets/img/Periodontal-care-1.png"
+                                class="card-img-top img-fluid"
+                                alt="Periodontal Care">
 
                         </div>
 
-                        <a href="periodontal-care-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="./assets/img/periodontal-care.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
 
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Periodontal Care
+                                </h5>
+
+                                <p class="card-text">
+                                    Gum treatment for healthy and strong gums.
+                                </p>
+
+                            </div>
+
+                            <a href="periodontal-care-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -609,44 +612,44 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="oral-surgery-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Oral-surgery-1.png"
-                            class="card-img-top img-fluid"
-                            alt="Oral Surgery"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-user-doctor"></i> -->
-                        <img src="./assets/img/icons/oral-surgery-step-4.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Oral Surgery
-                            </h5>
-
-                            <p class="card-text">
-                                Safe and comfortable surgical procedures.
-                            </p>
+                            <img
+                                src="./assets/img/Oral-surgery-1.png"
+                                class="card-img-top img-fluid"
+                                alt="Oral Surgery">
 
                         </div>
 
-                        <a href="oral-surgery-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-user-doctor"></i> -->
+                            <img src="./assets/img/icons/oral-surgery-step-4.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
 
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Oral Surgery
+                                </h5>
+
+                                <p class="card-text">
+                                    Safe and comfortable surgical procedures.
+                                </p>
+
+                            </div>
+
+                            <a href="oral-surgery-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -659,43 +662,44 @@
 
                 <div class="card treatment-card h-100 p-3 text-center">
 
-                    <div class="card-img-wrapper">
+                    <a href="teeth-whitening-treatment-in-kakinada.php">
 
-                        <img
-                            src="./assets/img/Teeth-whitening.png"
-                            class="card-img-top img-fluid"
-                            alt="Teeth Whitening"
-                        >
+                        <div class="card-img-wrapper">
 
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
-                        <img src="./assets/img/smiling-teeth.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Teeth Whitening
-                            </h5>
-
-                            <p class="card-text">
-                                Brighter, whiter smile in just one visit.
-                            </p>
+                            <img
+                                src="./assets/img/Teeth-whitening.png"
+                                class="card-img-top img-fluid"
+                                alt="Teeth Whitening">
 
                         </div>
 
-                        <a href="teeth-whitening-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
+                            <img src="./assets/img/smiling-teeth.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
 
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Teeth Whitening
+                                </h5>
+
+                                <p class="card-text">
+                                    Brighter, whiter smile in just one visit.
+                                </p>
+
+                            </div>
+
+                            <a href="teeth-whitening-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -707,43 +711,43 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="dentures-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/Dentures.png"
-                            class="card-img-top img-fluid"
-                            alt="Dentures"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-teeth-open"></i> -->
-                        <img src="./assets/img/icons/denture.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Dentures
-                            </h5>
-
-                            <p class="card-text">
-                                Natural-looking dentures designed to restore your smile.
-                            </p>
+                            <img
+                                src="./assets/img/Dentures.png"
+                                class="card-img-top img-fluid"
+                                alt="Dentures">
 
                         </div>
 
-                        <a href="dentures-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-teeth-open"></i> -->
+                            <img src="./assets/img/icons/denture.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+                        </div>
 
-                    </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
 
+                            <div>
+
+                                <h5 class="card-title">
+                                    Dentures
+                                </h5>
+
+                                <p class="card-text">
+                                    Natural-looking dentures designed to restore your smile.
+                                </p>
+
+                            </div>
+
+                            <a href="dentures-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -755,44 +759,44 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="general-dentistry-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/general-surgery.png"
-                            class="card-img-top img-fluid"
-                            alt="General Dentistry"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                        <img src="./assets/img/icons/general-dentistry-step-2.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                General Dentistry
-                            </h5>
-
-                            <p class="card-text">
-                                Complete oral care for you and your family.
-                            </p>
+                            <img
+                                src="./assets/img/general-surgery.png"
+                                class="card-img-top img-fluid"
+                                alt="General Dentistry">
 
                         </div>
 
-                        <a href="general-dentistry-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="./assets/img/icons/general-dentistry-step-2.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
 
-                    </div>
+                        </div>
 
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    General Dentistry
+                                </h5>
+
+                                <p class="card-text">
+                                    Complete oral care for you and your family.
+                                </p>
+
+                            </div>
+
+                            <a href="general-dentistry-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -804,42 +808,43 @@
             <div class="col-12 col-sm-6 col-lg-3">
 
                 <div class="card treatment-card h-100 p-3 text-center">
+                    <a href="wisdom-teeth-treatment-in-kakinada.php">
 
-                    <div class="card-img-wrapper">
+                        <div class="card-img-wrapper">
 
-                        <img
-                            src="./assets/img/wisdom-teeth.png"
-                            class="card-img-top img-fluid"
-                            alt="Wisdom Teeth"
-                        >
-
-                    </div>
-
-                    <div class="card-icon-badge">
-                        <!-- <i class="fa-solid fa-tooth"></i> -->
-                        <img src="./assets/img/icons/wisdom-tooth.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
-                    </div>
-
-                    <div class="card-body p-0 d-flex flex-column justify-content-between">
-
-                        <div>
-
-                            <h5 class="card-title">
-                                Wisdom Teeth
-                            </h5>
-
-                            <p class="card-text">
-                                Wisdom teeth are the final teeth to appear.
-                            </p>
+                            <img
+                                src="./assets/img/wisdom-teeth.png"
+                                class="card-img-top img-fluid"
+                                alt="Wisdom Teeth">
 
                         </div>
 
-                        <a href="wisdom-teeth-treatment-in-kakinada.php" class="learn-more-link">
-                            Learn More
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <div class="card-icon-badge">
+                            <!-- <i class="fa-solid fa-tooth"></i> -->
+                            <img src="./assets/img/icons/wisdom-tooth.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+                        </div>
 
-                    </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+
+                            <div>
+
+                                <h5 class="card-title">
+                                    Wisdom Teeth
+                                </h5>
+
+                                <p class="card-text">
+                                    Wisdom teeth are the final teeth to appear.
+                                </p>
+
+                            </div>
+
+                            <a href="wisdom-teeth-treatment-in-kakinada.php" class="btn-appointment-custom d-flex justify-content-center service-button">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </a>
 
                 </div>
 

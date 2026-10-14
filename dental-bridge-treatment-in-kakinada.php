@@ -197,7 +197,7 @@
 
                         <!-- Main Dental Implant Image -->
                         <img
-                            src="./assets/img/dental-bridges.png"
+                            src="./assets/img/Dental Veneers (2)/dental-implants-1.png"
                             alt="Dental Implants Treatment Procedure"
                             class="rootcanal_first_section_img">
 
@@ -1192,7 +1192,7 @@
                             </div>
 
                             <span>
-                               Can provide lasting results with proper care
+                                Can provide lasting results with proper care
                             </span>
 
                         </li>
@@ -1260,7 +1260,7 @@
                                 aria-expanded="false">
 
                                 <span class="rootcanal_fifth_section_faq_question">
-                                   Is a Dental Bridge comfortable to wear?
+                                    Is a Dental Bridge comfortable to wear?
                                 </span>
 
                                 <span class="rootcanal_fifth_section_faq_plus">
@@ -1272,7 +1272,7 @@
 
                             <div class="faq_answer">
 
-                               <strong>Yes,</strong> a properly fitted bridge feels comfortable.
+                                <strong>Yes,</strong> a properly fitted bridge feels comfortable.
 
                             </div>
 
@@ -1302,7 +1302,7 @@
 
                             <div class="faq_answer">
 
-                                                      <strong>Usually,</strong> treatment takes two or more visits.
+                                <strong>Usually,</strong> treatment takes two or more visits.
 
                             </div>
 
@@ -1332,7 +1332,7 @@
 
                             <div class="faq_answer">
 
-                                 <strong>Yes,</strong> it can last many years with proper care.
+                                <strong>Yes,</strong> it can last many years with proper care.
 
                             </div>
 
