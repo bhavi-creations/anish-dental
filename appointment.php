@@ -96,7 +96,7 @@
                         <!-- ==================================================
                              SIDEBAR HEADER
                         =================================================== -->
-                        <div class="contact-second-help-header">
+                        <!-- <div class="contact-second-help-header">
 
                             <div class="contact-second-help-icon">
                                 <i class="fa-regular fa-tooth"></i>
@@ -115,7 +115,7 @@
 
                             </div>
 
-                        </div>
+                        </div> -->
 
 
                         <!-- Gold Line -->
@@ -199,7 +199,7 @@
 
 
                         <!-- EMAIL -->
-                        <div class="contact-info-item">
+                        <!-- <div class="contact-info-item">
 
                             <div class="info-icon-box">
                                 <i class="fa-regular fa-envelope"></i>
@@ -217,7 +217,7 @@
 
                             </div>
 
-                        </div>
+                        </div> -->
 
 
                         <!-- WORKING HOURS -->
