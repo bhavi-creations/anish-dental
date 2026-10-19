@@ -82,14 +82,22 @@
 }
 </script>
 
-      
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17599051962"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17599051962');
+</script>    
 
 </head>
 
 <body>
 
    <!-- 1. TOP INFORMATION BAR -->
-<div class="top-bar-bg d-none d-lg-block">
+  <div class="top-bar-bg d-none d-lg-block">
     <div class="container-fluid px-lg-5">
         <div class="d-flex flex-wrap align-items-center justify-content-between top-bar-content">
 
@@ -222,3 +230,5 @@
 
     </div>
 </nav>
+
+
