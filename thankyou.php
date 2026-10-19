@@ -1,6 +1,6 @@
-
-<?php include 'header.php'; ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <style>
     :root {
         --anish-green: #003B32;
@@ -216,6 +216,23 @@
         }
     }
 </style>
+
+
+<!-- Event snippet for Submit lead form conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17599051962/qFfuCISFpKIdELrx8MdB',
+      'value': 1.0,
+      'currency': 'INR'
+  });
+</script>
+
+  
+</head>
+<body>
+
+<?php include 'header.php'; ?>
+
 
 <main>
     <section class="anish-thankyou-section">
