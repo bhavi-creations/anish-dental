@@ -30466,3 +30466,20 @@ form[data-form-protected] button:disabled {
     align-items: center !important;
   }
 }
+
+
+
+
+/* Center wrapper container/row */
+.contact-second-section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card center styling */
+.contact-second-section .appointment-form-card {
+    margin: 0 auto;
+    max-width: 800px; /* or 100% */
+    width: 100%;
+}

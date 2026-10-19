@@ -83,20 +83,20 @@
             <!-- ==================================================
                  LEFT SIDEBAR
             =================================================== -->
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
 
                 <div class="contact-second-sidebar-wrap">
 
-                    <!-- Dark Green Background Cap -->
+                    Dark Green Background Cap
                     <div class="contact-second-sidebar-bg"></div>
 
                     <div class="info-sidebar-card">
 
 
-                        <!-- ==================================================
+                        ==================================================
                              SIDEBAR HEADER
-                        =================================================== -->
-                        <!-- <div class="contact-second-help-header">
+                        ===================================================
+                        <div class="contact-second-help-header">
 
                             <div class="contact-second-help-icon">
                                 <i class="fa-regular fa-tooth"></i>
@@ -115,10 +115,10 @@
 
                             </div>
 
-                        </div> -->
+                        </div>
 
 
-                        <!-- Gold Line -->
+                        Gold Line
                         <div class="contact-second-header-divider">
 
                             <span></span>
@@ -130,9 +130,9 @@
                         </div>
 
 
-                        <!-- ==================================================
+                        ==================================================
                              LOCATION
-                        =================================================== -->
+                        ===================================================
                         <div class="contact-info-item">
 
                             <div class="info-icon-box">
@@ -154,7 +154,7 @@
                         </div>
 
 
-                        <!-- CALL -->
+                        CALL
                         <div class="contact-info-item">
 
                             <div class="info-icon-box">
@@ -176,7 +176,7 @@
                         </div>
 
 
-                        <!-- WHATSAPP -->
+                        WHATSAPP
                         <div class="contact-info-item">
 
                             <div class="info-icon-box">
@@ -198,8 +198,8 @@
                         </div>
 
 
-                        <!-- EMAIL -->
-                        <!-- <div class="contact-info-item">
+                        EMAIL
+                        <div class="contact-info-item">
 
                             <div class="info-icon-box">
                                 <i class="fa-regular fa-envelope"></i>
@@ -217,10 +217,10 @@
 
                             </div>
 
-                        </div> -->
+                        </div>
 
 
-                        <!-- WORKING HOURS -->
+                        WORKING HOURS
                         <div class="contact-info-item contact-second-last-info">
 
                             <div class="info-icon-box">
@@ -241,9 +241,9 @@
                         </div>
 
 
-                        <!-- ==================================================
+                        ==================================================
                              WHY CHOOSE US
-                        =================================================== -->
+                        ===================================================
                         <div class="contact-second-why-header">
 
                             <h4 class="section-card-title">
@@ -288,9 +288,9 @@
                         </ul>
 
 
-                        <!-- ==================================================
+                        ==================================================
                              EMERGENCY CARD
-                        =================================================== -->
+                        ===================================================
                         <div class="emergency-card">
 
                             <div class="emergency-phone-circle">
@@ -323,7 +323,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
 
 
@@ -604,15 +604,15 @@
 
 
 
- <section class="mb-4">
+ <!-- <section class="mb-4">
      <div class="container">
 
 
-         <!-- Bottom CTA Appointment Box -->
+         Bottom CTA Appointment Box
          <div class="index_fifth_section_cta_box">
              <div class="row align-items-center g-3">
 
-                 <!-- Left: Title & Subtitle -->
+                 Left: Title & Subtitle
                  <div class="col-xl-6 col-lg-5 col-12">
                      <div class="d-flex align-items-center gap-3">
                          <div class="index_fifth_section_cta_icon_box d-none d-sm-flex">
@@ -626,14 +626,14 @@
                      </div>
                  </div>
 
-                 <!-- Middle: Book Button -->
+                 Middle: Book Button
                  <div class="col-xl-3 col-lg-3 col-sm-6 col-12 text-lg-center">
                      <a href="appointment.php" class="index_fifth_section_cta_btn">
                          <i class="fa-regular fa-calendar-check"></i> BOOK APPOINTMENT NOW
                      </a>
                  </div>
 
-                 <!-- Right: Call Phone Section -->
+                 Right: Call Phone Section
                  <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
                      <div class="index_fifth_section_cta_phone_container">
                          <div class="index_fifth_section_cta_phone_icon">
@@ -649,7 +649,7 @@
              </div>
          </div>
      </div>
- </section>
+ </section> -->
 
 
 
